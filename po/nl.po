@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2018-11-10 21:04+0000\n"
-"Last-Translator: Sander <sander.k1007@kpnmail.nl>\n"
+"PO-Revision-Date: 2019-02-21 18:36+0000\n"
+"Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/nl/>\n"
 "Language: nl\n"
@@ -22,13 +22,13 @@ msgstr ""
 
 #: ../src/app/qml/actions/AddBookmark.qml:6
 msgid "Add bookmark"
-msgstr "Voeg bladwijzer toe"
+msgstr "Bladwijzer toevoegen"
 
 #: ../src/app/qml/actions/ArchiveExtract.qml:6
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:18
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:33
 msgid "Extract archive"
-msgstr "Archief bestand uitpakken"
+msgstr "Archiefbestand uitpakken"
 
 #: ../src/app/qml/actions/Delete.qml:5
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:14
@@ -39,7 +39,7 @@ msgstr "Verwijderen"
 
 #: ../src/app/qml/actions/FileClearSelection.qml:8
 msgid "Clear clipboard"
-msgstr "Leeg het clipboard"
+msgstr "Klembord wissen"
 
 #: ../src/app/qml/actions/FileCopy.qml:5
 #: ../src/app/qml/panels/SelectionBottomBar.qml:45
@@ -87,7 +87,7 @@ msgstr "Eigenschappen"
 #: ../src/app/qml/actions/Rename.qml:5
 #: ../src/app/qml/dialogs/ConfirmRenameDialog.qml:20
 msgid "Rename"
-msgstr "Hernoem"
+msgstr "Naam wijzigen"
 
 #: ../src/app/qml/actions/Select.qml:5
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:60
@@ -120,7 +120,7 @@ msgstr "Sluit dit tabblad"
 
 #: ../src/app/qml/actions/TabsOpenInNewTab.qml:5
 msgid "Open in a new tab"
-msgstr "Open in een nieuw tabblad"
+msgstr "Openen op nieuw tabblad"
 
 #: ../src/app/qml/actions/UnlockFullAccess.qml:6
 msgid "Unlock"
@@ -134,7 +134,7 @@ msgstr "Authenticatie vereist"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:27
 msgid "Use your fingerprint to access restricted content"
-msgstr "Gebruik uw vingerafdruk om toegang te krijgen tot beperkte inhoud"
+msgstr "Gebruik je vingerafdruk om toegang te krijgen tot afgeschermde inhoud"
 
 #. TRANSLATORS: "Touch" here is a verb
 #: ../src/app/qml/authentication/FingerprintDialog.qml:55
@@ -160,7 +160,7 @@ msgstr "Gebruik wachtwoord"
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:51
 #: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:26
 msgid "Cancel"
-msgstr "Annuleren"
+msgstr "Afbreken"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:126
 msgid "Authentication failed!"
@@ -168,7 +168,7 @@ msgstr "Authenticatie mislukt!"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:137
 msgid "Please retry"
-msgstr "Probeer opnieuw"
+msgstr "Probeer het opnieuw"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:35
 msgid "Authentication failed"
@@ -176,27 +176,28 @@ msgstr "Authenticatie mislukt"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:45
 msgid "Your passphrase is required to access restricted content"
-msgstr "Wachtwoord is vereist om toegang tot alle bestanden te krijgen"
+msgstr "Je wachtwoord is vereist om toegang te krijgen tot afgeschermde inhoud"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:46
 msgid "Your passcode is required to access restricted content"
-msgstr "Wachtwoord is vereist om toegang tot alle bestanden te krijgen"
+msgstr ""
+"Je toegangscode is vereist om toegang te krijgen tot afgeschermde inhoud"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:57
 msgid "passphrase (default is 0000 if unset)"
-msgstr "wachtwoord (standaard is 0000 indien uitgeschakeld)"
+msgstr "wachtwoord (standaard is dit 0000 indien uitgeschakeld)"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:57
 msgid "passcode (default is 0000 if unset)"
-msgstr "toegangscode (standaard is 0000 indien uitgeschakeld)"
+msgstr "toegangscode (standaard is dit 0000 indien uitgeschakeld)"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:69
 msgid "Authentication failed. Please retry"
-msgstr "Authenticatie mislukt. Probeer opnieuw"
+msgstr "Authenticatie mislukt; probeer het opnieuw"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:74
 msgid "Authenticate"
-msgstr "Authenticatie mislukt"
+msgstr "Authenticeren"
 
 #: ../src/app/qml/backend/FolderListModel.qml:123
 #, qt-format
@@ -224,19 +225,19 @@ msgstr "Openen met"
 
 #: ../src/app/qml/dialogs/ConfirmExtractDialog.qml:15
 msgid "Extract Archive"
-msgstr "Archief bestand uitpakken"
+msgstr "Archiefbestand uitpakken"
 
 #: ../src/app/qml/dialogs/ConfirmExtractDialog.qml:16
 #, qt-format
 msgid "Are you sure you want to extract '%1' here?"
-msgstr "Weet u zeker dat u '%1' hier wil uitpakken?"
+msgstr "Weet je zeker dat je '%1' hier wilt uitpakken?"
 
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:15
 #: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:16
 #, qt-format
 msgid "Are you sure you want to permanently delete '%1'?"
 msgstr ""
-"Weet je zeker dat je dit bestand wil verwijderen?\n"
+"Weet je zeker dat je dit bestand wilt verwijderen?\n"
 "(%1)"
 
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:15
@@ -246,15 +247,15 @@ msgstr "deze bestanden"
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:18
 #: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:21
 msgid "Deleting files"
-msgstr "Verwijder bestanden"
+msgstr "Bezig met verwijderen..."
 
 #: ../src/app/qml/dialogs/ConfirmRenameDialog.qml:21
 msgid "Enter a new name"
-msgstr "Geef een nieuwe naam"
+msgstr "Voer een nieuwe naam in"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:13
 msgid "Create Item"
-msgstr "Maak bestand"
+msgstr "Bestand creëren"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:14
 msgid "Enter name for new item"
@@ -266,16 +267,16 @@ msgstr "Bestandsnaam"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:24
 msgid "Create file"
-msgstr "Maak bestand"
+msgstr "Bestand creëren"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:43
 msgid "Create Folder"
-msgstr "Maak een nieuwe map aan"
+msgstr "Map creëren"
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:23
 #, qt-format
 msgid "Extracting archive '%1'"
-msgstr "'%1' uitpakken"
+msgstr "Bezig met uitpakken van '%1'..."
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:44
 #: ../src/app/qml/dialogs/NotifyDialog.qml:27
@@ -295,7 +296,7 @@ msgstr "Uitpakken mislukt (%1)."
 
 #: ../src/app/qml/dialogs/FileActionDialog.qml:30
 msgid "Choose action"
-msgstr "Kies actie"
+msgstr "Kies een actie"
 
 #: ../src/app/qml/dialogs/FileActionDialog.qml:31
 #, qt-format
@@ -312,7 +313,7 @@ msgstr "Opdracht in behandeling"
 
 #: ../src/app/qml/dialogs/FileOperationProgressDialog.qml:29
 msgid "File operation"
-msgstr "Bestand handeling"
+msgstr "Bestandsafhandeling"
 
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:45
 msgid "User"
@@ -332,16 +333,16 @@ msgstr "Oké"
 
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:8
 msgid "Archive file"
-msgstr "Archief bestand"
+msgstr "Archiefbestand"
 
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:9
 msgid "Do you want to extract the archive here?"
-msgstr "Wilt u dit archief hier uitpakken?"
+msgstr "Wil je dit archief hier uitpakken?"
 
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:28
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:44
 msgid "Open with another app"
-msgstr "Openen met een andere app"
+msgstr "Openen met andere app"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:8
 msgid "Open file"
@@ -349,7 +350,7 @@ msgstr "Bestand openen"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:9
 msgid "What do you want to do with the clicked file?"
-msgstr "Wat wilt u doen met het geselecteerde bestand?"
+msgstr "Wat wil je doen met het geselecteerde bestand?"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:22
 msgid "Preview"
@@ -363,16 +364,16 @@ msgstr "Bestand %1"
 #: ../src/app/qml/filemanager.qml:170
 #, qt-format
 msgid "%1 Files"
-msgstr "%1 Bestanden"
+msgstr "%1 bestanden"
 
 #: ../src/app/qml/filemanager.qml:171
 #, qt-format
 msgid "Saved to: %1"
-msgstr "Opgeslagen als: %1"
+msgstr "Opgeslagen in: %1"
 
 #: ../src/app/qml/panels/DefaultBottomBar.qml:24
 msgid "Paste files"
-msgstr "Plak bestanden"
+msgstr "Bestanden plakken"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:34
 msgid "Readable"
@@ -392,29 +393,30 @@ msgstr "Waar:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:127
 msgid "Created:"
-msgstr "Aangemaakt:"
+msgstr "Gecreëerd op:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:141
 msgid "Modified:"
-msgstr "Aangepast:"
+msgstr "Aangepast op:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:155
 msgid "Accessed:"
-msgstr "Geopend:"
+msgstr "Geopend op:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:176
 msgid "Permissions:"
-msgstr "Rechten:"
+msgstr "Machtigingen:"
 
 #: ../src/app/qml/ui/FolderListPage.qml:241
 #: ../src/app/qml/ui/FolderListPage.qml:296
 msgid "Restricted access"
-msgstr "Beperkte toegang"
+msgstr "Toegang afgeschermd"
 
 #: ../src/app/qml/ui/FolderListPage.qml:245
 msgid ""
 "Authentication is required in order to see all the content of this folder."
-msgstr "Verificatie is vereist om de volledige inhoud van deze map te bekijken."
+msgstr ""
+"Authenticatie is vereist om de volledige inhoud van deze map te bekijken."
 
 #: ../src/app/qml/ui/FolderListPage.qml:282
 msgid "No files"
@@ -426,11 +428,11 @@ msgstr "Deze map is leeg."
 
 #: ../src/app/qml/ui/FolderListPage.qml:297
 msgid "Authentication is required in order to see the content of this folder."
-msgstr "Verificatie is vereist om de inhoud van deze map te bekijken."
+msgstr "Authenticatie is vereist om de inhoud van deze map te bekijken."
 
 #: ../src/app/qml/ui/FolderListPage.qml:313
 msgid "File operation error"
-msgstr "Fout is het bewerken van het bestand"
+msgstr "Bestandsfout"
 
 #: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:21
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:21
@@ -453,11 +455,11 @@ msgstr[1] "%1 bestanden geselecteerd"
 
 #: ../src/app/qml/ui/ViewPopover.qml:24
 msgid "Show Hidden Files"
-msgstr "Toon verborgen bestanden"
+msgstr "Verborgen bestanden tonen"
 
 #: ../src/app/qml/ui/ViewPopover.qml:37
 msgid "View As"
-msgstr "Open als"
+msgstr "Weergavemodus"
 
 #: ../src/app/qml/ui/ViewPopover.qml:39
 msgid "List"
@@ -465,7 +467,7 @@ msgstr "Lijst"
 
 #: ../src/app/qml/ui/ViewPopover.qml:39
 msgid "Icons"
-msgstr "Iconen"
+msgstr "Pictogrammen"
 
 #: ../src/app/qml/ui/ViewPopover.qml:44
 msgid "Grid size"
@@ -489,11 +491,11 @@ msgstr "XL"
 
 #: ../src/app/qml/ui/ViewPopover.qml:52
 msgid "List size"
-msgstr "Lijst grootte"
+msgstr "Lijstgrootte"
 
 #: ../src/app/qml/ui/ViewPopover.qml:60
 msgid "Sort By"
-msgstr "Sorteer op"
+msgstr "Sorteren op"
 
 #: ../src/app/qml/ui/ViewPopover.qml:62
 msgid "Name"
@@ -509,7 +511,7 @@ msgstr "Grootte"
 
 #: ../src/app/qml/ui/ViewPopover.qml:67
 msgid "Sort Order"
-msgstr "Sorteer volgorde"
+msgstr "Sorteervolgorde"
 
 #: ../src/app/qml/ui/ViewPopover.qml:74
 msgid "Theme"
@@ -531,18 +533,18 @@ msgstr "Map ontoegankelijk"
 #: ../src/app/qml/views/FolderDelegateActions.qml:42
 #, qt-format
 msgid "Can not access %1"
-msgstr "Geen toegang tot :%1"
+msgstr "Geen toegang tot %1"
 
 #: ../src/app/qml/views/FolderDelegateActions.qml:136
 msgid "Could not rename"
-msgstr "Kan de naam niet wijzigingen"
+msgstr "Kan naam niet wijzigen"
 
 #: ../src/app/qml/views/FolderDelegateActions.qml:137
 msgid ""
 "Insufficient permissions, name contains special chars (e.g. '/'), or already "
 "exists"
 msgstr ""
-"Onvoldoende rechten, naam bevat speciale tekens (bijvoorbeeld '/'), of "
+"Onvoldoende gemachtigd, naam bevat speciale tekens (bijvoorbeeld '/') of "
 "bestaat al"
 
 #: ../src/app/qml/views/FolderListView.qml:72
@@ -559,19 +561,19 @@ msgstr "Onbekend"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:487
 msgid "path or url may not exist or cannot be read"
-msgstr "Locatie of url bestaat mogelijk niet of mag niet gelezen worden"
+msgstr "locatie of url bestaat mogelijk niet of mag niet worden uitgelezen"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:690
 msgid "Rename error"
-msgstr "Fout bij het hernoemen"
+msgstr "Kan naam niet wijzigen"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:713
 msgid "Error creating new folder"
-msgstr "Fout bij het maken van een nieuwe map"
+msgstr "Kan nieuwe map niet creëren"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:740
 msgid "Touch file error"
-msgstr "Touch bestandsfout"
+msgstr "Kan bestand niet benaderen"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:1353
 msgid "items"
@@ -583,7 +585,7 @@ msgstr "Bestand of map bestaat niet"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:321
 msgid " does not exist"
-msgstr " Bestaat niet"
+msgstr " bestaat niet"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:326
 msgid "Cannot access File or Directory"
@@ -591,40 +593,40 @@ msgstr "Map of bestand ontoegankelijk"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:327
 msgid " it needs Authentication"
-msgstr " Autorisatie vereist"
+msgstr " Authenticatie vereist"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:361
 msgid "Cannot copy/move items"
-msgstr "Kopieren/verplaatsen onmogelijk"
+msgstr "Kan items niet kopiëren/verplaatsen"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:362
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1487
 msgid "no write permission on folder "
-msgstr "Geen schrijfrechten van de map "
+msgstr "geen schrijfmachtigingen in map "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:642
 msgid "Could not remove the item "
-msgstr "Bestand verwijderen onmogelijk "
+msgstr "Kan het volgende item niet verwijderen: "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:680
 msgid "Could not find a suitable name to backup"
-msgstr "Een toepasselijke backup naam is niet te genereren"
+msgstr "Kan geen geschikte naam vinden om te back-uppen"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:733
 msgid "Could not create the directory"
-msgstr "Map maken onmogelijk"
+msgstr "Kan map niet creëren"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:738
 msgid "Could not create link to"
-msgstr "Een link maken is onmogelijk"
+msgstr "Kan geen link creëren naar"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:746
 msgid "Could not set permissions to dir"
-msgstr "Rechten van de map aanpassen mislukt"
+msgstr "Kan maprechten niet instellen"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:756
 msgid "Could not open file"
-msgstr "Openen bestand mislukt"
+msgstr "Kan bestand niet openen"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:772
 msgid "There is no space to copy"
@@ -632,15 +634,15 @@ msgstr "Te weinig ruimte om te kopiëren"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:780
 msgid "Could not create file"
-msgstr "Bestand maken mislukt"
+msgstr "Kan bestand niet creëren"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:837
 msgid "Could not remove the directory/file "
-msgstr "Bestand/map verwijderen mislukt "
+msgstr "Kan bestand/map niet verwijderen "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:850
 msgid "Could not move the directory/file "
-msgstr "Bestand/map verplaatsen mislukt "
+msgstr "Kan bestand/map niet verplaatsen "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1089
 msgid "Write error in "
@@ -648,32 +650,32 @@ msgstr "Schrijffout in/op "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1101
 msgid "Read error in "
-msgstr "Lees fout in/op "
+msgstr "Leesfout in/op "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1318
 msgid " Copy"
-msgstr " Kopieer"
+msgstr " Kopiëren"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1371
 msgid "Set permissions error in "
-msgstr "Rechten instellen mislukt in/op "
+msgstr "Kan rechten niet instellen in/op "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1437
 msgid "Could not create trash info file"
-msgstr "Aanmaken prullenbak info bestand mislukt"
+msgstr "Kan prullenbakinformatiebestand niet creëren"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1449
 msgid "Could not remove the trash info file"
-msgstr "Verwijderen prullenbak info bestand mislukt"
+msgstr "Kan prullenbakinformatiebestand niet verwijderen"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1479
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1486
 msgid "Cannot move items"
-msgstr "Verplaatsen bestanden mislukt"
+msgstr "Kan bestanden niet verplaatsen"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1481
 msgid "origin and destination folders are the same"
-msgstr "Bron en doel locatie zijn gelijk aan elkaar"
+msgstr "bron- en doellocatie zijn hetzelfde"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1524
 msgid "There is no space to download"
@@ -681,21 +683,19 @@ msgstr "Onvoldoende opslagruimte om te downloaden"
 
 #: ../src/plugin/folderlistmodel/smb/qsambaclient/src/smbusershare.cpp:72
 msgid "net tool not found, check samba installation"
-msgstr ""
-"“net tool” niet gevonden. Dit is onderdeel van de SAMBA installatie. "
-"Controleer de SAMBA installatie."
+msgstr "“net tool” niet gevonden; controleer de samba-installatie."
 
 #: ../src/plugin/folderlistmodel/smb/qsambaclient/src/smbusershare.cpp:80
 msgid "cannot write in "
-msgstr "Schrijven mislukt in/op "
+msgstr "kan niet wegschrijven in/naar "
 
 #: com.ubuntu.filemanager.desktop.in.in.h:1
 msgid "File Manager"
-msgstr "Bestand beheer"
+msgstr "Bestandsbeheer"
 
 #: com.ubuntu.filemanager.desktop.in.in.h:2
 msgid "folder;manager;explore;disk;filesystem;"
-msgstr "map;beheerder;ontdekken;schijf;bestandssysteem;"
+msgstr "map;beheer;verkennen;schijf;bestandssysteem;"
 
 #~ msgid "About Application"
 #~ msgstr "Over Applicatie"
