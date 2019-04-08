@@ -28,15 +28,6 @@ Template.Panel {
                 folderModel.model.clearClipboard()
             }
         }
-
-        FMActions.NewItem {
-            property bool smallText: true
-            enabled: folderModel.model.isWritable
-            onTriggered: {
-                print(text)
-                PopupUtils.open(Qt.resolvedUrl("../dialogs/CreateItemDialog.qml"), mainView, { folderModel: folderModel.model })
-            }
-        }
     }
 
     ActionList {
@@ -48,21 +39,6 @@ Template.Panel {
             onTriggered: {
                 console.log("Clearing clipboard")
                 folderModel.model.clearClipboard()
-            }
-        }
-
-        FMActions.Properties {
-            onTriggered: {
-                print(text)
-                PopupUtils.open(Qt.resolvedUrl("../ui/FileDetailsPopover.qml"), mainView,{ "model": folderModel.model })
-            }
-        }
-
-        FMActions.AddBookmark {
-            onTriggered: {
-                print(text)
-                folderModel.places.addLocation(folderModel.model.path)
-
             }
         }
     }
@@ -78,7 +54,6 @@ Template.Panel {
         anchors.right: parent.right
         anchors.verticalCenter: parent.verticalCenter
         delegate: Components.TextualButtonStyle { }
-        numberOfSlots: 0
         actions: trailingActions.children  // WORKAROUND: 'actions' is a non-NOTIFYable property
     }
 }

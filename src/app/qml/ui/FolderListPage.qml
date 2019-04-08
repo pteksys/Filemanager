@@ -171,7 +171,7 @@ SidebarPageLayout {
             Panels.DefaultBottomBar {
                 folderModel: pageModel
                 fileOperationDialog: fileOperationDialogObj
-                visible: !selectionMode
+                visible: fileOperationDialogObj.model.clipboardUrlsCounter > 0
             }
 
             Panels.SelectionBottomBar {

@@ -42,10 +42,31 @@ PageHeader {
 
     leadingActionBar.actions: showPanelAction.visible ? showPanelAction : placesBookmarkAction
 
-    trailingActionBar.numberOfSlots: 2
+    trailingActionBar.numberOfSlots: 4
     trailingActionBar.actions: [
         FMActions.Settings {
             onTriggered: PopupUtils.open(Qt.resolvedUrl("ViewPopover.qml"), mainView, { folderListModel: folderModel.model })
+        },
+        FMActions.Properties {
+            onTriggered: {
+                print(text)
+                PopupUtils.open(Qt.resolvedUrl("../ui/FileDetailsPopover.qml"), mainView,{ "model": folderModel.model })
+            }
+        },
+        FMActions.AddBookmark {
+            onTriggered: {
+                print(text)
+                folderModel.places.addLocation(folderModel.model.path)
+
+            }
+        },
+        FMActions.NewItem {
+            property bool smallText: true
+            enabled: folderModel.model.isWritable
+            onTriggered: {
+                print(text)
+                PopupUtils.open(Qt.resolvedUrl("../dialogs/CreateItemDialog.qml"), mainView, { folderModel: folderModel.model })
+            }
         }
     ]
 
