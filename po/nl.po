@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2019-04-07 00:00+0000\n"
+"PO-Revision-Date: 2019-04-13 14:39+0000\n"
 "Last-Translator: Tom Dom <thomas@patoel.nl>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/nl/>\n"
@@ -236,9 +236,7 @@ msgstr "Weet je zeker dat je '%1' hier wilt uitpakken?"
 #: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:16
 #, qt-format
 msgid "Are you sure you want to permanently delete '%1'?"
-msgstr ""
-"Weet je zeker dat je dit bestand wilt verwijderen?\n"
-"(%1)"
+msgstr "Weet je zeker dat je '%1' permanent wilt verwijderen?"
 
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:15
 msgid "these files"
@@ -247,7 +245,7 @@ msgstr "deze bestanden"
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:18
 #: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:21
 msgid "Deleting files"
-msgstr "Bezig met verwijderen..."
+msgstr "Bezig met verwijderen"
 
 #: ../src/app/qml/dialogs/ConfirmRenameDialog.qml:21
 msgid "Enter a new name"
@@ -276,7 +274,7 @@ msgstr "Map creëren"
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:23
 #, qt-format
 msgid "Extracting archive '%1'"
-msgstr "Bezig met uitpakken van '%1'..."
+msgstr "Bezig met uitpakken van '%1'"
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:44
 #: ../src/app/qml/dialogs/NotifyDialog.qml:27
@@ -683,7 +681,7 @@ msgstr "Onvoldoende opslagruimte om te downloaden"
 
 #: ../src/plugin/folderlistmodel/smb/qsambaclient/src/smbusershare.cpp:72
 msgid "net tool not found, check samba installation"
-msgstr "“net tool” niet gevonden; controleer de samba-installatie."
+msgstr "netwerkhulpprogramma niet gevonden; controleer de samba-installatie"
 
 #: ../src/plugin/folderlistmodel/smb/qsambaclient/src/smbusershare.cpp:80
 msgid "cannot write in "
