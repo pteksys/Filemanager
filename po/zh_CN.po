@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2019-04-23 20:09+0000\n"
-"Last-Translator: xqqy <xqqy189@hotmail.com>\n"
+"PO-Revision-Date: 2019-04-23 20:12+0000\n"
+"Last-Translator: 谭永乐 <tanyongle0633@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.ubports.com/projects/"
 "ubports/filemanager-app/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -383,9 +383,8 @@ msgid "Executable"
 msgstr "可执行"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:100
-#, fuzzy
 msgid "Where:"
-msgstr "何处："
+msgstr "路径："
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:127
 msgid "Created:"
