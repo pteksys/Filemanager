@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
 "PO-Revision-Date: 2019-04-23 20:09+0000\n"
-"Last-Translator: 谭永乐 <tanyongle0633@gmail.com>\n"
+"Last-Translator: xqqy <xqqy189@hotmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.ubports.com/projects/"
 "ubports/filemanager-app/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -564,7 +564,7 @@ msgstr "创建文件夹出错"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:740
 msgid "Touch file error"
-msgstr ""
+msgstr "创建文件时发生错误"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:1353
 msgid "items"
