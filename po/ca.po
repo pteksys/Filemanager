@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2019-02-17 00:00+0000\n"
+"PO-Revision-Date: 2019-05-03 21:02+0000\n"
 "Last-Translator: Joan CiberSheep <cibersheep@gmail.com>\n"
 "Language-Team: Catalan <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/ca/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Launchpad-Export-Date: 2017-04-08 06:04+0000\n"
 
 #: ../src/app/qml/actions/AddBookmark.qml:6
@@ -35,7 +35,7 @@ msgstr "Extreu l'arxiu"
 #: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:15
 #: ../src/app/qml/panels/SelectionBottomBar.qml:26
 msgid "Delete"
-msgstr "Suprimeix"
+msgstr "Elimina"
 
 #: ../src/app/qml/actions/FileClearSelection.qml:8
 msgid "Clear clipboard"
@@ -104,7 +104,7 @@ msgstr "Selecciona-ho tot"
 
 #: ../src/app/qml/actions/Settings.qml:6
 msgid "Settings"
-msgstr "Paràmetres"
+msgstr "Configuració"
 
 #: ../src/app/qml/actions/Share.qml:5
 msgid "Share"
@@ -160,7 +160,7 @@ msgstr "Usa una contrasenya"
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:51
 #: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:26
 msgid "Cancel"
-msgstr "Cancel·lar"
+msgstr "Cancel·la"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:126
 msgid "Authentication failed!"
