@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2019-02-21 18:36+0000\n"
+"PO-Revision-Date: 2019-05-03 21:02+0000\n"
 "Last-Translator: louies0623 <louies0623@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.ubports.com/projects/"
 "ubports/filemanager-app/zh_Hant/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Launchpad-Export-Date: 2017-04-08 06:04+0000\n"
 
 #: ../src/app/qml/actions/AddBookmark.qml:6
@@ -103,7 +103,7 @@ msgstr "全選"
 
 #: ../src/app/qml/actions/Settings.qml:6
 msgid "Settings"
-msgstr "設定"
+msgstr "設置"
 
 #: ../src/app/qml/actions/Share.qml:5
 msgid "Share"
@@ -163,7 +163,7 @@ msgstr "取消"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:126
 msgid "Authentication failed!"
-msgstr "身份驗證失敗!"
+msgstr "身份驗證失敗！"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:137
 msgid "Please retry"
@@ -389,7 +389,7 @@ msgstr "往哪裡："
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:127
 msgid "Created:"
-msgstr "建立:"
+msgstr "建立："
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:141
 msgid "Modified:"
@@ -434,7 +434,7 @@ msgstr "檔案操作時出錯"
 #, qt-format
 msgid "%1 item"
 msgid_plural "%1 items"
-msgstr[0] "% 1 項"
+msgstr[0] "%1 項"
 
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:21
 msgid "Save here"
@@ -488,7 +488,7 @@ msgstr "清單大小"
 
 #: ../src/app/qml/ui/ViewPopover.qml:60
 msgid "Sort By"
-msgstr "排序依"
+msgstr "排序依照"
 
 #: ../src/app/qml/ui/ViewPopover.qml:62
 msgid "Name"
@@ -536,7 +536,7 @@ msgstr "無法重新命名"
 msgid ""
 "Insufficient permissions, name contains special chars (e.g. '/'), or already "
 "exists"
-msgstr "權限不足、名稱包含特殊字元 (例如 \"/\")，或者已存在同樣的名稱"
+msgstr "權限不足、名稱包含特殊字元 (例如 「/」)，或者已存在同樣的名稱"
 
 #: ../src/app/qml/views/FolderListView.qml:72
 msgid "Directories"
