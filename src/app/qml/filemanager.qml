@@ -38,9 +38,15 @@ MainView {
     width: phone ? units.gu(40) : units.gu(100)
     height: units.gu(75)
 
-    theme.name: globalSettings.darkTheme
-                ? "Ubuntu.Components.Themes.SuruDark"
-                : "Ubuntu.Components.Themes.Ambiance"
+    theme.name: {
+        if (globalSettings.theme == 1) {
+            return "Ubuntu.Components.Themes.Ambiance";
+        } else if (globalSettings.theme == 2) {
+            return "Ubuntu.Components.Themes.SuruDark";
+        } else {
+            return "";
+        }
+    }
 
     property bool wideAspect: width > units.gu(80)
 
