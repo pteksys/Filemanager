@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-28 18:15+0000\n"
+"POT-Creation-Date: 2019-03-25 22:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -154,7 +154,6 @@ msgstr ""
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:64
 #: ../src/app/qml/dialogs/templates/ConfirmDialog.qml:41
 #: ../src/app/qml/dialogs/templates/ConfirmDialogWithInput.qml:60
-#: ../src/app/qml/ui/FileDetailsPopover.qml:184
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:51
 #: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:26
 msgid "Cancel"
@@ -388,6 +387,10 @@ msgstr ""
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:176
 msgid "Permissions:"
+msgstr ""
+
+#: ../src/app/qml/ui/FileDetailsPopover.qml:184
+msgid "Close"
 msgstr ""
 
 #: ../src/app/qml/ui/FolderListPage.qml:241
