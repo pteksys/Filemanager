@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2019-01-12 10:43+0000\n"
+"PO-Revision-Date: 2019-05-07 13:18+0000\n"
 "Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/sc/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #: ../src/app/qml/actions/AddBookmark.qml:6
 msgid "Add bookmark"
@@ -103,7 +103,7 @@ msgstr "Seletziona totus"
 
 #: ../src/app/qml/actions/Settings.qml:6
 msgid "Settings"
-msgstr "Cunfiguratzione"
+msgstr "Cunfiguratziones"
 
 #: ../src/app/qml/actions/Share.qml:5
 msgid "Share"
