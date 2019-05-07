@@ -25,7 +25,6 @@ import "../components"
 import "../actions" as FMActions
 import "../dialogs" as Dialogs
 import "../backend" as Backend
-import "../panels" as Panels
 import "../views" as Views
 
 // TODO: Review last position code, which is referenced in FolderListModel (backend), FolderDelegateActions, FolderIconView, FolderListView, FolderListPageDefaultHeader, (PlacesPage)
@@ -153,7 +152,6 @@ SidebarPageLayout {
             id: viewLoader
             anchors.fill: parent
             anchors.topMargin: folderPage.header.height
-            anchors.bottomMargin: bottomPanelStack.height
 
             sourceComponent: {
                 if (globalSettings.viewMethod === 1) { // Grid
@@ -164,21 +162,8 @@ SidebarPageLayout {
             }
         }
 
-        BottomPanelStack {
-            id: bottomPanelStack
-
-            onHeightChanged: console.log(height)
-
-            Panels.DefaultBottomBar {
-                folderModel: pageModel
-                fileOperationDialog: fileOperationDialogObj
-                visible: fileOperationDialogObj.model.clipboardUrlsCounter > 0
-            }
-        }
-
-        Rectangle { // BottomPanelStack divider
-            anchors.bottom: bottomPanelStack.top
-            anchors { left: parent.left; right: parent.right }
+        Rectangle {
+            anchors { left: parent.left; right: parent.right; bottom: parent.bottom; }
             height: units.dp(1)
             color: theme.palette.normal.base
             visible: viewLoader.item.flickableItem.contentHeight > viewLoader.item.flickableItem.height

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-07 18:19+0000\n"
+"POT-Creation-Date: 2019-05-07 18:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -342,10 +342,6 @@ msgstr ""
 msgid "Saved to: %1"
 msgstr ""
 
-#: ../src/app/qml/panels/DefaultBottomBar.qml:24
-msgid "Paste files"
-msgstr ""
-
 #: ../src/app/qml/ui/FileDetailsPopover.qml:34
 msgid "Readable"
 msgstr ""
@@ -382,29 +378,29 @@ msgstr ""
 msgid "Close"
 msgstr ""
 
-#: ../src/app/qml/ui/FolderListPage.qml:236
-#: ../src/app/qml/ui/FolderListPage.qml:291
+#: ../src/app/qml/ui/FolderListPage.qml:221
+#: ../src/app/qml/ui/FolderListPage.qml:276
 msgid "Restricted access"
 msgstr ""
 
-#: ../src/app/qml/ui/FolderListPage.qml:240
+#: ../src/app/qml/ui/FolderListPage.qml:225
 msgid ""
 "Authentication is required in order to see all the content of this folder."
 msgstr ""
 
-#: ../src/app/qml/ui/FolderListPage.qml:277
+#: ../src/app/qml/ui/FolderListPage.qml:262
 msgid "No files"
 msgstr ""
 
-#: ../src/app/qml/ui/FolderListPage.qml:278
+#: ../src/app/qml/ui/FolderListPage.qml:263
 msgid "This folder is empty."
 msgstr ""
 
-#: ../src/app/qml/ui/FolderListPage.qml:292
+#: ../src/app/qml/ui/FolderListPage.qml:277
 msgid "Authentication is required in order to see the content of this folder."
 msgstr ""
 
-#: ../src/app/qml/ui/FolderListPage.qml:308
+#: ../src/app/qml/ui/FolderListPage.qml:293
 msgid "File operation error"
 msgstr ""
 
@@ -415,6 +411,10 @@ msgid "%1 item"
 msgid_plural "%1 items"
 msgstr[0] ""
 msgstr[1] ""
+
+#: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:79
+msgid "Paste files"
+msgstr ""
 
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:21
 msgid "Save here"

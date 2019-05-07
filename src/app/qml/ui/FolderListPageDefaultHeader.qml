@@ -45,6 +45,7 @@ PageHeader {
     trailingActionBar.numberOfSlots: 4
     trailingActionBar.actions: [
         FMActions.Settings {
+            visible: !folderModel.model.clipboardUrlsCounter > 0
             onTriggered: PopupUtils.open(Qt.resolvedUrl("ViewPopover.qml"), mainView, { folderListModel: folderModel.model })
         },
         FMActions.Properties {
@@ -61,11 +62,33 @@ PageHeader {
             }
         },
         FMActions.NewItem {
+            visible: !folderModel.model.clipboardUrlsCounter > 0
             property bool smallText: true
             enabled: folderModel.model.isWritable
             onTriggered: {
                 print(text)
                 PopupUtils.open(Qt.resolvedUrl("../dialogs/CreateItemDialog.qml"), mainView, { folderModel: folderModel.model })
+            }
+        },
+        FMActions.FileClearSelection {
+            clipboardUrlsCounter: folderModel.model.clipboardUrlsCounter
+            visible: folderModel.model.clipboardUrlsCounter > 0
+            onTriggered: {
+                console.log("Clearing clipboard")
+                folderModel.model.clearClipboard()
+            }
+        },
+        FMActions.FilePaste {
+            property bool smallText: true
+            clipboardUrlsCounter: folderModel.model.clipboardUrlsCounter
+            visible: folderModel.model.clipboardUrlsCounter > 0
+            onTriggered: {
+                console.log("Pasting to current folder items of count " + folderModel.model.clipboardUrlsCounter)
+                fileOperationDialog.startOperation(i18n.tr("Paste files"))
+                folderModel.model.paste()
+
+                // We want this in a mobile environment.
+                folderModel.model.clearClipboard()
             }
         }
     ]
@@ -74,4 +97,3 @@ PageHeader {
 
     StyleHints { dividerColor: "transparent" }
 }
-
