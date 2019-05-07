@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-07 17:37+0000\n"
+"POT-Creation-Date: 2019-05-07 18:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,6 @@ msgstr ""
 #: ../src/app/qml/actions/Delete.qml:5
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:14
 #: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:15
-#: ../src/app/qml/panels/SelectionBottomBar.qml:26
 msgid "Delete"
 msgstr ""
 
@@ -40,12 +39,10 @@ msgid "Clear clipboard"
 msgstr ""
 
 #: ../src/app/qml/actions/FileCopy.qml:5
-#: ../src/app/qml/panels/SelectionBottomBar.qml:45
 msgid "Copy"
 msgstr ""
 
 #: ../src/app/qml/actions/FileCut.qml:5
-#: ../src/app/qml/panels/SelectionBottomBar.qml:60
 msgid "Cut"
 msgstr ""
 
@@ -90,14 +87,6 @@ msgstr ""
 #: ../src/app/qml/actions/Select.qml:5
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:60
 msgid "Select"
-msgstr ""
-
-#: ../src/app/qml/actions/SelectUnselectAll.qml:6
-msgid "Select None"
-msgstr ""
-
-#: ../src/app/qml/actions/SelectUnselectAll.qml:6
-msgid "Select All"
 msgstr ""
 
 #: ../src/app/qml/actions/Settings.qml:6
@@ -155,7 +144,7 @@ msgstr ""
 #: ../src/app/qml/dialogs/templates/ConfirmDialog.qml:41
 #: ../src/app/qml/dialogs/templates/ConfirmDialogWithInput.qml:60
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:51
-#: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:26
+#: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:31
 msgid "Cancel"
 msgstr ""
 
@@ -393,29 +382,29 @@ msgstr ""
 msgid "Close"
 msgstr ""
 
-#: ../src/app/qml/ui/FolderListPage.qml:241
-#: ../src/app/qml/ui/FolderListPage.qml:296
+#: ../src/app/qml/ui/FolderListPage.qml:236
+#: ../src/app/qml/ui/FolderListPage.qml:291
 msgid "Restricted access"
 msgstr ""
 
-#: ../src/app/qml/ui/FolderListPage.qml:245
+#: ../src/app/qml/ui/FolderListPage.qml:240
 msgid ""
 "Authentication is required in order to see all the content of this folder."
 msgstr ""
 
-#: ../src/app/qml/ui/FolderListPage.qml:282
+#: ../src/app/qml/ui/FolderListPage.qml:277
 msgid "No files"
 msgstr ""
 
-#: ../src/app/qml/ui/FolderListPage.qml:283
+#: ../src/app/qml/ui/FolderListPage.qml:278
 msgid "This folder is empty."
 msgstr ""
 
-#: ../src/app/qml/ui/FolderListPage.qml:297
+#: ../src/app/qml/ui/FolderListPage.qml:292
 msgid "Authentication is required in order to see the content of this folder."
 msgstr ""
 
-#: ../src/app/qml/ui/FolderListPage.qml:313
+#: ../src/app/qml/ui/FolderListPage.qml:308
 msgid "File operation error"
 msgstr ""
 
@@ -431,7 +420,7 @@ msgstr[1] ""
 msgid "Save here"
 msgstr ""
 
-#: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:18
+#: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:23
 #, qt-format
 msgid "%1 item selected"
 msgid_plural "%1 items selected"

@@ -133,6 +133,7 @@ SidebarPageLayout {
 
         FolderListPageSelectionHeader {
             id: selectionHeader
+            fileOperationDialog: fileOperationDialogObj
             folderModel: pageModel
             visible: selectionMode && !isContentHub
             enabled: visible
@@ -172,12 +173,6 @@ SidebarPageLayout {
                 folderModel: pageModel
                 fileOperationDialog: fileOperationDialogObj
                 visible: fileOperationDialogObj.model.clipboardUrlsCounter > 0
-            }
-
-            Panels.SelectionBottomBar {
-                folderModel: pageModel
-                fileOperationDialog: fileOperationDialogObj
-                visible: selectionMode && !isContentHub
             }
         }
 
