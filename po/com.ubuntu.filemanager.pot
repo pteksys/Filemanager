@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-07 17:16+0000\n"
+"POT-Creation-Date: 2019-05-07 17:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -498,19 +498,23 @@ msgstr ""
 msgid "Sort Order"
 msgstr ""
 
-#: ../src/app/qml/ui/ViewPopover.qml:74
+#: ../src/app/qml/ui/ViewPopover.qml:79
+msgid "Left swipe rename"
+msgstr ""
+
+#: ../src/app/qml/ui/ViewPopover.qml:92
 msgid "Theme"
 msgstr ""
 
-#: ../src/app/qml/ui/ViewPopover.qml:76
+#: ../src/app/qml/ui/ViewPopover.qml:94
 msgid "System"
 msgstr ""
 
-#: ../src/app/qml/ui/ViewPopover.qml:76
+#: ../src/app/qml/ui/ViewPopover.qml:94
 msgid "Light"
 msgstr ""
 
-#: ../src/app/qml/ui/ViewPopover.qml:76
+#: ../src/app/qml/ui/ViewPopover.qml:94
 msgid "Dark"
 msgstr ""
 
@@ -525,10 +529,12 @@ msgid "Can not access %1"
 msgstr ""
 
 #: ../src/app/qml/views/FolderDelegateActions.qml:136
+#: ../src/app/qml/views/FolderDelegateActions.qml:181
 msgid "Could not rename"
 msgstr ""
 
 #: ../src/app/qml/views/FolderDelegateActions.qml:137
+#: ../src/app/qml/views/FolderDelegateActions.qml:182
 msgid ""
 "Insufficient permissions, name contains special chars (e.g. '/'), or already "
 "exists"

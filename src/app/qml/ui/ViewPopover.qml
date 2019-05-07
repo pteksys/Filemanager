@@ -70,6 +70,24 @@ Dialog {
         onSelectedIndexChanged: globalSettings.sortOrder = selectedIndex
     }
 
+    ListItem {
+        ListItemLayout {
+            anchors { left: parent.left; right: parent.right }
+            anchors.leftMargin: units.gu(-2)
+            anchors.rightMargin: units.gu(-2)
+
+            subtitle.text: i18n.tr("Left swipe rename")
+            subtitle.textSize: Label.Medium
+
+            Switch{
+                SlotsLayout.position: SlotsLayout.Last
+
+                checked: globalSettings.renRight
+                onCheckedChanged: globalSettings.renRight = checked
+            }
+        }
+    }
+
     Components.HorizontalOptionSelector {
         subtitle: i18n.tr("Theme")
         selectedIndex: globalSettings.theme
