@@ -2,6 +2,6 @@ import QtQuick 2.4
 import Ubuntu.Components 1.3
 
 Action {
-    iconName: "select"
-    text: i18n.tr("Select")
+    iconName: "close"
+    text: i18n.tr("Cancel")
 }

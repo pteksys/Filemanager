@@ -115,6 +115,22 @@ QtObject {
                 PopupUtils.open(Qt.resolvedUrl("../dialogs/ConfirmSingleDeleteDialog.qml"), mainView, props)
             }
         }
+    }
+
+    property ActionList trailingActions: ActionList {
+        FMActions.ArchiveExtract {
+            visible: folderModel.getArchiveType(model.fileName) !== "" && importMode
+            onTriggered: folderListPage.openFile(model, true)
+        }
+
+        FMActions.Properties {
+            onTriggered: {
+                var props = {
+                    "model": model
+                }
+                PopupUtils.open(Qt.resolvedUrl("../ui/FileDetailsPopover.qml"), mainView, props)
+            }
+        }
 
         FMActions.Rename {
             visible: folderModel.model.isWritable && importMode
@@ -142,22 +158,6 @@ QtObject {
                         console.log("Empty new name given, ignored")
                     }
                 })
-            }
-        }
-    }
-
-    property ActionList trailingActions: ActionList {
-        FMActions.ArchiveExtract {
-            visible: folderModel.getArchiveType(model.fileName) !== "" && importMode
-            onTriggered: folderListPage.openFile(model, true)
-        }
-
-        FMActions.Properties {
-            onTriggered: {
-                var props = {
-                    "model": model
-                }
-                PopupUtils.open(Qt.resolvedUrl("../ui/FileDetailsPopover.qml"), mainView, props)
             }
         }
 

@@ -38,9 +38,8 @@ PageHeader {
         }
     }
 
-    trailingActionBar.numberOfSlots: 4
+    trailingActionBar.numberOfSlots: 5
     trailingActionBar.anchors.rightMargin: 0
-    trailingActionBar.delegate: Components.TextualButtonStyle {}
     trailingActionBar.actions: [
         FMActions.SelectUnselectAll {
             selectedAll: selectionManager.selectedAll
@@ -53,9 +52,8 @@ PageHeader {
             }
         },
 
-        Action {
+        FMActions.Delete {
             property bool smallText: true
-            iconName: "edit-delete"
             enabled: __actionsEnabled
             visible: __actionsVisible && folderModel.model.isWritable
             onTriggered: {
@@ -71,9 +69,8 @@ PageHeader {
             }
         },
 
-        Action {
+        FMActions.FileCopy {
             property bool smallText: true
-            iconName: "edit-copy"
             enabled: __actionsEnabled
             visible: __actionsVisible
             onTriggered: {
@@ -85,9 +82,8 @@ PageHeader {
             }
         },
 
-        Action {
+        FMActions.FileCut {
             property bool smallText: true
-            iconName: "edit-cut"
             enabled: __actionsEnabled
             visible: __actionsVisible && folderModel.model.isWritable
             onTriggered: {
@@ -96,6 +92,45 @@ PageHeader {
                 selectionManager.clear()
                 fileSelectorMode = false
                 fileSelector.fileSelectorComponent = null
+            }
+        },
+
+        FMActions.Rename {
+            visible: folderModel.model.isWritable && importMode && folderModel.model.selectionObject.counter == 1
+            onTriggered: {
+                var props = {
+                    "modelRow" : fileOperationDialogObj.index,
+                    "inputText" : fileOperationDialogObj.fileName,
+                    "folderModel": folderModel.model
+                }
+
+                var popup = PopupUtils.open(Qt.resolvedUrl("../dialogs/ConfirmRenameDialog.qml"), mainView, props)
+
+                popup.accepted.connect(function(inputText) {
+                    console.log("Rename accepted", inputText)
+                    if (inputText !== '') {
+                        console.log("Rename commensed, modelRow/inputText", fileOperationDialogObj.index, inputText.trim())
+                        if (folderModel.model.rename(fileOperationDialogObj.index, inputText.trim()) === false) {
+                            var props = {
+                                title: i18n.tr("Could not rename"),
+                                text: i18n.tr("Insufficient permissions, name contains special chars (e.g. '/'), or already exists")
+                            }
+                            PopupUtils.open(Qt.resolvedUrl("../dialogs/NotifyDialog.qml"), mainView, props)
+                        }
+                    } else {
+                        console.log("Empty new name given, ignored")
+                    }
+                })
+            }
+        },
+
+        FMActions.Properties {
+            visible: folderModel.model.selectionObject.counter == 1
+            onTriggered: {
+                var props = {
+                    "model": folderModel.model  //Help needed to get Info of selection!
+                }
+                PopupUtils.open(Qt.resolvedUrl("../ui/FileDetailsPopover.qml"), mainView, props)
             }
         }
     ]

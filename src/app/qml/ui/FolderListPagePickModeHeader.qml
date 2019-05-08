@@ -44,10 +44,9 @@ PageHeader {
 
     trailingActionBar {
         anchors.rightMargin: 0
-        delegate: Components.TextualButtonStyle {}
 
         actions: [
-            Action {
+            FMActions.Cancel {
                 text: i18n.tr("Cancel")
                 iconName: "close"
                 onTriggered: {
@@ -56,9 +55,7 @@ PageHeader {
                 }
             },
 
-            Action {
-                text: i18n.tr("Select")
-                iconName: "tick"
+            FMActions.Select {
                 enabled: selectionManager.counter > 0 || importMode
                 onTriggered: {
                     var selectedAbsUrls = []
@@ -83,4 +80,3 @@ PageHeader {
 
     StyleHints { dividerColor: "transparent" }
 }
-

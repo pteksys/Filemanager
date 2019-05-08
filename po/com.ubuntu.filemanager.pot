@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-07 18:29+0000\n"
+"POT-Creation-Date: 2019-05-08 21:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,6 +26,23 @@ msgstr ""
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:18
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:33
 msgid "Extract archive"
+msgstr ""
+
+#: ../src/app/qml/actions/Cancel.qml:6
+#: ../src/app/qml/authentication/FingerprintDialog.qml:69
+#: ../src/app/qml/authentication/PasswordDialog.qml:80
+#: ../src/app/qml/dialogs/CreateItemDialog.qml:60
+#: ../src/app/qml/dialogs/ExtractingDialog.qml:35
+#: ../src/app/qml/dialogs/FileActionDialog.qml:45
+#: ../src/app/qml/dialogs/FileOperationProgressDialog.qml:44
+#: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:96
+#: ../src/app/qml/dialogs/OpenArchiveDialog.qml:38
+#: ../src/app/qml/dialogs/OpenWithDialog.qml:64
+#: ../src/app/qml/dialogs/templates/ConfirmDialog.qml:41
+#: ../src/app/qml/dialogs/templates/ConfirmDialogWithInput.qml:60
+#: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:50
+#: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:31
+msgid "Cancel"
 msgstr ""
 
 #: ../src/app/qml/actions/Delete.qml:5
@@ -84,8 +101,7 @@ msgstr ""
 msgid "Rename"
 msgstr ""
 
-#: ../src/app/qml/actions/Select.qml:5
-#: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:60
+#: ../src/app/qml/actions/Select.qml:6
 msgid "Select"
 msgstr ""
 
@@ -130,22 +146,6 @@ msgstr ""
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:60
 msgid "Use password"
-msgstr ""
-
-#: ../src/app/qml/authentication/FingerprintDialog.qml:69
-#: ../src/app/qml/authentication/PasswordDialog.qml:80
-#: ../src/app/qml/dialogs/CreateItemDialog.qml:60
-#: ../src/app/qml/dialogs/ExtractingDialog.qml:35
-#: ../src/app/qml/dialogs/FileActionDialog.qml:45
-#: ../src/app/qml/dialogs/FileOperationProgressDialog.qml:44
-#: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:96
-#: ../src/app/qml/dialogs/OpenArchiveDialog.qml:38
-#: ../src/app/qml/dialogs/OpenWithDialog.qml:64
-#: ../src/app/qml/dialogs/templates/ConfirmDialog.qml:41
-#: ../src/app/qml/dialogs/templates/ConfirmDialogWithInput.qml:60
-#: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:51
-#: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:31
-msgid "Cancel"
 msgstr ""
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:126
@@ -412,7 +412,7 @@ msgid_plural "%1 items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:79
+#: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:87
 msgid "Paste files"
 msgstr ""
 
@@ -426,6 +426,18 @@ msgid "%1 item selected"
 msgid_plural "%1 items selected"
 msgstr[0] ""
 msgstr[1] ""
+
+#: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:115
+#: ../src/app/qml/views/FolderDelegateActions.qml:152
+msgid "Could not rename"
+msgstr ""
+
+#: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:116
+#: ../src/app/qml/views/FolderDelegateActions.qml:153
+msgid ""
+"Insufficient permissions, name contains special chars (e.g. '/'), or already "
+"exists"
+msgstr ""
 
 #: ../src/app/qml/ui/ViewPopover.qml:24
 msgid "Show Hidden Files"
@@ -487,23 +499,19 @@ msgstr ""
 msgid "Sort Order"
 msgstr ""
 
-#: ../src/app/qml/ui/ViewPopover.qml:79
-msgid "Left swipe rename"
-msgstr ""
-
-#: ../src/app/qml/ui/ViewPopover.qml:92
+#: ../src/app/qml/ui/ViewPopover.qml:74
 msgid "Theme"
 msgstr ""
 
-#: ../src/app/qml/ui/ViewPopover.qml:94
+#: ../src/app/qml/ui/ViewPopover.qml:76
 msgid "System"
 msgstr ""
 
-#: ../src/app/qml/ui/ViewPopover.qml:94
+#: ../src/app/qml/ui/ViewPopover.qml:76
 msgid "Light"
 msgstr ""
 
-#: ../src/app/qml/ui/ViewPopover.qml:94
+#: ../src/app/qml/ui/ViewPopover.qml:76
 msgid "Dark"
 msgstr ""
 
@@ -515,18 +523,6 @@ msgstr ""
 #: ../src/app/qml/views/FolderDelegateActions.qml:42
 #, qt-format
 msgid "Can not access %1"
-msgstr ""
-
-#: ../src/app/qml/views/FolderDelegateActions.qml:136
-#: ../src/app/qml/views/FolderDelegateActions.qml:181
-msgid "Could not rename"
-msgstr ""
-
-#: ../src/app/qml/views/FolderDelegateActions.qml:137
-#: ../src/app/qml/views/FolderDelegateActions.qml:182
-msgid ""
-"Insufficient permissions, name contains special chars (e.g. '/'), or already "
-"exists"
 msgstr ""
 
 #: ../src/app/qml/views/FolderListView.qml:72
