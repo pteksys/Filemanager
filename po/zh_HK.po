@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2018-11-25 00:00+0000\n"
-"Last-Translator: Louies <louies0623@gmail.com>\n"
+"PO-Revision-Date: 2019-05-10 06:02+0000\n"
+"Last-Translator: louies0623 <louies0623@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <https://translate.ubports.com/projects/"
 "ubports/filemanager-app/zh_Hant_HK/>\n"
 "Language: zh_HK\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Launchpad-Export-Date: 2017-04-08 06:04+0000\n"
 
 #: ../src/app/qml/actions/AddBookmark.qml:6
@@ -95,11 +95,11 @@ msgstr "選擇"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
 msgid "Select None"
-msgstr ""
+msgstr "取消選取"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
 msgid "Select All"
-msgstr ""
+msgstr "所有選取"
 
 #: ../src/app/qml/actions/Settings.qml:6
 msgid "Settings"
@@ -317,7 +317,7 @@ msgstr ""
 
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:58
 msgid "Password"
-msgstr ""
+msgstr "密碼"
 
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:72
 msgid "Save password"
@@ -468,7 +468,7 @@ msgstr ""
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "S"
-msgstr ""
+msgstr "南"
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "M"
@@ -508,7 +508,7 @@ msgstr ""
 
 #: ../src/app/qml/ui/ViewPopover.qml:74
 msgid "Theme"
-msgstr ""
+msgstr "主題"
 
 #: ../src/app/qml/ui/ViewPopover.qml:76
 msgid "Light"
