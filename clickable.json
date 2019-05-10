@@ -1,9 +1,4 @@
 {
   "template": "cmake",
-  "kill": "terminal-app",
-  "dependencies_target": [
-    "libtag1-dev",
-    "libsmbclient-dev",
-    "libpam0g-dev"
-  ]
+  "kill": "filemanager"
 }
