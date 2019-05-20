@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2018-11-04 00:01+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"PO-Revision-Date: 2019-05-21 18:03+0000\n"
+"Last-Translator: Ari Börde Kröyer <ari.kroyer@online.no>\n"
 "Language-Team: Norwegian Bokmål <https://translate.ubports.com/projects/"
 "ubports/filemanager-app/nb/>\n"
 "Language: nb\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Launchpad-Export-Date: 2017-04-08 06:04+0000\n"
 
 #: ../src/app/qml/actions/AddBookmark.qml:6
@@ -52,7 +52,7 @@ msgid "Cut"
 msgstr "Klipp ut"
 
 #: ../src/app/qml/actions/FilePaste.qml:30
-#, fuzzy, qt-format
+#, qt-format
 msgid "Paste %1 file"
 msgid_plural "Paste %1 files"
 msgstr[0] "Lim inn %1 fil"
@@ -164,7 +164,7 @@ msgstr "Avbryt"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:126
 msgid "Authentication failed!"
-msgstr "Autentisering mislyktes."
+msgstr "Autentisering mislyktes!"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:137
 msgid "Please retry"
@@ -192,7 +192,7 @@ msgstr "passkode (forvalg er 0000 hvis ikke satt)"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:69
 msgid "Authentication failed. Please retry"
-msgstr "Identitetsbekreftelse mislyktes. Prøv igjen."
+msgstr "Autentisering mislyktes. Prøv igjen!"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:74
 msgid "Authenticate"
@@ -537,13 +537,12 @@ msgid "Could not rename"
 msgstr "Klarte ikke å gi nytt navn"
 
 #: ../src/app/qml/views/FolderDelegateActions.qml:137
-#, fuzzy
 msgid ""
 "Insufficient permissions, name contains special chars (e.g. '/'), or already "
 "exists"
 msgstr ""
-"Utilstrekkelig tilgang, navnet inneholder spesialtegn (f.eks. \"/\"), eller "
-"finnes allerede."
+"Utilstrekkelige tillatelser, navnet inneholder spesialtegn (f.eks. '/'), "
+"eller finnes allerede."
 
 #: ../src/app/qml/views/FolderListView.qml:72
 msgid "Directories"
