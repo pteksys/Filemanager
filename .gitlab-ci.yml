@@ -3,11 +3,6 @@ publish:
   only:
     - tags
   script:
-    - dd if=/dev/zero of=/swapfile count=4096 bs=1MiB
-    - chmod 600 /swapfile
-    - mkswap /swapfile
-    - swapon /swapfile
-    - swapon --show
     - clickable clean build click-build
     - clickable publish "$CI_COMMIT_MESSAGE"
   artifacts:
@@ -20,11 +15,6 @@ build:
   except:
     - tags
   script:
-    - dd if=/dev/zero of=/swapfile count=4096 bs=1MiB
-    - chmod 600 /swapfile
-    - mkswap /swapfile
-    - swapon /swapfile
-    - swapon --show
     - clickable clean build click-build
   artifacts:
     paths:
