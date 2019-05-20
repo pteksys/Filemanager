@@ -3,6 +3,11 @@ publish:
   only:
     - tags
   script:
+    - fallocate -l 4G /swapfile
+    - chmod 600 /swapfile
+    - mkswap /swapfile
+    - swapon /swapfile
+    - swapon --show
     - clickable clean build click-build
     - clickable publish "$CI_COMMIT_MESSAGE"
   artifacts:
@@ -15,6 +20,11 @@ build:
   except:
     - tags
   script:
+    - fallocate -l 4G /swapfile
+    - chmod 600 /swapfile
+    - mkswap /swapfile
+    - swapon /swapfile
+    - swapon --show
     - clickable clean build click-build
   artifacts:
     paths:
