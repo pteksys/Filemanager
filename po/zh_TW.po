@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2019-05-10 06:02+0000\n"
+"PO-Revision-Date: 2019-06-04 04:03+0000\n"
 "Last-Translator: louies0623 <louies0623@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.ubports.com/projects/"
 "ubports/filemanager-app/zh_Hant/>\n"
@@ -163,7 +163,7 @@ msgstr "取消"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:126
 msgid "Authentication failed!"
-msgstr "身份驗證失敗！"
+msgstr "身份驗證失敗!"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:137
 msgid "Please retry"
