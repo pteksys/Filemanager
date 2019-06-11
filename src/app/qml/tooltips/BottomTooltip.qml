@@ -11,7 +11,7 @@ Template.Tooltip {
 
     anchors.bottom: parent.bottom
 
-    Text { // or Text
+    Text {
         anchors.centerIn: parent
         text: message
         verticalAlignment: Text.AlignVCenter

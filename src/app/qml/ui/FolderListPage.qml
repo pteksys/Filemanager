@@ -26,6 +26,7 @@ import "../actions" as FMActions
 import "../dialogs" as Dialogs
 import "../backend" as Backend
 import "../views" as Views
+import "../tooltips" as Tooltips
 
 // TODO: Review last position code, which is referenced in FolderListModel (backend), FolderDelegateActions, FolderIconView, FolderListView, FolderListPageDefaultHeader, (PlacesPage)
 
@@ -152,6 +153,8 @@ SidebarPageLayout {
             id: viewLoader
             anchors.fill: parent
             anchors.topMargin: folderPage.header.height
+            anchors.bottomMargin: bottomTooltip.height
+
 
             sourceComponent: {
                 if (globalSettings.viewMethod === 1) { // Grid
@@ -162,8 +165,20 @@ SidebarPageLayout {
             }
         }
 
+        BottomPanelStack {
+            id: bottomPanelStack
+
+            onHeightChanged: console.log(height)
+
+            Tooltips.BottomTooltip {
+                message: "Test"
+                visible: true
+            }
+        }
+
+
         Rectangle {
-            anchors { left: parent.left; right: parent.right; bottom: parent.bottom; }
+            anchors { bottom: bottomPanelStack.top; left: parent.left; right: parent.right; }
             height: units.dp(1)
             color: theme.palette.normal.base
             visible: viewLoader.item.flickableItem.contentHeight > viewLoader.item.flickableItem.height

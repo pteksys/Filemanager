@@ -55,6 +55,7 @@ PageHeader {
             }
         },
         FMActions.AddBookmark {
+            visible: !folderModel.model.clipboardUrlsCounter > 0
             onTriggered: {
                 print(text)
                 folderModel.places.addLocation(folderModel.model.path)
@@ -62,7 +63,6 @@ PageHeader {
             }
         },
         FMActions.NewItem {
-            visible: !folderModel.model.clipboardUrlsCounter > 0
             property bool smallText: true
             enabled: folderModel.model.isWritable
             onTriggered: {
