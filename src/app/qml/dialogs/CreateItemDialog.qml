@@ -8,6 +8,7 @@ import Ubuntu.Components.Popups 1.3
 Dialog {
     id: dialog
 
+    property var folderPage
     property var folderModel
 
     title: i18n.tr("Create Item")
@@ -30,6 +31,7 @@ Dialog {
             if (inputText.text !== '') {
                 var fileName = inputText.text.trim()
                 folderModel.touch(fileName)
+                folderPage.tooltipMsg = "Created file"
             } else {
                 console.log("Empty file name, ignored")
             }
@@ -48,6 +50,7 @@ Dialog {
             if (inputText.text !== '') {
                 var folderName = inputText.text.trim()
                 folderModel.mkdir(folderName)
+                folderPage.tooltipMsg = "Created folder"
             } else {
                 console.log("Empty directory name, ignored")
             }

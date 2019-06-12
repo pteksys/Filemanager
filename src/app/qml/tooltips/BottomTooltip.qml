@@ -10,11 +10,15 @@ Template.Tooltip {
     property var message
 
     anchors.bottom: parent.bottom
-
-    Text {
-        anchors.centerIn: parent
-        text: message
-        verticalAlignment: Text.AlignVCenter
-        horizontalAlignment: Text.AlignHCenter
+    Rectangle {
+        anchors.fill: parent
+        color: theme.palette.normal.background
+        Text {
+            anchors.centerIn: parent
+            color: theme.palette.normal.backgroundText
+            text: message
+            verticalAlignment: Text.AlignVCenter
+            horizontalAlignment: Text.AlignHCenter
+        }
     }
 }

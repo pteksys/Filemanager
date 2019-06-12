@@ -10,6 +10,7 @@ PageHeader {
 
     // temp
     property var fileOperationDialog
+    property var folderPage
     property var folderModel
     property var showPanelAction
 
@@ -67,7 +68,7 @@ PageHeader {
             enabled: folderModel.model.isWritable
             onTriggered: {
                 print(text)
-                PopupUtils.open(Qt.resolvedUrl("../dialogs/CreateItemDialog.qml"), mainView, { folderModel: folderModel.model })
+                PopupUtils.open(Qt.resolvedUrl("../dialogs/CreateItemDialog.qml"), mainView, { folderPage: folderPage, folderModel: folderModel.model })
             }
         },
         FMActions.FileClearSelection {

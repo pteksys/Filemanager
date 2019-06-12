@@ -36,6 +36,7 @@ SidebarPageLayout {
     property alias folderModel: pageModel
     property bool fileSelectorMode: false
     property bool folderSelectorMode: false
+    property string tooltipMsg: ""
 
     Backend.FolderListModel {
         id: pageModel
@@ -125,6 +126,7 @@ SidebarPageLayout {
         FolderListPageDefaultHeader {
             id: defaultHeader
             fileOperationDialog: fileOperationDialogObj
+            folderPage: folderListPage
             folderModel: pageModel
             showPanelAction: folderListPage.showPanelAction
             visible: !selectionMode
@@ -171,8 +173,13 @@ SidebarPageLayout {
             onHeightChanged: console.log(height)
 
             Tooltips.BottomTooltip {
-                message: "Test"
-                visible: true
+                id: bottomTooltip
+                message: tooltipMsg
+                visible: false
+                onMessageChanged: {
+                    visible = true
+                    tooltipTimer.restart()
+                }
             }
         }
 
@@ -350,6 +357,15 @@ SidebarPageLayout {
 
         Component.onCompleted: {
             forceActiveFocus()
+        }
+
+        Timer {
+            id: tooltipTimer
+            repeat: true
+            interval: 2000
+            onTriggered: {
+                bottomTooltip.visible = false
+            }
         }
     }
 }
