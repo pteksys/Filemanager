@@ -6,6 +6,11 @@ source model where the code is available to anyone to branch and hack on. The
 ubuntu file manager app originally followed a test driven development (TDD) where tests were
 written in parallel to feature implementation to help spot regressions easier.
 
+Telegram group
+==============
+Join the Telgram group by clicking this link
+* [Telegram group](https://t.me/ubports_fm_app)
+
 Building with clickable
 =======================
 The easiest way to build this app is using clickable by running the command:
