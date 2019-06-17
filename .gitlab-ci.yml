@@ -1,5 +1,7 @@
 publish:
   image: clickable/ci-16.04-armhf
+  only:
+    - tags
   before_script:
     - mkdir build
     - cp -R src/app/qml prebuilt/qml
@@ -12,7 +14,7 @@ publish:
     - clickable publish "$CI_COMMIT_MESSAGE"
   artifacts:
     paths:
-      - prebuild/build/*.click
+      - prebuilt/build/*.click
     expire_in: 1 week
 
 build:
