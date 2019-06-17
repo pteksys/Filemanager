@@ -2,7 +2,10 @@ publish:
   image: clickable/ci-16.04-armhf
   only:
     - tags
+  before_script:
+    - cp -R src/app/qml prebuilt/qml
   script:
+    - cd prebuilt
     - clickable clean build click-build
     - clickable publish "$CI_COMMIT_MESSAGE"
   artifacts:
@@ -14,7 +17,10 @@ build:
   image: clickable/ci-16.04-armhf
   except:
     - tags
+  before_script:
+    - cp -R src/app/qml prebuilt/qml
   script:
+    - cd prebuilt
     - clickable clean build click-build
   artifacts:
     paths:
