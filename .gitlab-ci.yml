@@ -10,7 +10,7 @@ publish:
     - clickable publish "$CI_COMMIT_MESSAGE"
   artifacts:
     paths:
-      - build/*.click
+      - prebuilt/build/*.click
     expire_in: 1 week
 
 build:
@@ -24,5 +24,5 @@ build:
     - clickable clean build click-build
   artifacts:
     paths:
-      - build/*.click
+      - prebuilt/build/*.click
     expire_in: 1 week
