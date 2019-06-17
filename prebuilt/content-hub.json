@@ -1,0 +1,17 @@
+{
+    "destination": [
+        "all"
+    ],
+    "share": [
+        "pictures",
+        "music",
+        "documents",
+        "contacts",
+        "videos",
+        "ebooks",
+        "events"
+    ],
+    "source": [
+        "all"
+    ]
+}
