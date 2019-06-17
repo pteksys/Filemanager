@@ -2,31 +2,21 @@ publish:
   image: clickable/ci-16.04-armhf
   only:
     - tags
-  before_script:
-    - mkdir build
-    - cp -R src/app/qml prebuilt/qml
   script:
-    - cd prebuilt
     - clickable clean build click-build
-    - cd build
-    - rename 's/armhf/all/' *.click
-    - cd ..
     - clickable publish "$CI_COMMIT_MESSAGE"
   artifacts:
     paths:
-      - prebuilt/build/*.click
+      - build/*.click
     expire_in: 1 week
 
 build:
   image: clickable/ci-16.04-armhf
   except:
     - tags
-  before_script:
-    - cp -R src/app/qml prebuilt/qml
   script:
-    - cd prebuilt
     - clickable clean build click-build
   artifacts:
     paths:
-      - prebuilt/build/*.click
+      - build/*.click
     expire_in: 1 week

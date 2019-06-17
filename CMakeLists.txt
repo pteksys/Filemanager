@@ -9,7 +9,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -fno-permissive -pedantic -Wa
 # Standard install paths
 include(GNUInstallDirs)
 
-option(INSTALL_TESTS "Install the tests on make install" on)
+#option(INSTALL_TESTS "Install the tests on make install" on)
 option(CLICK_MODE "Installs to a contained location" on)
 
 set(APP_NAME filemanager)
@@ -117,8 +117,8 @@ install(FILES ${CMAKE_CURRENT_BINARY_DIR}/${DESKTOP_FILE}
     DESTINATION ${DESKTOP_DIR})
 
 # Tests
-enable_testing()
+#enable_testing()
 
 add_subdirectory(po)
-add_subdirectory(tests)
+#add_subdirectory(tests)
 add_subdirectory(src)
