@@ -6,6 +6,13 @@ source model where the code is available to anyone to branch and hack on. The
 ubuntu file manager app originally followed a test driven development (TDD) where tests were
 written in parallel to feature implementation to help spot regressions easier.
 
+Attention!
+==========
+Currently the ci is unable to build the c++ parts due to memory lag. As workaround the app is
+built into the prebuilt directory externally and fetches the qml parts from src. From this dir the
+pure app is built by the ci as expected. So before publishing a new version be sure to keep that
+dir upstream!
+
 Telegram group
 ==============
 Join the Telgram group by clicking this link
