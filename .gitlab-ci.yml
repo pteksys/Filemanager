@@ -7,7 +7,7 @@ publish:
     - cd prebuilt
     - clickable clean build click-build
     - cd build
-    - rename 's/armhf/all/'' *.click
+    - rename 's/armhf/all/' *.click
     - cd ..
     - clickable publish "$CI_COMMIT_MESSAGE"
   artifacts:
