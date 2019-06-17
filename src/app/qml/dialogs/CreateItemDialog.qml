@@ -30,8 +30,9 @@ Dialog {
 
             if (inputText.text !== '') {
                 var fileName = inputText.text.trim()
-                folderModel.touch(fileName)
-                folderPage.tooltipMsg = "Created file"
+                if (folderModel.touch(fileName)) {
+                    folderPage.tooltipMsg = i18n.tr("Created file '%1'").arg(inputText.text)
+                }
             } else {
                 console.log("Empty file name, ignored")
             }
@@ -49,8 +50,9 @@ Dialog {
             console.log("Create folder accepted", inputText.text)
             if (inputText.text !== '') {
                 var folderName = inputText.text.trim()
-                folderModel.mkdir(folderName)
-                folderPage.tooltipMsg = "Created folder"
+                if (folderModel.mkdir(folderName)) {
+                    folderPage.tooltipMsg = i18n.tr("Created folder '%1'").arg(inputText.text)
+                }
             } else {
                 console.log("Empty directory name, ignored")
             }

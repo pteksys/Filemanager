@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-12 18:11+0000\n"
+"POT-Creation-Date: 2019-06-17 07:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgstr ""
 #: ../src/app/qml/actions/Cancel.qml:6
 #: ../src/app/qml/authentication/FingerprintDialog.qml:69
 #: ../src/app/qml/authentication/PasswordDialog.qml:80
-#: ../src/app/qml/dialogs/CreateItemDialog.qml:63
+#: ../src/app/qml/dialogs/CreateItemDialog.qml:65
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:35
 #: ../src/app/qml/dialogs/FileActionDialog.qml:45
 #: ../src/app/qml/dialogs/FileOperationProgressDialog.qml:44
@@ -250,8 +250,18 @@ msgstr ""
 msgid "Create file"
 msgstr ""
 
-#: ../src/app/qml/dialogs/CreateItemDialog.qml:45
+#: ../src/app/qml/dialogs/CreateItemDialog.qml:34
+#, qt-format
+msgid "Created file '%1'"
+msgstr ""
+
+#: ../src/app/qml/dialogs/CreateItemDialog.qml:46
 msgid "Create Folder"
+msgstr ""
+
+#: ../src/app/qml/dialogs/CreateItemDialog.qml:54
+#, qt-format
+msgid "Created folder '%1'"
 msgstr ""
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:23
@@ -412,9 +422,24 @@ msgid_plural "%1 items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:88
+#: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:63
+#, qt-format
+msgid "Added '%1' to Bookmarks"
+msgstr ""
+
+#: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:81
+msgid "Cleared clipboard"
+msgstr ""
+
+#: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:90
 msgid "Paste files"
 msgstr ""
+
+#: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:92
+msgid "Pasted item"
+msgid_plural "Pasted items"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:21
 msgid "Save here"

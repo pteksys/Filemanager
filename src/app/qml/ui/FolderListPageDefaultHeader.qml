@@ -60,6 +60,7 @@ PageHeader {
             onTriggered: {
                 print(text)
                 folderModel.places.addLocation(folderModel.model.path)
+                folderPage.tooltipMsg = i18n.tr("Added '%1' to Bookmarks").arg(folderModel.model.fileName)
 
             }
         },
@@ -77,6 +78,7 @@ PageHeader {
             onTriggered: {
                 console.log("Clearing clipboard")
                 folderModel.model.clearClipboard()
+                folderPage.tooltipMsg = i18n.tr("Cleared clipboard")
             }
         },
         FMActions.FilePaste {
@@ -87,6 +89,7 @@ PageHeader {
                 console.log("Pasting to current folder items of count " + folderModel.model.clipboardUrlsCounter)
                 fileOperationDialog.startOperation(i18n.tr("Paste files"))
                 folderModel.model.paste()
+                folderPage.tooltipMsg = i18n.tr("Pasted item", "Pasted items", folderModel.model.clipboardUrlsCounter)
 
                 // We want this in a mobile environment.
                 folderModel.model.clearClipboard()

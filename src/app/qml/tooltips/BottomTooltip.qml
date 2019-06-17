@@ -13,6 +13,8 @@ Template.Tooltip {
     Rectangle {
         anchors.fill: parent
         color: theme.palette.normal.background
+        border.width: 1
+        border.color: theme.palette.normal.base
         Text {
             anchors.centerIn: parent
             color: theme.palette.normal.backgroundText
