@@ -26,6 +26,7 @@ Dialog {
     Button {
         id: openExternallyButton
         text: i18n.tr("Open with another app")
+        color: UbuntuColors.green
         onClicked: {
             PopupUtils.close(dialog)
             openLocalFile(filePath)
