@@ -12,6 +12,8 @@ ConfirmDialog {
     property string filePath
     property string fileName
 
+    destructiveDialog: true
+
     title: i18n.tr("Delete")
     text: i18n.tr("Are you sure you want to permanently delete '%1'?").arg(fileName)
 

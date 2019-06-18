@@ -22,6 +22,8 @@ import Ubuntu.Components.Popups 1.3
 Dialog {
     id: root
 
+    property bool destructiveDialog
+
     signal accepted
     signal rejected
 
@@ -29,6 +31,8 @@ Dialog {
         id: okButton
         objectName: "okButton"
         text: i18n.tr("OK")
+        color: destructiveDialog ? UbuntuColors.red : UbuntuColors.green
+
         onClicked: {
             accepted()
             PopupUtils.close(root)
@@ -40,17 +44,7 @@ Dialog {
         objectName: "cancelButton"
         text: i18n.tr("Cancel")
 
-        gradient: Gradient {
-            GradientStop {
-                position: 0
-                color: "gray"
-            }
-
-            GradientStop {
-                position: 1
-                color: "lightgray"
-            }
-        }
+        color: UbuntuColors.graphite
 
         onClicked: {
             rejected()
