@@ -31,20 +31,20 @@ Dialog {
     }
 
     Button {
-        id: cancelButton
-        text: i18n.tr("Cancel")
-        visible: true
-        onClicked: {
-            archives.cancelArchiveExtraction()
-        }
-    }
-
-    Button {
         id: okButton
         text: i18n.tr("OK")
         visible: false
         onClicked: {
             PopupUtils.close(dialog)
+        }
+    }
+
+    Button {
+        id: cancelButton
+        text: i18n.tr("Cancel")
+        visible: true
+        onClicked: {
+            archives.cancelArchiveExtraction()
         }
     }
 

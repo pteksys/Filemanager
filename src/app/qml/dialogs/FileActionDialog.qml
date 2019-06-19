@@ -45,16 +45,6 @@ Dialog {
         text: i18n.tr("Cancel")
         onClicked: PopupUtils.close(root)
 
-        gradient: Gradient {
-            GradientStop {
-                position: 0
-                color: "gray"
-            }
-
-            GradientStop {
-                position: 1
-                color: "lightgray"
-            }
-        }
+        color: UbuntuColors.graphite
     }
 }
