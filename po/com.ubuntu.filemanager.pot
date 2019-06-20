@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-17 08:12+0000\n"
+"POT-Creation-Date: 2019-06-20 08:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,13 +32,13 @@ msgstr ""
 #: ../src/app/qml/authentication/FingerprintDialog.qml:69
 #: ../src/app/qml/authentication/PasswordDialog.qml:80
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:65
-#: ../src/app/qml/dialogs/ExtractingDialog.qml:35
+#: ../src/app/qml/dialogs/ExtractingDialog.qml:44
 #: ../src/app/qml/dialogs/FileActionDialog.qml:45
 #: ../src/app/qml/dialogs/FileOperationProgressDialog.qml:44
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:96
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:38
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:64
-#: ../src/app/qml/dialogs/templates/ConfirmDialog.qml:41
+#: ../src/app/qml/dialogs/templates/ConfirmDialog.qml:45
 #: ../src/app/qml/dialogs/templates/ConfirmDialogWithInput.qml:60
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:50
 #: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:31
@@ -46,8 +46,8 @@ msgid "Cancel"
 msgstr ""
 
 #: ../src/app/qml/actions/Delete.qml:5
-#: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:14
-#: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:15
+#: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:16
+#: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:17
 msgid "Delete"
 msgstr ""
 
@@ -215,18 +215,18 @@ msgstr ""
 msgid "Are you sure you want to extract '%1' here?"
 msgstr ""
 
-#: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:15
-#: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:16
+#: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:17
+#: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:18
 #, qt-format
 msgid "Are you sure you want to permanently delete '%1'?"
 msgstr ""
 
-#: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:15
+#: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:17
 msgid "these files"
 msgstr ""
 
-#: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:18
-#: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:21
+#: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:20
+#: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:23
 msgid "Deleting files"
 msgstr ""
 
@@ -269,9 +269,9 @@ msgstr ""
 msgid "Extracting archive '%1'"
 msgstr ""
 
-#: ../src/app/qml/dialogs/ExtractingDialog.qml:44
+#: ../src/app/qml/dialogs/ExtractingDialog.qml:35
 #: ../src/app/qml/dialogs/NotifyDialog.qml:27
-#: ../src/app/qml/dialogs/templates/ConfirmDialog.qml:31
+#: ../src/app/qml/dialogs/templates/ConfirmDialog.qml:33
 #: ../src/app/qml/dialogs/templates/ConfirmDialogWithInput.qml:49
 msgid "OK"
 msgstr ""
@@ -424,7 +424,7 @@ msgstr[1] ""
 
 #: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:63
 #, qt-format
-msgid "Added '%1' to Bookmarks"
+msgid "Added '%1' to Places"
 msgstr ""
 
 #: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:81
