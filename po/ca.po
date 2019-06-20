@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2019-05-13 21:02+0000\n"
+"PO-Revision-Date: 2019-06-20 02:04+0000\n"
 "Last-Translator: Joan CiberSheep <cibersheep@gmail.com>\n"
 "Language-Team: Catalan <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/ca/>\n"
@@ -184,11 +184,11 @@ msgstr "Es necessita contrasenya per accedir al contingut restringit"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:57
 msgid "passphrase (default is 0000 if unset)"
-msgstr "contrasenya (si no s'ha triada cap, és 0000)"
+msgstr "contrasenya (0000 si no s'ha definit cap)"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:57
 msgid "passcode (default is 0000 if unset)"
-msgstr "codi d'accés (si no s'ha definit cap, és 0000)"
+msgstr "codi d'accés (0000 si no s'ha definit cap)"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:69
 msgid "Authentication failed. Please retry"
@@ -196,7 +196,7 @@ msgstr "Ha fallat l'autenticació. Torneu-ho a provar"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:74
 msgid "Authenticate"
-msgstr "Autenticació"
+msgstr "Autentica"
 
 #: ../src/app/qml/backend/FolderListModel.qml:123
 #, qt-format
@@ -280,7 +280,7 @@ msgstr "S'està extraient l'arxiu «%1»"
 #: ../src/app/qml/dialogs/templates/ConfirmDialog.qml:31
 #: ../src/app/qml/dialogs/templates/ConfirmDialogWithInput.qml:49
 msgid "OK"
-msgstr "Acceptar"
+msgstr "D'acord"
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:59
 msgid "Extracting failed"
