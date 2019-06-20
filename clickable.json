@@ -1,4 +1,5 @@
 {
   "template": "cmake",
-  "kill": "filemanager"
+  "kill": "filemanager",
+  "postbuild": "../postbuild.sh"
 }

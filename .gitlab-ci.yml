@@ -4,7 +4,6 @@ publish:
     - tags
   before_script:
     - mkdir build
-    - cp -R src/app/qml prebuilt/qml
   script:
     - cd prebuilt
     - clickable clean build click-build
@@ -21,8 +20,6 @@ build:
   image: clickable/ci-16.04-armhf
   except:
     - tags
-  before_script:
-    - cp -R src/app/qml prebuilt/qml
   script:
     - cd prebuilt
     - clickable clean build click-build
