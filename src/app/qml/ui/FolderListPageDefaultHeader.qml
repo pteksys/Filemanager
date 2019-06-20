@@ -60,7 +60,7 @@ PageHeader {
             onTriggered: {
                 print(text)
                 folderModel.places.addLocation(folderModel.model.path)
-                folderPage.tooltipMsg = i18n.tr("Added '%1' to Bookmarks").arg(folderModel.model.fileName)
+                folderPage.tooltipMsg = i18n.tr("Added '%1' to Places").arg(folderModel.model.fileName)
 
             }
         },
