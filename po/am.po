@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2018-12-02 00:00+0000\n"
+"PO-Revision-Date: 2019-06-23 20:04+0000\n"
 "Last-Translator: Samson <sambelet@yahoo.com>\n"
 "Language-Team: Amharic <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/am/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Launchpad-Export-Date: 2017-05-01 06:26+0000\n"
 
 #: ../src/app/qml/actions/AddBookmark.qml:6
@@ -346,9 +346,8 @@ msgid "Open file"
 msgstr "ፋይል መክፈቻ"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:9
-#, fuzzy
 msgid "What do you want to do with the clicked file?"
-msgstr "ማህደሩን እዚህ ማራገፍ ይፈልጋሉ?"
+msgstr "እርስዎ የ ተጫኑትን ፋይል ምን ማድረግ ነው የሚፈልጉት?"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:22
 msgid "Preview"
@@ -433,16 +432,15 @@ msgstr "የ ፋይል ተግባር ስህተት"
 
 #: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:21
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:21
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1 item"
 msgid_plural "%1 items"
-msgstr[0] "አካሎች"
+msgstr[0] "አካል"
 msgstr[1] "አካሎች"
 
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:21
-#, fuzzy
 msgid "Save here"
-msgstr "ማስቀመጫ"
+msgstr "እዚህ ማስቀመጫ"
 
 #: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:18
 #, qt-format
@@ -488,9 +486,8 @@ msgid "XL"
 msgstr ""
 
 #: ../src/app/qml/ui/ViewPopover.qml:52
-#, fuzzy
 msgid "List size"
-msgstr "ዝርዝር"
+msgstr "የ ዝርዝር መጠን"
 
 #: ../src/app/qml/ui/ViewPopover.qml:60
 msgid "Sort By"
