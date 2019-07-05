@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2018-11-18 17:33+0000\n"
+"PO-Revision-Date: 2019-07-06 22:48+0000\n"
 "Last-Translator: Aitzol Berasategi <aitzol@disroot.org>\n"
 "Language-Team: Basque <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/eu/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Launchpad-Export-Date: 2017-04-08 06:04+0000\n"
 
 #: ../src/app/qml/actions/AddBookmark.qml:6
@@ -163,7 +163,7 @@ msgstr "Pasahitza gorde"
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:51
 #: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:26
 msgid "Cancel"
-msgstr "Ezeztatu"
+msgstr "Utzi"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:126
 #, fuzzy
