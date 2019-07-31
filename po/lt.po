@@ -8,17 +8,18 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2017-11-22 10:41+0000\n"
-"Last-Translator: Domantas <domantas.mauruca@gmail.com>\n"
+"PO-Revision-Date: 2019-08-02 15:49+0000\n"
+"Last-Translator: Moo <moose@mail.ru>\n"
 "Language-Team: Lithuanian <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/lt/>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
-"%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.15\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
+"19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
+"1 : 2);\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Launchpad-Export-Date: 2017-04-08 06:04+0000\n"
 
 #: ../src/app/qml/actions/AddBookmark.qml:6
@@ -29,7 +30,7 @@ msgstr ""
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:18
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:33
 msgid "Extract archive"
-msgstr ""
+msgstr "Išskleisti archyvą"
 
 #: ../src/app/qml/actions/Delete.qml:5
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:14
@@ -40,7 +41,7 @@ msgstr "Ištrinti"
 
 #: ../src/app/qml/actions/FileClearSelection.qml:8
 msgid "Clear clipboard"
-msgstr ""
+msgstr "Išvalyti iškarpinę"
 
 #: ../src/app/qml/actions/FileCopy.qml:5
 #: ../src/app/qml/panels/SelectionBottomBar.qml:45
@@ -50,46 +51,46 @@ msgstr "Kopijuoti"
 #: ../src/app/qml/actions/FileCut.qml:5
 #: ../src/app/qml/panels/SelectionBottomBar.qml:60
 msgid "Cut"
-msgstr ""
+msgstr "Iškirpti"
 
 #: ../src/app/qml/actions/FilePaste.qml:30
 #, qt-format
 msgid "Paste %1 file"
 msgid_plural "Paste %1 files"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Įdėti %1 failą"
+msgstr[1] "Įdėti %1 failus"
+msgstr[2] "Įdėti %1 failų"
 
 #: ../src/app/qml/actions/GoBack.qml:5
 msgid "Go back"
-msgstr ""
+msgstr "Grįžti"
 
 #: ../src/app/qml/actions/GoNext.qml:5
 msgid "Go next"
-msgstr ""
+msgstr "Pirmyn"
 
 #: ../src/app/qml/actions/GoTo.qml:6
 msgid "Go To"
-msgstr ""
+msgstr "Pereiti į"
 
 #: ../src/app/qml/actions/NewItem.qml:6
 msgid "New Item"
-msgstr ""
+msgstr "Naujas elementas"
 
 #: ../src/app/qml/actions/PlacesBookmarks.qml:6
 #: ../src/app/qml/ui/PlacesPage.qml:16
 msgid "Places"
-msgstr ""
+msgstr "Vietos"
 
 #: ../src/app/qml/actions/Properties.qml:6
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:54
 msgid "Properties"
-msgstr ""
+msgstr "Savybės"
 
 #: ../src/app/qml/actions/Rename.qml:5
 #: ../src/app/qml/dialogs/ConfirmRenameDialog.qml:20
 msgid "Rename"
-msgstr ""
+msgstr "Pervadinti"
 
 #: ../src/app/qml/actions/Select.qml:5
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:60
@@ -102,7 +103,7 @@ msgstr ""
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
 msgid "Select All"
-msgstr ""
+msgstr "Žymėti visus"
 
 #: ../src/app/qml/actions/Settings.qml:6
 msgid "Settings"
@@ -110,23 +111,23 @@ msgstr "Nustatymai"
 
 #: ../src/app/qml/actions/Share.qml:5
 msgid "Share"
-msgstr "Dalintis"
+msgstr "Bendrinti"
 
 #: ../src/app/qml/actions/TabsAdd.qml:5
 msgid "Add tab"
-msgstr ""
+msgstr "Pridėti kortelę"
 
 #: ../src/app/qml/actions/TabsCloseThis.qml:5
 msgid "Close this tab"
-msgstr ""
+msgstr "Užverti šią kortelę"
 
 #: ../src/app/qml/actions/TabsOpenInNewTab.qml:5
 msgid "Open in a new tab"
-msgstr ""
+msgstr "Atverti naujoje kortelėje"
 
 #: ../src/app/qml/actions/UnlockFullAccess.qml:6
 msgid "Unlock"
-msgstr ""
+msgstr "Atrakinti"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:26
 #: ../src/app/qml/authentication/PasswordDialog.qml:43
@@ -163,7 +164,7 @@ msgstr "Slaptažodis"
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:51
 #: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:26
 msgid "Cancel"
-msgstr "Atšaukti"
+msgstr "Atsisakyti"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:126
 msgid "Authentication failed!"
@@ -171,7 +172,7 @@ msgstr ""
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:137
 msgid "Please retry"
-msgstr ""
+msgstr "Bandykite dar kartą"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:35
 msgid "Authentication failed"
@@ -199,21 +200,21 @@ msgstr ""
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:74
 msgid "Authenticate"
-msgstr ""
+msgstr "Nustatyti tapatybę"
 
 #: ../src/app/qml/backend/FolderListModel.qml:123
 #, qt-format
 msgid "%1 file"
-msgstr ""
+msgstr "%1 failas"
 
 #: ../src/app/qml/backend/FolderListModel.qml:124
 #, qt-format
 msgid "%1 files"
-msgstr ""
+msgstr "%1 failai(-ų)"
 
 #: ../src/app/qml/backend/FolderListModel.qml:135
 msgid "Folder"
-msgstr ""
+msgstr "Aplankas"
 
 #: ../src/app/qml/components/TextualButtonStyle.qml:48
 #: ../src/app/qml/components/TextualButtonStyle.qml:56
@@ -223,11 +224,11 @@ msgstr ""
 
 #: ../src/app/qml/content-hub/FileOpener.qml:27
 msgid "Open with"
-msgstr ""
+msgstr "Atverti naudojant"
 
 #: ../src/app/qml/dialogs/ConfirmExtractDialog.qml:15
 msgid "Extract Archive"
-msgstr ""
+msgstr "Išskleisti archyvą"
 
 #: ../src/app/qml/dialogs/ConfirmExtractDialog.qml:16
 #, qt-format
@@ -238,7 +239,7 @@ msgstr ""
 #: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:16
 #, qt-format
 msgid "Are you sure you want to permanently delete '%1'?"
-msgstr ""
+msgstr "Ar tikrai norite negrįžtamai ištrinti \"%1\"?"
 
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:15
 msgid "these files"
@@ -251,32 +252,32 @@ msgstr ""
 
 #: ../src/app/qml/dialogs/ConfirmRenameDialog.qml:21
 msgid "Enter a new name"
-msgstr ""
+msgstr "Įveskite naują pavadinimą"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:13
 msgid "Create Item"
-msgstr ""
+msgstr "Sukurti elementą"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:14
 msgid "Enter name for new item"
-msgstr ""
+msgstr "Įveskite naujo elemento pavadinimą"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:18
 msgid "Item name"
-msgstr ""
+msgstr "Elemento pavadinimas"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:24
 msgid "Create file"
-msgstr ""
+msgstr "Sukurti failą"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:43
 msgid "Create Folder"
-msgstr ""
+msgstr "Sukurti aplanką"
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:23
 #, qt-format
 msgid "Extracting archive '%1'"
-msgstr ""
+msgstr "Išskleidžiamas archyvas \"%1\""
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:44
 #: ../src/app/qml/dialogs/NotifyDialog.qml:27
@@ -287,7 +288,7 @@ msgstr "Gerai"
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:59
 msgid "Extracting failed"
-msgstr ""
+msgstr "Išskleidimas nepavyko"
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:60
 #, qt-format
@@ -301,11 +302,11 @@ msgstr ""
 #: ../src/app/qml/dialogs/FileActionDialog.qml:31
 #, qt-format
 msgid "For file: %1"
-msgstr ""
+msgstr "Failui: %1"
 
 #: ../src/app/qml/dialogs/FileActionDialog.qml:35
 msgid "Open"
-msgstr "Atidaryti"
+msgstr "Atverti"
 
 #: ../src/app/qml/dialogs/FileOperationProgressDialog.qml:27
 msgid "Operation in progress"
@@ -317,7 +318,7 @@ msgstr ""
 
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:45
 msgid "User"
-msgstr ""
+msgstr "Naudotojas"
 
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:58
 msgid "Password"
@@ -325,11 +326,11 @@ msgstr "Slaptažodis"
 
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:72
 msgid "Save password"
-msgstr ""
+msgstr "Įrašyti slaptažodį"
 
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:108
 msgid "Ok"
-msgstr ""
+msgstr "Gerai"
 
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:8
 msgid "Archive file"
@@ -342,12 +343,11 @@ msgstr ""
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:28
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:44
 msgid "Open with another app"
-msgstr ""
+msgstr "Atverti naudojant kitą programėlę"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:8
-#, fuzzy
 msgid "Open file"
-msgstr "Atidaryti"
+msgstr "Atverti failą"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:9
 msgid "What do you want to do with the clicked file?"
@@ -360,7 +360,7 @@ msgstr ""
 #: ../src/app/qml/filemanager.qml:170
 #, qt-format
 msgid "File %1"
-msgstr ""
+msgstr "Failas %1"
 
 #: ../src/app/qml/filemanager.qml:170
 #, qt-format
@@ -370,11 +370,11 @@ msgstr ""
 #: ../src/app/qml/filemanager.qml:171
 #, qt-format
 msgid "Saved to: %1"
-msgstr ""
+msgstr "Įrašyta: %1"
 
 #: ../src/app/qml/panels/DefaultBottomBar.qml:24
 msgid "Paste files"
-msgstr ""
+msgstr "Įdėti failus"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:34
 msgid "Readable"
@@ -390,7 +390,7 @@ msgstr ""
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:100
 msgid "Where:"
-msgstr ""
+msgstr "Kur:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:127
 msgid "Created:"
@@ -406,7 +406,7 @@ msgstr ""
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:176
 msgid "Permissions:"
-msgstr ""
+msgstr "Leidimai:"
 
 #: ../src/app/qml/ui/FolderListPage.qml:241
 #: ../src/app/qml/ui/FolderListPage.qml:296
@@ -420,11 +420,11 @@ msgstr ""
 
 #: ../src/app/qml/ui/FolderListPage.qml:282
 msgid "No files"
-msgstr ""
+msgstr "Failų nėra"
 
 #: ../src/app/qml/ui/FolderListPage.qml:283
 msgid "This folder is empty."
-msgstr ""
+msgstr "Šis aplankas yra tuščias."
 
 #: ../src/app/qml/ui/FolderListPage.qml:297
 msgid "Authentication is required in order to see the content of this folder."
@@ -432,21 +432,20 @@ msgstr ""
 
 #: ../src/app/qml/ui/FolderListPage.qml:313
 msgid "File operation error"
-msgstr ""
+msgstr "Failų operacijos klaida"
 
 #: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:21
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:21
 #, qt-format
 msgid "%1 item"
 msgid_plural "%1 items"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%1 elementas"
+msgstr[1] "%1 elementai"
+msgstr[2] "%1 elementų"
 
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:21
-#, fuzzy
 msgid "Save here"
-msgstr "Išsaugoti"
+msgstr "Įrašyti čia"
 
 #: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:18
 #, qt-format
@@ -458,23 +457,23 @@ msgstr[2] ""
 
 #: ../src/app/qml/ui/ViewPopover.qml:24
 msgid "Show Hidden Files"
-msgstr ""
+msgstr "Rodyti paslėptus failus"
 
 #: ../src/app/qml/ui/ViewPopover.qml:37
 msgid "View As"
-msgstr ""
+msgstr "Rodyti kaip"
 
 #: ../src/app/qml/ui/ViewPopover.qml:39
 msgid "List"
-msgstr ""
+msgstr "Sąrašas"
 
 #: ../src/app/qml/ui/ViewPopover.qml:39
 msgid "Icons"
-msgstr ""
+msgstr "Piktogramos"
 
 #: ../src/app/qml/ui/ViewPopover.qml:44
 msgid "Grid size"
-msgstr ""
+msgstr "Tinklelio dydis"
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "S"
@@ -494,27 +493,27 @@ msgstr ""
 
 #: ../src/app/qml/ui/ViewPopover.qml:52
 msgid "List size"
-msgstr ""
+msgstr "Sąrašo dydis"
 
 #: ../src/app/qml/ui/ViewPopover.qml:60
 msgid "Sort By"
-msgstr ""
+msgstr "Rikiuoti pagal"
 
 #: ../src/app/qml/ui/ViewPopover.qml:62
 msgid "Name"
-msgstr ""
+msgstr "Pavadinimas"
 
 #: ../src/app/qml/ui/ViewPopover.qml:62
 msgid "Date"
-msgstr ""
+msgstr "Data"
 
 #: ../src/app/qml/ui/ViewPopover.qml:62
 msgid "Size"
-msgstr ""
+msgstr "Dydis"
 
 #: ../src/app/qml/ui/ViewPopover.qml:67
 msgid "Sort Order"
-msgstr ""
+msgstr "Rikiavimo tvarka"
 
 #: ../src/app/qml/ui/ViewPopover.qml:74
 msgid "Theme"
@@ -530,17 +529,17 @@ msgstr ""
 
 #: ../src/app/qml/views/FolderDelegateActions.qml:40
 msgid "Folder not accessible"
-msgstr ""
+msgstr "Aplankas nepasiekiamas"
 
 #. TRANSLATORS: this refers to a folder name
 #: ../src/app/qml/views/FolderDelegateActions.qml:42
 #, qt-format
 msgid "Can not access %1"
-msgstr ""
+msgstr "Nepavyksta pasiekti %1"
 
 #: ../src/app/qml/views/FolderDelegateActions.qml:136
 msgid "Could not rename"
-msgstr ""
+msgstr "Nepavyko pervadinti"
 
 #: ../src/app/qml/views/FolderDelegateActions.qml:137
 msgid ""
@@ -550,10 +549,9 @@ msgstr ""
 
 #: ../src/app/qml/views/FolderListView.qml:72
 msgid "Directories"
-msgstr ""
+msgstr "Katalogai"
 
 #: ../src/app/qml/views/FolderListView.qml:72
-#, fuzzy
 msgid "Files"
 msgstr "Failai"
 
@@ -567,11 +565,11 @@ msgstr ""
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:690
 msgid "Rename error"
-msgstr ""
+msgstr "Pervadinimo klaida"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:713
 msgid "Error creating new folder"
-msgstr ""
+msgstr "Klaida sukuriant naują aplanką"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:740
 msgid "Touch file error"
@@ -583,15 +581,15 @@ msgstr ""
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:320
 msgid "File or Directory does not exist"
-msgstr ""
+msgstr "Failo ar katalogo nėra"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:321
 msgid " does not exist"
-msgstr ""
+msgstr " nėra"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:326
 msgid "Cannot access File or Directory"
-msgstr ""
+msgstr "Nepavyksta pasiekti failo ar katalogo"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:327
 msgid " it needs Authentication"
@@ -599,7 +597,7 @@ msgstr ""
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:361
 msgid "Cannot copy/move items"
-msgstr ""
+msgstr "Nepavyksta nukopijuoti/perkelti failus"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:362
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1487
@@ -608,7 +606,7 @@ msgstr ""
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:642
 msgid "Could not remove the item "
-msgstr ""
+msgstr "Nepavyko pašalinti elemento "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:680
 msgid "Could not find a suitable name to backup"
@@ -616,7 +614,7 @@ msgstr ""
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:733
 msgid "Could not create the directory"
-msgstr ""
+msgstr "Nepavyko sukurti katalogą"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:738
 msgid "Could not create link to"
@@ -628,7 +626,7 @@ msgstr ""
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:756
 msgid "Could not open file"
-msgstr ""
+msgstr "Nepavyko atverti failo"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:772
 msgid "There is no space to copy"
@@ -636,15 +634,15 @@ msgstr ""
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:780
 msgid "Could not create file"
-msgstr ""
+msgstr "Nepavyko sukurti failo"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:837
 msgid "Could not remove the directory/file "
-msgstr ""
+msgstr "Nepavyko pašalinti katalogą/failą "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:850
 msgid "Could not move the directory/file "
-msgstr ""
+msgstr "Nepavyko perkelti katalogą/failą "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1089
 msgid "Write error in "
@@ -673,7 +671,7 @@ msgstr ""
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1479
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1486
 msgid "Cannot move items"
-msgstr ""
+msgstr "Nepavyksta perkelti elementus"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1481
 msgid "origin and destination folders are the same"
@@ -693,8 +691,8 @@ msgstr ""
 
 #: com.ubuntu.filemanager.desktop.in.in.h:1
 msgid "File Manager"
-msgstr ""
+msgstr "Failų tvarkytuvė"
 
 #: com.ubuntu.filemanager.desktop.in.in.h:2
 msgid "folder;manager;explore;disk;filesystem;"
-msgstr ""
+msgstr "aplankas;tvarkytuvė;naršyti;diskas;failų sistema;"
