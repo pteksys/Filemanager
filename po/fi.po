@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2019-07-17 18:48+0000\n"
+"PO-Revision-Date: 2019-08-31 04:50+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/fi/>\n"
@@ -95,9 +95,8 @@ msgid "Select"
 msgstr "Valitse"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
-#, fuzzy
 msgid "Select None"
-msgstr "Valitse"
+msgstr "Ei valintaa"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
 msgid "Select All"
@@ -350,13 +349,12 @@ msgid "Open file"
 msgstr "Avaa tiedosto"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:9
-#, fuzzy
 msgid "What do you want to do with the clicked file?"
-msgstr "Haluatko purkaa arkiston tähän?"
+msgstr "Mitä haluat tehdä valitulla tiedostolla?"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:22
 msgid "Preview"
-msgstr ""
+msgstr "Esikatsele"
 
 #: ../src/app/qml/filemanager.qml:170
 #, qt-format
