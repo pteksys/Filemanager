@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2019-08-11 18:49+0000\n"
+"PO-Revision-Date: 2019-09-01 16:50+0000\n"
 "Last-Translator: Moo <moose@mail.ru>\n"
 "Language-Team: Lithuanian <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/lt/>\n"
@@ -133,7 +133,7 @@ msgstr "Atrakinti"
 #: ../src/app/qml/authentication/PasswordDialog.qml:43
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:28
 msgid "Authentication required"
-msgstr ""
+msgstr "Reikalingas tapatybės nustatymas"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:27
 msgid "Use your fingerprint to access restricted content"
@@ -176,7 +176,7 @@ msgstr "Bandykite dar kartą"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:35
 msgid "Authentication failed"
-msgstr ""
+msgstr "Tapatybės nustatymas nepavyko"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:45
 msgid "Your passphrase is required to access restricted content"
