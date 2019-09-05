@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2019-09-01 16:50+0000\n"
+"PO-Revision-Date: 2019-09-06 19:50+0000\n"
 "Last-Translator: Moo <moose@mail.ru>\n"
 "Language-Team: Lithuanian <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/lt/>\n"
@@ -557,7 +557,7 @@ msgstr "Failai"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:360
 msgid "Unknown"
-msgstr "Nežinomas"
+msgstr "Nežinoma"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:487
 msgid "path or url may not exist or cannot be read"
