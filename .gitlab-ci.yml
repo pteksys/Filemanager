@@ -6,14 +6,14 @@ publish:
     - mkdir build
   script:
     - cd prebuilt
-    - clickable clean build click-build
+    - clickable clean build
     - cd build
     - rename 's/armhf/all/' *.click
     - cd ..
     - clickable publish "$CI_COMMIT_MESSAGE"
   artifacts:
     paths:
-      - prebuilt/build/*.click
+      - prebuilt/build/arm-linux-gnueabihf/app/*.click
     expire_in: 1 week
 
 build:
@@ -22,8 +22,8 @@ build:
     - tags
   script:
     - cd prebuilt
-    - clickable clean build click-build
+    - clickable clean build
   artifacts:
     paths:
-      - prebuilt/build/*.click
+      - build/arm-linux-gnueabihf/app/*.click
     expire_in: 1 week
