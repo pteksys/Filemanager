@@ -13,7 +13,7 @@ publish:
     - clickable publish "$CI_COMMIT_MESSAGE"
   artifacts:
     paths:
-      - prebuilt/build/arm-linux-gnueabihf/app/*.click
+      - prebuilt/build/all/app/*.click
     expire_in: 1 week
 
 build:
@@ -25,5 +25,5 @@ build:
     - clickable clean build
   artifacts:
     paths:
-      - build/arm-linux-gnueabihf/app/*.click
+      - prebuilt/build/all/app/*.click
     expire_in: 1 week

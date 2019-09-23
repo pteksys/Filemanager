@@ -138,6 +138,7 @@ QtObject {
                 var props = {
                     "modelRow" : model.index,
                     "inputText" : model.fileName,
+                    "placeholderText" : model.fileName,
                     "folderModel": folderModel.model
                 }
 
