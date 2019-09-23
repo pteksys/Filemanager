@@ -37,6 +37,14 @@ ScrollView {
         anchors.fill: parent
         model: folderModel.model
 
+        PullToRefresh {
+            onRefresh: {
+                refreshing = true
+                folderModel.goTo(folderModel.model.filePath)
+                refreshing = false
+            }
+        }
+
         delegate: FolderListDelegate {
             id: delegate
 

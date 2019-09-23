@@ -52,6 +52,15 @@ ScrollView {
         cellHeight: cellWidth + units.gu(2)
 
         model: folderModel.model
+
+        PullToRefresh {
+            onRefresh: {
+                refreshing = true
+                folderModel.goTo(folderModel.model.filePath)
+                refreshing = false
+            }
+        }
+
         delegate: FolderIconDelegate {
             id: delegate
             width: view.cellWidth
@@ -80,4 +89,3 @@ ScrollView {
         }
     }
 }
-
