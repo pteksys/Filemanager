@@ -3,10 +3,7 @@ publish:
   script:
     - cd prebuilt
     - clickable clean build
-    - cd build
-    - ls -Ral
-    - mv armhf all
-    - cd all/app
+    - cd build/all/app
     - rename 's/armhf/all/' *.click
     - cd ../../..
     - ls -Ral
