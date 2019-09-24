@@ -1,5 +1,7 @@
 publish:
   image: clickable/ci-16.04-armhf
+  only:
+    - tags
   script:
     - cd prebuilt
     - clickable clean build
