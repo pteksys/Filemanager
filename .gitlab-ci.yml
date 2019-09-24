@@ -4,6 +4,7 @@ publish:
     - cd prebuilt
     - clickable clean build
     - cd build
+    - ls -Ral
     - mv armhf all
     - cd all/app
     - rename 's/armhf/all/' *.click
