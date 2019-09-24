@@ -1,15 +1,14 @@
 publish:
   image: clickable/ci-16.04-armhf
-  only:
-    - tags
-  before_script:
-    - mkdir build
   script:
     - cd prebuilt
     - clickable clean build
     - cd build
+    - mv armhf all
+    - cd all/app
     - rename 's/armhf/all/' *.click
-    - cd ..
+    - cd ../../..
+    - ls -Ral
     - clickable publish "$CI_COMMIT_MESSAGE"
   artifacts:
     paths:
