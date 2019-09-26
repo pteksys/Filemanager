@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2019-07-10 11:48+0000\n"
+"PO-Revision-Date: 2019-09-27 08:51+0000\n"
 "Last-Translator: Eran <etherpulse@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/he/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.8\n"
 "X-Launchpad-Export-Date: 2017-04-08 06:04+0000\n"
 
 #: ../src/app/qml/actions/AddBookmark.qml:6
@@ -95,14 +95,12 @@ msgid "Select"
 msgstr "בחירה"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
-#, fuzzy
 msgid "Select None"
-msgstr "בחירה"
+msgstr "ביטול הבחירה"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
-#, fuzzy
 msgid "Select All"
-msgstr "בחירה"
+msgstr "בחירת הכול"
 
 #: ../src/app/qml/actions/Settings.qml:6
 msgid "Settings"
@@ -531,7 +529,7 @@ msgstr "אופן המיון"
 
 #: ../src/app/qml/ui/ViewPopover.qml:74
 msgid "Theme"
-msgstr ""
+msgstr "ערכת נושא"
 
 #: ../src/app/qml/ui/ViewPopover.qml:76
 msgid "Light"
