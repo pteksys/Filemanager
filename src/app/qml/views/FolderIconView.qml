@@ -25,6 +25,8 @@ ScrollView {
     property var folderListPage
     property var fileOperationDialog
     property var folderModel
+    property var selectedItem
+    property var openDefault
 
     property alias footer: view.footer
     property alias header: view.header
@@ -75,6 +77,7 @@ ScrollView {
                 folderListPage: folderIconView.folderListPage
                 folderModel: folderIconView.folderModel
                 fileOperationDialog: folderIconView.fileOperationDialog
+                openDefault: folderIconView.openDefault
             }
 
             onClicked: {
@@ -85,7 +88,10 @@ ScrollView {
                 }
             }
 
-            onPressAndHold: __delegateActions.listLongPress(model)
+            onPressAndHold: {
+                folderModel.primSelItem = model
+                __delegateActions.listLongPress(model)
+            }
         }
     }
 }

@@ -11,6 +11,7 @@ QtObject {
     property var folderListPage
     property var folderModel
     property var fileOperationDialog
+    property var openDefault
 
     function listLongPress(model) {
         fileSelectorMode = true
@@ -49,44 +50,32 @@ QtObject {
 
         else {  // Item is file
             console.log("Non dir clicked")
+            var path = model.filePath
+            var archiveType = folderModel.getArchiveType(model.fileName)
+            console.log(path)
+            console.log(model.mimeType)
 
             if (fileSelectorMode) {
                 folderModel.model.selectionObject.select(model.index,false,true)
             } else if (!folderSelectorMode){
-                if (model.isLocal) {    // Item is local file
-                    var archiveType = folderModel.getArchiveType(model.fileName)
-
-                    var props = {
-                        model: model,
-                        previewButtonVisible: model.mimeType.indexOf("image/") + model.mimeType.indexOf("audio/") + model.mimeType.indexOf("video/") > -3,
-                        extractButtonVisible: archiveType !== ""
+                if (openDefault) {
+                    if (model.mimeType.indexOf("image/") != -1) {
+                        Qt.openUrlExternally("photo://" + path)
+                    } else if (model.mimeType.indexOf("audio/") != -1) {
+                        Qt.openUrlExternally("music://" + path)
+                    } else if (model.mimeType.indexOf("video/") != -1) {
+                        Qt.openUrlExternally("video://" + path)
+                    } else if (model.mimeType.indexOf("pdf") != -1 || model.mimeType.indexOf("vnd") != -1) {
+                        Qt.openUrlExternally("document://" + path)
+                    } else if (archiveType !== "") {
+                        popup.extractArchive.connect(function() {
+                            folderModel.extractArchive(model.filePath, model.fileName, archiveType)
+                        })
+                    } else {
+                        openAdvanced(model)
                     }
-
-                    var popup = PopupUtils.open(Qt.resolvedUrl("../dialogs/OpenWithDialog.qml"), delegate, props)
-
-                    popup.showPreview.connect(function() {
-                        if(model.mimeType.indexOf("image/") !== -1)
-                            pageStack.push(Qt.resolvedUrl("../ui/ImagePreview.qml"), props)
-                        else {
-                            Qt.openUrlExternally("video://" + filePath)
-                        }
-                    })
-
-                    popup.extractArchive.connect(function() {
-                        folderModel.extractArchive(model.filePath, model.fileName, archiveType)
-                    })
-
-                    popup.openWith.connect(function() {
-                        openLocalFile(model.filePath)
-                    })
-
-                    popup.showProperties.connect(function() {
-                        PopupUtils.open(Qt.resolvedUrl("../ui/FileDetailsPopover.qml"), mainView,{ "model": model })
-                    })
-
-                } else {    // Item is remote file
-                    //download and open later when the signal downloadTemporaryComplete() arrives
-                    folderModel.model.downloadAsTemporaryFile(model.index)
+                } else {
+                    openAdvanced(model)
                 }
             }
         }
@@ -100,6 +89,44 @@ QtObject {
             strDate += ", " + model.fileSize //show the size even it is "Unknown"
         }
         return strDate;
+    }
+
+    function openAdvanced(model) {
+        if (model.isLocal) {    // Item is local file
+            var archiveType = folderModel.getArchiveType(model.fileName)
+
+            var props = {
+                model: model,
+                previewButtonVisible: model.mimeType.indexOf("image/") + model.mimeType.indexOf("audio/") + model.mimeType.indexOf("video/") > -3,
+                extractButtonVisible: archiveType !== ""
+            }
+
+            var popup = PopupUtils.open(Qt.resolvedUrl("../dialogs/OpenWithDialog.qml"), mainView, props)
+
+            popup.showPreview.connect(function() {
+                if(model.mimeType.indexOf("image/") !== -1)
+                    pageStack.push(Qt.resolvedUrl("../ui/ImagePreview.qml"), props)
+                else {
+                    Qt.openUrlExternally("video://" + filePath)
+                }
+            })
+
+            popup.extractArchive.connect(function() {
+                folderModel.extractArchive(model.filePath, model.fileName, archiveType)
+            })
+
+            popup.openWith.connect(function() {
+                openLocalFile(model.filePath)
+            })
+
+            popup.showProperties.connect(function() {
+                PopupUtils.open(Qt.resolvedUrl("../ui/FileDetailsPopover.qml"), mainView,{ "model": model })
+            })
+
+        } else {    // Item is remote file
+            //download and open later when the signal downloadTemporaryComplete() arrives
+            folderModel.model.downloadAsTemporaryFile(model.index)
+        }
     }
 
     property ActionList leadingActions: ActionList {
@@ -118,6 +145,11 @@ QtObject {
     }
 
     property ActionList trailingActions: ActionList {
+        FMActions.OpenAdvanced {
+            visible: openDefault && !model.isBrowsable
+            onTriggered: openAdvanced(model)
+        }
+
         FMActions.ArchiveExtract {
             visible: folderModel.getArchiveType(model.fileName) !== "" && importMode
             onTriggered: folderListPage.openFile(model, true)
