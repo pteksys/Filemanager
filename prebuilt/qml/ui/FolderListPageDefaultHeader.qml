@@ -58,7 +58,7 @@ PageHeader {
         FMActions.Terminal {
             onTriggered: {
                 print(text)
-                Qt.openUrlExternally("terminal:/" + folderModel.model.path)
+                Qt.openUrlExternally("terminal://" + folderModel.model.path)
             }
         },
         FMActions.NewItem {
