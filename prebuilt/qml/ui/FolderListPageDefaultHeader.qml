@@ -55,13 +55,10 @@ PageHeader {
                 PopupUtils.open(Qt.resolvedUrl("../ui/FileDetailsPopover.qml"), mainView,{ "model": folderModel.model })
             }
         },
-        FMActions.AddBookmark {
-            visible: !folderModel.model.clipboardUrlsCounter > 0
+        FMActions.Terminal {
             onTriggered: {
                 print(text)
-                folderModel.places.addLocation(folderModel.model.path)
-                folderPage.tooltipMsg = i18n.tr("Added '%1' to Places").arg(folderModel.model.fileName)
-
+                Qt.openUrlExternally("terminal:/" + folderModel.model.path)
             }
         },
         FMActions.NewItem {
@@ -70,6 +67,15 @@ PageHeader {
             onTriggered: {
                 print(text)
                 PopupUtils.open(Qt.resolvedUrl("../dialogs/CreateItemDialog.qml"), mainView, { folderPage: folderPage, folderModel: folderModel.model })
+            }
+        },
+        FMActions.AddBookmark {
+            visible: !folderModel.model.clipboardUrlsCounter > 0
+            onTriggered: {
+                print(text)
+                folderModel.places.addLocation(folderModel.model.path)
+                folderPage.tooltipMsg = i18n.tr("Added '%1' to Places").arg(folderModel.model.fileName)
+
             }
         },
         FMActions.FileClearSelection {
