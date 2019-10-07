@@ -67,10 +67,8 @@ QtObject {
                         Qt.openUrlExternally("video://" + path)
                     } else if (model.mimeType.indexOf("pdf") != -1 || model.mimeType.indexOf("vnd") != -1) {
                         Qt.openUrlExternally("document://" + path)
-                    //} else if (model.fileName.indexOf(".click") != -1) {
-                    //    Qt.openUrlExternally("openstore://" + path)
                     } else if (archiveType !== "") {
-                        folderModel.extractArchive(model.filePath, model.fileName, archiveType)
+                        folderListPage.openFile(model, true)
                     } else {
                         openAdvanced(model)
                     }
