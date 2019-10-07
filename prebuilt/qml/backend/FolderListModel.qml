@@ -27,6 +27,7 @@ import com.ubuntu.PlacesModel 0.1
 QtObject {
     id: folderModel
 
+    property var primSelItem
     property alias path: __model.path
     property string title: FmUtils.pathName(path)
     property string folder: FmUtils.pathName(path)

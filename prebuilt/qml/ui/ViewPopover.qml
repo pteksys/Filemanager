@@ -33,6 +33,24 @@ Dialog {
         }
     }
 
+    ListItem {
+        ListItemLayout {
+            anchors { left: parent.left; right: parent.right }
+            anchors.leftMargin: units.gu(-2)
+            anchors.rightMargin: units.gu(-2)
+
+            subtitle.text: i18n.tr("Default open action")
+            subtitle.textSize: Label.Medium
+
+            Switch{
+                SlotsLayout.position: SlotsLayout.Last
+
+                checked: globalSettings.openDefault
+                onCheckedChanged: globalSettings.openDefault = checked
+            }
+        }
+    }
+
     Components.HorizontalOptionSelector {
         subtitle: i18n.tr("View As")
         selectedIndex: globalSettings.viewMethod

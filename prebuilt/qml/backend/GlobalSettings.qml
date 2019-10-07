@@ -29,4 +29,5 @@ Settings {
     property int gridSize: 1 // 0=S; 1=M; 2=L; 3=XL
     property int listSize: 1 // 0=S; 1=M; 2=L; 3=XL
     property int theme: 0
+    property bool openDefault: true
 }

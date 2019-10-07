@@ -40,6 +40,7 @@ SidebarPageLayout {
 
     Backend.FolderListModel {
         id: pageModel
+        primSelItem: ""
         path: places.locationHome
 
         model.onlyAllowedPaths: !mainView.fullAccessGranted
@@ -136,7 +137,10 @@ SidebarPageLayout {
         FolderListPageSelectionHeader {
             id: selectionHeader
             fileOperationDialog: fileOperationDialogObj
+            folderPage: folderListPage
             folderModel: pageModel
+            selectorMode: fileSelectorMode
+            openDefault: globalSettings.openDefault
             visible: selectionMode && !isContentHub
             enabled: visible
         }
@@ -177,7 +181,7 @@ SidebarPageLayout {
                 message: tooltipMsg
                 visible: false
                 onMessageChanged: {
-                    visible = true
+                    visible = true && tooltipMsg != ""
                     tooltipTimer.restart()
                 }
             }
@@ -200,6 +204,7 @@ SidebarPageLayout {
                 folderModel: pageModel
                 folderListPage: folderPage
                 fileOperationDialog: fileOperationDialogObj
+                openDefault: globalSettings.openDefault
                 header: pageModel.count > 0 && !folderModel.model.isCurAllowedPath && folderModel.model.onlyAllowedPaths
                         ? authReqHeader
                         : null
@@ -213,6 +218,7 @@ SidebarPageLayout {
                 folderModel: pageModel
                 folderListPage: folderPage
                 fileOperationDialog: fileOperationDialogObj
+                openDefault: globalSettings.openDefault
                 header: pageModel.count > 0 && !folderModel.model.isCurAllowedPath && folderModel.model.onlyAllowedPaths
                         ? authReqHeader
                         : null
