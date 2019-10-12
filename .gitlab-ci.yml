@@ -22,3 +22,14 @@ build-armhf:
     paths:
       - build/arm-linux-gnueabihf/app/*.click
     expire_in: 1 week
+
+build-arm64:
+  stage: build
+  image: clickable/ci-16.04-arm64
+  script:
+    - clickable clean build
+  artifacts:
+    paths:
+      - build/aarch64-linux-gnu/app/*.click
+    expire_in: 1 week
+
