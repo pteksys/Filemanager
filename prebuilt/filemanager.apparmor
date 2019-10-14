@@ -1,5 +1,0 @@
-{
-    "policy_version": 16.04,
-    "template": "unconfined",
-    "policy_groups": []
-}
