@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2019-09-23 13:50+0000\n"
+"PO-Revision-Date: 2019-10-26 17:36+0000\n"
 "Last-Translator: Daniel Frańczak <danielfranczak5@wp.pl>\n"
 "Language-Team: Polish <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/pl/>\n"
@@ -198,7 +198,7 @@ msgstr "Uwierzytelnianie nie powiodło się. Proszę spróbuj ponownie"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:74
 msgid "Authenticate"
-msgstr "Uwierzytelnienie"
+msgstr "Uwierzytelnij"
 
 #: ../src/app/qml/backend/FolderListModel.qml:123
 #, qt-format
