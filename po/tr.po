@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2017-11-27 16:57+0000\n"
-"Last-Translator: Arda Canbolat <oardacn@gmail.com>\n"
+"PO-Revision-Date: 2019-11-03 20:36+0000\n"
+"Last-Translator: Ege Öz <ege.oz@tutanota.com>\n"
 "Language-Team: Turkish <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/tr/>\n"
 "Language: tr\n"
@@ -17,12 +17,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.15\n"
+"X-Generator: Weblate 3.8\n"
 "X-Launchpad-Export-Date: 2017-04-08 06:04+0000\n"
 
 #: ../src/app/qml/actions/AddBookmark.qml:6
 msgid "Add bookmark"
-msgstr ""
+msgstr "Yer imi ekle"
 
 #: ../src/app/qml/actions/ArchiveExtract.qml:6
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:18
@@ -52,19 +52,19 @@ msgid "Cut"
 msgstr "Kes"
 
 #: ../src/app/qml/actions/FilePaste.qml:30
-#, fuzzy, qt-format
+#, qt-format
 msgid "Paste %1 file"
 msgid_plural "Paste %1 files"
-msgstr[0] "%1 Dosya Yapıştır"
-msgstr[1] "%1 Dosya Yapıştır"
+msgstr[0] "%1 dosya yapıştır"
+msgstr[1] "%1 dosya yapıştır"
 
 #: ../src/app/qml/actions/GoBack.qml:5
 msgid "Go back"
-msgstr ""
+msgstr "Geri git"
 
 #: ../src/app/qml/actions/GoNext.qml:5
 msgid "Go next"
-msgstr ""
+msgstr "İleri git"
 
 #: ../src/app/qml/actions/GoTo.qml:6
 msgid "Go To"
@@ -72,7 +72,7 @@ msgstr "Git"
 
 #: ../src/app/qml/actions/NewItem.qml:6
 msgid "New Item"
-msgstr ""
+msgstr "Yeni Dosya"
 
 #: ../src/app/qml/actions/PlacesBookmarks.qml:6
 #: ../src/app/qml/ui/PlacesPage.qml:16
@@ -95,14 +95,12 @@ msgid "Select"
 msgstr "Seç"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
-#, fuzzy
 msgid "Select None"
-msgstr "Seç"
+msgstr "Hiçbirini seçme"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
-#, fuzzy
 msgid "Select All"
-msgstr "Seç"
+msgstr "Tümünü Seç"
 
 #: ../src/app/qml/actions/Settings.qml:6
 msgid "Settings"
@@ -114,7 +112,7 @@ msgstr "Paylaş"
 
 #: ../src/app/qml/actions/TabsAdd.qml:5
 msgid "Add tab"
-msgstr ""
+msgstr "Sekme ekle"
 
 #: ../src/app/qml/actions/TabsCloseThis.qml:5
 msgid "Close this tab"
@@ -126,7 +124,7 @@ msgstr "Yeni sekmede aç"
 
 #: ../src/app/qml/actions/UnlockFullAccess.qml:6
 msgid "Unlock"
-msgstr ""
+msgstr "Kilidi Aç"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:26
 #: ../src/app/qml/authentication/PasswordDialog.qml:43
@@ -136,17 +134,16 @@ msgstr "Kimlik doğrulama gerekli"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:27
 msgid "Use your fingerprint to access restricted content"
-msgstr ""
+msgstr "Kısıtlı içeriğe ulaşmak için parmak izinizi kullanın"
 
 #. TRANSLATORS: "Touch" here is a verb
 #: ../src/app/qml/authentication/FingerprintDialog.qml:55
 msgid "Touch sensor"
-msgstr ""
+msgstr "Sensöre dokunun"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:60
-#, fuzzy
 msgid "Use password"
-msgstr "Parolayı kaydet"
+msgstr "Parola kullan"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:69
 #: ../src/app/qml/authentication/PasswordDialog.qml:80
@@ -166,40 +163,36 @@ msgid "Cancel"
 msgstr "İptal"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:126
-#, fuzzy
 msgid "Authentication failed!"
-msgstr "Kimlik denetimi başarısız"
+msgstr "Kimlik denetimi başarısız!"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:137
 msgid "Please retry"
-msgstr ""
+msgstr "Lütfen tekrar deneyin"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:35
 msgid "Authentication failed"
 msgstr "Kimlik denetimi başarısız"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:45
-#, fuzzy
 msgid "Your passphrase is required to access restricted content"
-msgstr "Tüm dosyalara erişmek için parola gerekli"
+msgstr "Tüm dosyalara erişmek için parolanız gerekli"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:46
-#, fuzzy
 msgid "Your passcode is required to access restricted content"
-msgstr "Tüm dosyalara erişmek için parola gerekli"
+msgstr "Tüm dosyalara erişmek için parolanız gerekli"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:57
 msgid "passphrase (default is 0000 if unset)"
-msgstr ""
+msgstr "parola (eğer ayarlanmazsa 0000 varsayılan olarak kullanılır)"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:57
 msgid "passcode (default is 0000 if unset)"
-msgstr ""
+msgstr "parola (eğer ayarlanmazsa 0000 kullanılır)"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:69
-#, fuzzy
 msgid "Authentication failed. Please retry"
-msgstr "Kimlik denetimi başarısız"
+msgstr "Kimlik denetimi başarısız. Lütfen tekrar deneyin"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:74
 #, fuzzy
@@ -217,15 +210,14 @@ msgid "%1 files"
 msgstr "%1 dosya"
 
 #: ../src/app/qml/backend/FolderListModel.qml:135
-#, fuzzy
 msgid "Folder"
-msgstr "Yeni Klasör"
+msgstr "Dizin"
 
 #: ../src/app/qml/components/TextualButtonStyle.qml:48
 #: ../src/app/qml/components/TextualButtonStyle.qml:56
 #: ../src/app/qml/components/TextualButtonStyle.qml:63
 msgid "Pick"
-msgstr ""
+msgstr "Seç"
 
 #: ../src/app/qml/content-hub/FileOpener.qml:27
 msgid "Open with"
@@ -247,9 +239,8 @@ msgid "Are you sure you want to permanently delete '%1'?"
 msgstr "'%1' dosyasını kalıcı olarak silmek istediğinizden emin misiniz?"
 
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:15
-#, fuzzy
 msgid "these files"
-msgstr "Dosyaları yapıştır"
+msgstr "bu dosyalar"
 
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:18
 #: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:21
@@ -261,28 +252,24 @@ msgid "Enter a new name"
 msgstr "Yeni bir ad girin"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:13
-#, fuzzy
 msgid "Create Item"
-msgstr "Dosya oluştur"
+msgstr "Dosya Oluştur"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:14
-#, fuzzy
 msgid "Enter name for new item"
-msgstr "Yeni dosya için ad oluşturun"
+msgstr "Yeni dosya için isim girin"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:18
-#, fuzzy
 msgid "Item name"
-msgstr "Yeniden Adlandır"
+msgstr "Dosya ismi"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:24
 msgid "Create file"
 msgstr "Dosya oluştur"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:43
-#, fuzzy
 msgid "Create Folder"
-msgstr "Dizin oluştur"
+msgstr "Dizin Oluştur"
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:23
 #, qt-format
@@ -356,18 +343,16 @@ msgid "Open with another app"
 msgstr "Farklı uygulamayla aç"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:8
-#, fuzzy
 msgid "Open file"
-msgstr "Birlikte aç"
+msgstr "Dosyayı aç"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:9
-#, fuzzy
 msgid "What do you want to do with the clicked file?"
-msgstr "Arşivi buraya çıkartmak istiyor musunuz?"
+msgstr "Seçilen dosya ile ne yapmak istersiniz?"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:22
 msgid "Preview"
-msgstr ""
+msgstr "Önizle"
 
 #: ../src/app/qml/filemanager.qml:170
 #, qt-format
@@ -402,12 +387,11 @@ msgstr "Çalıştırılabilir"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:100
 msgid "Where:"
-msgstr ""
+msgstr "Nereden:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:127
-#, fuzzy
 msgid "Created:"
-msgstr "Dizin oluştur"
+msgstr "Oluşturuldu:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:141
 msgid "Modified:"
@@ -424,12 +408,12 @@ msgstr "İzinler:"
 #: ../src/app/qml/ui/FolderListPage.qml:241
 #: ../src/app/qml/ui/FolderListPage.qml:296
 msgid "Restricted access"
-msgstr ""
+msgstr "Kısıtlı erişim"
 
 #: ../src/app/qml/ui/FolderListPage.qml:245
 msgid ""
 "Authentication is required in order to see all the content of this folder."
-msgstr ""
+msgstr "Bu dizinin içeriğini görmek için doğrulama gerekiyor."
 
 #: ../src/app/qml/ui/FolderListPage.qml:282
 msgid "No files"
@@ -437,11 +421,11 @@ msgstr "Dosya yok"
 
 #: ../src/app/qml/ui/FolderListPage.qml:283
 msgid "This folder is empty."
-msgstr ""
+msgstr "Bu dizin boş."
 
 #: ../src/app/qml/ui/FolderListPage.qml:297
 msgid "Authentication is required in order to see the content of this folder."
-msgstr ""
+msgstr "Bu dizinin içeriğini görmek için doğrulama gerekiyor."
 
 #: ../src/app/qml/ui/FolderListPage.qml:313
 msgid "File operation error"
@@ -449,23 +433,22 @@ msgstr "Dosya işlemi hatası"
 
 #: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:21
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:21
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1 item"
 msgid_plural "%1 items"
-msgstr[0] "öge"
-msgstr[1] "öge"
+msgstr[0] "%1 öge"
+msgstr[1] "%1 öge"
 
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:21
-#, fuzzy
 msgid "Save here"
-msgstr "Kaydet"
+msgstr "Buraya kaydet"
 
 #: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:18
 #, qt-format
 msgid "%1 item selected"
 msgid_plural "%1 items selected"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 dosya seçili"
+msgstr[1] "%1 dosya seçili"
 
 #: ../src/app/qml/ui/ViewPopover.qml:24
 msgid "Show Hidden Files"
@@ -485,7 +468,7 @@ msgstr "Simgeler"
 
 #: ../src/app/qml/ui/ViewPopover.qml:44
 msgid "Grid size"
-msgstr ""
+msgstr "Izgara boyutu"
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "S"
@@ -504,9 +487,8 @@ msgid "XL"
 msgstr ""
 
 #: ../src/app/qml/ui/ViewPopover.qml:52
-#, fuzzy
 msgid "List size"
-msgstr "Liste"
+msgstr "Liste boyutu"
 
 #: ../src/app/qml/ui/ViewPopover.qml:60
 msgid "Sort By"
@@ -521,9 +503,8 @@ msgid "Date"
 msgstr "Tarih"
 
 #: ../src/app/qml/ui/ViewPopover.qml:62
-#, fuzzy
 msgid "Size"
-msgstr "Boyut:"
+msgstr "Boyut"
 
 #: ../src/app/qml/ui/ViewPopover.qml:67
 msgid "Sort Order"
@@ -531,15 +512,15 @@ msgstr "Sıralama Düzeni"
 
 #: ../src/app/qml/ui/ViewPopover.qml:74
 msgid "Theme"
-msgstr ""
+msgstr "Tema"
 
 #: ../src/app/qml/ui/ViewPopover.qml:76
 msgid "Light"
-msgstr ""
+msgstr "Açık"
 
 #: ../src/app/qml/ui/ViewPopover.qml:76
 msgid "Dark"
-msgstr ""
+msgstr "Koyu"
 
 #: ../src/app/qml/views/FolderDelegateActions.qml:40
 msgid "Folder not accessible"
@@ -556,20 +537,18 @@ msgid "Could not rename"
 msgstr "Yeniden adlandırılamıyor"
 
 #: ../src/app/qml/views/FolderDelegateActions.qml:137
-#, fuzzy
 msgid ""
 "Insufficient permissions, name contains special chars (e.g. '/'), or already "
 "exists"
-msgstr "Yetersiz izin mi yoksa  ad zaten kullanımda mı?"
+msgstr "Yetersiz izin, isim özel karakter içeriyor (örn. '/') veya zaten mevcut"
 
 #: ../src/app/qml/views/FolderListView.qml:72
 msgid "Directories"
-msgstr ""
+msgstr "Dizinler"
 
 #: ../src/app/qml/views/FolderListView.qml:72
-#, fuzzy
 msgid "Files"
-msgstr "Dosya"
+msgstr "Dosyalar"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:360
 msgid "Unknown"
