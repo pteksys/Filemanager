@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2019-10-26 17:36+0000\n"
+"PO-Revision-Date: 2020-01-19 01:00+0000\n"
 "Last-Translator: Anne Onyme <anneonyme017@netcourrier.com>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/fr/>\n"
@@ -82,7 +82,7 @@ msgstr "Emplacements"
 #: ../src/app/qml/actions/Properties.qml:6
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:54
 msgid "Properties"
-msgstr "Propriétés"
+msgstr "Afficher les propriétés"
 
 #: ../src/app/qml/actions/Rename.qml:5
 #: ../src/app/qml/dialogs/ConfirmRenameDialog.qml:20
@@ -339,19 +339,19 @@ msgstr "Voulez-vous extraire l’archive ici ?"
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:28
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:44
 msgid "Open with another app"
-msgstr "Ouvrir avec une autre application"
+msgstr "L'ouvrir avec une application"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:8
 msgid "Open file"
-msgstr "Ouvrir le fichier"
+msgstr "Fichier sélectionné"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:9
 msgid "What do you want to do with the clicked file?"
-msgstr "Que voulez-vous faire avec le fichier sélectionné ?"
+msgstr "Que voulez-vous faire avec ?"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:22
 msgid "Preview"
-msgstr "Aperçu"
+msgstr "Afficher un aperçu"
 
 #: ../src/app/qml/filemanager.qml:170
 #, qt-format
