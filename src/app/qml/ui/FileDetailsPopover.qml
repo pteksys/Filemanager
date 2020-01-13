@@ -25,7 +25,7 @@ Dialog {
     property var model
 
     function dateTimeFormat(dateTime) {
-        return Qt.formatDateTime(dateTime, Qt.TextDate) || "Unknown"
+        return Qt.formatDateTime(dateTime, Qt.DefaultLocaleShortDate) || "Unknown"
     }
 
     function permissionsToString(model) {
