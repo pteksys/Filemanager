@@ -23,7 +23,7 @@ Dialog {
     Button {
         id: createFile
         text: i18n.tr("Create file")
-        color: UbuntuColors.green
+        color: theme.palette.normal.positive
         onClicked: {
             inputText.focus = false
             console.log("Create file accepted", inputText.text)
@@ -44,7 +44,6 @@ Dialog {
     Button {
         id: createFolder
         text: i18n.tr("Create Folder")
-        color: UbuntuColors.green
         onClicked: {
             inputText.focus = false
             console.log("Create folder accepted", inputText.text)
@@ -63,7 +62,6 @@ Dialog {
     Button {
         id: cancelButton
         text: i18n.tr("Cancel")
-        color: UbuntuColors.graphite
         onClicked: {
             PopupUtils.close(dialog)
         }

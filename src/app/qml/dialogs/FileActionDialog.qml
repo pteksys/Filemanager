@@ -32,6 +32,7 @@ Dialog {
 
     Button {
         objectName: "openButton"
+        color: theme.palette.normal.focus
         text: i18n.tr("Open")
         onClicked: {
             console.log("Opening file", filePath)
@@ -44,7 +45,5 @@ Dialog {
         objectName: "cancelButton"
         text: i18n.tr("Cancel")
         onClicked: PopupUtils.close(root)
-
-        color: UbuntuColors.graphite
     }
 }

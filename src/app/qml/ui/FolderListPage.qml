@@ -255,7 +255,7 @@ SidebarPageLayout {
                     subtitle.wrapMode: Text.WrapAtWordBoundaryOrAnywhere
                     Button {
                         SlotsLayout.position: SlotsLayout.Last
-                        color: UbuntuColors.green
+                        color: theme.palette.normal.positive
                         action: authAction
                     }
                 }
@@ -306,7 +306,6 @@ SidebarPageLayout {
 
                     controlComponent: Button {
                         width: units.gu(24)
-                        color: UbuntuColors.green
                         action: authAction
                     }
                 }

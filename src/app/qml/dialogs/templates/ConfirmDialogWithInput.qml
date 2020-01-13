@@ -48,7 +48,7 @@ Dialog {
         objectName: "okButton"
         text: i18n.tr("OK")
         enabled: input.acceptableInput
-        color: UbuntuColors.green
+        color: theme.palette.normal.positive
         onClicked: {
             accepted(input.text)
             PopupUtils.close(root)
@@ -58,8 +58,6 @@ Dialog {
     Button {
         objectName: "cancelButton"
         text: i18n.tr("Cancel")
-        color: UbuntuColors.graphite
-
         onClicked: {
             rejected()
             PopupUtils.close(root)

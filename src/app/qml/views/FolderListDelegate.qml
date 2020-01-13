@@ -44,7 +44,7 @@ ListItem {
     // instead fudge it here with a rectangle.
     Rectangle {
         anchors.fill: parent
-        color: UbuntuColors.silk
+        color: theme.palette.selected.base
         visible: del.isSelected
     }
 

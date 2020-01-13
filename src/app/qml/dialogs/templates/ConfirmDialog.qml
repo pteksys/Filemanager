@@ -31,7 +31,7 @@ Dialog {
         id: okButton
         objectName: "okButton"
         text: i18n.tr("OK")
-        color: destructiveDialog ? UbuntuColors.red : UbuntuColors.green
+        color: destructiveDialog ? theme.palette.normal.negative : theme.palette.normal.positive
 
         onClicked: {
             accepted()
@@ -43,9 +43,6 @@ Dialog {
         id: cancelButton
         objectName: "cancelButton"
         text: i18n.tr("Cancel")
-
-        color: UbuntuColors.graphite
-
         onClicked: {
             rejected()
             PopupUtils.close(root)

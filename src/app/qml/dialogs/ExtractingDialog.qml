@@ -21,7 +21,7 @@ Dialog {
 
         Label {
             text: i18n.tr("Extracting archive '%1'").arg(fileName)
-            color: UbuntuColors.slate
+            color: theme.palette.normal.backgroundSecondaryText
             anchors.verticalCenter: parent.verticalCenter
             width: row.width - loadingSpinner.width - row.spacing
             maximumLineCount: 2

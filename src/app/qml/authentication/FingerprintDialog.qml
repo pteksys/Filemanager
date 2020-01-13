@@ -38,7 +38,7 @@ Dialog {
         Rectangle {
             id: fingerprintCircle
             width: units.gu(8); height: width; radius: width * 0.5
-            color: UbuntuColors.blue
+            color: theme.palette.normal.focus
 
             Icon {
                 anchors.fill: parent
@@ -58,7 +58,6 @@ Dialog {
 
     Button {
         text: i18n.tr("Use password")
-        color: UbuntuColors.graphite
         onClicked: {
             fingerprintDialog.usePasswordRequested()
             PopupUtils.close(fingerprintDialog)
@@ -67,7 +66,6 @@ Dialog {
 
     Button {
         text: i18n.tr("Cancel")
-        color: UbuntuColors.graphite
         onClicked: {
             fingerprintDialog.aborted()
             PopupUtils.close(fingerprintDialog)
@@ -119,8 +117,8 @@ Dialog {
             ColorAnimation {
                 target: fingerprintCircle
                 property: "color"
-                from: UbuntuColors.blue
-                to: UbuntuColors.red
+                from: theme.palette.normal.focus
+                to: theme.palette.normal.negative
                 duration: 250
             }
             ScriptAction { script: fingerprintHint.text = i18n.tr("Authentication failed!") }
@@ -130,8 +128,8 @@ Dialog {
             ColorAnimation {
                 target: fingerprintCircle
                 property: "color"
-                from: UbuntuColors.red
-                to: UbuntuColors.blue
+                from: theme.palette.normal.negative
+                to: theme.palette.normal.focus
                 duration: 250
             }
             ScriptAction { script: fingerprintHint.text = i18n.tr("Please retry") }

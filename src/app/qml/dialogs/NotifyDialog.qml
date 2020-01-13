@@ -23,7 +23,7 @@ Dialog {
     id: root
 
     Button {
-        color: UbuntuColors.graphite
+        color: theme.palette.normal.focus
         text: i18n.tr("OK")
         onClicked: {
             PopupUtils.close(root)
