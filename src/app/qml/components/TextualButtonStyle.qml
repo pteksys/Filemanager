@@ -27,7 +27,7 @@ Component {
         width: layout.width + units.gu(4)
         height: parent.height
         Rectangle {
-            color: UbuntuColors.slate
+            color: theme.palette.normal.backgroundSecondaryText
             opacity: 0.1
             anchors.fill: parent
             visible: button.pressed

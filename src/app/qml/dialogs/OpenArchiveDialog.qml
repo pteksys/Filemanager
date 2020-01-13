@@ -16,7 +16,7 @@ Dialog {
     Button {
         id: extractButton
         text: i18n.tr("Extract archive")
-        color: UbuntuColors.green
+        color: theme.palette.normal.positive
         onClicked: {
             PopupUtils.close(dialog)
             folderModel.extractArchive(filePath, fileName, archiveType)
@@ -26,7 +26,6 @@ Dialog {
     Button {
         id: openExternallyButton
         text: i18n.tr("Open with another app")
-        color: UbuntuColors.green
         onClicked: {
             PopupUtils.close(dialog)
             openLocalFile(filePath)
@@ -36,7 +35,6 @@ Dialog {
     Button {
         id: cancelButton
         text: i18n.tr("Cancel")
-        color: UbuntuColors.graphite
         onClicked: {
             PopupUtils.close(dialog)
         }

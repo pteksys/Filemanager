@@ -61,7 +61,7 @@ ListItem {
 
                     Rectangle {
                         anchors.fill: parent
-                        color: "#CDCDCD"
+                        color: theme.palette.selected.base
                         visible: del.pressed
                     }
 

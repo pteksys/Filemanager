@@ -44,7 +44,7 @@ MouseArea {
         anchors { fill: parent; margins: units.dp(2) }
         radius: units.dp(4)
         opacity: delegate.isSelected ? 0.5 : 0
-        color: UbuntuColors.blue
+        color: theme.palette.selected.focus
 
         Behavior on opacity {
             UbuntuNumberAnimation {}

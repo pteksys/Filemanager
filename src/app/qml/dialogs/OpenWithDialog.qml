@@ -20,7 +20,7 @@ Dialog {
     Button {
         id: previewButton
         text: i18n.tr("Preview")
-        color: UbuntuColors.green
+        color: theme.palette.normal.positive
         visible: previewButtonVisible
         onClicked: {
             PopupUtils.close(dialog)
@@ -31,8 +31,8 @@ Dialog {
     Button {
         id: extractButton
         text: i18n.tr("Extract archive")
-        color: UbuntuColors.green
         visible: extractButtonVisible
+        color: theme.palette.normal.positive
         onClicked: {
             PopupUtils.close(dialog)
             extractArchive()
@@ -42,7 +42,11 @@ Dialog {
     Button {
         id: openExternallyButton
         text: i18n.tr("Open with another app")
-        color: UbuntuColors.green
+        color: !extractButtonVisible && !previewButtonVisible
+            ? theme.palette.normal.positive
+            : theme.name == "Ubuntu.Components.Themes.Ambiance"
+                ? UbuntuColors.graphite
+                : UbuntuColors.ash
         onClicked: {
             PopupUtils.close(dialog)
             openWith()
@@ -52,7 +56,6 @@ Dialog {
     Button {
         id: propertiesButton
         text: i18n.tr("Properties")
-        color: UbuntuColors.blue
         onClicked: {
             PopupUtils.close(dialog)
             showProperties()
@@ -62,7 +65,6 @@ Dialog {
     Button {
         id: cancelButton
         text: i18n.tr("Cancel")
-        color: UbuntuColors.graphite
         onClicked: {
             PopupUtils.close(dialog)
         }
