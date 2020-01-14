@@ -1,8 +1,6 @@
 publish-armhf:
   stage: deploy
   image: clickable/ci-16.04-armhf
-  only:
-    - tags
   script:
     - clickable clean build click-build
     - clickable publish "$CI_COMMIT_MESSAGE"
