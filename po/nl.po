@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2019-10-12 20:55+0000\n"
+"PO-Revision-Date: 2020-01-14 06:33+0000\n"
 "Last-Translator: Tom Dom <thomas@patoel.nl>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/nl/>\n"
@@ -197,7 +197,7 @@ msgstr "Authenticatie mislukt; probeer het opnieuw"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:74
 msgid "Authenticate"
-msgstr "Authenticeren"
+msgstr "Authentiseren"
 
 #: ../src/app/qml/backend/FolderListModel.qml:123
 #, qt-format
