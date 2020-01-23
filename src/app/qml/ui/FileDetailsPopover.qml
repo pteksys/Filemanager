@@ -182,6 +182,7 @@ Dialog {
     Button {
         id: closeButton
         text: i18n.tr("Close")
+        color: UbuntuColors.graphite
         onClicked: {
             PopupUtils.close(root)
         }

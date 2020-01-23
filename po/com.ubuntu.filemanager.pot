@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-07 01:28+0000\n"
+"POT-Creation-Date: 2019-03-25 22:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -240,8 +240,22 @@ msgstr ""
 msgid "Use password"
 msgstr ""
 
-#: ../build/x86_64-linux-gnu/qml/authentication/FingerprintDialog.qml:126
-#: ../prebuilt/qml/authentication/FingerprintDialog.qml:126
+#: ../src/app/qml/authentication/FingerprintDialog.qml:69
+#: ../src/app/qml/authentication/PasswordDialog.qml:80
+#: ../src/app/qml/dialogs/CreateItemDialog.qml:60
+#: ../src/app/qml/dialogs/ExtractingDialog.qml:35
+#: ../src/app/qml/dialogs/FileActionDialog.qml:45
+#: ../src/app/qml/dialogs/FileOperationProgressDialog.qml:44
+#: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:96
+#: ../src/app/qml/dialogs/OpenArchiveDialog.qml:38
+#: ../src/app/qml/dialogs/OpenWithDialog.qml:64
+#: ../src/app/qml/dialogs/templates/ConfirmDialog.qml:41
+#: ../src/app/qml/dialogs/templates/ConfirmDialogWithInput.qml:60
+#: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:51
+#: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:26
+msgid "Cancel"
+msgstr ""
+
 #: ../src/app/qml/authentication/FingerprintDialog.qml:126
 msgid "Authentication failed!"
 msgstr ""
@@ -601,18 +615,12 @@ msgstr ""
 msgid "Permissions:"
 msgstr ""
 
-#: ../build/x86_64-linux-gnu/qml/ui/FileDetailsPopover.qml:184
-#: ../prebuilt/qml/ui/FileDetailsPopover.qml:184
 #: ../src/app/qml/ui/FileDetailsPopover.qml:184
 msgid "Close"
 msgstr ""
 
-#: ../build/x86_64-linux-gnu/qml/ui/FolderListPage.qml:249
-#: ../build/x86_64-linux-gnu/qml/ui/FolderListPage.qml:304
-#: ../prebuilt/qml/ui/FolderListPage.qml:249
-#: ../prebuilt/qml/ui/FolderListPage.qml:304
-#: ../src/app/qml/ui/FolderListPage.qml:249
-#: ../src/app/qml/ui/FolderListPage.qml:304
+#: ../src/app/qml/ui/FolderListPage.qml:241
+#: ../src/app/qml/ui/FolderListPage.qml:296
 msgid "Restricted access"
 msgstr ""
 
