@@ -8,20 +8,21 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2016-07-09 07:11+0000\n"
-"Last-Translator: Danial Behzadi <dani.behzi@gmail.com>\n"
-"Language-Team: Persian <fa@li.org>\n"
+"PO-Revision-Date: 2020-02-12 15:21+0000\n"
+"Last-Translator: HSN80 <hosseinabbasi80@outlook.com>\n"
+"Language-Team: Persian <https://translate.ubports.com/projects/ubports/"
+"filemanager-app/fa/>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.8\n"
 "X-Launchpad-Export-Date: 2017-04-08 06:04+0000\n"
-"X-Generator: Launchpad (build 18343)\n"
 
 #: ../src/app/qml/actions/AddBookmark.qml:6
 msgid "Add bookmark"
-msgstr ""
+msgstr "اضافه کردن نشانه"
 
 #: ../src/app/qml/actions/ArchiveExtract.qml:6
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:18
@@ -51,18 +52,18 @@ msgid "Cut"
 msgstr "برش"
 
 #: ../src/app/qml/actions/FilePaste.qml:30
-#, fuzzy, qt-format
+#, qt-format
 msgid "Paste %1 file"
 msgid_plural "Paste %1 files"
 msgstr[0] "چسباندن %1 پرونده"
 
 #: ../src/app/qml/actions/GoBack.qml:5
 msgid "Go back"
-msgstr ""
+msgstr "بازگشت"
 
 #: ../src/app/qml/actions/GoNext.qml:5
 msgid "Go next"
-msgstr ""
+msgstr "بعدی"
 
 #: ../src/app/qml/actions/GoTo.qml:6
 msgid "Go To"
@@ -70,7 +71,7 @@ msgstr "رفتن به"
 
 #: ../src/app/qml/actions/NewItem.qml:6
 msgid "New Item"
-msgstr ""
+msgstr "آیتم جدید"
 
 #: ../src/app/qml/actions/PlacesBookmarks.qml:6
 #: ../src/app/qml/ui/PlacesPage.qml:16
@@ -93,14 +94,12 @@ msgid "Select"
 msgstr "گزینش"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
-#, fuzzy
 msgid "Select None"
-msgstr "گزینش"
+msgstr "هیچ کدام را انتخاب نکنید"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
-#, fuzzy
 msgid "Select All"
-msgstr "گزینش"
+msgstr "انتخاب همه"
 
 #: ../src/app/qml/actions/Settings.qml:6
 msgid "Settings"
@@ -108,11 +107,11 @@ msgstr "تنظیمات"
 
 #: ../src/app/qml/actions/Share.qml:5
 msgid "Share"
-msgstr ""
+msgstr "به‌اشتراک گذاری"
 
 #: ../src/app/qml/actions/TabsAdd.qml:5
 msgid "Add tab"
-msgstr ""
+msgstr "افزودن برگه"
 
 #: ../src/app/qml/actions/TabsCloseThis.qml:5
 msgid "Close this tab"
@@ -124,7 +123,7 @@ msgstr "گشودن در زبانه‌ی جدید"
 
 #: ../src/app/qml/actions/UnlockFullAccess.qml:6
 msgid "Unlock"
-msgstr ""
+msgstr "بازگشایی"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:26
 #: ../src/app/qml/authentication/PasswordDialog.qml:43
@@ -134,17 +133,16 @@ msgstr "تأیید هویت لازم است"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:27
 msgid "Use your fingerprint to access restricted content"
-msgstr ""
+msgstr "برای دسترسی به محتوای محدود ، از اثر انگشت خود استفاده کنید"
 
 #. TRANSLATORS: "Touch" here is a verb
 #: ../src/app/qml/authentication/FingerprintDialog.qml:55
 msgid "Touch sensor"
-msgstr ""
+msgstr "سنسور لمسی"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:60
-#, fuzzy
 msgid "Use password"
-msgstr "ذخیرهٔ گذرواژه"
+msgstr "استفاده از گذرواژه"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:69
 #: ../src/app/qml/authentication/PasswordDialog.qml:80
@@ -161,69 +159,63 @@ msgstr "ذخیرهٔ گذرواژه"
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:51
 #: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:26
 msgid "Cancel"
-msgstr "لغو"
+msgstr "انصراف"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:126
-#, fuzzy
 msgid "Authentication failed!"
-msgstr "تأیید هویت شکست خورد"
+msgstr "تأیید هویت ناموفق!"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:137
 msgid "Please retry"
-msgstr ""
+msgstr "لطفاً دوباره سعی کنید"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:35
 msgid "Authentication failed"
 msgstr "تأیید هویت شکست خورد"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:45
-#, fuzzy
 msgid "Your passphrase is required to access restricted content"
-msgstr "برای دست‌رسی به تمام پرونده‌ها نیاز به گذرواژه است"
+msgstr "رمز عبور شما برای دسترسی به محتوای محدود مورد نیاز است"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:46
-#, fuzzy
 msgid "Your passcode is required to access restricted content"
-msgstr "برای دست‌رسی به تمام پرونده‌ها نیاز به گذرواژه است"
+msgstr "رمز عبور شما برای دسترسی به محتوای محدود مورد نیاز است"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:57
 msgid "passphrase (default is 0000 if unset)"
-msgstr ""
+msgstr "عبارت عبور (در صورت عدم تنظیم 0000 است)"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:57
 msgid "passcode (default is 0000 if unset)"
-msgstr ""
+msgstr "کد عبور (پیش فرض در صورت عدم تنظیم 0000 است)"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:69
-#, fuzzy
 msgid "Authentication failed. Please retry"
-msgstr "تأیید هویت شکست خورد"
+msgstr "تأیید هویت ناموفق. لطفاً دوباره سعی کنید"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:74
-#, fuzzy
 msgid "Authenticate"
-msgstr "تأیید هویت شکست خورد"
+msgstr "تصدیق کردن"
 
 #: ../src/app/qml/backend/FolderListModel.qml:123
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1 file"
 msgstr "%1 پرونده"
 
 #: ../src/app/qml/backend/FolderListModel.qml:124
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1 files"
-msgstr "%1 پرونده"
+msgstr "%1 پرونده ها"
 
 #: ../src/app/qml/backend/FolderListModel.qml:135
-#, fuzzy
 msgid "Folder"
-msgstr "پوشه‌ی جدید"
+msgstr "پوشه‌"
 
 #: ../src/app/qml/components/TextualButtonStyle.qml:48
 #: ../src/app/qml/components/TextualButtonStyle.qml:56
 #: ../src/app/qml/components/TextualButtonStyle.qml:63
 msgid "Pick"
-msgstr ""
+msgstr "انتخاب"
 
 #: ../src/app/qml/content-hub/FileOpener.qml:27
 msgid "Open with"
@@ -245,9 +237,8 @@ msgid "Are you sure you want to permanently delete '%1'?"
 msgstr "آیا مطمئن هستید که می‌خواهید «%1» را برای همیشه حذف کنید؟"
 
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:15
-#, fuzzy
 msgid "these files"
-msgstr "چسباندن پرونده‌ها"
+msgstr "این پرونده ها"
 
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:18
 #: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:21
@@ -259,26 +250,22 @@ msgid "Enter a new name"
 msgstr "یک نام جدید وارد کنید"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:13
-#, fuzzy
 msgid "Create Item"
-msgstr "ایجاد پرونده"
+msgstr "ایجاد آیتم"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:14
-#, fuzzy
 msgid "Enter name for new item"
-msgstr "نام پرونده‌ی جدید را وارد کنید"
+msgstr "نام آیتم جدید را وارد کنید"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:18
-#, fuzzy
 msgid "Item name"
-msgstr "تغییر نام"
+msgstr "نام آیتم"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:24
 msgid "Create file"
 msgstr "ایجاد پرونده"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:43
-#, fuzzy
 msgid "Create Folder"
 msgstr "ایجاد پوشه"
 
@@ -338,7 +325,7 @@ msgstr "ذخیرهٔ گذرواژه"
 
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:108
 msgid "Ok"
-msgstr "باشه"
+msgstr "قبول"
 
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:8
 msgid "Archive file"
@@ -354,33 +341,31 @@ msgid "Open with another app"
 msgstr "گشودن با برنامه‌ای دیگر"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:8
-#, fuzzy
 msgid "Open file"
-msgstr "گشودن با"
+msgstr "بازکردن پرونده"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:9
-#, fuzzy
 msgid "What do you want to do with the clicked file?"
-msgstr "آیا می خواهید بایگانی را این‌جا استخراج کنید؟"
+msgstr "می خواهید با فایل کلیک شده چه کاری انجام دهید؟"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:22
 msgid "Preview"
-msgstr ""
+msgstr "پیش نمایش"
 
 #: ../src/app/qml/filemanager.qml:170
 #, qt-format
 msgid "File %1"
-msgstr ""
+msgstr "پرونده %1"
 
 #: ../src/app/qml/filemanager.qml:170
 #, qt-format
 msgid "%1 Files"
-msgstr ""
+msgstr "%1 پرونده"
 
 #: ../src/app/qml/filemanager.qml:171
 #, qt-format
 msgid "Saved to: %1"
-msgstr ""
+msgstr "ذخیره شد در: %1"
 
 #: ../src/app/qml/panels/DefaultBottomBar.qml:24
 msgid "Paste files"
@@ -400,12 +385,11 @@ msgstr "قابل اجرا"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:100
 msgid "Where:"
-msgstr ""
+msgstr "جایی که:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:127
-#, fuzzy
 msgid "Created:"
-msgstr "ایجاد پوشه"
+msgstr "ایجاد شده:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:141
 msgid "Modified:"
@@ -422,12 +406,12 @@ msgstr "اجازه‌ها:"
 #: ../src/app/qml/ui/FolderListPage.qml:241
 #: ../src/app/qml/ui/FolderListPage.qml:296
 msgid "Restricted access"
-msgstr ""
+msgstr "دسترسی محدود"
 
 #: ../src/app/qml/ui/FolderListPage.qml:245
 msgid ""
 "Authentication is required in order to see all the content of this folder."
-msgstr ""
+msgstr "به منظور مشاهده کلیه محتوای این پوشه ، احراز هویت لازم است."
 
 #: ../src/app/qml/ui/FolderListPage.qml:282
 msgid "No files"
@@ -435,11 +419,11 @@ msgstr "بدون پرونده"
 
 #: ../src/app/qml/ui/FolderListPage.qml:283
 msgid "This folder is empty."
-msgstr ""
+msgstr "این پوشه خالی است."
 
 #: ../src/app/qml/ui/FolderListPage.qml:297
 msgid "Authentication is required in order to see the content of this folder."
-msgstr ""
+msgstr "برای دیدن محتوای این پوشه احراز هویت لازم است."
 
 #: ../src/app/qml/ui/FolderListPage.qml:313
 msgid "File operation error"
@@ -447,20 +431,20 @@ msgstr "خطای عملیات پرونده"
 
 #: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:21
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:21
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1 item"
 msgid_plural "%1 items"
-msgstr[0] "موارد"
+msgstr[0] "%1 موارد"
 
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:21
 msgid "Save here"
-msgstr ""
+msgstr "اینجا ذخیره کنید"
 
 #: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:18
 #, qt-format
 msgid "%1 item selected"
 msgid_plural "%1 items selected"
-msgstr[0] ""
+msgstr[0] "%1 مورد انتخاب شد"
 
 #: ../src/app/qml/ui/ViewPopover.qml:24
 msgid "Show Hidden Files"
@@ -480,28 +464,27 @@ msgstr "شمایل"
 
 #: ../src/app/qml/ui/ViewPopover.qml:44
 msgid "Grid size"
-msgstr ""
+msgstr "اندازه شبکه"
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "S"
-msgstr ""
+msgstr "س"
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "M"
-msgstr ""
+msgstr "م"
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "L"
-msgstr ""
+msgstr "ل"
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "XL"
-msgstr ""
+msgstr "XL"
 
 #: ../src/app/qml/ui/ViewPopover.qml:52
-#, fuzzy
 msgid "List size"
-msgstr "فهرست"
+msgstr "اندازه فهرست"
 
 #: ../src/app/qml/ui/ViewPopover.qml:60
 msgid "Sort By"
@@ -516,9 +499,8 @@ msgid "Date"
 msgstr "تاریخ"
 
 #: ../src/app/qml/ui/ViewPopover.qml:62
-#, fuzzy
 msgid "Size"
-msgstr "اندازه:"
+msgstr "اندازه"
 
 #: ../src/app/qml/ui/ViewPopover.qml:67
 msgid "Sort Order"
@@ -526,15 +508,15 @@ msgstr "ترتیب چینش"
 
 #: ../src/app/qml/ui/ViewPopover.qml:74
 msgid "Theme"
-msgstr ""
+msgstr "تم"
 
 #: ../src/app/qml/ui/ViewPopover.qml:76
 msgid "Light"
-msgstr ""
+msgstr "روشن"
 
 #: ../src/app/qml/ui/ViewPopover.qml:76
 msgid "Dark"
-msgstr ""
+msgstr "تاریک"
 
 #: ../src/app/qml/views/FolderDelegateActions.qml:40
 msgid "Folder not accessible"
@@ -551,20 +533,20 @@ msgid "Could not rename"
 msgstr "نمی‌توان نام را تغییر داد"
 
 #: ../src/app/qml/views/FolderDelegateActions.qml:137
-#, fuzzy
 msgid ""
 "Insufficient permissions, name contains special chars (e.g. '/'), or already "
 "exists"
-msgstr "اجازه‌ها نا کافی هستند یا نام فبلاً وجود دارد؟"
+msgstr ""
+"دسترسی محدود ، نام حاوی کارکتر های خاص است (مثل '/')، یا در حال حاظر موجود "
+"است"
 
 #: ../src/app/qml/views/FolderListView.qml:72
 msgid "Directories"
-msgstr ""
+msgstr "فایل ها"
 
 #: ../src/app/qml/views/FolderListView.qml:72
-#, fuzzy
 msgid "Files"
-msgstr "بدون پرونده"
+msgstr "پرونده ها"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:360
 msgid "Unknown"
@@ -584,7 +566,7 @@ msgstr "خطا در ایجاد پوشه‌ی جدید"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:740
 msgid "Touch file error"
-msgstr ""
+msgstr "خطای فایل touch"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:1353
 msgid "items"
@@ -706,7 +688,7 @@ msgstr "مدیر پرونده"
 
 #: com.ubuntu.filemanager.desktop.in.in.h:2
 msgid "folder;manager;explore;disk;filesystem;"
-msgstr ""
+msgstr "پوشه ؛ مدیریت ؛ کاوش ، دیسک ؛ سیستم فایل؛"
 
 #~ msgid "%1 (%2 file)"
 #~ msgid_plural "%1 (%2 files)"
