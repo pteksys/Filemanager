@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2020-02-21 19:21+0000\n"
+"PO-Revision-Date: 2020-02-27 06:21+0000\n"
 "Last-Translator: Ryan Argente <rargente@lonerider.one>\n"
 "Language-Team: French (Canada) <https://translate.ubports.com/projects/"
 "ubports/filemanager-app/fr_CA/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../src/app/qml/actions/AddBookmark.qml:6
 msgid "Add bookmark"
-msgstr ""
+msgstr "Ajouter un favori"
 
 #: ../src/app/qml/actions/ArchiveExtract.qml:6
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:18
@@ -52,7 +52,7 @@ msgid "Cut"
 msgstr "Couper"
 
 #: ../src/app/qml/actions/FilePaste.qml:30
-#, fuzzy, qt-format
+#, qt-format
 msgid "Paste %1 file"
 msgid_plural "Paste %1 files"
 msgstr[0] "Coller %1 fichier"
@@ -60,11 +60,11 @@ msgstr[1] "Coller %1 fichiers"
 
 #: ../src/app/qml/actions/GoBack.qml:5
 msgid "Go back"
-msgstr ""
+msgstr "Précédent"
 
 #: ../src/app/qml/actions/GoNext.qml:5
 msgid "Go next"
-msgstr ""
+msgstr "Suivant"
 
 #: ../src/app/qml/actions/GoTo.qml:6
 msgid "Go To"
@@ -72,7 +72,7 @@ msgstr "Aller à"
 
 #: ../src/app/qml/actions/NewItem.qml:6
 msgid "New Item"
-msgstr ""
+msgstr "Nouvel élément"
 
 #: ../src/app/qml/actions/PlacesBookmarks.qml:6
 #: ../src/app/qml/ui/PlacesPage.qml:16
@@ -95,14 +95,12 @@ msgid "Select"
 msgstr "Choisir"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
-#, fuzzy
 msgid "Select None"
-msgstr "Choisir"
+msgstr "Tout désélectionner"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
-#, fuzzy
 msgid "Select All"
-msgstr "Choisir"
+msgstr "Tout sélectionner"
 
 #: ../src/app/qml/actions/Settings.qml:6
 msgid "Settings"
@@ -114,7 +112,7 @@ msgstr "Partager"
 
 #: ../src/app/qml/actions/TabsAdd.qml:5
 msgid "Add tab"
-msgstr ""
+msgstr "Ajouter un onglet"
 
 #: ../src/app/qml/actions/TabsCloseThis.qml:5
 msgid "Close this tab"
@@ -126,7 +124,7 @@ msgstr "Ouvrir dans un nouvel onglet"
 
 #: ../src/app/qml/actions/UnlockFullAccess.qml:6
 msgid "Unlock"
-msgstr ""
+msgstr "Déverrouiller"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:26
 #: ../src/app/qml/authentication/PasswordDialog.qml:43
@@ -136,17 +134,16 @@ msgstr "Authentification exigée"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:27
 msgid "Use your fingerprint to access restricted content"
-msgstr ""
+msgstr "Utiliser votre empreinte digitale pour accéder au contenu restreint"
 
 #. TRANSLATORS: "Touch" here is a verb
 #: ../src/app/qml/authentication/FingerprintDialog.qml:55
 msgid "Touch sensor"
-msgstr ""
+msgstr "Appuyez sur le capteur"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:60
-#, fuzzy
 msgid "Use password"
-msgstr "Enregistrer le mot de passe"
+msgstr "Utiliser un mot de passe"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:69
 #: ../src/app/qml/authentication/PasswordDialog.qml:80
@@ -166,66 +163,60 @@ msgid "Cancel"
 msgstr "Annuler"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:126
-#, fuzzy
 msgid "Authentication failed!"
-msgstr "Échec lors de l'authentification"
+msgstr "Échec lors de l'authentification!"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:137
 msgid "Please retry"
-msgstr ""
+msgstr "Veuillez réessayer"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:35
 msgid "Authentication failed"
 msgstr "Échec lors de l'authentification"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:45
-#, fuzzy
 msgid "Your passphrase is required to access restricted content"
-msgstr "Un mot de passe est exigé pour accéder à tous les fichiers"
+msgstr "Votre phrase secrète est exigé pour accéder au contenu restreint"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:46
-#, fuzzy
 msgid "Your passcode is required to access restricted content"
-msgstr "Un mot de passe est exigé pour accéder à tous les fichiers"
+msgstr "Votre mot de passe est exigé pour accéder au contenu restreint"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:57
 msgid "passphrase (default is 0000 if unset)"
-msgstr ""
+msgstr "phrase secrète (0000 par défaut)"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:57
 msgid "passcode (default is 0000 if unset)"
-msgstr ""
+msgstr "mot de passe (0000 par défaut)"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:69
-#, fuzzy
 msgid "Authentication failed. Please retry"
-msgstr "Échec lors de l'authentification"
+msgstr "Échec lors de l'authentification. Veuillez réessayer"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:74
-#, fuzzy
 msgid "Authenticate"
-msgstr "Échec lors de l'authentification"
+msgstr "S'authentifier"
 
 #: ../src/app/qml/backend/FolderListModel.qml:123
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1 file"
 msgstr "%1 fichier"
 
 #: ../src/app/qml/backend/FolderListModel.qml:124
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1 files"
-msgstr "%1 fichier"
+msgstr "%1 fichiers"
 
 #: ../src/app/qml/backend/FolderListModel.qml:135
-#, fuzzy
 msgid "Folder"
-msgstr "Nouveau dossier"
+msgstr "Dossier"
 
 #: ../src/app/qml/components/TextualButtonStyle.qml:48
 #: ../src/app/qml/components/TextualButtonStyle.qml:56
 #: ../src/app/qml/components/TextualButtonStyle.qml:63
 msgid "Pick"
-msgstr ""
+msgstr "Choisir"
 
 #: ../src/app/qml/content-hub/FileOpener.qml:27
 msgid "Open with"
@@ -247,9 +238,8 @@ msgid "Are you sure you want to permanently delete '%1'?"
 msgstr "Voulez-vous vraiment supprimer définitivement « %1 »?"
 
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:15
-#, fuzzy
 msgid "these files"
-msgstr "Coller les fichiers"
+msgstr "ces fichiers"
 
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:18
 #: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:21
@@ -261,9 +251,8 @@ msgid "Enter a new name"
 msgstr "Saisir un nouveau nom"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:13
-#, fuzzy
 msgid "Create Item"
-msgstr "Créer un fichier"
+msgstr "Créer un élément"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:14
 #, fuzzy
@@ -530,7 +519,7 @@ msgstr "Ordre de tri"
 
 #: ../src/app/qml/ui/ViewPopover.qml:74
 msgid "Theme"
-msgstr ""
+msgstr "Thème"
 
 #: ../src/app/qml/ui/ViewPopover.qml:76
 msgid "Light"
