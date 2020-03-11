@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2020-02-27 06:21+0000\n"
+"PO-Revision-Date: 2020-03-12 05:22+0000\n"
 "Last-Translator: Ryan Argente <rargente@lonerider.one>\n"
 "Language-Team: French (Canada) <https://translate.ubports.com/projects/"
 "ubports/filemanager-app/fr_CA/>\n"
@@ -255,21 +255,18 @@ msgid "Create Item"
 msgstr "Créer un élément"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:14
-#, fuzzy
 msgid "Enter name for new item"
-msgstr "Saisir un nom pour le nouveau fichier"
+msgstr "Saisir un nom pour le nouvel élément"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:18
-#, fuzzy
 msgid "Item name"
-msgstr "Renommer"
+msgstr "Nom de l’élément"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:24
 msgid "Create file"
 msgstr "Créer un fichier"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:43
-#, fuzzy
 msgid "Create Folder"
 msgstr "Créer un dossier"
 
@@ -350,13 +347,12 @@ msgid "Open file"
 msgstr "Ouvrir avec"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:9
-#, fuzzy
 msgid "What do you want to do with the clicked file?"
-msgstr "Voulez-vous extraire le fichier compressé ici?"
+msgstr "Que voulez-vous faire avec le fichier?"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:22
 msgid "Preview"
-msgstr ""
+msgstr "Afficher un aperçu"
 
 #: ../src/app/qml/filemanager.qml:170
 #, qt-format
@@ -391,12 +387,11 @@ msgstr "Exécutable"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:100
 msgid "Where:"
-msgstr ""
+msgstr "Emplacement:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:127
-#, fuzzy
 msgid "Created:"
-msgstr "Créer un dossier"
+msgstr "Création:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:141
 msgid "Modified:"
@@ -509,9 +504,8 @@ msgid "Date"
 msgstr "Date"
 
 #: ../src/app/qml/ui/ViewPopover.qml:62
-#, fuzzy
 msgid "Size"
-msgstr "Taille :"
+msgstr "Taille"
 
 #: ../src/app/qml/ui/ViewPopover.qml:67
 msgid "Sort Order"
