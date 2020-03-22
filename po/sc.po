@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2019-05-07 13:18+0000\n"
+"PO-Revision-Date: 2020-03-22 11:22+0000\n"
 "Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/sc/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.8\n"
 
 #: ../src/app/qml/actions/AddBookmark.qml:6
 msgid "Add bookmark"
@@ -350,7 +350,7 @@ msgstr "Ite boles fàghere cun s'archìviu seletzionadu?"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:22
 msgid "Preview"
-msgstr "Anteprima"
+msgstr "Pre-visualizatzione"
 
 #: ../src/app/qml/filemanager.qml:170
 #, qt-format
