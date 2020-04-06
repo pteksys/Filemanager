@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2020-03-18 11:22+0000\n"
+"PO-Revision-Date: 2020-04-07 16:23+0000\n"
 "Last-Translator: Neutrum N <neutro@tutanota.com>\n"
 "Language-Team: Galician <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/gl/>\n"
@@ -134,7 +134,7 @@ msgstr "Autenticación requerida"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:27
 msgid "Use your fingerprint to access restricted content"
-msgstr "Use a súa pegada dixital pra acceder ao contido restrinxido"
+msgstr "Use a súa pegada dixital para acceder ao contido restrinxido"
 
 #. TRANSLATORS: "Touch" here is a verb
 #: ../src/app/qml/authentication/FingerprintDialog.qml:55
@@ -176,11 +176,11 @@ msgstr "Fallou a autenticación"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:45
 msgid "Your passphrase is required to access restricted content"
-msgstr "Precísase contrasinal pra acceder ao contido restrinxido"
+msgstr "Precísase contrasinal para acceder ao contido restrinxido"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:46
 msgid "Your passcode is required to access restricted content"
-msgstr "Precísase contrasinal pra acceder ao contido restrinxido"
+msgstr "Precísase contrasinal para acceder ao contido restrinxido"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:57
 msgid "passphrase (default is 0000 if unset)"
@@ -256,7 +256,7 @@ msgstr "Crear elemento"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:14
 msgid "Enter name for new item"
-msgstr "Insira un nome pra o novo elemento"
+msgstr "Insira un nome para o novo elemento"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:18
 msgid "Item name"
@@ -298,7 +298,7 @@ msgstr "Seleccionar acción"
 #: ../src/app/qml/dialogs/FileActionDialog.qml:31
 #, qt-format
 msgid "For file: %1"
-msgstr "Pra o ficheiro: %1"
+msgstr "Para o ficheiro: %1"
 
 #: ../src/app/qml/dialogs/FileActionDialog.qml:35
 msgid "Open"
@@ -412,7 +412,7 @@ msgstr "Acceso restrinxido"
 #: ../src/app/qml/ui/FolderListPage.qml:245
 msgid ""
 "Authentication is required in order to see all the content of this folder."
-msgstr "É necesaria a autenticación pra ver todo o contido deste cartafol."
+msgstr "É necesaria a autenticación para ver todo o contido deste cartafol."
 
 #: ../src/app/qml/ui/FolderListPage.qml:282
 msgid "No files"
@@ -424,7 +424,7 @@ msgstr "Este cartafol está baleiro."
 
 #: ../src/app/qml/ui/FolderListPage.qml:297
 msgid "Authentication is required in order to see the content of this folder."
-msgstr "É necesaria a autenticación pra ver o contido deste cartafol."
+msgstr "É necesaria a autenticación para ver o contido deste cartafol."
 
 #: ../src/app/qml/ui/FolderListPage.qml:313
 msgid "File operation error"
@@ -606,7 +606,7 @@ msgstr "Non foi posíbel eliminar o elemento "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:680
 msgid "Could not find a suitable name to backup"
-msgstr "Non foi posíbel atopar un nome axeitado pra a copia"
+msgstr "Non foi posíbel atopar un nome axeitado para a copia"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:733
 msgid "Could not create the directory"
@@ -675,7 +675,7 @@ msgstr "os cartafoles de orixe e destino son o mesmo"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1524
 msgid "There is no space to download"
-msgstr "Non hai espazo pra descargas"
+msgstr "Non hai espazo para descargas"
 
 #: ../src/plugin/folderlistmodel/smb/qsambaclient/src/smbusershare.cpp:72
 msgid "net tool not found, check samba installation"
