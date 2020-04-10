@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2020-04-10 09:23+0000\n"
+"PO-Revision-Date: 2020-04-11 14:23+0000\n"
 "Last-Translator: Neutrum N <neutro@tutanota.com>\n"
 "Language-Team: Galician <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/gl/>\n"
@@ -164,15 +164,15 @@ msgstr "Cancelar"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:126
 msgid "Authentication failed!"
-msgstr "Fallou a autenticación!"
+msgstr "A autenticación fallou!"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:137
 msgid "Please retry"
-msgstr "Volva tentalo"
+msgstr "Reintente"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:35
 msgid "Authentication failed"
-msgstr "Fallou a autenticación"
+msgstr "A autenticación fallou"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:45
 msgid "Your passphrase is required to access restricted content"
@@ -192,7 +192,7 @@ msgstr "código (por defecto é 0000)"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:69
 msgid "Authentication failed. Please retry"
-msgstr "Fallou a autenticación. Reintente"
+msgstr "A autenticación fallou. Reintente"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:74
 msgid "Authenticate"
@@ -256,7 +256,7 @@ msgstr "Crear elemento"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:14
 msgid "Enter name for new item"
-msgstr "Insira un nome para o elemento novo"
+msgstr "Introduza un nome para o elemento novo"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:18
 msgid "Item name"
@@ -284,7 +284,7 @@ msgstr "Aceptar"
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:59
 msgid "Extracting failed"
-msgstr "Fallou a extracción"
+msgstr "A extracción fallou"
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:60
 #, qt-format
