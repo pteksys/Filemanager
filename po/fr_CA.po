@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2020-03-12 05:22+0000\n"
+"PO-Revision-Date: 2020-05-09 21:23+0000\n"
 "Last-Translator: Ryan Argente <rargente@lonerider.one>\n"
 "Language-Team: French (Canada) <https://translate.ubports.com/projects/"
 "ubports/filemanager-app/fr_CA/>\n"
@@ -229,7 +229,7 @@ msgstr "Extraire le fichier compressé"
 #: ../src/app/qml/dialogs/ConfirmExtractDialog.qml:16
 #, qt-format
 msgid "Are you sure you want to extract '%1' here?"
-msgstr "Voulez-vous vraiement extraire « %1 » ici?"
+msgstr "Voulez-vous vraiment extraire « %1 » ici?"
 
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:15
 #: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:16
@@ -342,7 +342,6 @@ msgid "Open with another app"
 msgstr "Ouvrir avec une autre appli"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:8
-#, fuzzy
 msgid "Open file"
 msgstr "Ouvrir avec"
 
@@ -387,11 +386,11 @@ msgstr "Exécutable"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:100
 msgid "Where:"
-msgstr "Emplacement:"
+msgstr "Emplacement :"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:127
 msgid "Created:"
-msgstr "Création:"
+msgstr "Création :"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:141
 msgid "Modified:"
@@ -408,12 +407,13 @@ msgstr "Permissions :"
 #: ../src/app/qml/ui/FolderListPage.qml:241
 #: ../src/app/qml/ui/FolderListPage.qml:296
 msgid "Restricted access"
-msgstr ""
+msgstr "Accès restreint"
 
 #: ../src/app/qml/ui/FolderListPage.qml:245
 msgid ""
 "Authentication is required in order to see all the content of this folder."
 msgstr ""
+"Une authentification est nécessaire pour voir tout le contenu de ce dossier."
 
 #: ../src/app/qml/ui/FolderListPage.qml:282
 msgid "No files"
@@ -421,11 +421,11 @@ msgstr "Aucun fichier"
 
 #: ../src/app/qml/ui/FolderListPage.qml:283
 msgid "This folder is empty."
-msgstr ""
+msgstr "Ce dossier est vide."
 
 #: ../src/app/qml/ui/FolderListPage.qml:297
 msgid "Authentication is required in order to see the content of this folder."
-msgstr ""
+msgstr "Une authentification est nécessaire pour voir le contenu de ce dossier."
 
 #: ../src/app/qml/ui/FolderListPage.qml:313
 msgid "File operation error"
@@ -433,22 +433,22 @@ msgstr "Erreur d'opération sur fichier"
 
 #: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:21
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:21
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1 item"
 msgid_plural "%1 items"
-msgstr[0] "éléments"
-msgstr[1] "éléments"
+msgstr[0] "%1 élément"
+msgstr[1] "%1 éléments"
 
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:21
 msgid "Save here"
-msgstr ""
+msgstr "Enregistrer ici"
 
 #: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:18
 #, qt-format
 msgid "%1 item selected"
 msgid_plural "%1 items selected"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 élément sélectionné"
+msgstr[1] "%1 éléments sélectionnés"
 
 #: ../src/app/qml/ui/ViewPopover.qml:24
 msgid "Show Hidden Files"
@@ -468,28 +468,27 @@ msgstr "Icônes"
 
 #: ../src/app/qml/ui/ViewPopover.qml:44
 msgid "Grid size"
-msgstr ""
+msgstr "Taille des icônes"
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "S"
-msgstr ""
+msgstr "P"
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "M"
-msgstr ""
+msgstr "M"
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "L"
-msgstr ""
+msgstr "G"
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "XL"
-msgstr ""
+msgstr "TG"
 
 #: ../src/app/qml/ui/ViewPopover.qml:52
-#, fuzzy
 msgid "List size"
-msgstr "Liste"
+msgstr "Taille de la liste"
 
 #: ../src/app/qml/ui/ViewPopover.qml:60
 msgid "Sort By"
@@ -517,11 +516,11 @@ msgstr "Thème"
 
 #: ../src/app/qml/ui/ViewPopover.qml:76
 msgid "Light"
-msgstr ""
+msgstr "Clair"
 
 #: ../src/app/qml/ui/ViewPopover.qml:76
 msgid "Dark"
-msgstr ""
+msgstr "Sombre"
 
 #: ../src/app/qml/views/FolderDelegateActions.qml:40
 msgid "Folder not accessible"
@@ -538,20 +537,20 @@ msgid "Could not rename"
 msgstr "Impossible de renommer"
 
 #: ../src/app/qml/views/FolderDelegateActions.qml:137
-#, fuzzy
 msgid ""
 "Insufficient permissions, name contains special chars (e.g. '/'), or already "
 "exists"
-msgstr "Permissions insuffisantes ou nom déjà existant?"
+msgstr ""
+"Permissions insuffisantes, nom contenant des caractères spéciaux (par "
+"exemple «/») ou nom déjà existant"
 
 #: ../src/app/qml/views/FolderListView.qml:72
 msgid "Directories"
-msgstr ""
+msgstr "Répertoires"
 
 #: ../src/app/qml/views/FolderListView.qml:72
-#, fuzzy
 msgid "Files"
-msgstr "%1 fichiers"
+msgstr "Fichiers"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:360
 msgid "Unknown"
@@ -571,7 +570,7 @@ msgstr "Erreur lors de la création du nouveau dossier"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:740
 msgid "Touch file error"
-msgstr ""
+msgstr "Erreur de ficher d'empreinte"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:1353
 msgid "items"
@@ -693,7 +692,7 @@ msgstr "Gestionnaire de fichiers"
 
 #: com.ubuntu.filemanager.desktop.in.in.h:2
 msgid "folder;manager;explore;disk;filesystem;"
-msgstr ""
+msgstr "dossier;gestionnaire;explorer;disque;système de fichiers;"
 
 #~ msgid "Edit"
 #~ msgstr "Modifier"
