@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2020-05-15 12:24+0000\n"
+"PO-Revision-Date: 2020-05-20 18:24+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/cs/>\n"
@@ -69,7 +69,7 @@ msgstr "Vpřed"
 
 #: ../src/app/qml/actions/GoTo.qml:6
 msgid "Go To"
-msgstr "Jdi na"
+msgstr "Jít na"
 
 #: ../src/app/qml/actions/NewItem.qml:6
 msgid "New Item"
@@ -131,7 +131,7 @@ msgstr "Odemknout"
 #: ../src/app/qml/authentication/PasswordDialog.qml:43
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:28
 msgid "Authentication required"
-msgstr "Požadováno ověření totožnosti"
+msgstr "Požadováno ověření se"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:27
 msgid "Use your fingerprint to access restricted content"
@@ -415,7 +415,7 @@ msgstr "Omezený přístup"
 #: ../src/app/qml/ui/FolderListPage.qml:245
 msgid ""
 "Authentication is required in order to see all the content of this folder."
-msgstr "Pro přístup k obsahu souboru je vyžadováno ověření se."
+msgstr "Pro zobrazení veškerého obsahu této složky je vyžadováno ověření se."
 
 #: ../src/app/qml/ui/FolderListPage.qml:282
 msgid "No files"
@@ -423,11 +423,11 @@ msgstr "Žádné soubory"
 
 #: ../src/app/qml/ui/FolderListPage.qml:283
 msgid "This folder is empty."
-msgstr "Soubor je prázdný."
+msgstr "Tato složka je prázdná."
 
 #: ../src/app/qml/ui/FolderListPage.qml:297
 msgid "Authentication is required in order to see the content of this folder."
-msgstr "Pro přístup k obsahu složky je vyžadováno ověření."
+msgstr "Pro přístup k obsahu složky je vyžadováno ověření se."
 
 #: ../src/app/qml/ui/FolderListPage.qml:313
 msgid "File operation error"
@@ -476,7 +476,7 @@ msgstr "Velikost mřížky"
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "S"
-msgstr "J"
+msgstr "S"
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "M"
@@ -562,8 +562,7 @@ msgstr "Neznámé"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:487
 msgid "path or url may not exist or cannot be read"
-msgstr ""
-"popis umístění nebo url adresa nejspíš neexistuje nebo nebo se nedaří číst"
+msgstr "popis umístění nebo url adresa nejspíš neexistuje nebo se nedaří číst"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:690
 msgid "Rename error"
@@ -595,7 +594,7 @@ msgstr "Nedaří se získat přístup k souboru nebo složce"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:327
 msgid " it needs Authentication"
-msgstr " požadováno ověření"
+msgstr " požadováno ověření se"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:361
 msgid "Cannot copy/move items"
@@ -677,7 +676,7 @@ msgstr "Položky se nedaří přesunout"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1481
 msgid "origin and destination folders are the same"
-msgstr "výchozí a cílová složka je shodná"
+msgstr "původní a cílová složka je shodná"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1524
 msgid "There is no space to download"
