@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2018-12-07 08:35+0000\n"
-"Last-Translator: Dmytro Gladkyi <gladimdim@gmail.com>\n"
+"PO-Revision-Date: 2020-07-03 12:42+0000\n"
+"Last-Translator: Stoian Minaiev <stoyan.minaev@gmail.com>\n"
 "Language-Team: Ukrainian <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/uk/>\n"
 "Language: uk\n"
@@ -18,18 +18,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
 "4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2017-04-08 06:04+0000\n"
 
 #: ../src/app/qml/actions/AddBookmark.qml:6
 msgid "Add bookmark"
-msgstr ""
+msgstr "Додати закладку"
 
 #: ../src/app/qml/actions/ArchiveExtract.qml:6
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:18
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:33
 msgid "Extract archive"
-msgstr ""
+msgstr "Розпакувати архів"
 
 #: ../src/app/qml/actions/Delete.qml:5
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:14
@@ -40,69 +40,69 @@ msgstr "Вилучити"
 
 #: ../src/app/qml/actions/FileClearSelection.qml:8
 msgid "Clear clipboard"
-msgstr ""
+msgstr "Очистити буфер обміну"
 
 #: ../src/app/qml/actions/FileCopy.qml:5
 #: ../src/app/qml/panels/SelectionBottomBar.qml:45
 msgid "Copy"
-msgstr ""
+msgstr "Копіювати"
 
 #: ../src/app/qml/actions/FileCut.qml:5
 #: ../src/app/qml/panels/SelectionBottomBar.qml:60
 msgid "Cut"
-msgstr ""
+msgstr "Вилучити"
 
 #: ../src/app/qml/actions/FilePaste.qml:30
 #, qt-format
 msgid "Paste %1 file"
 msgid_plural "Paste %1 files"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Вставити %1 файл"
+msgstr[1] "Вставити %1 файлів"
+msgstr[2] "Вставити %1 файлів"
 
 #: ../src/app/qml/actions/GoBack.qml:5
 msgid "Go back"
-msgstr ""
+msgstr "Повернутися"
 
 #: ../src/app/qml/actions/GoNext.qml:5
 msgid "Go next"
-msgstr ""
+msgstr "Перейти далі"
 
 #: ../src/app/qml/actions/GoTo.qml:6
 msgid "Go To"
-msgstr ""
+msgstr "Перейти до"
 
 #: ../src/app/qml/actions/NewItem.qml:6
 msgid "New Item"
-msgstr ""
+msgstr "Новий об'єкт"
 
 #: ../src/app/qml/actions/PlacesBookmarks.qml:6
 #: ../src/app/qml/ui/PlacesPage.qml:16
 msgid "Places"
-msgstr ""
+msgstr "Місця"
 
 #: ../src/app/qml/actions/Properties.qml:6
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:54
 msgid "Properties"
-msgstr ""
+msgstr "Властивості"
 
 #: ../src/app/qml/actions/Rename.qml:5
 #: ../src/app/qml/dialogs/ConfirmRenameDialog.qml:20
 msgid "Rename"
-msgstr ""
+msgstr "Перейменувати"
 
 #: ../src/app/qml/actions/Select.qml:5
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:60
 msgid "Select"
-msgstr ""
+msgstr "Обрати"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
 msgid "Select None"
-msgstr ""
+msgstr "Не обирати нічого"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
 msgid "Select All"
-msgstr ""
+msgstr "Обрати все"
 
 #: ../src/app/qml/actions/Settings.qml:6
 msgid "Settings"
@@ -110,42 +110,42 @@ msgstr "Налаштування"
 
 #: ../src/app/qml/actions/Share.qml:5
 msgid "Share"
-msgstr ""
+msgstr "Поділитися"
 
 #: ../src/app/qml/actions/TabsAdd.qml:5
 msgid "Add tab"
-msgstr ""
+msgstr "Додати вкладку"
 
 #: ../src/app/qml/actions/TabsCloseThis.qml:5
 msgid "Close this tab"
-msgstr ""
+msgstr "Закрити вкладку"
 
 #: ../src/app/qml/actions/TabsOpenInNewTab.qml:5
 msgid "Open in a new tab"
-msgstr ""
+msgstr "Відкрити в новій вкладці"
 
 #: ../src/app/qml/actions/UnlockFullAccess.qml:6
 msgid "Unlock"
-msgstr ""
+msgstr "Розблокувати"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:26
 #: ../src/app/qml/authentication/PasswordDialog.qml:43
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:28
 msgid "Authentication required"
-msgstr ""
+msgstr "Потрібна аутентифікація"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:27
 msgid "Use your fingerprint to access restricted content"
-msgstr ""
+msgstr "Застосуйте свій відбиток пальця для доступу до захищенного контенту"
 
 #. TRANSLATORS: "Touch" here is a verb
 #: ../src/app/qml/authentication/FingerprintDialog.qml:55
 msgid "Touch sensor"
-msgstr ""
+msgstr "Доторкніться до сенсору"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:60
 msgid "Use password"
-msgstr ""
+msgstr "Використати пароль"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:69
 #: ../src/app/qml/authentication/PasswordDialog.qml:80
@@ -162,161 +162,161 @@ msgstr ""
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:51
 #: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:26
 msgid "Cancel"
-msgstr ""
+msgstr "Скасувати"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:126
 msgid "Authentication failed!"
-msgstr ""
+msgstr "Помилка аутентифікації!"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:137
 msgid "Please retry"
-msgstr ""
+msgstr "Спробуйте ще раз, будь ласка"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:35
 msgid "Authentication failed"
-msgstr ""
+msgstr "Помилка аутентифікації"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:45
 msgid "Your passphrase is required to access restricted content"
-msgstr ""
+msgstr "Необхідна кодова фраза для доступу до захищенного контенту"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:46
 msgid "Your passcode is required to access restricted content"
-msgstr ""
+msgstr "Необхідний пароль для доступу до захищенного контенту"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:57
 msgid "passphrase (default is 0000 if unset)"
-msgstr ""
+msgstr "кодова фраза (за замовчуванням 0000)"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:57
 msgid "passcode (default is 0000 if unset)"
-msgstr ""
+msgstr "пін-код (за замовчуванням 0000)"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:69
 msgid "Authentication failed. Please retry"
-msgstr ""
+msgstr "Помилка аутентификації. Спробуйте ще раз, будь ласка"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:74
 msgid "Authenticate"
-msgstr ""
+msgstr "Аутентифікація"
 
 #: ../src/app/qml/backend/FolderListModel.qml:123
 #, qt-format
 msgid "%1 file"
-msgstr ""
+msgstr "%1 файл"
 
 #: ../src/app/qml/backend/FolderListModel.qml:124
 #, qt-format
 msgid "%1 files"
-msgstr ""
+msgstr "%1 файлів"
 
 #: ../src/app/qml/backend/FolderListModel.qml:135
 msgid "Folder"
-msgstr ""
+msgstr "Директорія"
 
 #: ../src/app/qml/components/TextualButtonStyle.qml:48
 #: ../src/app/qml/components/TextualButtonStyle.qml:56
 #: ../src/app/qml/components/TextualButtonStyle.qml:63
 msgid "Pick"
-msgstr ""
+msgstr "Обрати"
 
 #: ../src/app/qml/content-hub/FileOpener.qml:27
 msgid "Open with"
-msgstr ""
+msgstr "Відкрити за допомогою"
 
 #: ../src/app/qml/dialogs/ConfirmExtractDialog.qml:15
 msgid "Extract Archive"
-msgstr ""
+msgstr "Розпакувати архів"
 
 #: ../src/app/qml/dialogs/ConfirmExtractDialog.qml:16
 #, qt-format
 msgid "Are you sure you want to extract '%1' here?"
-msgstr ""
+msgstr "Дійсно розпакувати '%1' тут?"
 
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:15
 #: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:16
 #, qt-format
 msgid "Are you sure you want to permanently delete '%1'?"
-msgstr ""
+msgstr "Дійсно видалити назавжди '%1'?"
 
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:15
 msgid "these files"
-msgstr ""
+msgstr "ці файли"
 
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:18
 #: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:21
 msgid "Deleting files"
-msgstr ""
+msgstr "Видалення файлів"
 
 #: ../src/app/qml/dialogs/ConfirmRenameDialog.qml:21
 msgid "Enter a new name"
-msgstr ""
+msgstr "Введіть нове ім'я"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:13
 msgid "Create Item"
-msgstr ""
+msgstr "Створити об'єкт"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:14
 msgid "Enter name for new item"
-msgstr ""
+msgstr "Введіть ім'я для нового об'єкту"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:18
 msgid "Item name"
-msgstr ""
+msgstr "ім'я об'єкту"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:24
 msgid "Create file"
-msgstr ""
+msgstr "Створити файл"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:43
 msgid "Create Folder"
-msgstr ""
+msgstr "Створити директорію"
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:23
 #, qt-format
 msgid "Extracting archive '%1'"
-msgstr ""
+msgstr "Розпаковування архиву '%1'"
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:44
 #: ../src/app/qml/dialogs/NotifyDialog.qml:27
 #: ../src/app/qml/dialogs/templates/ConfirmDialog.qml:31
 #: ../src/app/qml/dialogs/templates/ConfirmDialogWithInput.qml:49
 msgid "OK"
-msgstr ""
+msgstr "Добре"
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:59
 msgid "Extracting failed"
-msgstr ""
+msgstr "Помилка при розпаковуванні"
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:60
 #, qt-format
 msgid "Extracting the archive '%1' failed."
-msgstr ""
+msgstr "Помилка при розпаковуванні архіву '%1'."
 
 #: ../src/app/qml/dialogs/FileActionDialog.qml:30
 msgid "Choose action"
-msgstr ""
+msgstr "Оберіть дію"
 
 #: ../src/app/qml/dialogs/FileActionDialog.qml:31
 #, qt-format
 msgid "For file: %1"
-msgstr ""
+msgstr "Для файлу: %1"
 
 #: ../src/app/qml/dialogs/FileActionDialog.qml:35
 msgid "Open"
-msgstr ""
+msgstr "Відкрити"
 
 #: ../src/app/qml/dialogs/FileOperationProgressDialog.qml:27
 msgid "Operation in progress"
-msgstr ""
+msgstr "Зачекайте,  будь ласка"
 
 #: ../src/app/qml/dialogs/FileOperationProgressDialog.qml:29
 msgid "File operation"
-msgstr ""
+msgstr "Операція з файлом"
 
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:45
 msgid "User"
-msgstr ""
+msgstr "Користувач"
 
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:58
 msgid "Password"
@@ -324,105 +324,106 @@ msgstr "Пароль"
 
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:72
 msgid "Save password"
-msgstr ""
+msgstr "Зберегти пароль"
 
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:108
 msgid "Ok"
-msgstr ""
+msgstr "Добре"
 
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:8
 msgid "Archive file"
-msgstr ""
+msgstr "Файл-архів"
 
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:9
 msgid "Do you want to extract the archive here?"
-msgstr ""
+msgstr "Ви хочете розпакувати архів тут?"
 
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:28
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:44
 msgid "Open with another app"
-msgstr ""
+msgstr "Відкрити за допомогою іншої програми"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:8
 msgid "Open file"
-msgstr ""
+msgstr "Відкрити файл"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:9
 msgid "What do you want to do with the clicked file?"
-msgstr ""
+msgstr "Що ви  хочете зробити з обраним файлом?"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:22
 msgid "Preview"
-msgstr ""
+msgstr "Перегляд"
 
 #: ../src/app/qml/filemanager.qml:170
 #, qt-format
 msgid "File %1"
-msgstr ""
+msgstr "Файл %1"
 
 #: ../src/app/qml/filemanager.qml:170
 #, qt-format
 msgid "%1 Files"
-msgstr ""
+msgstr "%1 файлів"
 
 #: ../src/app/qml/filemanager.qml:171
 #, qt-format
 msgid "Saved to: %1"
-msgstr ""
+msgstr "Збережено до:  %1"
 
 #: ../src/app/qml/panels/DefaultBottomBar.qml:24
 msgid "Paste files"
-msgstr ""
+msgstr "Вставити файли"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:34
 msgid "Readable"
-msgstr ""
+msgstr "Той, що можна прочитати"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:37
 msgid "Writable"
-msgstr ""
+msgstr "Той, що можна записати"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:40
 msgid "Executable"
-msgstr ""
+msgstr "Той, що можна виконати"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:100
 msgid "Where:"
-msgstr ""
+msgstr "Де:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:127
 msgid "Created:"
-msgstr ""
+msgstr "Створений:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:141
 msgid "Modified:"
-msgstr ""
+msgstr "Змінений:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:155
 msgid "Accessed:"
-msgstr ""
+msgstr "Останній доступ:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:176
 msgid "Permissions:"
-msgstr ""
+msgstr "Права:"
 
 #: ../src/app/qml/ui/FolderListPage.qml:241
 #: ../src/app/qml/ui/FolderListPage.qml:296
 msgid "Restricted access"
-msgstr ""
+msgstr "Захищений доступ:"
 
 #: ../src/app/qml/ui/FolderListPage.qml:245
 msgid ""
 "Authentication is required in order to see all the content of this folder."
 msgstr ""
+"Потрібно пройти аутентифікацію перед переглядом усього вмісту цієї директорії"
 
 #: ../src/app/qml/ui/FolderListPage.qml:282
 msgid "No files"
-msgstr ""
+msgstr "Нема файлів"
 
 #: ../src/app/qml/ui/FolderListPage.qml:283
 msgid "This folder is empty."
-msgstr ""
+msgstr "Ця  директорія порожня"
 
 #: ../src/app/qml/ui/FolderListPage.qml:297
 msgid "Authentication is required in order to see the content of this folder."
