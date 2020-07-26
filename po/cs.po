@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2020-07-26 20:31+0000\n"
+"PO-Revision-Date: 2020-07-26 20:57+0000\n"
 "Last-Translator: c4pp4 <c4pp4@seznam.cz>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/cs/>\n"
@@ -594,7 +594,7 @@ msgstr "Nedaří se získat přístup k souboru nebo složce"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:327
 msgid " it needs Authentication"
-msgstr " požadováno ověření se"
+msgstr " požadováno ověření"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:361
 msgid "Cannot copy/move items"
