@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-28 18:15+0000\n"
-"PO-Revision-Date: 2020-07-29 23:35+0000\n"
+"PO-Revision-Date: 2020-07-30 00:32+0000\n"
 "Last-Translator: Young Kim <rsyh93@gmail.com>\n"
 "Language-Team: Korean <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/ko/>\n"
@@ -494,7 +494,7 @@ msgstr ""
 
 #: ../src/app/qml/ui/ViewPopover.qml:74
 msgid "Theme"
-msgstr ""
+msgstr "테마"
 
 #: ../src/app/qml/ui/ViewPopover.qml:76
 msgid "Light"
