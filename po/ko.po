@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-28 18:15+0000\n"
-"PO-Revision-Date: 2020-07-30 21:59+0000\n"
+"PO-Revision-Date: 2020-07-30 23:33+0000\n"
 "Last-Translator: Young Kim <rsyh93@gmail.com>\n"
 "Language-Team: Korean <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/ko/>\n"
@@ -313,7 +313,7 @@ msgstr ""
 
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:58
 msgid "Password"
-msgstr ""
+msgstr "비밀번호"
 
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:72
 msgid "Save password"
@@ -321,7 +321,7 @@ msgstr ""
 
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:108
 msgid "Ok"
-msgstr ""
+msgstr "확인"
 
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:8
 msgid "Archive file"
