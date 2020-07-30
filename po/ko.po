@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-28 18:15+0000\n"
-"PO-Revision-Date: 2020-07-30 01:19+0000\n"
+"PO-Revision-Date: 2020-07-30 02:05+0000\n"
 "Last-Translator: Young Kim <rsyh93@gmail.com>\n"
 "Language-Team: Korean <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/ko/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../src/app/qml/actions/AddBookmark.qml:6
 msgid "Add bookmark"
-msgstr ""
+msgstr "책갈피 추가"
 
 #: ../src/app/qml/actions/ArchiveExtract.qml:6
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:18
@@ -34,7 +34,7 @@ msgstr ""
 #: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:15
 #: ../src/app/qml/panels/SelectionBottomBar.qml:26
 msgid "Delete"
-msgstr ""
+msgstr "삭제"
 
 #: ../src/app/qml/actions/FileClearSelection.qml:8
 msgid "Clear clipboard"
@@ -48,7 +48,7 @@ msgstr "복사"
 #: ../src/app/qml/actions/FileCut.qml:5
 #: ../src/app/qml/panels/SelectionBottomBar.qml:60
 msgid "Cut"
-msgstr ""
+msgstr "잘라내기"
 
 #: ../src/app/qml/actions/FilePaste.qml:30
 #, qt-format
@@ -94,11 +94,11 @@ msgstr "선택"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
 msgid "Select None"
-msgstr ""
+msgstr "선택 안 함"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
 msgid "Select All"
-msgstr ""
+msgstr "모두 선택"
 
 #: ../src/app/qml/actions/Settings.qml:6
 msgid "Settings"
