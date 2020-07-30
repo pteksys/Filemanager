@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-28 18:15+0000\n"
-"PO-Revision-Date: 2020-07-30 02:05+0000\n"
+"PO-Revision-Date: 2020-07-30 21:59+0000\n"
 "Last-Translator: Young Kim <rsyh93@gmail.com>\n"
 "Language-Team: Korean <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/ko/>\n"
@@ -275,7 +275,7 @@ msgstr ""
 #: ../src/app/qml/dialogs/templates/ConfirmDialog.qml:31
 #: ../src/app/qml/dialogs/templates/ConfirmDialogWithInput.qml:49
 msgid "OK"
-msgstr ""
+msgstr "확인"
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:59
 msgid "Extracting failed"
