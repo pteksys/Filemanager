@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-28 18:15+0000\n"
-"PO-Revision-Date: 2020-07-30 00:32+0000\n"
+"PO-Revision-Date: 2020-07-30 01:19+0000\n"
 "Last-Translator: Young Kim <rsyh93@gmail.com>\n"
 "Language-Team: Korean <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/ko/>\n"
@@ -102,11 +102,11 @@ msgstr ""
 
 #: ../src/app/qml/actions/Settings.qml:6
 msgid "Settings"
-msgstr ""
+msgstr "설정"
 
 #: ../src/app/qml/actions/Share.qml:5
 msgid "Share"
-msgstr ""
+msgstr "공유"
 
 #: ../src/app/qml/actions/TabsAdd.qml:5
 msgid "Add tab"
