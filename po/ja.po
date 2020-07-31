@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2020-07-31 09:35+0000\n"
+"PO-Revision-Date: 2020-07-31 09:40+0000\n"
 "Last-Translator: Young Kim <rsyh93@gmail.com>\n"
 "Language-Team: Japanese <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/ja/>\n"
@@ -468,7 +468,7 @@ msgstr ""
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "S"
-msgstr ""
+msgstr "南"
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "M"
