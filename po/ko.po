@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-28 18:15+0000\n"
-"PO-Revision-Date: 2020-07-31 02:05+0000\n"
+"PO-Revision-Date: 2020-07-31 03:56+0000\n"
 "Last-Translator: Young Kim <rsyh93@gmail.com>\n"
 "Language-Team: Korean <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/ko/>\n"
@@ -27,7 +27,7 @@ msgstr "책갈피 추가"
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:18
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:33
 msgid "Extract archive"
-msgstr ""
+msgstr "압축 풀기"
 
 #: ../src/app/qml/actions/Delete.qml:5
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:14
@@ -110,7 +110,7 @@ msgstr "공유"
 
 #: ../src/app/qml/actions/TabsAdd.qml:5
 msgid "Add tab"
-msgstr ""
+msgstr "탭 추가"
 
 #: ../src/app/qml/actions/TabsCloseThis.qml:5
 msgid "Close this tab"
@@ -219,18 +219,18 @@ msgstr ""
 
 #: ../src/app/qml/dialogs/ConfirmExtractDialog.qml:15
 msgid "Extract Archive"
-msgstr ""
+msgstr "압축 풀기"
 
 #: ../src/app/qml/dialogs/ConfirmExtractDialog.qml:16
 #, qt-format
 msgid "Are you sure you want to extract '%1' here?"
-msgstr ""
+msgstr "여기에 '%1'을(를) 풀겠습니까?"
 
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:15
 #: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:16
 #, qt-format
 msgid "Are you sure you want to permanently delete '%1'?"
-msgstr ""
+msgstr "'%1'을(를) 완전히 삭제하시겠습니까?"
 
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:15
 msgid "these files"
@@ -309,7 +309,7 @@ msgstr ""
 
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:45
 msgid "User"
-msgstr ""
+msgstr "사옹자"
 
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:58
 msgid "Password"
@@ -387,7 +387,7 @@ msgstr "접근 시각:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:176
 msgid "Permissions:"
-msgstr ""
+msgstr "권한:"
 
 #: ../src/app/qml/ui/FolderListPage.qml:241
 #: ../src/app/qml/ui/FolderListPage.qml:296
@@ -401,7 +401,7 @@ msgstr ""
 
 #: ../src/app/qml/ui/FolderListPage.qml:282
 msgid "No files"
-msgstr ""
+msgstr "파일 없음"
 
 #: ../src/app/qml/ui/FolderListPage.qml:283
 msgid "This folder is empty."
@@ -434,7 +434,7 @@ msgstr[0] ""
 
 #: ../src/app/qml/ui/ViewPopover.qml:24
 msgid "Show Hidden Files"
-msgstr ""
+msgstr "숨긴 파일 표시"
 
 #: ../src/app/qml/ui/ViewPopover.qml:37
 msgid "View As"
@@ -446,7 +446,7 @@ msgstr ""
 
 #: ../src/app/qml/ui/ViewPopover.qml:39
 msgid "Icons"
-msgstr ""
+msgstr "아이콘"
 
 #: ../src/app/qml/ui/ViewPopover.qml:44
 msgid "Grid size"
@@ -478,15 +478,15 @@ msgstr ""
 
 #: ../src/app/qml/ui/ViewPopover.qml:62
 msgid "Name"
-msgstr ""
+msgstr "이름"
 
 #: ../src/app/qml/ui/ViewPopover.qml:62
 msgid "Date"
-msgstr ""
+msgstr "날짜"
 
 #: ../src/app/qml/ui/ViewPopover.qml:62
 msgid "Size"
-msgstr ""
+msgstr "크기"
 
 #: ../src/app/qml/ui/ViewPopover.qml:67
 msgid "Sort Order"
