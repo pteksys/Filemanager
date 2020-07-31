@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-28 18:15+0000\n"
-"PO-Revision-Date: 2020-07-31 01:58+0000\n"
+"PO-Revision-Date: 2020-07-31 02:05+0000\n"
 "Last-Translator: Young Kim <rsyh93@gmail.com>\n"
 "Language-Team: Korean <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/ko/>\n"
@@ -317,7 +317,7 @@ msgstr "비밀번호"
 
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:72
 msgid "Save password"
-msgstr ""
+msgstr "비밀번호 저장"
 
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:108
 msgid "Ok"
@@ -325,7 +325,7 @@ msgstr "확인"
 
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:8
 msgid "Archive file"
-msgstr ""
+msgstr "파일 압축"
 
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:9
 msgid "Do you want to extract the archive here?"
@@ -334,11 +334,11 @@ msgstr ""
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:28
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:44
 msgid "Open with another app"
-msgstr ""
+msgstr "다른 프로그램으로 열기"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:8
 msgid "Open file"
-msgstr ""
+msgstr "파일 열기"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:9
 msgid "What do you want to do with the clicked file?"
@@ -346,7 +346,7 @@ msgstr ""
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:22
 msgid "Preview"
-msgstr ""
+msgstr "미리보기"
 
 #: ../src/app/qml/filemanager.qml:171
 #, qt-format
@@ -355,7 +355,7 @@ msgstr ""
 
 #: ../src/app/qml/panels/DefaultBottomBar.qml:24
 msgid "Paste files"
-msgstr ""
+msgstr "파일 붙여넣기"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:34
 msgid "Readable"
@@ -379,11 +379,11 @@ msgstr ""
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:141
 msgid "Modified:"
-msgstr ""
+msgstr "수정 시각:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:155
 msgid "Accessed:"
-msgstr ""
+msgstr "접근 시각:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:176
 msgid "Permissions:"
