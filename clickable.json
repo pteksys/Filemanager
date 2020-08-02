@@ -1,4 +1,4 @@
 {
-  "template": "cmake",
-  "kill": "filemanager"
+  "kill": "filemanager",
+  "builder": "cmake"
 }
