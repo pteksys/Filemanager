@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2020-09-05 00:01+0000\n"
+"PO-Revision-Date: 2020-09-05 14:38+0000\n"
 "Last-Translator: tamer dab <dabsantamer@yahoo.com>\n"
 "Language-Team: Hebrew <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/he/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../src/app/qml/actions/AddBookmark.qml:6
 msgid "Add bookmark"
-msgstr ""
+msgstr "הוסף סימניה"
 
 #: ../src/app/qml/actions/ArchiveExtract.qml:6
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:18
@@ -52,19 +52,19 @@ msgid "Cut"
 msgstr "גזירה"
 
 #: ../src/app/qml/actions/FilePaste.qml:30
-#, fuzzy, qt-format
+#, qt-format
 msgid "Paste %1 file"
 msgid_plural "Paste %1 files"
-msgstr[0] "הדבקת קובץ %1"
-msgstr[1] "הדבקת קובצי %1"
+msgstr[0] "הדבק קובץ %1"
+msgstr[1] "הדבק %1 קבצים"
 
 #: ../src/app/qml/actions/GoBack.qml:5
 msgid "Go back"
-msgstr ""
+msgstr "תחזור"
 
 #: ../src/app/qml/actions/GoNext.qml:5
 msgid "Go next"
-msgstr ""
+msgstr "תעבור הלאה"
 
 #: ../src/app/qml/actions/GoTo.qml:6
 msgid "Go To"
@@ -72,7 +72,7 @@ msgstr "מעבר אל"
 
 #: ../src/app/qml/actions/NewItem.qml:6
 msgid "New Item"
-msgstr ""
+msgstr "פריט חדש"
 
 #: ../src/app/qml/actions/PlacesBookmarks.qml:6
 #: ../src/app/qml/ui/PlacesPage.qml:16
@@ -92,7 +92,7 @@ msgstr "שינוי שם"
 #: ../src/app/qml/actions/Select.qml:5
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:60
 msgid "Select"
-msgstr "בחירה"
+msgstr "בחר"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
 msgid "Select None"
@@ -112,7 +112,7 @@ msgstr "שיתוף"
 
 #: ../src/app/qml/actions/TabsAdd.qml:5
 msgid "Add tab"
-msgstr ""
+msgstr "הוסף כרטיסייה"
 
 #: ../src/app/qml/actions/TabsCloseThis.qml:5
 msgid "Close this tab"
@@ -134,17 +134,16 @@ msgstr "נדרש אימות"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:27
 msgid "Use your fingerprint to access restricted content"
-msgstr ""
+msgstr "השתמש בטביעת האצבע בכדי לגשת לתוכן מוגבל"
 
 #. TRANSLATORS: "Touch" here is a verb
 #: ../src/app/qml/authentication/FingerprintDialog.qml:55
 msgid "Touch sensor"
-msgstr ""
+msgstr "חיישן נגיעה"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:60
-#, fuzzy
 msgid "Use password"
-msgstr "שמירת הססמה"
+msgstr "השתמש בסיסמה"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:69
 #: ../src/app/qml/authentication/PasswordDialog.qml:80
@@ -164,60 +163,54 @@ msgid "Cancel"
 msgstr "בטול"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:126
-#, fuzzy
 msgid "Authentication failed!"
-msgstr "האימות נכשל"
+msgstr "אימות נכשל!"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:137
 msgid "Please retry"
-msgstr ""
+msgstr "אנא נסה שוב"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:35
 msgid "Authentication failed"
 msgstr "האימות נכשל"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:45
-#, fuzzy
 msgid "Your passphrase is required to access restricted content"
-msgstr "נדרשת ססמה כדי לגשת לכל הקבצים"
+msgstr "ביטוי הסיסמה שלך נדרש כדי לגשת לתוכן מוגבל"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:46
-#, fuzzy
 msgid "Your passcode is required to access restricted content"
-msgstr "נדרשת ססמה כדי לגשת לכל הקבצים"
+msgstr "קוד הגישה שלך נדרש כדי לגשת לתוכן מוגבל"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:57
 msgid "passphrase (default is 0000 if unset)"
-msgstr ""
+msgstr "סיסמה (ברירת המחדל היא 0000 אם אינה מוגדרת)"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:57
 msgid "passcode (default is 0000 if unset)"
-msgstr ""
+msgstr "קוד גישה (ברירת המחדל היא 0000 אם לא מוגדר)"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:69
-#, fuzzy
 msgid "Authentication failed. Please retry"
-msgstr "האימות נכשל"
+msgstr "אימות נכשל. אנא נסה שוב"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:74
-#, fuzzy
 msgid "Authenticate"
-msgstr "האימות נכשל"
+msgstr "אימות"
 
 #: ../src/app/qml/backend/FolderListModel.qml:123
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1 file"
-msgstr "קובץ אחד"
+msgstr "קובץ %1"
 
 #: ../src/app/qml/backend/FolderListModel.qml:124
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1 files"
-msgstr "קובץ אחד"
+msgstr "%1 קבצים"
 
 #: ../src/app/qml/backend/FolderListModel.qml:135
-#, fuzzy
 msgid "Folder"
-msgstr "תיקייה חדשה"
+msgstr "תיקיה"
 
 #: ../src/app/qml/components/TextualButtonStyle.qml:48
 #: ../src/app/qml/components/TextualButtonStyle.qml:56
@@ -245,9 +238,8 @@ msgid "Are you sure you want to permanently delete '%1'?"
 msgstr "למחוק את '%1' לצמיתות?"
 
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:15
-#, fuzzy
 msgid "these files"
-msgstr "הדבקת קבצים"
+msgstr "קבצים אלה"
 
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:18
 #: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:21
@@ -259,28 +251,24 @@ msgid "Enter a new name"
 msgstr "נא להקליד שם חדש"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:13
-#, fuzzy
 msgid "Create Item"
-msgstr "יצירת קובץ"
+msgstr "צור פריט"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:14
-#, fuzzy
 msgid "Enter name for new item"
-msgstr "נא להזין שם לקובץ החדש"
+msgstr "הזן שם לפריט חדש"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:18
-#, fuzzy
 msgid "Item name"
-msgstr "שינוי שם"
+msgstr "שם הפריט"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:24
 msgid "Create file"
 msgstr "יצירת קובץ"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:43
-#, fuzzy
 msgid "Create Folder"
-msgstr "יצירת תיקייה"
+msgstr "צור תיקיה"
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:23
 #, qt-format
@@ -354,14 +342,12 @@ msgid "Open with another app"
 msgstr "פתיחה עם יישומון אחר"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:8
-#, fuzzy
 msgid "Open file"
-msgstr "פתיחה עם"
+msgstr "פתח קובץ"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:9
-#, fuzzy
 msgid "What do you want to do with the clicked file?"
-msgstr "לחלץ את הארכיון לכאן?"
+msgstr "מה לעשות עם הקובץ שנלחץ עליו?"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:22
 msgid "Preview"
@@ -400,12 +386,11 @@ msgstr "ניתן להרצה"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:100
 msgid "Where:"
-msgstr ""
+msgstr "איפה:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:127
-#, fuzzy
 msgid "Created:"
-msgstr "יצירת תיקייה"
+msgstr "נוצר:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:141
 msgid "Modified:"
@@ -422,12 +407,12 @@ msgstr "הרשאות:"
 #: ../src/app/qml/ui/FolderListPage.qml:241
 #: ../src/app/qml/ui/FolderListPage.qml:296
 msgid "Restricted access"
-msgstr ""
+msgstr "גישה מוגבלת"
 
 #: ../src/app/qml/ui/FolderListPage.qml:245
 msgid ""
 "Authentication is required in order to see all the content of this folder."
-msgstr ""
+msgstr "נדרש אימות על מנת לראות את כל תוכן התיקיה הזו."
 
 #: ../src/app/qml/ui/FolderListPage.qml:282
 msgid "No files"
@@ -435,11 +420,11 @@ msgstr "אין קבצים"
 
 #: ../src/app/qml/ui/FolderListPage.qml:283
 msgid "This folder is empty."
-msgstr ""
+msgstr "התיקיה הזו ריקה."
 
 #: ../src/app/qml/ui/FolderListPage.qml:297
 msgid "Authentication is required in order to see the content of this folder."
-msgstr ""
+msgstr "נדרש אימות על מנת לראות את תוכן התיקיה הזו."
 
 #: ../src/app/qml/ui/FolderListPage.qml:313
 msgid "File operation error"
@@ -447,23 +432,22 @@ msgstr "שגיאת פעולה על קבצים"
 
 #: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:21
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:21
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1 item"
 msgid_plural "%1 items"
-msgstr[0] "פריטים"
-msgstr[1] "פריטים"
+msgstr[0] "פריט %1"
+msgstr[1] "%1 פריטים"
 
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:21
-#, fuzzy
 msgid "Save here"
-msgstr "שמירה"
+msgstr "שמור כאן"
 
 #: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:18
 #, qt-format
 msgid "%1 item selected"
 msgid_plural "%1 items selected"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "נבחר %1 פריט"
+msgstr[1] "נבחרו %1 פריטים"
 
 #: ../src/app/qml/ui/ViewPopover.qml:24
 msgid "Show Hidden Files"
@@ -483,7 +467,7 @@ msgstr "סמלים"
 
 #: ../src/app/qml/ui/ViewPopover.qml:44
 msgid "Grid size"
-msgstr ""
+msgstr "גודל רשת"
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "S"
@@ -491,20 +475,19 @@ msgstr "ד"
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "M"
-msgstr ""
+msgstr "M"
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "L"
-msgstr ""
+msgstr "L"
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "XL"
-msgstr ""
+msgstr "XL"
 
 #: ../src/app/qml/ui/ViewPopover.qml:52
-#, fuzzy
 msgid "List size"
-msgstr "רשימה"
+msgstr "גודל הרשימה"
 
 #: ../src/app/qml/ui/ViewPopover.qml:60
 msgid "Sort By"
@@ -524,19 +507,19 @@ msgstr "גודל"
 
 #: ../src/app/qml/ui/ViewPopover.qml:67
 msgid "Sort Order"
-msgstr "אופן המיון"
+msgstr "סדר המיון"
 
 #: ../src/app/qml/ui/ViewPopover.qml:74
 msgid "Theme"
-msgstr "ערכת נושא"
+msgstr "ערכות נושא"
 
 #: ../src/app/qml/ui/ViewPopover.qml:76
 msgid "Light"
-msgstr ""
+msgstr "בהיר"
 
 #: ../src/app/qml/ui/ViewPopover.qml:76
 msgid "Dark"
-msgstr ""
+msgstr "כהה"
 
 #: ../src/app/qml/views/FolderDelegateActions.qml:40
 msgid "Folder not accessible"
@@ -553,20 +536,18 @@ msgid "Could not rename"
 msgstr "לא ניתן לשנות שם"
 
 #: ../src/app/qml/views/FolderDelegateActions.qml:137
-#, fuzzy
 msgid ""
 "Insufficient permissions, name contains special chars (e.g. '/'), or already "
 "exists"
-msgstr "אין מספיק הרשאות או שהקובץ כבר קיים?"
+msgstr "אין הרשאות מספיקות, השם מכיל תווים מיוחדים (למשל '/'), או שכבר קיים"
 
 #: ../src/app/qml/views/FolderListView.qml:72
 msgid "Directories"
-msgstr ""
+msgstr "ספריות"
 
 #: ../src/app/qml/views/FolderListView.qml:72
-#, fuzzy
 msgid "Files"
-msgstr "קובץ"
+msgstr "קבצים"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:360
 msgid "Unknown"
@@ -586,7 +567,7 @@ msgstr "שגיאה ביצירת תיקייה חדשה"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:740
 msgid "Touch file error"
-msgstr ""
+msgstr "שגיאת קובץ מגע"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:1353
 msgid "items"
@@ -708,7 +689,7 @@ msgstr "מנהל קבצים"
 
 #: com.ubuntu.filemanager.desktop.in.in.h:2
 msgid "folder;manager;explore;disk;filesystem;"
-msgstr ""
+msgstr "תיקיה; מנהל; חקור; דיסק; מערכת קבצים;"
 
 #~ msgid "About Application"
 #~ msgstr "על האפליקציה"
