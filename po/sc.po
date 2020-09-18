@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2020-03-22 11:22+0000\n"
-"Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
+"PO-Revision-Date: 2020-09-18 15:59+0000\n"
+"Last-Translator: Adria <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/sc/>\n"
 "Language: sc\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: Weblate 3.11.3\n"
 
 #: ../src/app/qml/actions/AddBookmark.qml:6
 msgid "Add bookmark"
@@ -283,12 +283,12 @@ msgstr "AB"
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:59
 msgid "Extracting failed"
-msgstr "No s'est pòdidu bogare"
+msgstr "Faddina in s'estratzione"
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:60
 #, qt-format
 msgid "Extracting the archive '%1' failed."
-msgstr "No s'est pòdidu bogare s'archìviu '%1'."
+msgstr "Faddina in s'estratzione de s'archìviu '%1'."
 
 #: ../src/app/qml/dialogs/FileActionDialog.qml:30
 msgid "Choose action"
@@ -601,27 +601,27 @@ msgstr "Non bi sunt permissos de iscritura in sa cartella "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:642
 msgid "Could not remove the item "
-msgstr "Non s'est pòdidu fuliare s'elementu "
+msgstr "Impossìbile bogare s'elementu "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:680
 msgid "Could not find a suitable name to backup"
-msgstr "Non s'agatat unu nòmine adeguadu pro sa còpia de seguresa"
+msgstr "Impossìbile agatare unu nòmine adeguadu pro sa còpia de seguresa"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:733
 msgid "Could not create the directory"
-msgstr "Non s'est pòdida creare sa cartella"
+msgstr "Impossìbile creare sa cartella"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:738
 msgid "Could not create link to"
-msgstr "Non s'est pòdidu creare su ligàmene a"
+msgstr "Impossìbile creare su ligàmene a"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:746
 msgid "Could not set permissions to dir"
-msgstr "Non si sunt pòdidos impostare is permissos pro sa cartella"
+msgstr "Impossìbile cunfigurare is permissos de sa cartella"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:756
 msgid "Could not open file"
-msgstr "Non si podet abèrrere s'archìviu"
+msgstr "Impossìbile abèrrere s'archìviu"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:772
 msgid "There is no space to copy"
@@ -629,15 +629,15 @@ msgstr "No b'est ispàtziu pro copiare"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:780
 msgid "Could not create file"
-msgstr "Non s'est pòdidu creare s'archìviu"
+msgstr "Impossìbile creare s'archìviu"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:837
 msgid "Could not remove the directory/file "
-msgstr "Non s'est pòdidu fuliare s'archìviu/sa cartella "
+msgstr "Impossìbile bogare s'archìviu/sa cartella "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:850
 msgid "Could not move the directory/file "
-msgstr "Non s'est pòdida mòvere sa cartella/archìviu "
+msgstr "Impossìbile mòvere sa cartella/archìviu "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1089
 msgid "Write error in "
@@ -657,16 +657,16 @@ msgstr "Cunfigura sa faddina de permissos in "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1437
 msgid "Could not create trash info file"
-msgstr "Non s'est pòdidu creare s'archìviu de informatziones de s'àliga"
+msgstr "Impossìbile creare s'archìviu de informatziones de s'àliga"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1449
 msgid "Could not remove the trash info file"
-msgstr "Non s'est pòdidu fuliare s'archìviu de informatziones de s'àliga"
+msgstr "Impossìbile bogare s'archìviu de informatziones de s'àliga"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1479
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1486
 msgid "Cannot move items"
-msgstr "Non si podent mòvere is elementos"
+msgstr "Impossìbile mòvere is elementos"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1481
 msgid "origin and destination folders are the same"
