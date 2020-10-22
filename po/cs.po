@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2019-10-26 17:36+0000\n"
+"PO-Revision-Date: 2020-09-05 14:38+0000\n"
 "Last-Translator: Milan Korecký <milan.korecky@gmail.com>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/cs/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2017-04-08 06:04+0000\n"
 
 #: ../src/app/qml/actions/AddBookmark.qml:6
@@ -28,7 +28,7 @@ msgstr "Přidat do oblíbených"
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:18
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:33
 msgid "Extract archive"
-msgstr "Rozbalit archivní soubor"
+msgstr "Rozbalit archiv"
 
 #: ../src/app/qml/actions/Delete.qml:5
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:14
@@ -69,7 +69,7 @@ msgstr "Vpřed"
 
 #: ../src/app/qml/actions/GoTo.qml:6
 msgid "Go To"
-msgstr "Jdi na"
+msgstr "Jít na"
 
 #: ../src/app/qml/actions/NewItem.qml:6
 msgid "New Item"
@@ -113,15 +113,15 @@ msgstr "Sdílet"
 
 #: ../src/app/qml/actions/TabsAdd.qml:5
 msgid "Add tab"
-msgstr "Přidat záložku"
+msgstr "Přidat panel"
 
 #: ../src/app/qml/actions/TabsCloseThis.qml:5
 msgid "Close this tab"
-msgstr "Zavřít tuto záložku"
+msgstr "Zavřít tento panel"
 
 #: ../src/app/qml/actions/TabsOpenInNewTab.qml:5
 msgid "Open in a new tab"
-msgstr "Otevřít v nové záložce"
+msgstr "Otevřít v novém panelu"
 
 #: ../src/app/qml/actions/UnlockFullAccess.qml:6
 msgid "Unlock"
@@ -131,7 +131,7 @@ msgstr "Odemknout"
 #: ../src/app/qml/authentication/PasswordDialog.qml:43
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:28
 msgid "Authentication required"
-msgstr "Požadováno ověření totožnosti"
+msgstr "Požadováno ověření"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:27
 msgid "Use your fingerprint to access restricted content"
@@ -161,11 +161,11 @@ msgstr "Použít heslo"
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:51
 #: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:26
 msgid "Cancel"
-msgstr "Zrušit"
+msgstr "Storno"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:126
 msgid "Authentication failed!"
-msgstr "Ověření selhalo!"
+msgstr "Ověření se nezdařilo!"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:137
 msgid "Please retry"
@@ -173,19 +173,21 @@ msgstr "Zkuste to znovu"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:35
 msgid "Authentication failed"
-msgstr "Ověření selhalo"
+msgstr "Ověření se nezdařilo"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:45
 msgid "Your passphrase is required to access restricted content"
-msgstr "Pro otevření souborů s omezeným přístupem je požadováno heslo"
+msgstr ""
+"Pro otevření souborů s omezeným přístupem je požadována přístupová fráze"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:46
 msgid "Your passcode is required to access restricted content"
-msgstr "Je vyžadováno Vaše heslo pro otevření souborů s omezeným přístupem"
+msgstr ""
+"Pro otevření souborů s omezeným přístupem je vyžadován váš přístupový kód"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:57
 msgid "passphrase (default is 0000 if unset)"
-msgstr "přístupová fráze (pokud nenastaveno je přednastaveno 0000)"
+msgstr "přístupová fráze (pokud nenastaveno, je přednastaveno 0000)"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:57
 msgid "passcode (default is 0000 if unset)"
@@ -193,7 +195,7 @@ msgstr "přístupový kód (pokud nenastaven, je přednastaveno 0000)"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:69
 msgid "Authentication failed. Please retry"
-msgstr "Ověření selhalo. Zkuste znovu"
+msgstr "Ověření se nezdařilo. Zkuste znovu"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:74
 msgid "Authenticate"
@@ -225,12 +227,12 @@ msgstr "Otevřít s"
 
 #: ../src/app/qml/dialogs/ConfirmExtractDialog.qml:15
 msgid "Extract Archive"
-msgstr "Rozbalit archivní soubor"
+msgstr "Rozbalit archiv"
 
 #: ../src/app/qml/dialogs/ConfirmExtractDialog.qml:16
 #, qt-format
 msgid "Are you sure you want to extract '%1' here?"
-msgstr "Opravdu chcete rozbalit  '%1' sem?"
+msgstr "Opravdu chcete rozbalit  „%1“ sem?"
 
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:15
 #: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:16
@@ -257,7 +259,7 @@ msgstr "Vytvořit položku"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:14
 msgid "Enter name for new item"
-msgstr "Vložte jméno pro novou položku"
+msgstr "Zadejte název pro novou položku"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:18
 msgid "Item name"
@@ -274,7 +276,7 @@ msgstr "Vytvořit složku"
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:23
 #, qt-format
 msgid "Extracting archive '%1'"
-msgstr "Rozbaluje se archivní soubor '%1'"
+msgstr "Rozbaluje se archiv „%1“"
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:44
 #: ../src/app/qml/dialogs/NotifyDialog.qml:27
@@ -285,16 +287,16 @@ msgstr "Přijmout"
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:59
 msgid "Extracting failed"
-msgstr "Rozbalování selhalo"
+msgstr "Rozbalování se nezdařilo"
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:60
 #, qt-format
 msgid "Extracting the archive '%1' failed."
-msgstr "Rozbalování archivního souboru '%1' selhalo."
+msgstr "Rozbalování archivu „%1“ se nezdařilo."
 
 #: ../src/app/qml/dialogs/FileActionDialog.qml:30
 msgid "Choose action"
-msgstr "Zvolte činnost"
+msgstr "Zvolte akci"
 
 #: ../src/app/qml/dialogs/FileActionDialog.qml:31
 #, qt-format
@@ -327,15 +329,15 @@ msgstr "Uložit heslo"
 
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:108
 msgid "Ok"
-msgstr "OK"
+msgstr "Přijmout"
 
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:8
 msgid "Archive file"
-msgstr "Archivní soubor"
+msgstr "Soubor s archivem"
 
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:9
 msgid "Do you want to extract the archive here?"
-msgstr "Chcete archívní soubor rozbalit sem?"
+msgstr "Chcete archiv rozbalit sem?"
 
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:28
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:44
@@ -362,7 +364,7 @@ msgstr "Soubor %1"
 #: ../src/app/qml/filemanager.qml:170
 #, qt-format
 msgid "%1 Files"
-msgstr "%1 Souborů"
+msgstr "%1 souborů"
 
 #: ../src/app/qml/filemanager.qml:171
 #, qt-format
@@ -413,7 +415,7 @@ msgstr "Omezený přístup"
 #: ../src/app/qml/ui/FolderListPage.qml:245
 msgid ""
 "Authentication is required in order to see all the content of this folder."
-msgstr "Je vyžadováno ověření pro přístup k obsahu souboru."
+msgstr "Pro zobrazení veškerého obsahu této složky je vyžadováno ověření."
 
 #: ../src/app/qml/ui/FolderListPage.qml:282
 msgid "No files"
@@ -421,11 +423,11 @@ msgstr "Žádné soubory"
 
 #: ../src/app/qml/ui/FolderListPage.qml:283
 msgid "This folder is empty."
-msgstr "Soubor je prázdný."
+msgstr "Tato složka je prázdná."
 
 #: ../src/app/qml/ui/FolderListPage.qml:297
 msgid "Authentication is required in order to see the content of this folder."
-msgstr "Je vyžadováno ověření pro přístup k obsahu složky."
+msgstr "Pro přístup k obsahu složky je vyžadováno ověření."
 
 #: ../src/app/qml/ui/FolderListPage.qml:313
 msgid "File operation error"
@@ -442,7 +444,7 @@ msgstr[2] "%1 položek"
 
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:21
 msgid "Save here"
-msgstr "Uložit zde"
+msgstr "Uložit sem"
 
 #: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:18
 #, qt-format
@@ -474,7 +476,7 @@ msgstr "Velikost mřížky"
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "S"
-msgstr "J"
+msgstr "S"
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "M"
@@ -514,7 +516,7 @@ msgstr "Řazení"
 
 #: ../src/app/qml/ui/ViewPopover.qml:74
 msgid "Theme"
-msgstr "Téma"
+msgstr "Styl"
 
 #: ../src/app/qml/ui/ViewPopover.qml:76
 msgid "Light"
@@ -532,18 +534,18 @@ msgstr "Složka nedostupná"
 #: ../src/app/qml/views/FolderDelegateActions.qml:42
 #, qt-format
 msgid "Can not access %1"
-msgstr "Nelze otevřít %1"
+msgstr "%1 se nedaří otevřít"
 
 #: ../src/app/qml/views/FolderDelegateActions.qml:136
 msgid "Could not rename"
-msgstr "Nelze přejmenovat"
+msgstr "Nedaří se přejmenovat"
 
 #: ../src/app/qml/views/FolderDelegateActions.qml:137
 msgid ""
 "Insufficient permissions, name contains special chars (e.g. '/'), or already "
 "exists"
 msgstr ""
-"Nedostatečná oprávnění, název obsahuje zvláštní znaky (např. '/'), anebo již "
+"Nedostatečná oprávnění, název obsahuje zvláštní znaky (např. „/“), anebo už "
 "existuje"
 
 #: ../src/app/qml/views/FolderListView.qml:72
@@ -560,11 +562,11 @@ msgstr "Neznámé"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:487
 msgid "path or url may not exist or cannot be read"
-msgstr "cesta nebo url nemusí existovat nebo nelze přečíst"
+msgstr "popis umístění nebo url adresa nejspíš neexistuje nebo se nedaří číst"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:690
 msgid "Rename error"
-msgstr "Chyba při změně jména"
+msgstr "Chyba při změně názvu"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:713
 msgid "Error creating new folder"
@@ -572,7 +574,7 @@ msgstr "Chyba při vytváření nové složky"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:740
 msgid "Touch file error"
-msgstr "... chyba souboru"
+msgstr "… chyba souboru"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:1353
 msgid "items"
@@ -588,7 +590,7 @@ msgstr " neexistuje"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:326
 msgid "Cannot access File or Directory"
-msgstr "Nelze získat přístup k souboru nebo složce"
+msgstr "Nedaří se získat přístup k souboru nebo složce"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:327
 msgid " it needs Authentication"
@@ -596,60 +598,60 @@ msgstr " požadováno ověření"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:361
 msgid "Cannot copy/move items"
-msgstr "Nelze kopírovat/přesouvat položky"
+msgstr "Položky se nedaří kopírovat/přesouvat"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:362
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1487
 msgid "no write permission on folder "
-msgstr "Chybí práva zápisu do složky "
+msgstr "Chybí oprávnění k zápisu do složky "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:642
 msgid "Could not remove the item "
-msgstr "Položku nelze odstranit "
+msgstr "Položku se nedaří odstranit "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:680
 msgid "Could not find a suitable name to backup"
-msgstr "Nelze nalézt vhodné jméno pro zálohu"
+msgstr "Nedaří se nalézt vhodný název pro zálohu"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:733
 msgid "Could not create the directory"
-msgstr "Nelze vytvořit složku"
+msgstr "Složku se nedaří vytvořit"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:738
 msgid "Could not create link to"
-msgstr "Nelze vytvořit odkaz na"
+msgstr "Nedaří se vytvořit odkaz na"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:746
 msgid "Could not set permissions to dir"
-msgstr "Nelze nastavit práva složky"
+msgstr "Nedaří se nastavit práva na složce"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:756
 msgid "Could not open file"
-msgstr "Nelze otevřít soubor"
+msgstr "Soubor se nedaří otevřít"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:772
 msgid "There is no space to copy"
-msgstr "Žádný prostor pro kopírování"
+msgstr "Není k dispozici volné místo, do kterého zkopírovat"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:780
 msgid "Could not create file"
-msgstr "Nelze vytvořit soubor"
+msgstr "Soubor se nedaří vytvořit"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:837
 msgid "Could not remove the directory/file "
-msgstr "Nelze odstranit složku/soubor "
+msgstr "složku/soubor se nedaří odstranit "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:850
 msgid "Could not move the directory/file "
-msgstr "Nelze přesunout složku/soubor "
+msgstr "složku/soubor se nedaří přesunout "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1089
 msgid "Write error in "
-msgstr "Chyba v zápisu "
+msgstr "Chyba zápisu do "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1101
 msgid "Read error in "
-msgstr "Chyba v čtení "
+msgstr "Chyba čtení v "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1318
 msgid " Copy"
@@ -661,24 +663,24 @@ msgstr "Chyba při nastavovaní oprávnění v "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1437
 msgid "Could not create trash info file"
-msgstr "Nelze vytvořit soubor s informacemi o odstraněných souborech"
+msgstr "Nedaří se vytvořit soubor s informacemi o odstraněných souborech"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1449
 msgid "Could not remove the trash info file"
-msgstr "Nelze odstranit soubor s informacemi o odstraněných souborech"
+msgstr "Nedaří se odstranit soubor s informacemi o odstraněných souborech"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1479
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1486
 msgid "Cannot move items"
-msgstr "Nelze přesunout položky"
+msgstr "Položky se nedaří přesunout"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1481
 msgid "origin and destination folders are the same"
-msgstr "výchozí a cílová složka je shodná"
+msgstr "původní a cílová složka je shodná"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1524
 msgid "There is no space to download"
-msgstr "Žádný prostor pro stahování"
+msgstr "Není k dispozici volné místo do kterého stahovat"
 
 #: ../src/plugin/folderlistmodel/smb/qsambaclient/src/smbusershare.cpp:72
 msgid "net tool not found, check samba installation"
@@ -686,7 +688,7 @@ msgstr "správa sítě nenalezena, zkontrolujte instalaci samba"
 
 #: ../src/plugin/folderlistmodel/smb/qsambaclient/src/smbusershare.cpp:80
 msgid "cannot write in "
-msgstr "nelze zapisovat do "
+msgstr "nedaří se zapisovat do "
 
 #: com.ubuntu.filemanager.desktop.in.in.h:1
 msgid "File Manager"

@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2018-03-16 13:12+0000\n"
-"Last-Translator: Smajda László <leoamros@hotmail.com>\n"
+"PO-Revision-Date: 2020-02-12 15:21+0000\n"
+"Last-Translator: Bence László <bencelaszlo@protonmail.com>\n"
 "Language-Team: Hungarian <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/hu/>\n"
 "Language: hu\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.15\n"
+"X-Generator: Weblate 3.8\n"
 "X-Launchpad-Export-Date: 2017-04-08 06:04+0000\n"
 
 #: ../src/app/qml/actions/AddBookmark.qml:6
@@ -202,9 +202,8 @@ msgid "Authentication failed. Please retry"
 msgstr "Hitelesítés sikertelen"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:74
-#, fuzzy
 msgid "Authenticate"
-msgstr "Hitelesítés sikertelen"
+msgstr "Hitelesítés"
 
 #: ../src/app/qml/backend/FolderListModel.qml:123
 #, fuzzy, qt-format
