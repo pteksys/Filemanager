@@ -206,6 +206,11 @@ QtObject {
             }
         }
 
+        FMActions.Terminal {
+            visible: model.isDir
+            onTriggered: Qt.openUrlExternally("terminal://?path=" + model.filePath)
+        }
+
         FMActions.Share {
             visible: !model.isDir && importMode
             onTriggered: folderListPage.openFile(model, true)
