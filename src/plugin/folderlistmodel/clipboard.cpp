@@ -482,7 +482,6 @@ void Clipboard::clear()
     QClipboard *clipboard = QApplication::clipboard();
 
     if (clipboard) {
-        clipboard->clear(QClipboard::Clipboard);
 
         if (!clipboard->mimeData()->urls().isEmpty()) {
             // On an Ubuntu desktop clipboard->clear() does the job, but for some reason
