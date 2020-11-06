@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2020-09-05 14:38+0000\n"
+"PO-Revision-Date: 2020-11-01 12:04+0000\n"
 "Last-Translator: Milan Korecký <milan.korecky@gmail.com>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/cs/>\n"
@@ -161,7 +161,7 @@ msgstr "Použít heslo"
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:51
 #: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:26
 msgid "Cancel"
-msgstr "Storno"
+msgstr "Zrušit"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:126
 msgid "Authentication failed!"
@@ -283,7 +283,7 @@ msgstr "Rozbaluje se archiv „%1“"
 #: ../src/app/qml/dialogs/templates/ConfirmDialog.qml:31
 #: ../src/app/qml/dialogs/templates/ConfirmDialogWithInput.qml:49
 msgid "OK"
-msgstr "Přijmout"
+msgstr "OK"
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:59
 msgid "Extracting failed"
