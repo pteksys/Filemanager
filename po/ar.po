@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2020-11-06 11:55+0000\n"
+"PO-Revision-Date: 2020-11-13 11:36+0000\n"
 "Last-Translator: abidin <abidin24@tutanota.com>\n"
 "Language-Team: Arabic <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/ar/>\n"
@@ -129,7 +129,7 @@ msgstr "فتح في علامة تبويب جديدة"
 
 #: ../src/app/qml/actions/UnlockFullAccess.qml:6
 msgid "Unlock"
-msgstr ""
+msgstr "فك الإيصاد"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:26
 #: ../src/app/qml/authentication/PasswordDialog.qml:43
@@ -369,7 +369,6 @@ msgid "What do you want to do with the clicked file?"
 msgstr "هل تريد استخراج الأرشيف هنا؟"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:22
-#, fuzzy
 msgid "Preview"
 msgstr "معاينة"
 
