@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2020-11-13 11:36+0000\n"
+"PO-Revision-Date: 2020-11-16 14:47+0000\n"
 "Last-Translator: abidin <abidin24@tutanota.com>\n"
 "Language-Team: Arabic <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/ar/>\n"
@@ -45,7 +45,7 @@ msgstr "مسح الحافظة"
 #: ../src/app/qml/actions/FileCopy.qml:5
 #: ../src/app/qml/panels/SelectionBottomBar.qml:45
 msgid "Copy"
-msgstr "نسخ"
+msgstr "ناسخ"
 
 #: ../src/app/qml/actions/FileCut.qml:5
 #: ../src/app/qml/panels/SelectionBottomBar.qml:60
@@ -97,7 +97,7 @@ msgstr "إعادة تسمية"
 #: ../src/app/qml/actions/Select.qml:5
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:60
 msgid "Select"
-msgstr "تحديد"
+msgstr "حدد"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
 msgid "Select None"
@@ -105,15 +105,15 @@ msgstr "لا تختر شيء"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
 msgid "Select All"
-msgstr "تحديد كل"
+msgstr "حدد الكل"
 
 #: ../src/app/qml/actions/Settings.qml:6
 msgid "Settings"
-msgstr "الضبط"
+msgstr "الإعدادات"
 
 #: ../src/app/qml/actions/Share.qml:5
 msgid "Share"
-msgstr "مشاركة"
+msgstr "شارك"
 
 #: ../src/app/qml/actions/TabsAdd.qml:5
 msgid "Add tab"
