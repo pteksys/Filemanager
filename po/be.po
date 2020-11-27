@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2020-11-10 07:42+0000\n"
+"PO-Revision-Date: 2020-11-26 11:33+0000\n"
 "Last-Translator: Zmicer <nashtlumach@gmail.com>\n"
 "Language-Team: Belarusian <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/be/>\n"
@@ -29,7 +29,7 @@ msgstr "Дадаць закладку"
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:18
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:33
 msgid "Extract archive"
-msgstr "Выняць змесціва"
+msgstr "Распакаваць архіў"
 
 #: ../src/app/qml/actions/Delete.qml:5
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:14
@@ -40,12 +40,12 @@ msgstr "Выдаліць"
 
 #: ../src/app/qml/actions/FileClearSelection.qml:8
 msgid "Clear clipboard"
-msgstr "Ачысціць буфер"
+msgstr "Ачысціць буфер абмену"
 
 #: ../src/app/qml/actions/FileCopy.qml:5
 #: ../src/app/qml/panels/SelectionBottomBar.qml:45
 msgid "Copy"
-msgstr "Капіраваць"
+msgstr "Скапіяваць"
 
 #: ../src/app/qml/actions/FileCut.qml:5
 #: ../src/app/qml/panels/SelectionBottomBar.qml:60
@@ -57,16 +57,16 @@ msgstr "Выразаць"
 msgid "Paste %1 file"
 msgid_plural "Paste %1 files"
 msgstr[0] "Уставіць %1 файл"
-msgstr[1] "Уставіць %1 файла"
+msgstr[1] "Уставіць %1 файлы"
 msgstr[2] "Уставіць %1 файлаў"
 
 #: ../src/app/qml/actions/GoBack.qml:5
 msgid "Go back"
-msgstr "Вярнуцца"
+msgstr "Назад"
 
 #: ../src/app/qml/actions/GoNext.qml:5
 msgid "Go next"
-msgstr "Перайсці далей"
+msgstr "Далей"
 
 #: ../src/app/qml/actions/GoTo.qml:6
 msgid "Go To"
@@ -79,7 +79,7 @@ msgstr "Новы элемент"
 #: ../src/app/qml/actions/PlacesBookmarks.qml:6
 #: ../src/app/qml/ui/PlacesPage.qml:16
 msgid "Places"
-msgstr "Месцы"
+msgstr "Навігацыя"
 
 #: ../src/app/qml/actions/Properties.qml:6
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:54
@@ -89,12 +89,12 @@ msgstr "Уласцівасці"
 #: ../src/app/qml/actions/Rename.qml:5
 #: ../src/app/qml/dialogs/ConfirmRenameDialog.qml:20
 msgid "Rename"
-msgstr "Пераназваць"
+msgstr "Змяніць назву"
 
 #: ../src/app/qml/actions/Select.qml:5
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:60
 msgid "Select"
-msgstr "Выбраць"
+msgstr "Абраць"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
 msgid "Select None"
@@ -118,11 +118,11 @@ msgstr "Дадаць укладку"
 
 #: ../src/app/qml/actions/TabsCloseThis.qml:5
 msgid "Close this tab"
-msgstr "Закрыць гэтую картку"
+msgstr "Закрыць укладку"
 
 #: ../src/app/qml/actions/TabsOpenInNewTab.qml:5
 msgid "Open in a new tab"
-msgstr "Адкрыць у новай картцы"
+msgstr "Адкрыць у новай укладцы"
 
 #: ../src/app/qml/actions/UnlockFullAccess.qml:6
 msgid "Unlock"
@@ -132,21 +132,20 @@ msgstr "Разблакаваць"
 #: ../src/app/qml/authentication/PasswordDialog.qml:43
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:28
 msgid "Authentication required"
-msgstr "Патрабуецца ідэнтыфікацыя"
+msgstr "Патрабуецца аўтэнтыфікацыя"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:27
 msgid "Use your fingerprint to access restricted content"
-msgstr ""
-"Выкарыстоўвайце свой адбітак пальца для доступу да абмежаванага кантэнту"
+msgstr "Выкарыстоўвайце свой адбітак пальца для доступу да абароненага змесціва"
 
 #. TRANSLATORS: "Touch" here is a verb
 #: ../src/app/qml/authentication/FingerprintDialog.qml:55
 msgid "Touch sensor"
-msgstr "Датчык дотыку"
+msgstr "Сэнсар дотыку"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:60
 msgid "Use password"
-msgstr "Выкарыстаць пароль"
+msgstr "Выкарыстоўваць пароль"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:69
 #: ../src/app/qml/authentication/PasswordDialog.qml:80
@@ -179,19 +178,19 @@ msgstr "Памылка аўтэнтыфікацыі"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:45
 msgid "Your passphrase is required to access restricted content"
-msgstr "Пароль неабходны для доступу да абмежаванага кантэнту"
+msgstr "Каб атрымаць доступ да абароненага змесціва, неабходна ўвесці пароль"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:46
 msgid "Your passcode is required to access restricted content"
-msgstr "Ваш пароль неабходны для доступу да абмежаванага кантэнту"
+msgstr "Каб атрымаць доступ да абароненага змесціва, неабходна ўвесці пароль"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:57
 msgid "passphrase (default is 0000 if unset)"
-msgstr "пароль (па змаўчанні 0000 калі адключана)"
+msgstr "парольная фраза (калі не вызначана, то 0000)"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:57
 msgid "passcode (default is 0000 if unset)"
-msgstr "пароль (па змаўчанні 0000 калі адключана)"
+msgstr "пароль (калі не вызначана, то 0000)"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:69
 msgid "Authentication failed. Please retry"
@@ -213,7 +212,7 @@ msgstr "%1 файлаў"
 
 #: ../src/app/qml/backend/FolderListModel.qml:135
 msgid "Folder"
-msgstr "Тэчка"
+msgstr "Каталог"
 
 #: ../src/app/qml/components/TextualButtonStyle.qml:48
 #: ../src/app/qml/components/TextualButtonStyle.qml:56
@@ -223,22 +222,22 @@ msgstr "Абраць"
 
 #: ../src/app/qml/content-hub/FileOpener.qml:27
 msgid "Open with"
-msgstr "Адкрыць з"
+msgstr "Адкрыць у"
 
 #: ../src/app/qml/dialogs/ConfirmExtractDialog.qml:15
 msgid "Extract Archive"
-msgstr "Выняць з архіва"
+msgstr "Распакаваць архіў"
 
 #: ../src/app/qml/dialogs/ConfirmExtractDialog.qml:16
 #, qt-format
 msgid "Are you sure you want to extract '%1' here?"
-msgstr "Вы ўпэўненыя, што хочаце распакаваць \"%1\" сюды?"
+msgstr "Сапраўды хочаце распакаваць \"%1\" сюды?"
 
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:15
 #: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:16
 #, qt-format
 msgid "Are you sure you want to permanently delete '%1'?"
-msgstr "Вы ўпэўненыя, што хочаце выдаліць '%1'?"
+msgstr "Сапраўды хочаце выдаліць \"%1\"?"
 
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:15
 msgid "these files"
@@ -251,7 +250,7 @@ msgstr "Выдаленне файлаў"
 
 #: ../src/app/qml/dialogs/ConfirmRenameDialog.qml:21
 msgid "Enter a new name"
-msgstr "Увядзіце новае імя"
+msgstr "Увядзіце новую назву"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:13
 msgid "Create Item"
@@ -259,11 +258,11 @@ msgstr "Стварыць элемент"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:14
 msgid "Enter name for new item"
-msgstr "Увядзіце імя для новага элемента"
+msgstr "Увядзіце назву для новага элемента"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:18
 msgid "Item name"
-msgstr "Імя элемента"
+msgstr "Назва элемента"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:24
 msgid "Create file"
@@ -271,32 +270,32 @@ msgstr "Стварыць файл"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:43
 msgid "Create Folder"
-msgstr "Стварыць тэчку"
+msgstr "Стварыць каталог"
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:23
 #, qt-format
 msgid "Extracting archive '%1'"
-msgstr "Выняцце змесціва '%1'"
+msgstr "Распакоўванне архіва \"%1\""
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:44
 #: ../src/app/qml/dialogs/NotifyDialog.qml:27
 #: ../src/app/qml/dialogs/templates/ConfirmDialog.qml:31
 #: ../src/app/qml/dialogs/templates/ConfirmDialogWithInput.qml:49
 msgid "OK"
-msgstr "ОК"
+msgstr "Добра"
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:59
 msgid "Extracting failed"
-msgstr "Памылка выняцця"
+msgstr "Не атрымалася распакаваць"
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:60
 #, qt-format
 msgid "Extracting the archive '%1' failed."
-msgstr "Не атрымалася распакаваць архіў '%1'."
+msgstr "Не атрымалася распакаваць архіў \"%1\"."
 
 #: ../src/app/qml/dialogs/FileActionDialog.qml:30
 msgid "Choose action"
-msgstr "Абярыце дзеянне"
+msgstr "Абраць дзеянне"
 
 #: ../src/app/qml/dialogs/FileActionDialog.qml:31
 #, qt-format
@@ -309,7 +308,7 @@ msgstr "Адкрыць"
 
 #: ../src/app/qml/dialogs/FileOperationProgressDialog.qml:27
 msgid "Operation in progress"
-msgstr "Дзеянне выконваецца"
+msgstr "Выконваецца дзеянне"
 
 #: ../src/app/qml/dialogs/FileOperationProgressDialog.qml:29
 msgid "File operation"
@@ -337,16 +336,16 @@ msgstr "Файл архіва"
 
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:9
 msgid "Do you want to extract the archive here?"
-msgstr "Вы жадаеце выцягнуць змесціва архіва тут?"
+msgstr "Сапраўды хочаце распакаваць архіў сюды?"
 
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:28
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:44
 msgid "Open with another app"
-msgstr "Адкрыць праз іншае прыкладанне"
+msgstr "Адкрыць у іншай праграме"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:8
 msgid "Open file"
-msgstr "Адкрыты файл"
+msgstr "Адкрыць файл"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:9
 msgid "What do you want to do with the clicked file?"
@@ -369,7 +368,7 @@ msgstr "%1 файлаў"
 #: ../src/app/qml/filemanager.qml:171
 #, qt-format
 msgid "Saved to: %1"
-msgstr "Захаваны ў: %1"
+msgstr "Захавана ў: %1"
 
 #: ../src/app/qml/panels/DefaultBottomBar.qml:24
 msgid "Paste files"
@@ -377,35 +376,35 @@ msgstr "Уставіць файлы"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:34
 msgid "Readable"
-msgstr "Чытанне"
+msgstr "Даступна для чытання"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:37
 msgid "Writable"
-msgstr "Запіс"
+msgstr "Даступна для запісу"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:40
 msgid "Executable"
-msgstr "Выканальны"
+msgstr "Даступна для запуску"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:100
 msgid "Where:"
-msgstr "Дзе:"
+msgstr "Куды:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:127
 msgid "Created:"
-msgstr "Створаны:"
+msgstr "Створана:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:141
 msgid "Modified:"
-msgstr "Зменены:"
+msgstr "Зменена:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:155
 msgid "Accessed:"
-msgstr "Доступ:"
+msgstr "Апошні доступ:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:176
 msgid "Permissions:"
-msgstr "Дазволы:"
+msgstr "Правы доступу:"
 
 #: ../src/app/qml/ui/FolderListPage.qml:241
 #: ../src/app/qml/ui/FolderListPage.qml:296
@@ -415,7 +414,7 @@ msgstr "Абмежаваны доступ"
 #: ../src/app/qml/ui/FolderListPage.qml:245
 msgid ""
 "Authentication is required in order to see all the content of this folder."
-msgstr "Аўтэнтыфікацыя патрабуецца для прагляду ўсяго змесціва гэтай тэчкі."
+msgstr "Для прагляду ўсяго змесціва гэтага каталога патрабуецца аўтэнтыфікацыя."
 
 #: ../src/app/qml/ui/FolderListPage.qml:282
 msgid "No files"
@@ -423,15 +422,15 @@ msgstr "Няма файлаў"
 
 #: ../src/app/qml/ui/FolderListPage.qml:283
 msgid "This folder is empty."
-msgstr "Гэтая тэчка пустая."
+msgstr "Гэты каталог пусты."
 
 #: ../src/app/qml/ui/FolderListPage.qml:297
 msgid "Authentication is required in order to see the content of this folder."
-msgstr "Для прагляду змесціва гэтай тэчкі патрабуецца аўтэнтыфікацыя."
+msgstr "Для прагляду змесціва гэтага каталога патрабуецца аўтэнтыфікацыя."
 
 #: ../src/app/qml/ui/FolderListPage.qml:313
 msgid "File operation error"
-msgstr "Памылка файлавай аперацыі"
+msgstr "Не атрымалася выканаць аперацыю"
 
 #: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:21
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:21
@@ -450,9 +449,9 @@ msgstr "Захаваць тут"
 #, qt-format
 msgid "%1 item selected"
 msgid_plural "%1 items selected"
-msgstr[0] "%1 элемент абраны"
-msgstr[1] "%1 выбраных элементаў"
-msgstr[2] "%1 элементаў абрана"
+msgstr[0] "Абраны %1 элемент"
+msgstr[1] "Абрана %1 элементы"
+msgstr[2] "Абрана %1 элементаў"
 
 #: ../src/app/qml/ui/ViewPopover.qml:24
 msgid "Show Hidden Files"
@@ -460,7 +459,7 @@ msgstr "Паказваць схаваныя файлы"
 
 #: ../src/app/qml/ui/ViewPopover.qml:37
 msgid "View As"
-msgstr "Прагледзець як"
+msgstr "Паказваць як"
 
 #: ../src/app/qml/ui/ViewPopover.qml:39
 msgid "List"
@@ -476,31 +475,31 @@ msgstr "Памер сеткі"
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "S"
-msgstr "М"
+msgstr "S"
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "M"
-msgstr "С"
+msgstr "M"
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "L"
-msgstr "В"
+msgstr "L"
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "XL"
-msgstr "ВВ"
+msgstr "XL"
 
 #: ../src/app/qml/ui/ViewPopover.qml:52
 msgid "List size"
-msgstr "Памер спісу"
+msgstr "Памер спіса"
 
 #: ../src/app/qml/ui/ViewPopover.qml:60
 msgid "Sort By"
-msgstr "Парадкаваць паводле"
+msgstr "Парадкаваць па"
 
 #: ../src/app/qml/ui/ViewPopover.qml:62
 msgid "Name"
-msgstr "Імя"
+msgstr "Назва"
 
 #: ../src/app/qml/ui/ViewPopover.qml:62
 msgid "Date"
@@ -528,29 +527,29 @@ msgstr "Цёмная"
 
 #: ../src/app/qml/views/FolderDelegateActions.qml:40
 msgid "Folder not accessible"
-msgstr "Тэчка не даступная"
+msgstr "Каталог недаступны"
 
 #. TRANSLATORS: this refers to a folder name
 #: ../src/app/qml/views/FolderDelegateActions.qml:42
 #, qt-format
 msgid "Can not access %1"
-msgstr "Не ўдаецца атрымаць доступ %1"
+msgstr "Не ўдалося атрымаць доступ да %1"
 
 #: ../src/app/qml/views/FolderDelegateActions.qml:136
 msgid "Could not rename"
-msgstr "Немагчыма перайменаваць"
+msgstr "Не атрымалася змяніць назву"
 
 #: ../src/app/qml/views/FolderDelegateActions.qml:137
 msgid ""
 "Insufficient permissions, name contains special chars (e.g. '/'), or already "
 "exists"
 msgstr ""
-"Недастаткова дазволаў, імя змяшчае спецыяльныя сімвалы (напрыклад,'/'), ці "
+"Не стае правоў доступу, назва змяшчае адмысловыя сімвалы (напрыклад,'/'), ці "
 "ўжо існуе"
 
 #: ../src/app/qml/views/FolderListView.qml:72
 msgid "Directories"
-msgstr "Дырэкторыі"
+msgstr "Каталогі"
 
 #: ../src/app/qml/views/FolderListView.qml:72
 msgid "Files"
@@ -562,15 +561,15 @@ msgstr "Невядома"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:487
 msgid "path or url may not exist or cannot be read"
-msgstr "шлях або URL не можа існаваць або не можа быць прачытаны"
+msgstr "шлях або URL не існуе, або не можа быць прачытаны"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:690
 msgid "Rename error"
-msgstr "Памылка перайменавання"
+msgstr "Не атрымалася змяніць назву"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:713
 msgid "Error creating new folder"
-msgstr "Памылка стварэння тэчкі"
+msgstr "Не атрымалася стварыць каталог"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:740
 msgid "Touch file error"
@@ -582,7 +581,7 @@ msgstr "элементы"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:320
 msgid "File or Directory does not exist"
-msgstr "Файл ці Тэчка не існуе"
+msgstr "Файл ці каталог не існуе"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:321
 msgid " does not exist"
@@ -598,12 +597,12 @@ msgstr " патрабуецца аўтэнтыфікацыя"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:361
 msgid "Cannot copy/move items"
-msgstr "Не ўдаецца скапіяваць/перамясціць элементы"
+msgstr "Не атрымалася скапіяваць/перамясціць элементы"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:362
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1487
 msgid "no write permission on folder "
-msgstr "няма дазволу на запіс тэчцы "
+msgstr "не стае правоў на запіс у каталог "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:642
 msgid "Could not remove the item "
@@ -611,11 +610,11 @@ msgstr "Не атрымалася выдаліць элемент "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:680
 msgid "Could not find a suitable name to backup"
-msgstr "Не атрымалася знайсці адпаведнае імя для рэзервовага капіявання"
+msgstr "Не атрымалася знайсці адпаведную назву для рэзервовага капіявання"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:733
 msgid "Could not create the directory"
-msgstr "Не атрымалася стварыць тэчку"
+msgstr "Не атрымалася стварыць каталог"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:738
 msgid "Could not create link to"
@@ -623,7 +622,7 @@ msgstr "Не атрымалася стварыць спасылку на"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:746
 msgid "Could not set permissions to dir"
-msgstr "Не атрымалася задаць правы доступу да тэчкі"
+msgstr "Не атрымалася змяніць правы доступу да каталога"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:756
 msgid "Could not open file"
@@ -631,7 +630,7 @@ msgstr "Не атрымалася адкрыць файл"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:772
 msgid "There is no space to copy"
-msgstr "Няма месца для капіявання"
+msgstr "Не стае месца для капіявання"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:780
 msgid "Could not create file"
@@ -639,52 +638,52 @@ msgstr "Не атрымалася стварыць файл"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:837
 msgid "Could not remove the directory/file "
-msgstr "Не атрымалася выдаліць тэчку/файл "
+msgstr "Не атрымалася выдаліць каталог або файл "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:850
 msgid "Could not move the directory/file "
-msgstr "Не атрымалася перамясціць тэчку/файл "
+msgstr "Не атрымалася перамясціць каталог або файл "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1089
 msgid "Write error in "
-msgstr "Памылка запісу ў "
+msgstr "Не атрымалася запісаць у "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1101
 msgid "Read error in "
-msgstr "Памылка чытання ў "
+msgstr "Не атрымалася прачытаць "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1318
 msgid " Copy"
-msgstr " Копія"
+msgstr " Скапіяваць"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1371
 msgid "Set permissions error in "
-msgstr "Памылка задання правоў доступу ў "
+msgstr "Не атрымалася змяніць правы доступу "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1437
 msgid "Could not create trash info file"
-msgstr "Не атрымалася стварыць файл сметніцы"
+msgstr "Не атрымалася стварыць файл звестак пра сметніцу"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1449
 msgid "Could not remove the trash info file"
-msgstr "Не атрымалася выдаліць файл сметніцы"
+msgstr "Не атрымалася выдаліць файл звестак пра сметніцу"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1479
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1486
 msgid "Cannot move items"
-msgstr "Не ўдаецца перамясціць элементы"
+msgstr "Немагчыма перамясціць элементы"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1481
 msgid "origin and destination folders are the same"
-msgstr "паходжанне і назначэнне тэчкак аднолькавыя"
+msgstr "мэтавы каталог супадае з зыходным"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1524
 msgid "There is no space to download"
-msgstr "Няма месца для загрузкі"
+msgstr "Не стае месца для спампоўвання"
 
 #: ../src/plugin/folderlistmodel/smb/qsambaclient/src/smbusershare.cpp:72
 msgid "net tool not found, check samba installation"
-msgstr "сеткавая ўтыліта не знойдзена, праверце ці ўсталяваная samba"
+msgstr "сеткавая ўтыліта не знойдзеная, праверце ці ўсталяваная samba"
 
 #: ../src/plugin/folderlistmodel/smb/qsambaclient/src/smbusershare.cpp:80
 msgid "cannot write in "
@@ -696,7 +695,7 @@ msgstr "Кіраўнік файлаў"
 
 #: com.ubuntu.filemanager.desktop.in.in.h:2
 msgid "folder;manager;explore;disk;filesystem;"
-msgstr "тэчка;кіраванне;адкрыць;дыск;файлавая сістэма;"
+msgstr "каталог;кіраванне;адкрыць;дыск;файлавая сістэма;"
 
 #~ msgid "%1 (%2 file)"
 #~ msgid_plural "%1 (%2 files)"
