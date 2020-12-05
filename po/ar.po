@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2020-11-16 14:47+0000\n"
+"PO-Revision-Date: 2020-12-04 21:30+0000\n"
 "Last-Translator: abidin <abidin24@tutanota.com>\n"
 "Language-Team: Arabic <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/ar/>\n"
@@ -23,13 +23,13 @@ msgstr ""
 
 #: ../src/app/qml/actions/AddBookmark.qml:6
 msgid "Add bookmark"
-msgstr ""
+msgstr "أضف كعلامة"
 
 #: ../src/app/qml/actions/ArchiveExtract.qml:6
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:18
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:33
 msgid "Extract archive"
-msgstr "استخراج الأرشيف"
+msgstr "استخرج الأرشيف"
 
 #: ../src/app/qml/actions/Delete.qml:5
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:14
@@ -40,36 +40,36 @@ msgstr "احذف"
 
 #: ../src/app/qml/actions/FileClearSelection.qml:8
 msgid "Clear clipboard"
-msgstr "مسح الحافظة"
+msgstr "امسح الحافظة"
 
 #: ../src/app/qml/actions/FileCopy.qml:5
 #: ../src/app/qml/panels/SelectionBottomBar.qml:45
 msgid "Copy"
-msgstr "ناسخ"
+msgstr "انسخ"
 
 #: ../src/app/qml/actions/FileCut.qml:5
 #: ../src/app/qml/panels/SelectionBottomBar.qml:60
 msgid "Cut"
-msgstr "قطع"
+msgstr "قص"
 
 #: ../src/app/qml/actions/FilePaste.qml:30
-#, fuzzy, qt-format
+#, qt-format
 msgid "Paste %1 file"
 msgid_plural "Paste %1 files"
-msgstr[0] "لصق الملفات"
-msgstr[1] "لصق الملفات"
-msgstr[2] "لصق الملفات"
-msgstr[3] "لصق الملفات"
-msgstr[4] "لصق الملفات"
-msgstr[5] "لصق الملفات"
+msgstr[0] "لا ملفات الصقها"
+msgstr[1] "لصق ملف واحد"
+msgstr[2] "لصق ملفين"
+msgstr[3] "لصق %1 ملفات"
+msgstr[4] "لصق %1 ملفا"
+msgstr[5] "لصق %1 ملف"
 
 #: ../src/app/qml/actions/GoBack.qml:5
 msgid "Go back"
-msgstr ""
+msgstr "للخلف"
 
 #: ../src/app/qml/actions/GoNext.qml:5
 msgid "Go next"
-msgstr ""
+msgstr "التالي"
 
 #: ../src/app/qml/actions/GoTo.qml:6
 msgid "Go To"
@@ -77,7 +77,7 @@ msgstr "اذهب إلى"
 
 #: ../src/app/qml/actions/NewItem.qml:6
 msgid "New Item"
-msgstr ""
+msgstr "عنصر جديد"
 
 #: ../src/app/qml/actions/PlacesBookmarks.qml:6
 #: ../src/app/qml/ui/PlacesPage.qml:16
@@ -87,12 +87,12 @@ msgstr "أماكن"
 #: ../src/app/qml/actions/Properties.qml:6
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:54
 msgid "Properties"
-msgstr "الخصائص"
+msgstr "خصائص"
 
 #: ../src/app/qml/actions/Rename.qml:5
 #: ../src/app/qml/dialogs/ConfirmRenameDialog.qml:20
 msgid "Rename"
-msgstr "إعادة تسمية"
+msgstr "أعد التسمية"
 
 #: ../src/app/qml/actions/Select.qml:5
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:60
@@ -117,15 +117,15 @@ msgstr "شارك"
 
 #: ../src/app/qml/actions/TabsAdd.qml:5
 msgid "Add tab"
-msgstr ""
+msgstr "أضف لسان"
 
 #: ../src/app/qml/actions/TabsCloseThis.qml:5
 msgid "Close this tab"
-msgstr "أغلق علامة التبويب هذه"
+msgstr "أغلق اللسان"
 
 #: ../src/app/qml/actions/TabsOpenInNewTab.qml:5
 msgid "Open in a new tab"
-msgstr "فتح في علامة تبويب جديدة"
+msgstr "افتح في لسان جديد"
 
 #: ../src/app/qml/actions/UnlockFullAccess.qml:6
 msgid "Unlock"
@@ -135,7 +135,7 @@ msgstr "فك الإيصاد"
 #: ../src/app/qml/authentication/PasswordDialog.qml:43
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:28
 msgid "Authentication required"
-msgstr "يستلزم التوثيق"
+msgstr "يستلزم الاستيثاق"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:27
 msgid "Use your fingerprint to access restricted content"
@@ -542,7 +542,7 @@ msgstr "امر ترتيب"
 
 #: ../src/app/qml/ui/ViewPopover.qml:74
 msgid "Theme"
-msgstr "النمط"
+msgstr "السِمة"
 
 #: ../src/app/qml/ui/ViewPopover.qml:76
 msgid "Light"
