@@ -43,7 +43,7 @@ PageHeader {
 
     leadingActionBar.actions: showPanelAction.visible ? showPanelAction : placesBookmarkAction
 
-    trailingActionBar.numberOfSlots: 4
+    trailingActionBar.numberOfSlots: 5
     trailingActionBar.actions: [
         FMActions.Settings {
             visible: !folderModel.model.clipboardUrlsCounter > 0
