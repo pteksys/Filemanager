@@ -47,12 +47,12 @@ int main(int argc, char *argv[])
     QStringList importPathList = view.engine()->importPathList();
     // Prepend the location of the plugin in the build dir,
     // so that Qt Creator finds it there, thus overriding the one installed
-    // in the sistem if there is one
+    // in the system if there is one
     importPathList.prepend(QCoreApplication::applicationDirPath() + "/../plugin/");
 
     QStringList args = a.arguments();
     if (args.contains("-h") || args.contains("--help")) {
-        qDebug() << "usage: " + args.at(0) + " [-p|--phone] [-t|--tablet] [-h|--help] [-I <path>]";
+        qDebug() << "usage: " + args.at(0) + " [-p|--phone] [-t|--tablet] [-h|--help] [-I <path>] [-q <qmlfile>]";
         qDebug() << "    -p|--phone    If running on Desktop, start in a phone sized window.";
         qDebug() << "    -t|--tablet   If running on Desktop, start in a tablet sized window.";
         qDebug() << "    --forceAuth <true|false> Force authentication on or off.";
