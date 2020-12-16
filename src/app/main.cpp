@@ -52,7 +52,7 @@ int main(int argc, char *argv[])
 
     QStringList args = a.arguments();
     if (args.contains("-h") || args.contains("--help")) {
-        qDebug() << "usage: " + args.at(0) + " [-p|--phone] [-t|--tablet] [-h|--help] [-I <path>] [-q <qmlfile>]";
+        qDebug() << "usage: " + args.at(0) + " [-p|--phone] [-t|--tablet] [--forceAuth] [-h|--help] [-I <path>] [-q <qmlfile>]";
         qDebug() << "    -p|--phone    If running on Desktop, start in a phone sized window.";
         qDebug() << "    -t|--tablet   If running on Desktop, start in a tablet sized window.";
         qDebug() << "    --forceAuth <true|false> Force authentication on or off.";
