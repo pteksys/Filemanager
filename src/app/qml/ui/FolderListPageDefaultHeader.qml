@@ -43,7 +43,7 @@ PageHeader {
 
     leadingActionBar.actions: showPanelAction.visible ? showPanelAction : placesBookmarkAction
 
-    trailingActionBar.numberOfSlots: 4
+    trailingActionBar.numberOfSlots: 5
     trailingActionBar.actions: [
         FMActions.Settings {
             visible: !folderModel.model.clipboardUrlsCounter > 0
@@ -55,12 +55,12 @@ PageHeader {
                 PopupUtils.open(Qt.resolvedUrl("../ui/FileDetailsPopover.qml"), mainView,{ "model": folderModel.model })
             }
         },
-        /*FMActions.Terminal {
+        FMActions.Terminal {
             onTriggered: {
                 print(text)
-                Qt.openUrlExternally("terminal://" + folderModel.model.path)
+                Qt.openUrlExternally("terminal://?path=" + folderModel.model.path)
             }
-        },*/
+        },
         FMActions.NewItem {
             property bool smallText: true
             enabled: folderModel.model.isWritable

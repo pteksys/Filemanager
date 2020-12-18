@@ -196,7 +196,7 @@
    <addaction name="separator"/>
    <addaction name="actionEmptyTrash"/>
    <addaction name="separator"/>
-   <addaction name="actionTerminnal"/>
+   <addaction name="actionTerminal"/>
   </widget>
   <action name="actionCopy">
    <property name="icon">
@@ -348,13 +348,13 @@
     <string>restore From Trash</string>
    </property>
   </action>
-  <action name="actionTerminnal">
+  <action name="actionTerminal">
    <property name="icon">
     <iconset resource="res.qrc">
      <normaloff>:/resources/resources/xterm_48x48.xpm</normaloff>:/resources/resources/xterm_48x48.xpm</iconset>
    </property>
    <property name="text">
-    <string>Terminnal</string>
+    <string>Terminal</string>
    </property>
    <property name="toolTip">
     <string>open a Terminal</string>
