@@ -69,15 +69,13 @@ QtObject {
     }
 
     function getArchiveType(fileName) {
-        var splitName = fileName.split(".")
-        var fileExtension = splitName[splitName.length - 1]
-        if (fileExtension === "zip") {
-            return "zip"
-        } else if (fileExtension === "tar") {
-            return "tar"
-        } else {
-            return ""
+        var archiveExtensions = ["zip", "tar", "tar.gz", "tar.bz2"]
+        for(var i in archiveExtensions) {
+            if (fileName.endsWith(archiveExtensions[i])){
+                return archiveExtensions[i];
+            }
         }
+        return "";
     }
 
     function extractArchive(filePath, fileName, archiveType) {
