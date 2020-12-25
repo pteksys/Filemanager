@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2020-12-17 14:38+0000\n"
+"PO-Revision-Date: 2020-12-24 08:57+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/he/>\n"
@@ -35,7 +35,7 @@ msgstr "חילוץ ארכיון"
 #: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:15
 #: ../src/app/qml/panels/SelectionBottomBar.qml:26
 msgid "Delete"
-msgstr "מחק"
+msgstr "מחיקה"
 
 #: ../src/app/qml/actions/FileClearSelection.qml:8
 msgid "Clear clipboard"
@@ -44,7 +44,7 @@ msgstr "מחיקת לוח הגזירים"
 #: ../src/app/qml/actions/FileCopy.qml:5
 #: ../src/app/qml/panels/SelectionBottomBar.qml:45
 msgid "Copy"
-msgstr "העתק"
+msgstr "העתקה"
 
 #: ../src/app/qml/actions/FileCut.qml:5
 #: ../src/app/qml/panels/SelectionBottomBar.qml:60
@@ -100,7 +100,7 @@ msgstr "ביטול הבחירה"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
 msgid "Select All"
-msgstr "בחירת הכול"
+msgstr "לבחור הכול"
 
 #: ../src/app/qml/actions/Settings.qml:6
 msgid "Settings"
