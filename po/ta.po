@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2014-03-28 06:44+0000\n"
-"Last-Translator: Khaleel Jageer <jskcse4@gmail.com>\n"
-"Language-Team: Tamil <ta@li.org>\n"
+"PO-Revision-Date: 2021-01-02 18:40+0000\n"
+"Last-Translator: GK <miscgk@pm.me>\n"
+"Language-Team: Tamil <https://translate.ubports.com/projects/ubports/"
+"filemanager-app/ta/>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2017-04-08 06:04+0000\n"
-"X-Generator: Launchpad (build 18343)\n"
 
 #: ../src/app/qml/actions/AddBookmark.qml:6
 msgid "Add bookmark"
@@ -34,7 +35,7 @@ msgstr ""
 #: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:15
 #: ../src/app/qml/panels/SelectionBottomBar.qml:26
 msgid "Delete"
-msgstr ""
+msgstr "நீக்குக"
 
 #: ../src/app/qml/actions/FileClearSelection.qml:8
 msgid "Clear clipboard"
@@ -43,12 +44,12 @@ msgstr ""
 #: ../src/app/qml/actions/FileCopy.qml:5
 #: ../src/app/qml/panels/SelectionBottomBar.qml:45
 msgid "Copy"
-msgstr ""
+msgstr "நகலெடு"
 
 #: ../src/app/qml/actions/FileCut.qml:5
 #: ../src/app/qml/panels/SelectionBottomBar.qml:60
 msgid "Cut"
-msgstr ""
+msgstr "வெட்டுக"
 
 #: ../src/app/qml/actions/FilePaste.qml:30
 #, qt-format
@@ -91,15 +92,15 @@ msgstr ""
 #: ../src/app/qml/actions/Select.qml:5
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:60
 msgid "Select"
-msgstr ""
+msgstr "தேர்ந்தெடு"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
 msgid "Select None"
-msgstr ""
+msgstr "எதையும் தேர்ந்தெடுக்காதே"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
 msgid "Select All"
-msgstr ""
+msgstr "அனைத்தையும் தேர்ந்தெடு"
 
 #: ../src/app/qml/actions/Settings.qml:6
 msgid "Settings"
@@ -107,7 +108,7 @@ msgstr "அமைவுகள்"
 
 #: ../src/app/qml/actions/Share.qml:5
 msgid "Share"
-msgstr ""
+msgstr "பகிர்"
 
 #: ../src/app/qml/actions/TabsAdd.qml:5
 msgid "Add tab"
@@ -159,7 +160,7 @@ msgstr ""
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:51
 #: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:26
 msgid "Cancel"
-msgstr ""
+msgstr "ரத்துசெய்"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:126
 msgid "Authentication failed!"
@@ -215,7 +216,7 @@ msgstr ""
 #: ../src/app/qml/components/TextualButtonStyle.qml:56
 #: ../src/app/qml/components/TextualButtonStyle.qml:63
 msgid "Pick"
-msgstr ""
+msgstr "எடு"
 
 #: ../src/app/qml/content-hub/FileOpener.qml:27
 msgid "Open with"
@@ -279,7 +280,7 @@ msgstr ""
 #: ../src/app/qml/dialogs/templates/ConfirmDialog.qml:31
 #: ../src/app/qml/dialogs/templates/ConfirmDialogWithInput.qml:49
 msgid "OK"
-msgstr ""
+msgstr "சரி"
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:59
 msgid "Extracting failed"
@@ -325,7 +326,7 @@ msgstr ""
 
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:108
 msgid "Ok"
-msgstr ""
+msgstr "சரி"
 
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:8
 msgid "Archive file"
@@ -499,7 +500,7 @@ msgstr ""
 
 #: ../src/app/qml/ui/ViewPopover.qml:62
 msgid "Date"
-msgstr ""
+msgstr "தேதி"
 
 #: ../src/app/qml/ui/ViewPopover.qml:62
 msgid "Size"
@@ -551,7 +552,7 @@ msgstr ""
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:360
 msgid "Unknown"
-msgstr ""
+msgstr "தெரியாதவை"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:487
 msgid "path or url may not exist or cannot be read"
