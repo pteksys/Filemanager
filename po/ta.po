@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2021-01-02 18:40+0000\n"
+"PO-Revision-Date: 2021-01-05 01:43+0000\n"
 "Last-Translator: GK <miscgk@pm.me>\n"
 "Language-Team: Tamil <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/ta/>\n"
@@ -108,7 +108,7 @@ msgstr "அமைவுகள்"
 
 #: ../src/app/qml/actions/Share.qml:5
 msgid "Share"
-msgstr "பகிர்"
+msgstr "பகிர்க"
 
 #: ../src/app/qml/actions/TabsAdd.qml:5
 msgid "Add tab"
@@ -124,13 +124,13 @@ msgstr ""
 
 #: ../src/app/qml/actions/UnlockFullAccess.qml:6
 msgid "Unlock"
-msgstr ""
+msgstr "பூட்டை நீக்கு"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:26
 #: ../src/app/qml/authentication/PasswordDialog.qml:43
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:28
 msgid "Authentication required"
-msgstr ""
+msgstr "உறுதிப்பாடு தேவை"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:27
 msgid "Use your fingerprint to access restricted content"
@@ -160,7 +160,7 @@ msgstr ""
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:51
 #: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:26
 msgid "Cancel"
-msgstr "ரத்துசெய்"
+msgstr "தவிர்க்க"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:126
 msgid "Authentication failed!"
@@ -172,7 +172,7 @@ msgstr ""
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:35
 msgid "Authentication failed"
-msgstr ""
+msgstr "உறுதிப்பாடு தோல்வியுற்றது"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:45
 msgid "Your passphrase is required to access restricted content"
@@ -196,7 +196,7 @@ msgstr ""
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:74
 msgid "Authenticate"
-msgstr ""
+msgstr "உறுதிப்படுத்து"
 
 #: ../src/app/qml/backend/FolderListModel.qml:123
 #, qt-format
@@ -351,7 +351,7 @@ msgstr ""
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:22
 msgid "Preview"
-msgstr ""
+msgstr "முன்பார்வை"
 
 #: ../src/app/qml/filemanager.qml:170
 #, qt-format
@@ -496,7 +496,7 @@ msgstr ""
 
 #: ../src/app/qml/ui/ViewPopover.qml:62
 msgid "Name"
-msgstr ""
+msgstr "பெயர்"
 
 #: ../src/app/qml/ui/ViewPopover.qml:62
 msgid "Date"
@@ -512,7 +512,7 @@ msgstr ""
 
 #: ../src/app/qml/ui/ViewPopover.qml:74
 msgid "Theme"
-msgstr ""
+msgstr "கருப்பொருள்"
 
 #: ../src/app/qml/ui/ViewPopover.qml:76
 msgid "Light"
