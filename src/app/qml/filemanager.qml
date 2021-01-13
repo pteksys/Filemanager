@@ -170,7 +170,7 @@ MainView {
         pageStack.pop()
         fileSelector.fileSelectorComponent = null
         pageStack.currentPage.folderModel.path = folder
-        pageStack.currentPage.refresh()
+        pageStack.currentPage.folderModel.refresh()
 
         var props = {
             title: i18n.tr("%1 file", "%1 files", count).arg(count),
