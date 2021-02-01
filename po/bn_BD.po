@@ -1,0 +1,999 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Canonical Ltd.
+# This file is distributed under the same license as the  package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-07 01:28+0000\n"
+"PO-Revision-Date: 2021-01-31 16:07+0000\n"
+"Last-Translator: imrufbd <imrufbd@gmail.com>\n"
+"Language-Team: Bengali (Bangladesh) <https://translate.ubports.com/projects/"
+"ubports/filemanager-app/bn_BD/>\n"
+"Language: bn_BD\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.11.3\n"
+
+#: ../build/x86_64-linux-gnu/qml/actions/AddBookmark.qml:6
+#: ../prebuilt/qml/actions/AddBookmark.qml:6
+#: ../src/app/qml/actions/AddBookmark.qml:6
+msgid "Add bookmark"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/actions/ArchiveExtract.qml:6
+#: ../build/x86_64-linux-gnu/qml/dialogs/OpenArchiveDialog.qml:18
+#: ../build/x86_64-linux-gnu/qml/dialogs/OpenWithDialog.qml:33
+#: ../prebuilt/qml/actions/ArchiveExtract.qml:6
+#: ../prebuilt/qml/dialogs/OpenArchiveDialog.qml:18
+#: ../prebuilt/qml/dialogs/OpenWithDialog.qml:33
+#: ../src/app/qml/actions/ArchiveExtract.qml:6
+#: ../src/app/qml/dialogs/OpenArchiveDialog.qml:18
+#: ../src/app/qml/dialogs/OpenWithDialog.qml:33
+msgid "Extract archive"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/actions/Cancel.qml:6
+#: ../build/x86_64-linux-gnu/qml/authentication/FingerprintDialog.qml:69
+#: ../build/x86_64-linux-gnu/qml/authentication/PasswordDialog.qml:80
+#: ../build/x86_64-linux-gnu/qml/dialogs/CreateItemDialog.qml:65
+#: ../build/x86_64-linux-gnu/qml/dialogs/ExtractingDialog.qml:44
+#: ../build/x86_64-linux-gnu/qml/dialogs/FileActionDialog.qml:45
+#: ../build/x86_64-linux-gnu/qml/dialogs/FileOperationProgressDialog.qml:44
+#: ../build/x86_64-linux-gnu/qml/dialogs/NetAuthenticationDialog.qml:96
+#: ../build/x86_64-linux-gnu/qml/dialogs/OpenArchiveDialog.qml:38
+#: ../build/x86_64-linux-gnu/qml/dialogs/OpenWithDialog.qml:64
+#: ../build/x86_64-linux-gnu/qml/dialogs/templates/ConfirmDialog.qml:45
+#: ../build/x86_64-linux-gnu/qml/dialogs/templates/ConfirmDialogWithInput.qml:60
+#: ../build/x86_64-linux-gnu/qml/ui/FolderListPagePickModeHeader.qml:50
+#: ../build/x86_64-linux-gnu/qml/ui/FolderListPageSelectionHeader.qml:44
+#: ../prebuilt/qml/actions/Cancel.qml:6
+#: ../prebuilt/qml/authentication/FingerprintDialog.qml:69
+#: ../prebuilt/qml/authentication/PasswordDialog.qml:80
+#: ../prebuilt/qml/dialogs/CreateItemDialog.qml:65
+#: ../prebuilt/qml/dialogs/ExtractingDialog.qml:44
+#: ../prebuilt/qml/dialogs/FileActionDialog.qml:45
+#: ../prebuilt/qml/dialogs/FileOperationProgressDialog.qml:44
+#: ../prebuilt/qml/dialogs/NetAuthenticationDialog.qml:96
+#: ../prebuilt/qml/dialogs/OpenArchiveDialog.qml:38
+#: ../prebuilt/qml/dialogs/OpenWithDialog.qml:64
+#: ../prebuilt/qml/dialogs/templates/ConfirmDialog.qml:45
+#: ../prebuilt/qml/dialogs/templates/ConfirmDialogWithInput.qml:60
+#: ../prebuilt/qml/ui/FolderListPagePickModeHeader.qml:50
+#: ../prebuilt/qml/ui/FolderListPageSelectionHeader.qml:44
+#: ../src/app/qml/actions/Cancel.qml:6
+#: ../src/app/qml/authentication/FingerprintDialog.qml:69
+#: ../src/app/qml/authentication/PasswordDialog.qml:80
+#: ../src/app/qml/dialogs/CreateItemDialog.qml:65
+#: ../src/app/qml/dialogs/ExtractingDialog.qml:44
+#: ../src/app/qml/dialogs/FileActionDialog.qml:45
+#: ../src/app/qml/dialogs/FileOperationProgressDialog.qml:44
+#: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:96
+#: ../src/app/qml/dialogs/OpenArchiveDialog.qml:38
+#: ../src/app/qml/dialogs/OpenWithDialog.qml:64
+#: ../src/app/qml/dialogs/templates/ConfirmDialog.qml:45
+#: ../src/app/qml/dialogs/templates/ConfirmDialogWithInput.qml:60
+#: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:50
+#: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:44
+msgid "Cancel"
+msgstr "বাতিল"
+
+#: ../build/x86_64-linux-gnu/qml/actions/Delete.qml:5
+#: ../build/x86_64-linux-gnu/qml/dialogs/ConfirmMultipleDeleteDialog.qml:16
+#: ../build/x86_64-linux-gnu/qml/dialogs/ConfirmSingleDeleteDialog.qml:17
+#: ../prebuilt/qml/actions/Delete.qml:5
+#: ../prebuilt/qml/dialogs/ConfirmMultipleDeleteDialog.qml:16
+#: ../prebuilt/qml/dialogs/ConfirmSingleDeleteDialog.qml:17
+#: ../src/app/qml/actions/Delete.qml:5
+#: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:16
+#: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:17
+msgid "Delete"
+msgstr "মুছুন"
+
+#: ../build/x86_64-linux-gnu/qml/actions/FileClearSelection.qml:8
+#: ../prebuilt/qml/actions/FileClearSelection.qml:8
+#: ../src/app/qml/actions/FileClearSelection.qml:8
+msgid "Clear clipboard"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/actions/FileCopy.qml:5
+#: ../prebuilt/qml/actions/FileCopy.qml:5 ../src/app/qml/actions/FileCopy.qml:5
+msgid "Copy"
+msgstr "কপি"
+
+#: ../build/x86_64-linux-gnu/qml/actions/FileCut.qml:5
+#: ../prebuilt/qml/actions/FileCut.qml:5 ../src/app/qml/actions/FileCut.qml:5
+msgid "Cut"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/actions/FilePaste.qml:30
+#: ../prebuilt/qml/actions/FilePaste.qml:30
+#: ../src/app/qml/actions/FilePaste.qml:30
+#, qt-format
+msgid "Paste %1 file"
+msgid_plural "Paste %1 files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../build/x86_64-linux-gnu/qml/actions/GoBack.qml:5
+#: ../prebuilt/qml/actions/GoBack.qml:5 ../src/app/qml/actions/GoBack.qml:5
+msgid "Go back"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/actions/GoNext.qml:5
+#: ../prebuilt/qml/actions/GoNext.qml:5 ../src/app/qml/actions/GoNext.qml:5
+msgid "Go next"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/actions/GoTo.qml:6
+#: ../prebuilt/qml/actions/GoTo.qml:6 ../src/app/qml/actions/GoTo.qml:6
+msgid "Go To"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/actions/NewItem.qml:6
+#: ../prebuilt/qml/actions/NewItem.qml:6 ../src/app/qml/actions/NewItem.qml:6
+msgid "New Item"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/actions/OpenAdvanced.qml:6
+#: ../prebuilt/qml/actions/OpenAdvanced.qml:6
+#: ../src/app/qml/actions/OpenAdvanced.qml:6
+msgid "Open with..."
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/actions/PlacesBookmarks.qml:6
+#: ../build/x86_64-linux-gnu/qml/ui/PlacesPage.qml:16
+#: ../prebuilt/qml/actions/PlacesBookmarks.qml:6
+#: ../prebuilt/qml/ui/PlacesPage.qml:16
+#: ../src/app/qml/actions/PlacesBookmarks.qml:6
+#: ../src/app/qml/ui/PlacesPage.qml:16
+msgid "Places"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/actions/Properties.qml:6
+#: ../build/x86_64-linux-gnu/qml/dialogs/OpenWithDialog.qml:54
+#: ../prebuilt/qml/actions/Properties.qml:6
+#: ../prebuilt/qml/dialogs/OpenWithDialog.qml:54
+#: ../src/app/qml/actions/Properties.qml:6
+#: ../src/app/qml/dialogs/OpenWithDialog.qml:54
+msgid "Properties"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/actions/Rename.qml:5
+#: ../build/x86_64-linux-gnu/qml/dialogs/ConfirmRenameDialog.qml:20
+#: ../prebuilt/qml/actions/Rename.qml:5
+#: ../prebuilt/qml/dialogs/ConfirmRenameDialog.qml:20
+#: ../src/app/qml/actions/Rename.qml:5
+#: ../src/app/qml/dialogs/ConfirmRenameDialog.qml:20
+msgid "Rename"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/actions/Select.qml:6
+#: ../prebuilt/qml/actions/Select.qml:6 ../src/app/qml/actions/Select.qml:6
+msgid "Select"
+msgstr "নির্বাচন"
+
+#: ../build/x86_64-linux-gnu/qml/actions/Settings.qml:6
+#: ../prebuilt/qml/actions/Settings.qml:6 ../src/app/qml/actions/Settings.qml:6
+msgid "Settings"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/actions/Share.qml:5
+#: ../prebuilt/qml/actions/Share.qml:5 ../src/app/qml/actions/Share.qml:5
+msgid "Share"
+msgstr "বিনিময়"
+
+#: ../build/x86_64-linux-gnu/qml/actions/TabsAdd.qml:5
+#: ../prebuilt/qml/actions/TabsAdd.qml:5 ../src/app/qml/actions/TabsAdd.qml:5
+msgid "Add tab"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/actions/TabsCloseThis.qml:5
+#: ../prebuilt/qml/actions/TabsCloseThis.qml:5
+#: ../src/app/qml/actions/TabsCloseThis.qml:5
+msgid "Close this tab"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/actions/TabsOpenInNewTab.qml:5
+#: ../prebuilt/qml/actions/TabsOpenInNewTab.qml:5
+#: ../src/app/qml/actions/TabsOpenInNewTab.qml:5
+msgid "Open in a new tab"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/actions/UnlockFullAccess.qml:6
+#: ../prebuilt/qml/actions/UnlockFullAccess.qml:6
+#: ../src/app/qml/actions/UnlockFullAccess.qml:6
+msgid "Unlock"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/authentication/FingerprintDialog.qml:26
+#: ../build/x86_64-linux-gnu/qml/authentication/PasswordDialog.qml:43
+#: ../build/x86_64-linux-gnu/qml/dialogs/NetAuthenticationDialog.qml:28
+#: ../prebuilt/qml/authentication/FingerprintDialog.qml:26
+#: ../prebuilt/qml/authentication/PasswordDialog.qml:43
+#: ../prebuilt/qml/dialogs/NetAuthenticationDialog.qml:28
+#: ../src/app/qml/authentication/FingerprintDialog.qml:26
+#: ../src/app/qml/authentication/PasswordDialog.qml:43
+#: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:28
+msgid "Authentication required"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/authentication/FingerprintDialog.qml:27
+#: ../prebuilt/qml/authentication/FingerprintDialog.qml:27
+#: ../src/app/qml/authentication/FingerprintDialog.qml:27
+msgid "Use your fingerprint to access restricted content"
+msgstr ""
+
+#. TRANSLATORS: "Touch" here is a verb
+#: ../build/x86_64-linux-gnu/qml/authentication/FingerprintDialog.qml:55
+#: ../prebuilt/qml/authentication/FingerprintDialog.qml:55
+#: ../src/app/qml/authentication/FingerprintDialog.qml:55
+msgid "Touch sensor"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/authentication/FingerprintDialog.qml:60
+#: ../prebuilt/qml/authentication/FingerprintDialog.qml:60
+#: ../src/app/qml/authentication/FingerprintDialog.qml:60
+msgid "Use password"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/authentication/FingerprintDialog.qml:126
+#: ../prebuilt/qml/authentication/FingerprintDialog.qml:126
+#: ../src/app/qml/authentication/FingerprintDialog.qml:126
+msgid "Authentication failed!"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/authentication/FingerprintDialog.qml:137
+#: ../prebuilt/qml/authentication/FingerprintDialog.qml:137
+#: ../src/app/qml/authentication/FingerprintDialog.qml:137
+msgid "Please retry"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/authentication/PasswordDialog.qml:35
+#: ../prebuilt/qml/authentication/PasswordDialog.qml:35
+#: ../src/app/qml/authentication/PasswordDialog.qml:35
+msgid "Authentication failed"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/authentication/PasswordDialog.qml:45
+#: ../prebuilt/qml/authentication/PasswordDialog.qml:45
+#: ../src/app/qml/authentication/PasswordDialog.qml:45
+msgid "Your passphrase is required to access restricted content"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/authentication/PasswordDialog.qml:46
+#: ../prebuilt/qml/authentication/PasswordDialog.qml:46
+#: ../src/app/qml/authentication/PasswordDialog.qml:46
+msgid "Your passcode is required to access restricted content"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/authentication/PasswordDialog.qml:57
+#: ../prebuilt/qml/authentication/PasswordDialog.qml:57
+#: ../src/app/qml/authentication/PasswordDialog.qml:57
+msgid "passphrase (default is 0000 if unset)"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/authentication/PasswordDialog.qml:57
+#: ../prebuilt/qml/authentication/PasswordDialog.qml:57
+#: ../src/app/qml/authentication/PasswordDialog.qml:57
+msgid "passcode (default is 0000 if unset)"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/authentication/PasswordDialog.qml:69
+#: ../prebuilt/qml/authentication/PasswordDialog.qml:69
+#: ../src/app/qml/authentication/PasswordDialog.qml:69
+msgid "Authentication failed. Please retry"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/authentication/PasswordDialog.qml:74
+#: ../prebuilt/qml/authentication/PasswordDialog.qml:74
+#: ../src/app/qml/authentication/PasswordDialog.qml:74
+msgid "Authenticate"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/backend/FolderListModel.qml:124
+#: ../build/x86_64-linux-gnu/qml/filemanager.qml:176
+#: ../prebuilt/qml/backend/FolderListModel.qml:124
+#: ../prebuilt/qml/filemanager.qml:176
+#: ../src/app/qml/backend/FolderListModel.qml:124
+#: ../src/app/qml/filemanager.qml:176
+#, qt-format
+msgid "%1 file"
+msgid_plural "%1 files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../build/x86_64-linux-gnu/qml/backend/FolderListModel.qml:135
+#: ../prebuilt/qml/backend/FolderListModel.qml:135
+#: ../src/app/qml/backend/FolderListModel.qml:135
+msgid "Folder"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/components/TextualButtonStyle.qml:48
+#: ../build/x86_64-linux-gnu/qml/components/TextualButtonStyle.qml:56
+#: ../build/x86_64-linux-gnu/qml/components/TextualButtonStyle.qml:63
+#: ../prebuilt/qml/components/TextualButtonStyle.qml:48
+#: ../prebuilt/qml/components/TextualButtonStyle.qml:56
+#: ../prebuilt/qml/components/TextualButtonStyle.qml:63
+#: ../src/app/qml/components/TextualButtonStyle.qml:48
+#: ../src/app/qml/components/TextualButtonStyle.qml:56
+#: ../src/app/qml/components/TextualButtonStyle.qml:63
+msgid "Pick"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/content-hub/FileOpener.qml:27
+#: ../prebuilt/qml/content-hub/FileOpener.qml:27
+#: ../src/app/qml/content-hub/FileOpener.qml:27
+msgid "Open with"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/dialogs/ConfirmExtractDialog.qml:15
+#: ../prebuilt/qml/dialogs/ConfirmExtractDialog.qml:15
+#: ../src/app/qml/dialogs/ConfirmExtractDialog.qml:15
+msgid "Extract Archive"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/dialogs/ConfirmExtractDialog.qml:16
+#: ../prebuilt/qml/dialogs/ConfirmExtractDialog.qml:16
+#: ../src/app/qml/dialogs/ConfirmExtractDialog.qml:16
+#, qt-format
+msgid "Are you sure you want to extract '%1' here?"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/dialogs/ConfirmMultipleDeleteDialog.qml:17
+#: ../build/x86_64-linux-gnu/qml/dialogs/ConfirmSingleDeleteDialog.qml:18
+#: ../prebuilt/qml/dialogs/ConfirmMultipleDeleteDialog.qml:17
+#: ../prebuilt/qml/dialogs/ConfirmSingleDeleteDialog.qml:18
+#: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:17
+#: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:18
+#, qt-format
+msgid "Are you sure you want to permanently delete '%1'?"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/dialogs/ConfirmMultipleDeleteDialog.qml:17
+#: ../prebuilt/qml/dialogs/ConfirmMultipleDeleteDialog.qml:17
+#: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:17
+msgid "these files"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/dialogs/ConfirmMultipleDeleteDialog.qml:20
+#: ../build/x86_64-linux-gnu/qml/dialogs/ConfirmSingleDeleteDialog.qml:23
+#: ../prebuilt/qml/dialogs/ConfirmMultipleDeleteDialog.qml:20
+#: ../prebuilt/qml/dialogs/ConfirmSingleDeleteDialog.qml:23
+#: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:20
+#: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:23
+msgid "Deleting files"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/dialogs/ConfirmRenameDialog.qml:21
+#: ../prebuilt/qml/dialogs/ConfirmRenameDialog.qml:21
+#: ../src/app/qml/dialogs/ConfirmRenameDialog.qml:21
+msgid "Enter a new name"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/dialogs/CreateItemDialog.qml:14
+#: ../prebuilt/qml/dialogs/CreateItemDialog.qml:14
+#: ../src/app/qml/dialogs/CreateItemDialog.qml:14
+msgid "Create Item"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/dialogs/CreateItemDialog.qml:15
+#: ../prebuilt/qml/dialogs/CreateItemDialog.qml:15
+#: ../src/app/qml/dialogs/CreateItemDialog.qml:15
+msgid "Enter name for new item"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/dialogs/CreateItemDialog.qml:19
+#: ../prebuilt/qml/dialogs/CreateItemDialog.qml:19
+#: ../src/app/qml/dialogs/CreateItemDialog.qml:19
+msgid "Item name"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/dialogs/CreateItemDialog.qml:25
+#: ../prebuilt/qml/dialogs/CreateItemDialog.qml:25
+#: ../src/app/qml/dialogs/CreateItemDialog.qml:25
+msgid "Create file"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/dialogs/CreateItemDialog.qml:34
+#: ../prebuilt/qml/dialogs/CreateItemDialog.qml:34
+#: ../src/app/qml/dialogs/CreateItemDialog.qml:34
+#, qt-format
+msgid "Created file '%1'"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/dialogs/CreateItemDialog.qml:46
+#: ../prebuilt/qml/dialogs/CreateItemDialog.qml:46
+#: ../src/app/qml/dialogs/CreateItemDialog.qml:46
+msgid "Create Folder"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/dialogs/CreateItemDialog.qml:54
+#: ../prebuilt/qml/dialogs/CreateItemDialog.qml:54
+#: ../src/app/qml/dialogs/CreateItemDialog.qml:54
+#, qt-format
+msgid "Created folder '%1'"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/dialogs/ExtractingDialog.qml:23
+#: ../prebuilt/qml/dialogs/ExtractingDialog.qml:23
+#: ../src/app/qml/dialogs/ExtractingDialog.qml:23
+#, qt-format
+msgid "Extracting archive '%1'"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/dialogs/ExtractingDialog.qml:35
+#: ../build/x86_64-linux-gnu/qml/dialogs/NotifyDialog.qml:27
+#: ../build/x86_64-linux-gnu/qml/dialogs/templates/ConfirmDialog.qml:33
+#: ../build/x86_64-linux-gnu/qml/dialogs/templates/ConfirmDialogWithInput.qml:49
+#: ../prebuilt/qml/dialogs/ExtractingDialog.qml:35
+#: ../prebuilt/qml/dialogs/NotifyDialog.qml:27
+#: ../prebuilt/qml/dialogs/templates/ConfirmDialog.qml:33
+#: ../prebuilt/qml/dialogs/templates/ConfirmDialogWithInput.qml:49
+#: ../src/app/qml/dialogs/ExtractingDialog.qml:35
+#: ../src/app/qml/dialogs/NotifyDialog.qml:27
+#: ../src/app/qml/dialogs/templates/ConfirmDialog.qml:33
+#: ../src/app/qml/dialogs/templates/ConfirmDialogWithInput.qml:49
+msgid "OK"
+msgstr "ঠিক আছে"
+
+#: ../build/x86_64-linux-gnu/qml/dialogs/ExtractingDialog.qml:59
+#: ../prebuilt/qml/dialogs/ExtractingDialog.qml:59
+#: ../src/app/qml/dialogs/ExtractingDialog.qml:59
+msgid "Extracting failed"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/dialogs/ExtractingDialog.qml:60
+#: ../prebuilt/qml/dialogs/ExtractingDialog.qml:60
+#: ../src/app/qml/dialogs/ExtractingDialog.qml:60
+#, qt-format
+msgid "Extracting the archive '%1' failed."
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/dialogs/FileActionDialog.qml:30
+#: ../prebuilt/qml/dialogs/FileActionDialog.qml:30
+#: ../src/app/qml/dialogs/FileActionDialog.qml:30
+msgid "Choose action"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/dialogs/FileActionDialog.qml:31
+#: ../prebuilt/qml/dialogs/FileActionDialog.qml:31
+#: ../src/app/qml/dialogs/FileActionDialog.qml:31
+#, qt-format
+msgid "For file: %1"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/dialogs/FileActionDialog.qml:35
+#: ../prebuilt/qml/dialogs/FileActionDialog.qml:35
+#: ../src/app/qml/dialogs/FileActionDialog.qml:35
+msgid "Open"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/dialogs/FileOperationProgressDialog.qml:27
+#: ../prebuilt/qml/dialogs/FileOperationProgressDialog.qml:27
+#: ../src/app/qml/dialogs/FileOperationProgressDialog.qml:27
+msgid "Operation in progress"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/dialogs/FileOperationProgressDialog.qml:29
+#: ../prebuilt/qml/dialogs/FileOperationProgressDialog.qml:29
+#: ../src/app/qml/dialogs/FileOperationProgressDialog.qml:29
+msgid "File operation"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/dialogs/NetAuthenticationDialog.qml:45
+#: ../prebuilt/qml/dialogs/NetAuthenticationDialog.qml:45
+#: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:45
+msgid "User"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/dialogs/NetAuthenticationDialog.qml:58
+#: ../prebuilt/qml/dialogs/NetAuthenticationDialog.qml:58
+#: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:58
+msgid "Password"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/dialogs/NetAuthenticationDialog.qml:72
+#: ../prebuilt/qml/dialogs/NetAuthenticationDialog.qml:72
+#: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:72
+msgid "Save password"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/dialogs/NetAuthenticationDialog.qml:108
+#: ../prebuilt/qml/dialogs/NetAuthenticationDialog.qml:108
+#: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:108
+msgid "Ok"
+msgstr "ঠিক আছে"
+
+#: ../build/x86_64-linux-gnu/qml/dialogs/OpenArchiveDialog.qml:8
+#: ../prebuilt/qml/dialogs/OpenArchiveDialog.qml:8
+#: ../src/app/qml/dialogs/OpenArchiveDialog.qml:8
+msgid "Archive file"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/dialogs/OpenArchiveDialog.qml:9
+#: ../prebuilt/qml/dialogs/OpenArchiveDialog.qml:9
+#: ../src/app/qml/dialogs/OpenArchiveDialog.qml:9
+msgid "Do you want to extract the archive here?"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/dialogs/OpenArchiveDialog.qml:28
+#: ../build/x86_64-linux-gnu/qml/dialogs/OpenWithDialog.qml:44
+#: ../prebuilt/qml/dialogs/OpenArchiveDialog.qml:28
+#: ../prebuilt/qml/dialogs/OpenWithDialog.qml:44
+#: ../src/app/qml/dialogs/OpenArchiveDialog.qml:28
+#: ../src/app/qml/dialogs/OpenWithDialog.qml:44
+msgid "Open with another app"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/dialogs/OpenWithDialog.qml:8
+#: ../prebuilt/qml/dialogs/OpenWithDialog.qml:8
+#: ../src/app/qml/dialogs/OpenWithDialog.qml:8
+msgid "Open file"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/dialogs/OpenWithDialog.qml:9
+#: ../prebuilt/qml/dialogs/OpenWithDialog.qml:9
+#: ../src/app/qml/dialogs/OpenWithDialog.qml:9
+msgid "What do you want to do with the clicked file?"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/dialogs/OpenWithDialog.qml:22
+#: ../prebuilt/qml/dialogs/OpenWithDialog.qml:22
+#: ../src/app/qml/dialogs/OpenWithDialog.qml:22
+msgid "Preview"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/filemanager.qml:177
+#: ../prebuilt/qml/filemanager.qml:177 ../src/app/qml/filemanager.qml:177
+#, qt-format
+msgid "Saved to: %1"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/FileDetailsPopover.qml:34
+#: ../prebuilt/qml/ui/FileDetailsPopover.qml:34
+#: ../src/app/qml/ui/FileDetailsPopover.qml:34
+msgid "Readable"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/FileDetailsPopover.qml:37
+#: ../prebuilt/qml/ui/FileDetailsPopover.qml:37
+#: ../src/app/qml/ui/FileDetailsPopover.qml:37
+msgid "Writable"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/FileDetailsPopover.qml:40
+#: ../prebuilt/qml/ui/FileDetailsPopover.qml:40
+#: ../src/app/qml/ui/FileDetailsPopover.qml:40
+msgid "Executable"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/FileDetailsPopover.qml:100
+#: ../prebuilt/qml/ui/FileDetailsPopover.qml:100
+#: ../src/app/qml/ui/FileDetailsPopover.qml:100
+msgid "Where:"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/FileDetailsPopover.qml:127
+#: ../prebuilt/qml/ui/FileDetailsPopover.qml:127
+#: ../src/app/qml/ui/FileDetailsPopover.qml:127
+msgid "Created:"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/FileDetailsPopover.qml:141
+#: ../prebuilt/qml/ui/FileDetailsPopover.qml:141
+#: ../src/app/qml/ui/FileDetailsPopover.qml:141
+msgid "Modified:"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/FileDetailsPopover.qml:155
+#: ../prebuilt/qml/ui/FileDetailsPopover.qml:155
+#: ../src/app/qml/ui/FileDetailsPopover.qml:155
+msgid "Accessed:"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/FileDetailsPopover.qml:176
+#: ../prebuilt/qml/ui/FileDetailsPopover.qml:176
+#: ../src/app/qml/ui/FileDetailsPopover.qml:176
+msgid "Permissions:"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/FileDetailsPopover.qml:184
+#: ../prebuilt/qml/ui/FileDetailsPopover.qml:184
+#: ../src/app/qml/ui/FileDetailsPopover.qml:184
+msgid "Close"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/FolderListPage.qml:249
+#: ../build/x86_64-linux-gnu/qml/ui/FolderListPage.qml:304
+#: ../prebuilt/qml/ui/FolderListPage.qml:249
+#: ../prebuilt/qml/ui/FolderListPage.qml:304
+#: ../src/app/qml/ui/FolderListPage.qml:249
+#: ../src/app/qml/ui/FolderListPage.qml:304
+msgid "Restricted access"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/FolderListPage.qml:253
+#: ../prebuilt/qml/ui/FolderListPage.qml:253
+#: ../src/app/qml/ui/FolderListPage.qml:253
+msgid ""
+"Authentication is required in order to see all the content of this folder."
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/FolderListPage.qml:290
+#: ../prebuilt/qml/ui/FolderListPage.qml:290
+#: ../src/app/qml/ui/FolderListPage.qml:290
+msgid "No files"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/FolderListPage.qml:291
+#: ../prebuilt/qml/ui/FolderListPage.qml:291
+#: ../src/app/qml/ui/FolderListPage.qml:291
+msgid "This folder is empty."
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/FolderListPage.qml:305
+#: ../prebuilt/qml/ui/FolderListPage.qml:305
+#: ../src/app/qml/ui/FolderListPage.qml:305
+msgid "Authentication is required in order to see the content of this folder."
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/FolderListPage.qml:321
+#: ../prebuilt/qml/ui/FolderListPage.qml:321
+#: ../src/app/qml/ui/FolderListPage.qml:321
+msgid "File operation error"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/FolderListPageDefaultHeader.qml:22
+#: ../build/x86_64-linux-gnu/qml/ui/FolderListPagePickModeHeader.qml:21
+#: ../prebuilt/qml/ui/FolderListPageDefaultHeader.qml:22
+#: ../prebuilt/qml/ui/FolderListPagePickModeHeader.qml:21
+#: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:22
+#: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:21
+#, qt-format
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/FolderListPageDefaultHeader.qml:63
+#: ../prebuilt/qml/ui/FolderListPageDefaultHeader.qml:63
+#: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:63
+#, qt-format
+msgid "Added '%1' to Places"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/FolderListPageDefaultHeader.qml:81
+#: ../prebuilt/qml/ui/FolderListPageDefaultHeader.qml:81
+#: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:81
+msgid "Cleared clipboard"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/FolderListPageDefaultHeader.qml:90
+#: ../prebuilt/qml/ui/FolderListPageDefaultHeader.qml:90
+#: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:90
+msgid "Paste files"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/FolderListPageDefaultHeader.qml:92
+#: ../prebuilt/qml/ui/FolderListPageDefaultHeader.qml:92
+#: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:92
+msgid "Pasted item"
+msgid_plural "Pasted items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/FolderListPagePickModeHeader.qml:21
+#: ../prebuilt/qml/ui/FolderListPagePickModeHeader.qml:21
+#: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:21
+msgid "Save here"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/FolderListPageSelectionHeader.qml:36
+#: ../prebuilt/qml/ui/FolderListPageSelectionHeader.qml:36
+#: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:36
+#, qt-format
+msgid "%1 item selected"
+msgid_plural "%1 items selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/FolderListPageSelectionHeader.qml:119
+#: ../build/x86_64-linux-gnu/qml/views/FolderDelegateActions.qml:185
+#: ../prebuilt/qml/ui/FolderListPageSelectionHeader.qml:119
+#: ../prebuilt/qml/views/FolderDelegateActions.qml:185
+#: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:119
+#: ../src/app/qml/views/FolderDelegateActions.qml:183
+msgid "Could not rename"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/FolderListPageSelectionHeader.qml:120
+#: ../build/x86_64-linux-gnu/qml/views/FolderDelegateActions.qml:186
+#: ../prebuilt/qml/ui/FolderListPageSelectionHeader.qml:120
+#: ../prebuilt/qml/views/FolderDelegateActions.qml:186
+#: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:120
+#: ../src/app/qml/views/FolderDelegateActions.qml:184
+msgid ""
+"Insufficient permissions, name contains special chars (e.g. '/'), or already "
+"exists"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/ViewPopover.qml:24
+#: ../prebuilt/qml/ui/ViewPopover.qml:24 ../src/app/qml/ui/ViewPopover.qml:24
+msgid "Show Hidden Files"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/ViewPopover.qml:42
+#: ../prebuilt/qml/ui/ViewPopover.qml:42 ../src/app/qml/ui/ViewPopover.qml:42
+msgid "Default open action"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/ViewPopover.qml:55
+#: ../prebuilt/qml/ui/ViewPopover.qml:55 ../src/app/qml/ui/ViewPopover.qml:55
+msgid "View As"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/ViewPopover.qml:57
+#: ../prebuilt/qml/ui/ViewPopover.qml:57 ../src/app/qml/ui/ViewPopover.qml:57
+msgid "List"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/ViewPopover.qml:57
+#: ../prebuilt/qml/ui/ViewPopover.qml:57 ../src/app/qml/ui/ViewPopover.qml:57
+msgid "Icons"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/ViewPopover.qml:62
+#: ../prebuilt/qml/ui/ViewPopover.qml:62 ../src/app/qml/ui/ViewPopover.qml:62
+msgid "Grid size"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/ViewPopover.qml:65
+#: ../build/x86_64-linux-gnu/qml/ui/ViewPopover.qml:73
+#: ../prebuilt/qml/ui/ViewPopover.qml:65 ../prebuilt/qml/ui/ViewPopover.qml:73
+#: ../src/app/qml/ui/ViewPopover.qml:65 ../src/app/qml/ui/ViewPopover.qml:73
+msgid "S"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/ViewPopover.qml:65
+#: ../build/x86_64-linux-gnu/qml/ui/ViewPopover.qml:73
+#: ../prebuilt/qml/ui/ViewPopover.qml:65 ../prebuilt/qml/ui/ViewPopover.qml:73
+#: ../src/app/qml/ui/ViewPopover.qml:65 ../src/app/qml/ui/ViewPopover.qml:73
+msgid "M"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/ViewPopover.qml:65
+#: ../build/x86_64-linux-gnu/qml/ui/ViewPopover.qml:73
+#: ../prebuilt/qml/ui/ViewPopover.qml:65 ../prebuilt/qml/ui/ViewPopover.qml:73
+#: ../src/app/qml/ui/ViewPopover.qml:65 ../src/app/qml/ui/ViewPopover.qml:73
+msgid "L"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/ViewPopover.qml:65
+#: ../build/x86_64-linux-gnu/qml/ui/ViewPopover.qml:73
+#: ../prebuilt/qml/ui/ViewPopover.qml:65 ../prebuilt/qml/ui/ViewPopover.qml:73
+#: ../src/app/qml/ui/ViewPopover.qml:65 ../src/app/qml/ui/ViewPopover.qml:73
+msgid "XL"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/ViewPopover.qml:70
+#: ../prebuilt/qml/ui/ViewPopover.qml:70 ../src/app/qml/ui/ViewPopover.qml:70
+msgid "List size"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/ViewPopover.qml:78
+#: ../prebuilt/qml/ui/ViewPopover.qml:78 ../src/app/qml/ui/ViewPopover.qml:78
+msgid "Sort By"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/ViewPopover.qml:80
+#: ../prebuilt/qml/ui/ViewPopover.qml:80 ../src/app/qml/ui/ViewPopover.qml:80
+msgid "Name"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/ViewPopover.qml:80
+#: ../prebuilt/qml/ui/ViewPopover.qml:80 ../src/app/qml/ui/ViewPopover.qml:80
+msgid "Date"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/ViewPopover.qml:80
+#: ../prebuilt/qml/ui/ViewPopover.qml:80 ../src/app/qml/ui/ViewPopover.qml:80
+msgid "Size"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/ViewPopover.qml:85
+#: ../prebuilt/qml/ui/ViewPopover.qml:85 ../src/app/qml/ui/ViewPopover.qml:85
+msgid "Sort Order"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/ViewPopover.qml:92
+#: ../prebuilt/qml/ui/ViewPopover.qml:92 ../src/app/qml/ui/ViewPopover.qml:92
+msgid "Theme"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/ViewPopover.qml:94
+#: ../prebuilt/qml/ui/ViewPopover.qml:94 ../src/app/qml/ui/ViewPopover.qml:94
+msgid "System"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/ViewPopover.qml:94
+#: ../prebuilt/qml/ui/ViewPopover.qml:94 ../src/app/qml/ui/ViewPopover.qml:94
+msgid "Light"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/ui/ViewPopover.qml:94
+#: ../prebuilt/qml/ui/ViewPopover.qml:94 ../src/app/qml/ui/ViewPopover.qml:94
+msgid "Dark"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/views/FolderDelegateActions.qml:41
+#: ../prebuilt/qml/views/FolderDelegateActions.qml:41
+#: ../src/app/qml/views/FolderDelegateActions.qml:41
+msgid "Folder not accessible"
+msgstr ""
+
+#. TRANSLATORS: this refers to a folder name
+#: ../build/x86_64-linux-gnu/qml/views/FolderDelegateActions.qml:43
+#: ../prebuilt/qml/views/FolderDelegateActions.qml:43
+#: ../src/app/qml/views/FolderDelegateActions.qml:43
+#, qt-format
+msgid "Can not access %1"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/views/FolderListView.qml:82
+#: ../prebuilt/qml/views/FolderListView.qml:82
+#: ../src/app/qml/views/FolderListView.qml:82
+msgid "Directories"
+msgstr ""
+
+#: ../build/x86_64-linux-gnu/qml/views/FolderListView.qml:82
+#: ../prebuilt/qml/views/FolderListView.qml:82
+#: ../src/app/qml/views/FolderListView.qml:82
+msgid "Files"
+msgstr ""
+
+#: ../src/plugin/folderlistmodel/dirmodel.cpp:360
+msgid "Unknown"
+msgstr "অজানা"
+
+#: ../src/plugin/folderlistmodel/dirmodel.cpp:487
+msgid "path or url may not exist or cannot be read"
+msgstr ""
+
+#: ../src/plugin/folderlistmodel/dirmodel.cpp:690
+msgid "Rename error"
+msgstr ""
+
+#: ../src/plugin/folderlistmodel/dirmodel.cpp:713
+msgid "Error creating new folder"
+msgstr ""
+
+#: ../src/plugin/folderlistmodel/dirmodel.cpp:740
+msgid "Touch file error"
+msgstr ""
+
+#: ../src/plugin/folderlistmodel/dirmodel.cpp:1353
+msgid "items"
+msgstr ""
+
+#: ../src/plugin/folderlistmodel/filesystemaction.cpp:320
+msgid "File or Directory does not exist"
+msgstr ""
+
+#: ../src/plugin/folderlistmodel/filesystemaction.cpp:321
+msgid " does not exist"
+msgstr ""
+
+#: ../src/plugin/folderlistmodel/filesystemaction.cpp:326
+msgid "Cannot access File or Directory"
+msgstr ""
+
+#: ../src/plugin/folderlistmodel/filesystemaction.cpp:327
+msgid " it needs Authentication"
+msgstr ""
+
+#: ../src/plugin/folderlistmodel/filesystemaction.cpp:361
+msgid "Cannot copy/move items"
+msgstr ""
+
+#: ../src/plugin/folderlistmodel/filesystemaction.cpp:362
+#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1487
+msgid "no write permission on folder "
+msgstr ""
+
+#: ../src/plugin/folderlistmodel/filesystemaction.cpp:642
+msgid "Could not remove the item "
+msgstr ""
+
+#: ../src/plugin/folderlistmodel/filesystemaction.cpp:680
+msgid "Could not find a suitable name to backup"
+msgstr ""
+
+#: ../src/plugin/folderlistmodel/filesystemaction.cpp:733
+msgid "Could not create the directory"
+msgstr ""
+
+#: ../src/plugin/folderlistmodel/filesystemaction.cpp:738
+msgid "Could not create link to"
+msgstr ""
+
+#: ../src/plugin/folderlistmodel/filesystemaction.cpp:746
+msgid "Could not set permissions to dir"
+msgstr ""
+
+#: ../src/plugin/folderlistmodel/filesystemaction.cpp:756
+msgid "Could not open file"
+msgstr ""
+
+#: ../src/plugin/folderlistmodel/filesystemaction.cpp:772
+msgid "There is no space to copy"
+msgstr ""
+
+#: ../src/plugin/folderlistmodel/filesystemaction.cpp:780
+msgid "Could not create file"
+msgstr ""
+
+#: ../src/plugin/folderlistmodel/filesystemaction.cpp:837
+msgid "Could not remove the directory/file "
+msgstr ""
+
+#: ../src/plugin/folderlistmodel/filesystemaction.cpp:850
+msgid "Could not move the directory/file "
+msgstr ""
+
+#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1089
+msgid "Write error in "
+msgstr ""
+
+#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1101
+msgid "Read error in "
+msgstr ""
+
+#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1318
+msgid " Copy"
+msgstr ""
+
+#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1371
+msgid "Set permissions error in "
+msgstr ""
+
+#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1437
+msgid "Could not create trash info file"
+msgstr ""
+
+#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1449
+msgid "Could not remove the trash info file"
+msgstr ""
+
+#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1479
+#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1486
+msgid "Cannot move items"
+msgstr ""
+
+#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1481
+msgid "origin and destination folders are the same"
+msgstr ""
+
+#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1524
+msgid "There is no space to download"
+msgstr ""
+
+#: ../src/plugin/folderlistmodel/smb/qsambaclient/src/smbusershare.cpp:72
+msgid "net tool not found, check samba installation"
+msgstr ""
+
+#: ../src/plugin/folderlistmodel/smb/qsambaclient/src/smbusershare.cpp:80
+msgid "cannot write in "
+msgstr ""
+
+#: com.ubuntu.filemanager.desktop.in.in.h:1
+msgid "File Manager"
+msgstr ""
+
+#: com.ubuntu.filemanager.desktop.in.in.h:2
+msgid "folder;manager;explore;disk;filesystem;"
+msgstr ""
