@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2021-03-04 20:28+0000\n"
+"PO-Revision-Date: 2021-03-18 16:26+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/nl/>\n"
@@ -403,7 +403,7 @@ msgstr "Geopend op:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:176
 msgid "Permissions:"
-msgstr "Machtigingen:"
+msgstr "Bevoegdheden:"
 
 #: ../src/app/qml/ui/FolderListPage.qml:241
 #: ../src/app/qml/ui/FolderListPage.qml:296
@@ -599,7 +599,7 @@ msgstr "Kan items niet kopiëren/verplaatsen"
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:362
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1487
 msgid "no write permission on folder "
-msgstr "geen schrijfmachtigingen in map "
+msgstr "geen schrijfbevoegdheden in map "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:642
 msgid "Could not remove the item "

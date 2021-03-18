@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2021-01-28 03:24+0000\n"
-"Last-Translator: Adam <padamyno@gmail.com>\n"
+"PO-Revision-Date: 2021-03-17 10:43+0000\n"
+"Last-Translator: David Farkas <dvdfrks@gmail.com>\n"
 "Language-Team: Hungarian <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/hu/>\n"
 "Language: hu\n"
@@ -517,9 +517,8 @@ msgid "Date"
 msgstr "Dátum"
 
 #: ../src/app/qml/ui/ViewPopover.qml:62
-#, fuzzy
 msgid "Size"
-msgstr "Méret:"
+msgstr "Méret"
 
 #: ../src/app/qml/ui/ViewPopover.qml:67
 msgid "Sort Order"
