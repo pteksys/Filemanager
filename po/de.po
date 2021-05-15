@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2021-04-20 21:41+0000\n"
-"Last-Translator: Florian Leeber <flori@bin.org.in>\n"
+"PO-Revision-Date: 2021-05-15 18:00+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/de/>\n"
 "Language: de\n"
@@ -644,7 +644,7 @@ msgstr "Datei oder Verzeichnis konnte nicht verschoben werden: "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1089
 msgid "Write error in "
-msgstr "Speicherfehler in "
+msgstr "Schreibfehler in "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1101
 msgid "Read error in "
@@ -656,7 +656,7 @@ msgstr " Kopieren"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1371
 msgid "Set permissions error in "
-msgstr "Berechtigungsfehler einstellen in "
+msgstr "Fehler beim Einstellen von Berechtigungen in "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1437
 msgid "Could not create trash info file"
@@ -685,7 +685,7 @@ msgstr "Netzwerkhilfsprogramm nicht gefunden, Samba-Installation prüfen"
 
 #: ../src/plugin/folderlistmodel/smb/qsambaclient/src/smbusershare.cpp:80
 msgid "cannot write in "
-msgstr "kann nicht gespeichert werden in "
+msgstr "kann nicht geschrieben werden in "
 
 #: com.ubuntu.filemanager.desktop.in.in.h:1
 msgid "File Manager"
