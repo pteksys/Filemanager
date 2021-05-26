@@ -1,4 +1,5 @@
 import QtQuick 2.4
+import QtQuick.Layouts 1.12
 import Ubuntu.Components 1.3
 import Ubuntu.Components.Popups 1.3
 
@@ -13,13 +14,41 @@ PageHeader {
     property var folderPage
     property var folderModel
     property var showPanelAction
+    property bool showSearchBar: false
 
     title: FmUtils.basename(folderModel.path)
 
-    contents: ListItemLayout {
-        anchors.verticalCenter: parent.verticalCenter
-        title.text: rootItem.title
-        subtitle.text: i18n.tr("%1 item", "%1 items", folderModel.count).arg(folderModel.count)
+    contents: Rectangle {
+        anchors.fill: parent
+        ListItemLayout {
+            anchors.verticalCenter: parent.verticalCenter
+            title.text: rootItem.title
+            subtitle.text: i18n.tr("%1 item", "%1 items", folderModel.count).arg(folderModel.count)
+        }
+
+        TextField {
+            id: searchField
+            visible: showSearchBar
+            anchors {
+                right: parent.right
+                verticalCenter: parent.verticalCenter
+            }
+
+            primaryItem: Icon {
+                height: units.gu(2); width: height
+                name: "search"
+            }
+
+            placeholderText: i18n.tr("Search in documents...")
+            onTextChanged: folderModel.search(text)
+
+            // Disable predictive text
+            inputMethodHints: Qt.ImhNoPredictiveText
+
+            // Force active focus when this becomes the current PageHead state and
+            // show OSK if appropriate.
+            onVisibleChanged: forceActiveFocus()
+        }
     }
 
     extension: Components.PathHistoryRow {
@@ -99,6 +128,14 @@ PageHeader {
 
                 // We want this in a mobile environment.
                 folderModel.model.clearClipboard()
+            }
+        },
+        FMActions.Search {
+            onTriggered: {
+                showSearchBar = !showSearchBar; // toggle the search bar
+                // Clear the search
+                //searchField.text = ""
+                //parentPage.searchMode = false
             }
         }
     ]
