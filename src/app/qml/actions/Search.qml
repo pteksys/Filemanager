@@ -3,4 +3,5 @@ import Ubuntu.Components 1.3
 
 Action {
     iconName: "find"
+    text: i18n.tr("Search")
 }
