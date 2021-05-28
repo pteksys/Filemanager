@@ -291,7 +291,7 @@ public:
     bool showDirectories() const;
     QStringList nameFilters() const;
 
-    void setNameFilters(const QStringList &nameFilters);
+    Q_INVOKABLE  void setNameFilters(const QStringList &nameFilters);
 
     DirSelection *selectionObject() const;
 

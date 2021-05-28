@@ -127,7 +127,7 @@ DirItemInfoList IORequestLoader::add(const QString &pathName,
         if (it.fileInfo().isDir() && isRecursive) {
             directoryContents = add(it.fileInfo().filePath(),
                                     filter, isRecursive, directoryContents);
-        } else if (it.fileInfo().fileName().contains("var", Qt::CaseInsensitive)) {
+        } else {
             directoryContents.append(DirItemInfo(it.fileInfo()));
         }
     }

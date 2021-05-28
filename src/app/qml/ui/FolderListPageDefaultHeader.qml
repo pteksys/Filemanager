@@ -20,6 +20,7 @@ PageHeader {
 
     contents: Rectangle {
         anchors.fill: parent
+
         ListItemLayout {
             anchors.verticalCenter: parent.verticalCenter
             title.text: rootItem.title
@@ -34,20 +35,15 @@ PageHeader {
                 verticalCenter: parent.verticalCenter
             }
 
-            primaryItem: Icon {
-                height: units.gu(2); width: height
-                name: "search"
-            }
-
-            placeholderText: i18n.tr("Search in documents...")
-            onTextChanged: folderModel.search(text)
+            placeholderText: i18n.tr("Filter/Search...")
+            onTextChanged: folderModel.model.setNameFilters(["*" + text + "*"])
 
             // Disable predictive text
             inputMethodHints: Qt.ImhNoPredictiveText
 
             // Force active focus when this becomes the current PageHead state and
             // show OSK if appropriate.
-            onVisibleChanged: forceActiveFocus()
+            onVisibleChanged: if (visible) forceActiveFocus()
         }
     }
 
