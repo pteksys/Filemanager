@@ -104,7 +104,7 @@ static CompareFunction availableCompareFunctions[3][2] = {
 
 DirModel::DirModel(QObject *parent)
     : DirItemAbstractListModel(parent)
-    , mFilterDirectories(false)
+    , mFilterDirectories(true)
     , mShowDirectories(true)
     , mAwaitingResults(false)
     , mIsRecursive(false)
@@ -614,19 +614,20 @@ void DirModel::onItemsAdded(const DirItemInfoList &newFiles)
     foreach (const DirItemInfo &fi, newFiles) {
         if (!allowAccess(fi)) continue;
 
-        bool doAdd = false;
         qDebug() << "Stuff:";
         qDebug() << mNameFilters;
+
+        bool doAdd = false;
         foreach (const QString &nameFilter, mNameFilters) {
-            // TODO: using QRegExp for wildcard matching is slow
-            QRegularExpression re(nameFilter, QRegularExpression::CaseInsensitiveOption);
-            qDebug() << fi.fileName() << fi.isDir();
-            if (re.match(fi.fileName()).hasMatch()) {// || (fi.isDir() && !mFilterDirectories)) {
+            qDebug() << fi.fileName() << fi.fileName().contains(nameFilter, Qt::CaseInsensitive);
+            qDebug() << "";
+            //QRegularExpression re(nameFilter, QRegularExpression::CaseInsensitiveOption);
+            //if (re.match(fi.fileName()).hasMatch() || (fi.isDir() && !mFilterDirectories)) {
+            if (fi.fileName().contains(nameFilter, Qt::CaseInsensitive) || (fi.isDir() && !mFilterDirectories)) {
                 doAdd = true;
                 break;
             }
         }
-        qDebug() << "";
 
         if (!doAdd)
             continue;
