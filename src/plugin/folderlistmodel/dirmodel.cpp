@@ -614,14 +614,20 @@ void DirModel::onItemsAdded(const DirItemInfoList &newFiles)
         if (!allowAccess(fi)) continue;
 
         bool doAdd = false;
+        qDebug() << "Stuff:";
+        qDebug() << mNameFilters;
+        if (mNameFilters.isEmpty())
+            mNameFilters = QStringList() << "*";
         foreach (const QString &nameFilter, mNameFilters) {
             // TODO: using QRegExp for wildcard matching is slow
             QRegExp re(nameFilter, Qt::CaseInsensitive, QRegExp::Wildcard);
-            if (re.exactMatch(fi.fileName()) || (fi.isDir() && !mFilterDirectories)) {
+            qDebug() << fi.fileName() << fi.isDir();
+            if (re.exactMatch(fi.fileName())) {// || (fi.isDir() && !mFilterDirectories)) {
                 doAdd = true;
                 break;
             }
         }
+        qDebug() << "";
 
         if (!doAdd)
             continue;
