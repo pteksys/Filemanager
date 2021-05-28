@@ -66,6 +66,7 @@
 #include <QStandardPaths>
 #include <QList>
 #include <QScopedPointer>
+#include <QRegularExpression>
 
 #include<iostream>
 #include<algorithm>
@@ -122,7 +123,7 @@ DirModel::DirModel(QObject *parent)
     , mCurLocation(0)
     , m_fsAction(new FileSystemAction(mLocationFactory, this) )
 {
-    mNameFilters = QStringList() << "*";
+    mNameFilters = QStringList() << "";
 
     mSelection = new DirSelection(this, &mDirectoryContents);
 
@@ -616,13 +617,11 @@ void DirModel::onItemsAdded(const DirItemInfoList &newFiles)
         bool doAdd = false;
         qDebug() << "Stuff:";
         qDebug() << mNameFilters;
-        if (mNameFilters.isEmpty())
-            mNameFilters = QStringList() << "*";
         foreach (const QString &nameFilter, mNameFilters) {
             // TODO: using QRegExp for wildcard matching is slow
-            QRegExp re(nameFilter, Qt::CaseInsensitive, QRegExp::Wildcard);
+            QRegularExpression re(nameFilter, QRegularExpression::CaseInsensitiveOption);
             qDebug() << fi.fileName() << fi.isDir();
-            if (re.exactMatch(fi.fileName())) {// || (fi.isDir() && !mFilterDirectories)) {
+            if (re.match(fi.fileName()).hasMatch()) {// || (fi.isDir() && !mFilterDirectories)) {
                 doAdd = true;
                 break;
             }

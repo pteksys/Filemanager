@@ -36,7 +36,7 @@ PageHeader {
             }
 
             placeholderText: i18n.tr("Filter/Search...")
-            onTextChanged: folderModel.model.setNameFilters(["*" + text + "*"])
+            onTextChanged: folderModel.model.setNameFilters([text])
 
             // Disable predictive text
             inputMethodHints: Qt.ImhNoPredictiveText
