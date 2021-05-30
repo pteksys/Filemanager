@@ -36,7 +36,6 @@ PageHeader {
             }
 
             placeholderText: i18n.tr("Filter/Search...")
-            onTextChanged: folderModel.model.setNameFilters([text])
 
             // Disable predictive text
             inputMethodHints: Qt.ImhNoPredictiveText
@@ -44,6 +43,15 @@ PageHeader {
             // Force active focus when this becomes the current PageHead state and
             // show OSK if appropriate.
             onVisibleChanged: if (visible) forceActiveFocus()
+
+            // https://stackoverflow.com/questions/41232999/two-way-binding-c-model-in-qml
+            text: folderModel.model.searchString
+
+            Binding {
+                target: folderModel.model
+                property: "searchString"
+                value: searchField.text
+            }
         }
     }
 
@@ -128,10 +136,7 @@ PageHeader {
         },
         FMActions.Search {
             onTriggered: {
-                showSearchBar = !showSearchBar; // toggle the search bar
-                // Clear the search
-                //searchField.text = ""
-                //parentPage.searchMode = false
+                showSearchBar = !showSearchBar;
             }
         }
     ]

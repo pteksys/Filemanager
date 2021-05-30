@@ -104,7 +104,7 @@ static CompareFunction availableCompareFunctions[3][2] = {
 
 DirModel::DirModel(QObject *parent)
     : DirItemAbstractListModel(parent)
-    , mFilterDirectories(true)
+    , mFilterDirectories(false)
     , mShowDirectories(true)
     , mAwaitingResults(false)
     , mIsRecursive(false)
@@ -123,7 +123,7 @@ DirModel::DirModel(QObject *parent)
     , mCurLocation(0)
     , m_fsAction(new FileSystemAction(mLocationFactory, this) )
 {
-    mNameFilters = QStringList() << "";
+    mNameFilters = QStringList() << "*";
 
     mSelection = new DirSelection(this, &mDirectoryContents);
 
@@ -516,6 +516,9 @@ void DirModel::setPathFromCurrentLocation()
 
     if (mPathList.count() == 0 || mPathList.last() != mCurrentDir) {
         mPathList.append(mCurrentDir);
+
+        // Reset search string
+        setSearchString("");
     }
 
     emit canGoBackChanged();
@@ -614,20 +617,27 @@ void DirModel::onItemsAdded(const DirItemInfoList &newFiles)
     foreach (const DirItemInfo &fi, newFiles) {
         if (!allowAccess(fi)) continue;
 
-        qDebug() << "Stuff:";
-        qDebug() << mNameFilters;
-
         bool doAdd = false;
         foreach (const QString &nameFilter, mNameFilters) {
-            qDebug() << fi.fileName() << fi.fileName().contains(nameFilter, Qt::CaseInsensitive);
-            qDebug() << "";
-            //QRegularExpression re(nameFilter, QRegularExpression::CaseInsensitiveOption);
-            //if (re.match(fi.fileName()).hasMatch() || (fi.isDir() && !mFilterDirectories)) {
-            if (fi.fileName().contains(nameFilter, Qt::CaseInsensitive) || (fi.isDir() && !mFilterDirectories)) {
+            // TODO: using QRegExp for wildcard matching is slow
+            QRegExp re(nameFilter, Qt::CaseInsensitive, QRegExp::Wildcard);
+            if (re.exactMatch(fi.fileName()) || (fi.isDir() && !mFilterDirectories)) {
                 doAdd = true;
                 break;
             }
         }
+
+        qDebug() << "Stuff:";
+        qDebug() << mSearchString;
+        qDebug() << fi.fileName() << fi.fileName().contains(mSearchString, Qt::CaseInsensitive);
+        qDebug() << "";
+
+        //QRegularExpression re(mSearchString, QRegularExpression::CaseInsensitiveOption);
+        // Use https://doc.qt.io/qt-5/qstring.html#contains-6 (QRegEx)?
+        //if (fi.fileName().contains(mSearchString, Qt::CaseInsensitive) || (fi.isDir() && !mFilterDirectories)) {
+        //    doAdd = true;
+        //}
+        doAdd = fi.fileName().contains(mSearchString, Qt::CaseInsensitive);
 
         if (!doAdd)
             continue;
@@ -1992,3 +2002,15 @@ QVariant DirModel::getAudioMetaData(const QFileInfo &fi, int role) const
     return empty;
 }
 #endif
+
+QString DirModel::getSearchString()
+{
+    return mSearchString;
+}
+
+void DirModel::setSearchString(QString searchString)
+{
+    mSearchString = searchString;
+    refresh();
+    emit searchStringChanged(searchString);
+}

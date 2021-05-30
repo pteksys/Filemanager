@@ -72,6 +72,7 @@ class DirModel : public DirItemAbstractListModel, public QQmlParserStatus
     Q_PROPERTY(SortOrder sortOrder READ getSortOrder WRITE setSortOrder NOTIFY sortOrderChanged)
     Q_PROPERTY(int clipboardUrlsCounter READ getClipboardUrlsCounter NOTIFY clipboardChanged)
     Q_PROPERTY(bool enableExternalFSWatcher READ getEnabledExternalFSWatcher WRITE setEnabledExternalFSWatcher NOTIFY enabledExternalFSWatcherChanged)
+    Q_PROPERTY(QString searchString READ getSearchString WRITE setSearchString NOTIFY searchStringChanged)
 
 public:
     enum Roles {
@@ -291,7 +292,7 @@ public:
     bool showDirectories() const;
     QStringList nameFilters() const;
 
-    Q_INVOKABLE  void setNameFilters(const QStringList &nameFilters);
+    void setNameFilters(const QStringList &nameFilters);
 
     DirSelection *selectionObject() const;
 
@@ -329,6 +330,8 @@ public:
     void  restoreIndexesFromTrash(const QList<int> &);
     void  moveIndexesToTrash(const QList<int> &);
 
+    QString getSearchString();
+    void setSearchString(QString searchString);
 
 public slots:   // Also invokable from QML
     /*!
@@ -460,6 +463,7 @@ private:
     bool mReadsMediaMetadata;
     QString mCurrentDir;
     DirItemInfoList  mDirectoryContents;
+    QString mSearchString;
 
 signals:
     void countChanged();
@@ -518,6 +522,8 @@ signals:
      *    the \a filename is ready to be used, filename is a full pathname
      */
     void     downloadTemporaryComplete(const QString &filename);
+
+    void searchStringChanged(QString searchString);
 
 private slots:
     void onItemRemoved(const DirItemInfo &);
