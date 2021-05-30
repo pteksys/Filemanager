@@ -343,8 +343,12 @@ QVariant DirModel::data(const QModelIndex &index, int role) const
     const DirItemInfo &fi = mDirectoryContents.at(index.row());
 
     switch (role) {
-    case FileNameRole:
-        return fi.fileName();
+    case FileNameRole: {
+        // Bold first instance of search string (https://stackoverflow.com/a/21024983)
+        QString fileName(fi.fileName());
+        QString highlighted("<b>" + mSearchString + "</b>");
+        return fileName.replace(fileName.indexOf(mSearchString), mSearchString.size(), highlighted);
+    }
     case AccessedDateRole:
         return fi.lastRead();
     case CreationDateRole:
@@ -627,10 +631,10 @@ void DirModel::onItemsAdded(const DirItemInfoList &newFiles)
             }
         }
 
-        qDebug() << "Stuff:";
-        qDebug() << mSearchString;
-        qDebug() << fi.fileName() << fi.fileName().contains(mSearchString, Qt::CaseInsensitive);
-        qDebug() << "";
+        //qDebug() << "Stuff:";
+        //qDebug() << mSearchString;
+        //qDebug() << fi.fileName() << fi.fileName().contains(mSearchString, Qt::CaseInsensitive);
+        //qDebug() << "";
 
         //QRegularExpression re(mSearchString, QRegularExpression::CaseInsensitiveOption);
         // Use https://doc.qt.io/qt-5/qstring.html#contains-6 (QRegEx)?
