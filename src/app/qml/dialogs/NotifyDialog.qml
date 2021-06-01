@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2013 Canonical Ltd
+ * Copyright (C) 2021 UBports Foundation
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 3 as
@@ -22,10 +23,13 @@ import Ubuntu.Components.Popups 1.3
 Dialog {
     id: root
 
+    signal closed()
+
     Button {
         color: theme.palette.normal.focus
         text: i18n.tr("OK")
         onClicked: {
+            closed()
             PopupUtils.close(root)
         }
     }
