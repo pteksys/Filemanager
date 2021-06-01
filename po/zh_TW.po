@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2020-09-24 19:00+0000\n"
-"Last-Translator: P.-H. Lin <cypressyew@gmail.com>\n"
+"PO-Revision-Date: 2021-02-14 20:35+0000\n"
+"Last-Translator: louies0623 <louies0623@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.ubports.com/projects/"
 "ubports/filemanager-app/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -99,7 +99,7 @@ msgstr "取消選取"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
 msgid "Select All"
-msgstr "全選"
+msgstr "全部選取"
 
 #: ../src/app/qml/actions/Settings.qml:6
 msgid "Settings"
@@ -468,7 +468,7 @@ msgstr "網格尺寸大小"
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "S"
-msgstr "南"
+msgstr "小"
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "M"
@@ -637,11 +637,11 @@ msgstr "無法移動目錄/檔案 "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1089
 msgid "Write error in "
-msgstr "寫入時出錯： "
+msgstr "寫入錯誤 "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1101
 msgid "Read error in "
-msgstr "讀取時出錯 "
+msgstr "讀取錯誤 "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1318
 msgid " Copy"
@@ -649,7 +649,7 @@ msgstr " 複製"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1371
 msgid "Set permissions error in "
-msgstr "設定此項目權限時出錯 "
+msgstr "設定權限錯誤 "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1437
 msgid "Could not create trash info file"

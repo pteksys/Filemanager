@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2020-11-01 12:04+0000\n"
+"PO-Revision-Date: 2021-04-30 20:44+0000\n"
 "Last-Translator: Milan Korecký <milan.korecky@gmail.com>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/cs/>\n"
@@ -65,11 +65,11 @@ msgstr "Zpět"
 
 #: ../src/app/qml/actions/GoNext.qml:5
 msgid "Go next"
-msgstr "Vpřed"
+msgstr "Další"
 
 #: ../src/app/qml/actions/GoTo.qml:6
 msgid "Go To"
-msgstr "Jít na"
+msgstr "Přejít do"
 
 #: ../src/app/qml/actions/NewItem.qml:6
 msgid "New Item"
@@ -97,7 +97,7 @@ msgstr "Vybrat"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
 msgid "Select None"
-msgstr "Nevybrat žádný"
+msgstr "Zrušit výběr"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
 msgid "Select All"
@@ -135,12 +135,12 @@ msgstr "Požadováno ověření"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:27
 msgid "Use your fingerprint to access restricted content"
-msgstr "Použijte svůj otisk prstu pro přístup k obsahu s omezeným přístupem"
+msgstr "Použijte svůj otisk prstu pro odemknutí obsahu s omezeným přístupem"
 
 #. TRANSLATORS: "Touch" here is a verb
 #: ../src/app/qml/authentication/FingerprintDialog.qml:55
 msgid "Touch sensor"
-msgstr "Dotkněte se senzoru"
+msgstr "Dotykový senzor"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:60
 msgid "Use password"
@@ -165,7 +165,7 @@ msgstr "Zrušit"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:126
 msgid "Authentication failed!"
-msgstr "Ověření se nezdařilo!"
+msgstr "Ověření selhalo!"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:137
 msgid "Please retry"
@@ -173,7 +173,7 @@ msgstr "Zkuste to znovu"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:35
 msgid "Authentication failed"
-msgstr "Ověření se nezdařilo"
+msgstr "Ověření selhalo"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:45
 msgid "Your passphrase is required to access restricted content"
@@ -195,7 +195,7 @@ msgstr "přístupový kód (pokud nenastaven, je přednastaveno 0000)"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:69
 msgid "Authentication failed. Please retry"
-msgstr "Ověření se nezdařilo. Zkuste znovu"
+msgstr "Ověření selhalo. Zkuste znovu"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:74
 msgid "Authenticate"
@@ -283,7 +283,7 @@ msgstr "Rozbaluje se archiv „%1“"
 #: ../src/app/qml/dialogs/templates/ConfirmDialog.qml:31
 #: ../src/app/qml/dialogs/templates/ConfirmDialogWithInput.qml:49
 msgid "OK"
-msgstr "OK"
+msgstr "Přijmout"
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:59
 msgid "Extracting failed"
@@ -516,7 +516,7 @@ msgstr "Řazení"
 
 #: ../src/app/qml/ui/ViewPopover.qml:74
 msgid "Theme"
-msgstr "Styl"
+msgstr "Motiv prostředí"
 
 #: ../src/app/qml/ui/ViewPopover.qml:76
 msgid "Light"

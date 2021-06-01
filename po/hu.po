@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2020-02-12 15:21+0000\n"
-"Last-Translator: Bence László <bencelaszlo@protonmail.com>\n"
+"PO-Revision-Date: 2021-03-17 10:43+0000\n"
+"Last-Translator: David Farkas <dvdfrks@gmail.com>\n"
 "Language-Team: Hungarian <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/hu/>\n"
 "Language: hu\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2017-04-08 06:04+0000\n"
 
 #: ../src/app/qml/actions/AddBookmark.qml:6
@@ -95,14 +95,12 @@ msgid "Select"
 msgstr "Kiválasztás"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
-#, fuzzy
 msgid "Select None"
-msgstr "Kiválasztás"
+msgstr "Kijelölés törlése"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
-#, fuzzy
 msgid "Select All"
-msgstr "Kiválasztás"
+msgstr "Összes kijelölése"
 
 #: ../src/app/qml/actions/Settings.qml:6
 msgid "Settings"
@@ -110,7 +108,7 @@ msgstr "Beállítások"
 
 #: ../src/app/qml/actions/Share.qml:5
 msgid "Share"
-msgstr ""
+msgstr "Megosztás"
 
 #: ../src/app/qml/actions/TabsAdd.qml:5
 msgid "Add tab"
@@ -126,7 +124,7 @@ msgstr "Megnyitás új lapon"
 
 #: ../src/app/qml/actions/UnlockFullAccess.qml:6
 msgid "Unlock"
-msgstr ""
+msgstr "Feloldás"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:26
 #: ../src/app/qml/authentication/PasswordDialog.qml:43
@@ -163,7 +161,7 @@ msgstr "Jelszó mentése"
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:51
 #: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:26
 msgid "Cancel"
-msgstr "Mégse"
+msgstr "Mégsem"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:126
 #, fuzzy
@@ -519,9 +517,8 @@ msgid "Date"
 msgstr "Dátum"
 
 #: ../src/app/qml/ui/ViewPopover.qml:62
-#, fuzzy
 msgid "Size"
-msgstr "Méret:"
+msgstr "Méret"
 
 #: ../src/app/qml/ui/ViewPopover.qml:67
 msgid "Sort Order"
