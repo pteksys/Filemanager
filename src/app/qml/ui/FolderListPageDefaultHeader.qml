@@ -18,7 +18,7 @@ PageHeader {
 
     title: FmUtils.basename(folderModel.path)
 
-    contents: Rectangle {
+    contents: Item {
         anchors.fill: parent
 
         ListItemLayout {
