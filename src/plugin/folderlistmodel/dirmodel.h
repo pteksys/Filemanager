@@ -77,6 +77,7 @@ class DirModel : public DirItemAbstractListModel, public QQmlParserStatus
 public:
     enum Roles {
         FileNameRole = Qt::UserRole,
+        StylizedFileNameRole,
         AccessedDateRole,
         CreationDateRole,
         ModifiedDateRole,

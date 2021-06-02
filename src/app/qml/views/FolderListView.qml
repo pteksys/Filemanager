@@ -49,7 +49,7 @@ ScrollView {
         delegate: FolderListDelegate {
             id: delegate
 
-            title: model.fileName
+            title: model.stylizedFileName
             subtitle: __delegateActions.itemDateAndSize(model)
             iconName: model.iconName
             showProgressionSlot: model.isBrowsable
