@@ -219,6 +219,7 @@ QHash<int, QByteArray> DirModel::buildRoleNames() const
 {
     QHash<int, QByteArray> roles;
     roles.insert(FileNameRole, QByteArray("fileName"));
+    roles.insert(StylizedFileNameRole, QByteArray("stylizedFileName"));
     roles.insert(AccessedDateRole, QByteArray("accessedDate"));
     roles.insert(CreationDateRole, QByteArray("creationDate"));
     roles.insert(ModifiedDateRole, QByteArray("modifiedDate"));
@@ -343,11 +344,16 @@ QVariant DirModel::data(const QModelIndex &index, int role) const
     const DirItemInfo &fi = mDirectoryContents.at(index.row());
 
     switch (role) {
-    case FileNameRole: {
+    case FileNameRole:
+        return fi.fileName();
+    case StylizedFileNameRole: {
         // Bold first instance of search string (https://stackoverflow.com/a/21024983)
         QString fileName(fi.fileName());
-        QString highlighted("<b>" + mSearchString + "</b>");
-        return fileName.replace(fileName.indexOf(mSearchString), mSearchString.size(), highlighted);
+        if (!mSearchString.isEmpty()) {
+            QString highlighted("<b>" + mSearchString + "</b>");
+            fileName = fileName.replace(fileName.indexOf(mSearchString), mSearchString.size(), highlighted);
+        }
+        return fileName;
     }
     case AccessedDateRole:
         return fi.lastRead();
