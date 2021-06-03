@@ -465,6 +465,10 @@ private:
     QString mCurrentDir;
     DirItemInfoList  mDirectoryContents;
     QString mSearchString;
+    /*!
+     * \brief Mode of querying - true when filtering, false when searching
+     */
+    bool mQueryModeFilter;
 
 signals:
     void countChanged();
