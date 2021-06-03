@@ -69,7 +69,7 @@ ScrollView {
             height: view.cellHeight
 
             iconName: model.iconName
-            title: model.fileName
+            title: model.stylizedFileName
             isSelected: model.isSelected
             path: model.filePath
 
