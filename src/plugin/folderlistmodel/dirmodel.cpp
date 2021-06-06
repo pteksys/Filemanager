@@ -104,6 +104,7 @@ static CompareFunction availableCompareFunctions[3][2] = {
 
 DirModel::DirModel(QObject *parent)
     : DirItemAbstractListModel(parent)
+    , mQueryModeFilter(false)
     , mFilterDirectories(false)
     , mShowDirectories(true)
     , mAwaitingResults(false)
@@ -350,8 +351,14 @@ QVariant DirModel::data(const QModelIndex &index, int role) const
         // Bold first instance of search string (https://stackoverflow.com/a/21024983)
         QString fileName(fi.fileName());
         if (!mSearchString.isEmpty()) {
-            QString highlighted("<b>" + mSearchString + "</b>");
-            fileName = fileName.replace(fileName.indexOf(mSearchString), mSearchString.size(), highlighted);
+            if (mQueryModeFilter) {
+                // When filtering, highlight search parameter in filename
+                QString highlighted("<b>" + mSearchString + "</b>");
+                fileName = fileName.replace(fileName.indexOf(mSearchString), mSearchString.size(), highlighted);
+            }
+            else if (!fi.isDir())  // Do not highlight folders when in search mode
+                // When searching, highlight full filename
+                fileName = "<b>" + fileName + "</b>";
         }
         return fileName;
     }
@@ -522,12 +529,16 @@ void DirModel::setPathFromCurrentLocation()
     clear();
 
     mCurrentDir = mCurLocation->urlPath();
-    mCurLocation->fetchItems(currentDirFilter(), mIsRecursive);
+    if (!mQueryModeFilter && !mSearchString.isEmpty())
+        // Force recursive mode when searching
+        mCurLocation->fetchItems(currentDirFilter(), true);
+    else
+        mCurLocation->fetchItems(currentDirFilter(), mIsRecursive);
 
     if (mPathList.count() == 0 || mPathList.last() != mCurrentDir) {
         mPathList.append(mCurrentDir);
 
-        // Reset search string
+        // Reset search string when folder has changed
         setSearchString("");
     }
 
@@ -637,17 +648,28 @@ void DirModel::onItemsAdded(const DirItemInfoList &newFiles)
             }
         }
 
-        //qDebug() << "Stuff:";
-        //qDebug() << mSearchString;
-        //qDebug() << fi.fileName() << fi.fileName().contains(mSearchString, Qt::CaseInsensitive);
-        //qDebug() << "";
+        if (!mSearchString.isEmpty()) {
+            // Filtering
+            if (mQueryModeFilter)
+                // Toggle doAdd depending on if filename contains search string
+                doAdd = fi.fileName().contains(mSearchString, Qt::CaseInsensitive);
+            // Searching
+            else if (!fi.isDir()) {  // Ignore folders when searching
+                QFile file(fi.absoluteFilePath());
+                if (file.open(QFile::ReadOnly | QFile::Text)) {
+                    QTextStream in(&file);
+                    QString text = in.readAll();
 
-        //QRegularExpression re(mSearchString, QRegularExpression::CaseInsensitiveOption);
-        // Use https://doc.qt.io/qt-5/qstring.html#contains-6 (QRegEx)?
-        //if (fi.fileName().contains(mSearchString, Qt::CaseInsensitive) || (fi.isDir() && !mFilterDirectories)) {
-        //    doAdd = true;
-        //}
-        doAdd = fi.fileName().contains(mSearchString, Qt::CaseInsensitive);
+                    // Toggle doAdd depending on if file contains search string
+                    doAdd = text.contains(mSearchString, Qt::CaseInsensitive);
+
+                    file.close();
+                }
+                else {
+                    qDebug() << "Failed to open file for reading: " << fi.absoluteFilePath();
+                }
+            }
+        }
 
         if (!doAdd)
             continue;
