@@ -529,12 +529,16 @@ void DirModel::setPathFromCurrentLocation()
     clear();
 
     mCurrentDir = mCurLocation->urlPath();
-    mCurLocation->fetchItems(currentDirFilter(), mIsRecursive);
+    if (!mQueryModeFilter && !mSearchString.isEmpty())
+        // Force recursive mode when searching
+        mCurLocation->fetchItems(currentDirFilter(), true);
+    else
+        mCurLocation->fetchItems(currentDirFilter(), mIsRecursive);
 
     if (mPathList.count() == 0 || mPathList.last() != mCurrentDir) {
         mPathList.append(mCurrentDir);
 
-        // Reset search string
+        // Reset search string when folder has changed
         setSearchString("");
     }
 
