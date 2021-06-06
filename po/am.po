@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2021-03-13 20:29+0000\n"
+"PO-Revision-Date: 2021-06-06 00:41+0000\n"
 "Last-Translator: Samson <sambelet@yahoo.com>\n"
 "Language-Team: Amharic <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/am/>\n"
@@ -96,7 +96,7 @@ msgstr "ይምረጡ"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
 msgid "Select None"
-msgstr "ምንም አልተመረጠም"
+msgstr "ምንም አይምረጡ"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
 msgid "Select All"

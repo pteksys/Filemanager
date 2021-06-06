@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2020-08-26 00:00+0000\n"
-"Last-Translator: Arvid Brodin <arvidb@fripost.org>\n"
+"PO-Revision-Date: 2021-06-01 23:45+0000\n"
+"Last-Translator: Marcus Fredlund <marcus.karlson@gmail.com>\n"
 "Language-Team: Swedish <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/sv/>\n"
 "Language: sv\n"
@@ -22,13 +22,13 @@ msgstr ""
 
 #: ../src/app/qml/actions/AddBookmark.qml:6
 msgid "Add bookmark"
-msgstr ""
+msgstr "Lägg till bokmärke"
 
 #: ../src/app/qml/actions/ArchiveExtract.qml:6
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:18
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:33
 msgid "Extract archive"
-msgstr ""
+msgstr "Packa upp arkiv"
 
 #: ../src/app/qml/actions/Delete.qml:5
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:14
@@ -39,7 +39,7 @@ msgstr "Radera"
 
 #: ../src/app/qml/actions/FileClearSelection.qml:8
 msgid "Clear clipboard"
-msgstr ""
+msgstr "Rensa urklipp"
 
 #: ../src/app/qml/actions/FileCopy.qml:5
 #: ../src/app/qml/panels/SelectionBottomBar.qml:45
@@ -49,30 +49,30 @@ msgstr "Kopiera"
 #: ../src/app/qml/actions/FileCut.qml:5
 #: ../src/app/qml/panels/SelectionBottomBar.qml:60
 msgid "Cut"
-msgstr ""
+msgstr "Klipp ut"
 
 #: ../src/app/qml/actions/FilePaste.qml:30
-#, fuzzy, qt-format
+#, qt-format
 msgid "Paste %1 file"
 msgid_plural "Paste %1 files"
-msgstr[0] "Skapa en ny fil"
-msgstr[1] "Skapa en ny fil"
+msgstr[0] "Klistra in %1 fil"
+msgstr[1] "Klistra in %1 filer"
 
 #: ../src/app/qml/actions/GoBack.qml:5
 msgid "Go back"
-msgstr ""
+msgstr "Tillbaka"
 
 #: ../src/app/qml/actions/GoNext.qml:5
 msgid "Go next"
-msgstr ""
+msgstr "Framåt"
 
 #: ../src/app/qml/actions/GoTo.qml:6
 msgid "Go To"
-msgstr ""
+msgstr "Gå till"
 
 #: ../src/app/qml/actions/NewItem.qml:6
 msgid "New Item"
-msgstr ""
+msgstr "Skapa ny"
 
 #: ../src/app/qml/actions/PlacesBookmarks.qml:6
 #: ../src/app/qml/ui/PlacesPage.qml:16
@@ -82,12 +82,12 @@ msgstr "Platser"
 #: ../src/app/qml/actions/Properties.qml:6
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:54
 msgid "Properties"
-msgstr ""
+msgstr "Egenskaper"
 
 #: ../src/app/qml/actions/Rename.qml:5
 #: ../src/app/qml/dialogs/ConfirmRenameDialog.qml:20
 msgid "Rename"
-msgstr ""
+msgstr "Ändra namn"
 
 #: ../src/app/qml/actions/Select.qml:5
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:60
@@ -96,7 +96,7 @@ msgstr "Välj"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
 msgid "Select None"
-msgstr ""
+msgstr "Avmarkera allt"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
 msgid "Select All"
@@ -112,15 +112,15 @@ msgstr "Dela"
 
 #: ../src/app/qml/actions/TabsAdd.qml:5
 msgid "Add tab"
-msgstr ""
+msgstr "Ny flik"
 
 #: ../src/app/qml/actions/TabsCloseThis.qml:5
 msgid "Close this tab"
-msgstr ""
+msgstr "Stäng denna flik"
 
 #: ../src/app/qml/actions/TabsOpenInNewTab.qml:5
 msgid "Open in a new tab"
-msgstr ""
+msgstr "Öppna i ny flik"
 
 #: ../src/app/qml/actions/UnlockFullAccess.qml:6
 msgid "Unlock"
@@ -134,17 +134,16 @@ msgstr "Autentisering krävs"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:27
 msgid "Use your fingerprint to access restricted content"
-msgstr ""
+msgstr "Använd ditt fingeravtryck för åtkomst till begränsat innehåll"
 
 #. TRANSLATORS: "Touch" here is a verb
 #: ../src/app/qml/authentication/FingerprintDialog.qml:55
 msgid "Touch sensor"
-msgstr ""
+msgstr "Touch-sensor"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:60
-#, fuzzy
 msgid "Use password"
-msgstr "lösenord"
+msgstr "Använd lösenord"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:69
 #: ../src/app/qml/authentication/PasswordDialog.qml:80
@@ -164,59 +163,54 @@ msgid "Cancel"
 msgstr "Avbryt"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:126
-#, fuzzy
 msgid "Authentication failed!"
-msgstr "Autentisering krävs"
+msgstr "Autentiseringen misslyckades!"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:137
 msgid "Please retry"
-msgstr ""
+msgstr "Vänligen försök igen"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:35
 msgid "Authentication failed"
-msgstr ""
+msgstr "Autentiseringen misslyckades"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:45
-#, fuzzy
 msgid "Your passphrase is required to access restricted content"
-msgstr "Lösenord krävs för åtkomst till alla filer"
+msgstr "Lösenord krävs för åtkomst till skyddade filer"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:46
-#, fuzzy
 msgid "Your passcode is required to access restricted content"
-msgstr "Lösenord krävs för åtkomst till alla filer"
+msgstr "Lösenord krävs för åtkomst till skyddade filer"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:57
 msgid "passphrase (default is 0000 if unset)"
-msgstr ""
+msgstr "Lösenord (0000 om ej inställt)"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:57
 msgid "passcode (default is 0000 if unset)"
-msgstr ""
+msgstr "Lösenord (0000 om ej inställt)"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:69
-#, fuzzy
 msgid "Authentication failed. Please retry"
-msgstr "Autentisering krävs"
+msgstr "Autentiseringen misslyckades, försök igen."
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:74
-#, fuzzy
 msgid "Authenticate"
-msgstr "Autentisering krävs"
+msgstr "Autentisera"
 
 #: ../src/app/qml/backend/FolderListModel.qml:123
 #, qt-format
 msgid "%1 file"
-msgstr ""
+msgstr "%1 fil"
 
 #: ../src/app/qml/backend/FolderListModel.qml:124
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1 files"
-msgstr "%1 Filer"
+msgstr "%1 filer"
 
 #: ../src/app/qml/backend/FolderListModel.qml:135
 msgid "Folder"
-msgstr ""
+msgstr "Mapp"
 
 #: ../src/app/qml/components/TextualButtonStyle.qml:48
 #: ../src/app/qml/components/TextualButtonStyle.qml:56
@@ -230,57 +224,56 @@ msgstr "Öppna med"
 
 #: ../src/app/qml/dialogs/ConfirmExtractDialog.qml:15
 msgid "Extract Archive"
-msgstr ""
+msgstr "Packa upp arkiv"
 
 #: ../src/app/qml/dialogs/ConfirmExtractDialog.qml:16
 #, qt-format
 msgid "Are you sure you want to extract '%1' here?"
-msgstr ""
+msgstr "Är du säker att du vill extrahera '%1' här?"
 
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:15
 #: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:16
 #, qt-format
 msgid "Are you sure you want to permanently delete '%1'?"
-msgstr ""
+msgstr "Är du säker att du vill ta bort permanent '%1'?"
 
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:15
 msgid "these files"
-msgstr ""
+msgstr "dessa filer"
 
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:18
 #: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:21
 msgid "Deleting files"
-msgstr ""
+msgstr "Tar bort filer"
 
 #: ../src/app/qml/dialogs/ConfirmRenameDialog.qml:21
 msgid "Enter a new name"
-msgstr ""
+msgstr "Skriv in nytt namn"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:13
 msgid "Create Item"
-msgstr ""
+msgstr "Skapa objekt"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:14
 msgid "Enter name for new item"
-msgstr ""
+msgstr "Skriv ett namn för det nya objektet"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:18
 msgid "Item name"
-msgstr ""
+msgstr "Objektnamn"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:24
 msgid "Create file"
-msgstr ""
+msgstr "Skapa ny fil"
 
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:43
-#, fuzzy
 msgid "Create Folder"
-msgstr "Skapa en ny fil"
+msgstr "Skapa en ny mapp"
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:23
 #, qt-format
 msgid "Extracting archive '%1'"
-msgstr ""
+msgstr "Extraherar arkiv '%1'"
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:44
 #: ../src/app/qml/dialogs/NotifyDialog.qml:27
@@ -291,12 +284,12 @@ msgstr "OK"
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:59
 msgid "Extracting failed"
-msgstr ""
+msgstr "Extrahering misslyckad"
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:60
 #, qt-format
 msgid "Extracting the archive '%1' failed."
-msgstr ""
+msgstr "Extrahering av arkiv '%1' misslyckad."
 
 #: ../src/app/qml/dialogs/FileActionDialog.qml:30
 msgid "Choose action"
@@ -313,23 +306,23 @@ msgstr "Öppna"
 
 #: ../src/app/qml/dialogs/FileOperationProgressDialog.qml:27
 msgid "Operation in progress"
-msgstr ""
+msgstr "Operation pågår"
 
 #: ../src/app/qml/dialogs/FileOperationProgressDialog.qml:29
 msgid "File operation"
-msgstr ""
+msgstr "Filhantering"
 
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:45
 msgid "User"
-msgstr ""
+msgstr "Användare"
 
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:58
 msgid "Password"
-msgstr ""
+msgstr "Lösenord"
 
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:72
 msgid "Save password"
-msgstr ""
+msgstr "Spara lösenord"
 
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:108
 msgid "Ok"
@@ -337,29 +330,28 @@ msgstr "Ok"
 
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:8
 msgid "Archive file"
-msgstr ""
+msgstr "Komprimera fil"
 
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:9
 msgid "Do you want to extract the archive here?"
-msgstr ""
+msgstr "Vill du extrahera arkivet här?"
 
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:28
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:44
 msgid "Open with another app"
-msgstr ""
+msgstr "Öppna med annan app"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:8
-#, fuzzy
 msgid "Open file"
-msgstr "Öppna med"
+msgstr "Öppna fil"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:9
 msgid "What do you want to do with the clicked file?"
-msgstr ""
+msgstr "Vad vill du göra med vald fil?"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:22
 msgid "Preview"
-msgstr ""
+msgstr "Förhandsgranskning"
 
 #: ../src/app/qml/filemanager.qml:170
 #, qt-format
@@ -378,7 +370,7 @@ msgstr "Sparad till: %1"
 
 #: ../src/app/qml/panels/DefaultBottomBar.qml:24
 msgid "Paste files"
-msgstr ""
+msgstr "Klistra in filer"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:34
 msgid "Readable"
@@ -394,77 +386,76 @@ msgstr "Körbar"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:100
 msgid "Where:"
-msgstr ""
+msgstr "Var:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:127
 msgid "Created:"
-msgstr ""
+msgstr "Skapad:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:141
 msgid "Modified:"
-msgstr ""
+msgstr "Ändrad:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:155
 msgid "Accessed:"
-msgstr ""
+msgstr "Använd:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:176
 msgid "Permissions:"
-msgstr ""
+msgstr "Rättigheter:"
 
 #: ../src/app/qml/ui/FolderListPage.qml:241
 #: ../src/app/qml/ui/FolderListPage.qml:296
 msgid "Restricted access"
-msgstr ""
+msgstr "Begränsad åtkomst"
 
 #: ../src/app/qml/ui/FolderListPage.qml:245
 msgid ""
 "Authentication is required in order to see all the content of this folder."
-msgstr ""
+msgstr "Autentisering krävs, för att se allt innehåll av denna mapp."
 
 #: ../src/app/qml/ui/FolderListPage.qml:282
 msgid "No files"
-msgstr ""
+msgstr "Inga filer"
 
 #: ../src/app/qml/ui/FolderListPage.qml:283
 msgid "This folder is empty."
-msgstr ""
+msgstr "Denna mapp är tom."
 
 #: ../src/app/qml/ui/FolderListPage.qml:297
 msgid "Authentication is required in order to see the content of this folder."
-msgstr ""
+msgstr "Autentisering krävs, för att se innehållet i denna mapp."
 
 #: ../src/app/qml/ui/FolderListPage.qml:313
 msgid "File operation error"
-msgstr ""
+msgstr "Filhanteringsfel"
 
 #: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:21
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:21
 #, qt-format
 msgid "%1 item"
 msgid_plural "%1 items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 objekt"
+msgstr[1] "%1 objekt"
 
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:21
-#, fuzzy
 msgid "Save here"
-msgstr "Spara"
+msgstr "Spara här"
 
 #: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:18
 #, qt-format
 msgid "%1 item selected"
 msgid_plural "%1 items selected"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 objekt valt"
+msgstr[1] "%1 objekt valda"
 
 #: ../src/app/qml/ui/ViewPopover.qml:24
 msgid "Show Hidden Files"
-msgstr ""
+msgstr "Visa Dolda Filer"
 
 #: ../src/app/qml/ui/ViewPopover.qml:37
 msgid "View As"
-msgstr ""
+msgstr "Visa Som"
 
 #: ../src/app/qml/ui/ViewPopover.qml:39
 msgid "List"
@@ -476,7 +467,7 @@ msgstr "Ikoner"
 
 #: ../src/app/qml/ui/ViewPopover.qml:44
 msgid "Grid size"
-msgstr ""
+msgstr "Rutnätstorlek"
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "S"
@@ -484,41 +475,39 @@ msgstr "S"
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "M"
-msgstr ""
+msgstr "M"
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "L"
-msgstr ""
+msgstr "L"
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "XL"
-msgstr ""
+msgstr "XL"
 
 #: ../src/app/qml/ui/ViewPopover.qml:52
-#, fuzzy
 msgid "List size"
-msgstr "Lista"
+msgstr "Liststorlek"
 
 #: ../src/app/qml/ui/ViewPopover.qml:60
 msgid "Sort By"
-msgstr ""
+msgstr "Sortera Efter"
 
 #: ../src/app/qml/ui/ViewPopover.qml:62
 msgid "Name"
-msgstr ""
+msgstr "Namn"
 
 #: ../src/app/qml/ui/ViewPopover.qml:62
 msgid "Date"
-msgstr ""
+msgstr "Datum"
 
 #: ../src/app/qml/ui/ViewPopover.qml:62
-#, fuzzy
 msgid "Size"
-msgstr "Storlek:"
+msgstr "Storlek"
 
 #: ../src/app/qml/ui/ViewPopover.qml:67
 msgid "Sort Order"
-msgstr ""
+msgstr "Sorteringsordning"
 
 #: ../src/app/qml/ui/ViewPopover.qml:74
 msgid "Theme"
@@ -526,174 +515,175 @@ msgstr "Tema"
 
 #: ../src/app/qml/ui/ViewPopover.qml:76
 msgid "Light"
-msgstr ""
+msgstr "Ljus"
 
 #: ../src/app/qml/ui/ViewPopover.qml:76
 msgid "Dark"
-msgstr ""
+msgstr "Mörk"
 
 #: ../src/app/qml/views/FolderDelegateActions.qml:40
 msgid "Folder not accessible"
-msgstr ""
+msgstr "Mapp inte tillgänglig"
 
 #. TRANSLATORS: this refers to a folder name
 #: ../src/app/qml/views/FolderDelegateActions.qml:42
 #, qt-format
 msgid "Can not access %1"
-msgstr ""
+msgstr "Kan inte öppna %1"
 
 #: ../src/app/qml/views/FolderDelegateActions.qml:136
 msgid "Could not rename"
-msgstr ""
+msgstr "Kunde inte döpa om"
 
 #: ../src/app/qml/views/FolderDelegateActions.qml:137
 msgid ""
 "Insufficient permissions, name contains special chars (e.g. '/'), or already "
 "exists"
 msgstr ""
+"Otillräckliga behörigheter, namnet innehåller speciella tecken (t.ex. '/') "
+"eller finns redan"
 
 #: ../src/app/qml/views/FolderListView.qml:72
 msgid "Directories"
-msgstr ""
+msgstr "Kataloger"
 
 #: ../src/app/qml/views/FolderListView.qml:72
-#, fuzzy
 msgid "Files"
-msgstr "Fil"
+msgstr "Filer"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:360
 msgid "Unknown"
-msgstr ""
+msgstr "Okänd"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:487
 msgid "path or url may not exist or cannot be read"
-msgstr ""
+msgstr "Sökväg eller adress existerar inte eller kan inte läsas"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:690
 msgid "Rename error"
-msgstr ""
+msgstr "Fel vid omdöpning"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:713
 msgid "Error creating new folder"
-msgstr ""
+msgstr "Fel vid skapande av ny mapp"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:740
 msgid "Touch file error"
-msgstr ""
+msgstr "Fel vid filskapande"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:1353
 msgid "items"
-msgstr ""
+msgstr "objekten"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:320
 msgid "File or Directory does not exist"
-msgstr ""
+msgstr "Fil eller Katalog existerar inte"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:321
 msgid " does not exist"
-msgstr ""
+msgstr " existerar inte"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:326
 msgid "Cannot access File or Directory"
-msgstr ""
+msgstr "Kan inte komma åt Fil eller Mapp"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:327
 msgid " it needs Authentication"
-msgstr ""
+msgstr " behöver Autentisering"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:361
 msgid "Cannot copy/move items"
-msgstr ""
+msgstr "Kan inte kopiera/flytta objektet"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:362
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1487
 msgid "no write permission on folder "
-msgstr ""
+msgstr "ingen skrivrättighet på mappen "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:642
 msgid "Could not remove the item "
-msgstr ""
+msgstr "Kan inte ta bort objekt "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:680
 msgid "Could not find a suitable name to backup"
-msgstr ""
+msgstr "Kan inte hitta lämpligt namn att ta backup"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:733
 msgid "Could not create the directory"
-msgstr ""
+msgstr "Kan inte skapa katalogen"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:738
 msgid "Could not create link to"
-msgstr ""
+msgstr "Kan inte skapa länken till"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:746
 msgid "Could not set permissions to dir"
-msgstr ""
+msgstr "Kan inte sätta rättigheterna på mapp"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:756
 msgid "Could not open file"
-msgstr ""
+msgstr "Kan inte öppna fil"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:772
 msgid "There is no space to copy"
-msgstr ""
+msgstr "Det finns inte tillräckligt med utrymme för att kopiera"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:780
 msgid "Could not create file"
-msgstr ""
+msgstr "Kan inte skapa fil"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:837
 msgid "Could not remove the directory/file "
-msgstr ""
+msgstr "Kan inte ta bort mapp/fil "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:850
 msgid "Could not move the directory/file "
-msgstr ""
+msgstr "Kan inte flytta mapp/fil "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1089
 msgid "Write error in "
-msgstr ""
+msgstr "Skrivfel i "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1101
 msgid "Read error in "
-msgstr ""
+msgstr "Läsfel i "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1318
 msgid " Copy"
-msgstr ""
+msgstr " Kopiera"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1371
 msgid "Set permissions error in "
-msgstr ""
+msgstr "Fel vid ändring av rättigheter i "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1437
 msgid "Could not create trash info file"
-msgstr ""
+msgstr "Kunde inte skapa trash info-fil"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1449
 msgid "Could not remove the trash info file"
-msgstr ""
+msgstr "Kunde inte ta bort trash info-filen"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1479
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1486
 msgid "Cannot move items"
-msgstr ""
+msgstr "Kan inte flytta objekten"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1481
 msgid "origin and destination folders are the same"
-msgstr ""
+msgstr "Käll- och målmappen är samma mapp"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1524
 msgid "There is no space to download"
-msgstr ""
+msgstr "Det är inte tillräckligt med utrymme för att kunna ladda ner"
 
 #: ../src/plugin/folderlistmodel/smb/qsambaclient/src/smbusershare.cpp:72
 msgid "net tool not found, check samba installation"
-msgstr ""
+msgstr "net tool hittas inte, kontrollera samba installation"
 
 #: ../src/plugin/folderlistmodel/smb/qsambaclient/src/smbusershare.cpp:80
 msgid "cannot write in "
-msgstr ""
+msgstr "kan inte skriva i "
 
 #: com.ubuntu.filemanager.desktop.in.in.h:1
 msgid "File Manager"
@@ -701,7 +691,7 @@ msgstr "Filhanterare"
 
 #: com.ubuntu.filemanager.desktop.in.in.h:2
 msgid "folder;manager;explore;disk;filesystem;"
-msgstr ""
+msgstr "mapp;hanterare;utforska;disk;filsystem;"
 
 #~ msgid "About Application"
 #~ msgstr "Om applikationen"
