@@ -74,7 +74,10 @@ ScrollView {
             }
 
             onClicked: __delegateActions.itemClicked(model)
-            onPressAndHold: __delegateActions.listLongPress(model)
+            onPressAndHold: {
+                folderModel.primSelItem = model
+                __delegateActions.listLongPress(model)
+            }
         }
 
         section.property: "isDir"
