@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2013 Canonical Ltd
+ * Copyright (C) 2021 UBports Foundation
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 3 as
@@ -114,15 +115,25 @@ MainView {
     }
 
     function importFiles(activeTransfer, destDir) {
-        var fileNames = []
+        var succeededFileNames = []
+        var failedFileNames = []
+        var existingFileNames = []
         for(var i=0; i < activeTransfer.items.length; i++) {
             var item = activeTransfer.items[i]
             var destFilename = FmUtils.basename(String(item.url))
             console.log("Move file to:" + destDir + " with name: " + destFilename)
-            activeTransfer.items[i].move(destDir, destFilename)
-            fileNames.push(destFilename)
+
+            if(FmUtils.exists(destDir + "/" + destFilename)) {
+                console.log("detected existing file: " + destFilename)
+                existingFileNames.push(destFilename)
+            }
+
+            if(activeTransfer.items[i].move(destDir, destFilename))
+                succeededFileNames.push(destFilename)
+            else
+                failedFileNames.push(destFilename)
         }
-        finishImport(destDir, fileNames)
+        finishImport(destDir, succeededFileNames, failedFileNames, existingFileNames)
     }
 
     function exportFiles(activeTransfer, filesUrls) {
@@ -164,20 +175,41 @@ MainView {
         PopupUtils.open(Qt.resolvedUrl("dialogs/NotifyDialog.qml"), mainView, props)
     }
 
-    function finishImport(folder, urls) {
-        var count = urls.length
+    function finishImport(folder, okUrls, errUrls, existingUrls) {
+        var okCount = okUrls.length
+        var errCount = errUrls.length
+        var existingCount = existingUrls.length
+
+        var msg = ""
+        if(okCount > 0)
+            msg += i18n.tr("successfully saved: ") + i18n.tr("%1 file", "%1 files", okCount).arg(okCount)
+        msg += msg.length > 0 ? "<br><br>\n" : ""
+        if(errCount > 0)
+            msg += i18n.tr("failed to save: ") + i18n.tr("%1 file", "%1 files", errCount).arg(errCount)
+        msg += msg.length > 0 ? "<br>\n" : ""
+        msg += i18n.tr("into: %1").arg(folder)
+
+        if(existingCount > 0) {
+            msg += msg.length > 0 ? "<br><br>\n" : ""
+            msg += i18n.tr("Warning: Content-Hub does not overwrite existing files. The following were detected:")
+            for(var i=0;i<existingCount;i++)
+                msg += "<br>\n" + existingUrls[i]
+        }
 
         pageStack.pop()
         fileSelector.fileSelectorComponent = null
         pageStack.currentPage.folderModel.path = folder
-        pageStack.currentPage.refresh()
+        pageStack.currentPage.folderModel.refresh()
 
         var props = {
-            title: i18n.tr("%1 file", "%1 files", count).arg(count),
-            text: i18n.tr("Saved to: %1").arg(folder)
+            title: i18n.tr("Import Results"),
+            text: msg
         }
 
-        PopupUtils.open(Qt.resolvedUrl("dialogs/NotifyDialog.qml"), mainView, props)
+        var popup = PopupUtils.open(Qt.resolvedUrl("dialogs/NotifyDialog.qml"), mainView, props)
+        popup.closed.connect(function() {
+            fileSelector.activeTransfer.state = ContentTransfer.Aborted
+        })
     }
 
     Component.onCompleted:  {
