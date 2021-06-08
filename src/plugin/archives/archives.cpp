@@ -81,22 +81,22 @@ void Archives::extractArchive(const QString program, const QStringList arguments
 
 bool Archives::extract(const QString path, const QString destination)
 {
-    if (path.lastIndexOf(".zip")) {
+    if (path.endsWith(".zip", Qt::CaseInsensitive)) {
         extractZip(path, destination);
         return true;
     }
 
-    if (path.lastIndexOf(".tar")) {
+    if (path.endsWith(".tar", Qt::CaseInsensitive)) {
         extractTar(path, destination);
         return true;
     }
 
-    if (path.lastIndexOf(".tar.gz")) {
+    if (path.endsWith(".tar.gz", Qt::CaseInsensitive)) {
         extractGzipTar(path, destination);
         return true;
     }
 
-    if (path.lastIndexOf(".tar.bz2")) {
+    if (path.endsWith(".tar.bz2", Qt::CaseInsensitive)) {
         extractBzipTar(path, destination);
         return true;
     }
