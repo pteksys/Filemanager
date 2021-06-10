@@ -16,6 +16,8 @@ PageHeader {
     property var showPanelAction
     property var popup
     property bool showSearchBar: false
+    property bool recursiveOptionChecked: false
+    property int queryModeIndex: 0
 
     title: FmUtils.basename(folderModel.path)
 
@@ -64,6 +66,7 @@ PageHeader {
 
         Component {
             id: popoverComponent
+
             Popover {
                 contentWidth: searchField.width
                 autoClose: false
@@ -77,23 +80,51 @@ PageHeader {
                         right: parent.right
                     }
 
-                    ListItem {
-                        height: searchOptionLayout.height + (divider.visible ? divider.height : 0)
-                        ListItemLayout {
-                            id: searchOptionLayout
-                            title.text: i18n.tr("Search")
+                    Row {
+                        id: choicesRow
+                        SlotsLayout.position: SlotsLayout.Last
+                        height: units.gu(4)
+                        anchors.horizontalCenter: parent.horizontalCenter
 
-                            Switch {
-                                onCheckedChanged: {
-                                    folderModel.model.setQueryModeFilter(!checked)
-                                    if (checked)
-                                        searchField.placeholderText = i18n.tr("Search...")
-                                    else
+                        Repeater {
+                            model: [ i18n.tr("Filter"), i18n.tr("Search") ]
+
+                            delegate: AbstractButton {
+                                id: del
+                                property bool isSelected: model.index == rootItem.queryModeIndex
+
+                                onClicked: {
+                                    if (model.index == 0) {
                                         searchField.placeholderText = i18n.tr("Filter...")
+                                        folderModel.model.setQueryModeFilter(true)
+                                    }
+                                    else {
+                                        searchField.placeholderText = i18n.tr("Search...")
+                                        folderModel.model.setQueryModeFilter(false)
+                                    }
+                                    rootItem.queryModeIndex = model.index
+                                }
+
+                                width: delLabel.width + units.gu(2)
+                                height: parent.height
+
+                                Rectangle {
+                                    anchors.fill: parent
+                                    color: theme.palette.selected.base
+                                    visible: del.pressed
+                                }
+
+                                Label {
+                                    id: delLabel
+                                    anchors.centerIn: parent
+                                    text: modelData
+                                    textSize: Label.Medium
+                                    color: isSelected ? theme.palette.normal.backgroundText : theme.palette.disabled.backgroundText
                                 }
                             }
                         }
                     }
+
                     ListItem {
                         height: recursiveOptionLayout.height + (divider.visible ? divider.height : 0)
                         ListItemLayout {
@@ -102,6 +133,11 @@ PageHeader {
                             subtitle.text: i18n.tr("Slow in large directories")
 
                             CheckBox {
+                                checked: recursiveOptionChecked
+                                onCheckedChanged: {
+                                    recursiveOptionChecked = checked
+                                    folderModel.model.setQueryModeRecursive(checked)
+                                }
                             }
                         }
                     }

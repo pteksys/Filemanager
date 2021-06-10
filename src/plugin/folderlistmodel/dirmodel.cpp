@@ -2059,3 +2059,15 @@ void DirModel::setQueryModeFilter(bool queryModeFilter)
     refresh();
     emit queryModeFilterChanged(queryModeFilter);
 }
+
+bool DirModel::getQueryModeRecursive()
+{
+    return mQueryModeRecursive;
+}
+
+void DirModel::setQueryModeRecursive(bool queryModeRecursive)
+{
+    mQueryModeRecursive = queryModeRecursive;
+    refresh();
+    emit queryModeRecursiveChanged(queryModeRecursive);
+}

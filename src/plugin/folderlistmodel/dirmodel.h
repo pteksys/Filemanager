@@ -74,6 +74,7 @@ class DirModel : public DirItemAbstractListModel, public QQmlParserStatus
     Q_PROPERTY(bool enableExternalFSWatcher READ getEnabledExternalFSWatcher WRITE setEnabledExternalFSWatcher NOTIFY enabledExternalFSWatcherChanged)
     Q_PROPERTY(QString searchString READ getSearchString WRITE setSearchString NOTIFY searchStringChanged)
     Q_PROPERTY(bool queryModeFilter READ getQueryModeFilter WRITE setQueryModeFilter NOTIFY queryModeFilterChanged)
+    Q_PROPERTY(bool queryModeRecursive READ getQueryModeRecursive WRITE setQueryModeRecursive NOTIFY queryModeRecursiveChanged)
 
 public:
     enum Roles {
@@ -453,6 +454,9 @@ public slots:   // Also invokable from QML
     bool getQueryModeFilter();
     void setQueryModeFilter(bool queryModeFilter);
 
+    bool getQueryModeRecursive();
+    void setQueryModeRecursive(bool queryModeRecursive);
+
 public slots:
     void onItemsAdded(const DirItemInfoList &newFiles);
     void onItemsFetched();
@@ -535,6 +539,7 @@ signals:
 
     void searchStringChanged(QString searchString);
     void queryModeFilterChanged(bool queryModeFilter);
+    void queryModeRecursiveChanged(bool queryModeRecursive);
 
 private slots:
     void onItemRemoved(const DirItemInfo &);
