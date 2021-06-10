@@ -85,6 +85,7 @@ PageHeader {
 
                             Switch {
                                 onCheckedChanged: {
+                                    folderModel.model.setQueryModeFilter(!checked)
                                     if (checked)
                                         searchField.placeholderText = i18n.tr("Search...")
                                     else
@@ -100,7 +101,7 @@ PageHeader {
                             title.text: i18n.tr("Recursive")
                             subtitle.text: i18n.tr("Slow in large directories")
 
-                            Switch {
+                            CheckBox {
                             }
                         }
                     }

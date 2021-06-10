@@ -104,7 +104,8 @@ static CompareFunction availableCompareFunctions[3][2] = {
 
 DirModel::DirModel(QObject *parent)
     : DirItemAbstractListModel(parent)
-    , mQueryModeFilter(false)
+    , mQueryModeFilter(true)
+    , mQueryModeRecursive(false)
     , mFilterDirectories(false)
     , mShowDirectories(true)
     , mAwaitingResults(false)
@@ -529,8 +530,8 @@ void DirModel::setPathFromCurrentLocation()
     clear();
 
     mCurrentDir = mCurLocation->urlPath();
-    if (!mQueryModeFilter && !mSearchString.isEmpty())
-        // Force recursive mode when searching
+    if (mQueryModeRecursive)
+        // Force recursive mode when querying recursively
         mCurLocation->fetchItems(currentDirFilter(), true);
     else
         mCurLocation->fetchItems(currentDirFilter(), mIsRecursive);
@@ -2045,4 +2046,16 @@ void DirModel::setSearchString(QString searchString)
     mSearchString = searchString;
     refresh();
     emit searchStringChanged(searchString);
+}
+
+bool DirModel::getQueryModeFilter()
+{
+    return mQueryModeFilter;
+}
+
+void DirModel::setQueryModeFilter(bool queryModeFilter)
+{
+    mQueryModeFilter = queryModeFilter;
+    refresh();
+    emit queryModeFilterChanged(queryModeFilter);
 }

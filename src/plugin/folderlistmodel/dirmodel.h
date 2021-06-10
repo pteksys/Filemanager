@@ -73,6 +73,7 @@ class DirModel : public DirItemAbstractListModel, public QQmlParserStatus
     Q_PROPERTY(int clipboardUrlsCounter READ getClipboardUrlsCounter NOTIFY clipboardChanged)
     Q_PROPERTY(bool enableExternalFSWatcher READ getEnabledExternalFSWatcher WRITE setEnabledExternalFSWatcher NOTIFY enabledExternalFSWatcherChanged)
     Q_PROPERTY(QString searchString READ getSearchString WRITE setSearchString NOTIFY searchStringChanged)
+    Q_PROPERTY(bool queryModeFilter READ getQueryModeFilter WRITE setQueryModeFilter NOTIFY queryModeFilterChanged)
 
 public:
     enum Roles {
@@ -449,6 +450,9 @@ public slots:   // Also invokable from QML
     }
     bool isAllowedPath(const QString &absolutePath) const;
 
+    bool getQueryModeFilter();
+    void setQueryModeFilter(bool queryModeFilter);
+
 public slots:
     void onItemsAdded(const DirItemInfoList &newFiles);
     void onItemsFetched();
@@ -464,11 +468,12 @@ private:
     bool mReadsMediaMetadata;
     QString mCurrentDir;
     DirItemInfoList  mDirectoryContents;
-    QString mSearchString;
     /*!
      * \brief Mode of querying - true when filtering, false when searching
      */
     bool mQueryModeFilter;
+    bool mQueryModeRecursive;
+    QString mSearchString;
 
 signals:
     void countChanged();
@@ -529,6 +534,7 @@ signals:
     void     downloadTemporaryComplete(const QString &filename);
 
     void searchStringChanged(QString searchString);
+    void queryModeFilterChanged(bool queryModeFilter);
 
 private slots:
     void onItemRemoved(const DirItemInfo &);
