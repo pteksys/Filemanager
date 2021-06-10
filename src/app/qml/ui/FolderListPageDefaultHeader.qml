@@ -14,6 +14,7 @@ PageHeader {
     property var folderPage
     property var folderModel
     property var showPanelAction
+    property var popup
     property bool showSearchBar: false
 
     title: FmUtils.basename(folderModel.path)
@@ -35,14 +36,21 @@ PageHeader {
                 verticalCenter: parent.verticalCenter
             }
 
-            placeholderText: i18n.tr("Filter/Search...")
+            placeholderText: i18n.tr("Filter...")
 
             // Disable predictive text
             inputMethodHints: Qt.ImhNoPredictiveText
 
             // Force active focus when this becomes the current PageHead state and
             // show OSK if appropriate.
-            onVisibleChanged: if (visible) forceActiveFocus()
+            onVisibleChanged: {
+                if (visible) {
+                    forceActiveFocus()
+                    popup = PopupUtils.open(popoverComponent, this)
+                }
+                else
+                    PopupUtils.close(popup)
+            }
 
             // https://stackoverflow.com/questions/41232999/two-way-binding-c-model-in-qml
             text: folderModel.model.searchString
@@ -51,6 +59,52 @@ PageHeader {
                 target: folderModel.model
                 property: "searchString"
                 value: searchField.text
+            }
+        }
+
+        Component {
+            id: popoverComponent
+            Popover {
+                contentWidth: searchField.width
+                autoClose: false
+                id: popover
+
+                Column {
+                    id: containerLayout
+                    anchors {
+                        left: parent.left
+                        top: parent.top
+                        right: parent.right
+                    }
+
+                    ListItem {
+                        height: searchOptionLayout.height + (divider.visible ? divider.height : 0)
+                        ListItemLayout {
+                            id: searchOptionLayout
+                            title.text: i18n.tr("Search")
+
+                            Switch {
+                                onCheckedChanged: {
+                                    if (checked)
+                                        searchField.placeholderText = i18n.tr("Search...")
+                                    else
+                                        searchField.placeholderText = i18n.tr("Filter...")
+                                }
+                            }
+                        }
+                    }
+                    ListItem {
+                        height: recursiveOptionLayout.height + (divider.visible ? divider.height : 0)
+                        ListItemLayout {
+                            id: recursiveOptionLayout
+                            title.text: i18n.tr("Recursive")
+                            subtitle.text: i18n.tr("Slow in large directories")
+
+                            Switch {
+                            }
+                        }
+                    }
+                }
             }
         }
     }
