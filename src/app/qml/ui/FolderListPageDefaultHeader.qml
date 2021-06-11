@@ -45,13 +45,21 @@ PageHeader {
 
             // Force active focus when this becomes the current PageHead state and
             // show OSK if appropriate.
-            onVisibleChanged: {
-                if (visible) {
-                    forceActiveFocus()
+            onVisibleChanged: if (visible) { popup = PopupUtils.open(popoverComponent, this); forceActiveFocus() }
+            onActiveFocusChanged: {
+                if (!popup && activeFocus && searchMouseField.containsMouse) {
                     popup = PopupUtils.open(popoverComponent, this)
                 }
-                else
+                else if (popup && !activeFocus) {
                     PopupUtils.close(popup)
+                    popup = null
+                }
+            }
+
+            MouseArea {
+                id: searchMouseField
+                anchors.fill: parent
+                hoverEnabled: true
             }
 
             // https://stackoverflow.com/questions/41232999/two-way-binding-c-model-in-qml
@@ -130,7 +138,7 @@ PageHeader {
                         ListItemLayout {
                             id: recursiveOptionLayout
                             title.text: i18n.tr("Recursive")
-                            subtitle.text: i18n.tr("Slow in large directories")
+                            subtitle.text: i18n.tr("Note: Slow in large directories")
 
                             CheckBox {
                                 checked: recursiveOptionChecked
@@ -226,8 +234,13 @@ PageHeader {
             }
         },
         FMActions.Search {
+            id: searchButton
             onTriggered: {
                 showSearchBar = !showSearchBar;
+                if (popup && !showSearchBar) {
+                    PopupUtils.close(popup)
+                    popup = null
+                }
             }
         }
     ]
