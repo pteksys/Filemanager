@@ -135,7 +135,7 @@ void SimpleList::do_connections()
     connect(ui->actionDelete,     SIGNAL(triggered()),  m_model, SLOT(removeSelection()));
     connect(ui->actionPaste,      SIGNAL(triggered()),  m_model, SLOT(paste()));
     connect(ui->actionMoveToTrash,SIGNAL(triggered()),  m_model, SLOT(moveSelectionToTrash()));
-    connect(ui->actionTerminnal,  SIGNAL(triggered()),  this,    SLOT(onOpenTerminal()));
+    connect(ui->actionTerminal,   SIGNAL(triggered()),  this,    SLOT(onOpenTerminal()));
 
     connect(ui->actionRestoreFromTrash, SIGNAL(triggered()),
             m_model,              SLOT(restoreSelectionFromTrash()));
@@ -208,7 +208,7 @@ void SimpleList::allowTrashActions(bool enable)
        ui->actionRestoreFromTrash->setEnabled(enable);
        ui->actionMoveToTrash->setEnabled(false);
        ui->actionNewFolder->setEnabled(false);
-       ui->actionTerminnal->setEnabled(false);
+       ui->actionTerminal->setEnabled(false);
     }
     else
     {
@@ -216,6 +216,6 @@ void SimpleList::allowTrashActions(bool enable)
        ui->actionRestoreFromTrash->setEnabled(false);
        ui->actionMoveToTrash->setEnabled(enable);
        ui->actionNewFolder->setEnabled(true);
-       ui->actionTerminnal->setEnabled(true);
+       ui->actionTerminal->setEnabled(true);
     }
 }
