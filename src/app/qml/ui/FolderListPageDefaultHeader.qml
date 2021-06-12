@@ -184,7 +184,7 @@ PageHeader {
     trailingActionBar.numberOfSlots: 5
     trailingActionBar.actions: [
         FMActions.Settings {
-            visible: !folderModel.model.clipboardUrlsCounter > 0
+            visible: !folderModel.model.clipboardUrlsCounter > 0 && !showSearchBar
             onTriggered: PopupUtils.open(Qt.resolvedUrl("ViewPopover.qml"), mainView, { folderListModel: folderModel.model })
         },
         FMActions.Properties {
@@ -200,6 +200,7 @@ PageHeader {
             }
         },
         FMActions.NewItem {
+            visible: !showSearchBar
             property bool smallText: true
             enabled: folderModel.model.isWritable
             onTriggered: {
@@ -208,7 +209,7 @@ PageHeader {
             }
         },
         FMActions.AddBookmark {
-            visible: !folderModel.model.clipboardUrlsCounter > 0
+            visible: !folderModel.model.clipboardUrlsCounter > 0 && !showSearchBar
             onTriggered: {
                 print(text)
                 folderModel.places.addLocation(folderModel.model.path)
