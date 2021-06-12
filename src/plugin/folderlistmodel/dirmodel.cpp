@@ -104,8 +104,8 @@ static CompareFunction availableCompareFunctions[3][2] = {
 
 DirModel::DirModel(QObject *parent)
     : DirItemAbstractListModel(parent)
-    , mQueryModeFilter(true)
-    , mQueryModeRecursive(false)
+    , mSearchInFiles(false)
+    , mSearchRecursive(false)
     , mFilterDirectories(false)
     , mShowDirectories(true)
     , mAwaitingResults(false)
@@ -352,7 +352,7 @@ QVariant DirModel::data(const QModelIndex &index, int role) const
         // Bold first instance of search string (https://stackoverflow.com/a/21024983)
         QString fileName(fi.fileName());
         if (!mSearchString.isEmpty()) {
-            if (mQueryModeFilter) {
+            if (!mSearchInFiles) {
                 // When filtering, highlight search parameter in filename
                 QString highlighted("<b>" + mSearchString + "</b>");
                 fileName = fileName.replace(fileName.indexOf(mSearchString), mSearchString.size(), highlighted);
@@ -530,7 +530,7 @@ void DirModel::setPathFromCurrentLocation()
     clear();
 
     mCurrentDir = mCurLocation->urlPath();
-    if (mQueryModeRecursive)
+    if (mSearchRecursive)
         // Force recursive mode when querying recursively
         mCurLocation->fetchItems(currentDirFilter(), true);
     else
@@ -651,7 +651,7 @@ void DirModel::onItemsAdded(const DirItemInfoList &newFiles)
 
         if (!mSearchString.isEmpty()) {
             // Filtering
-            if (mQueryModeFilter)
+            if (!mSearchInFiles)
                 // Toggle doAdd depending on if filename contains search string
                 doAdd = fi.fileName().contains(mSearchString, Qt::CaseInsensitive);
             // Searching
@@ -2048,26 +2048,26 @@ void DirModel::setSearchString(QString searchString)
     emit searchStringChanged(searchString);
 }
 
-bool DirModel::getQueryModeFilter()
+bool DirModel::getSearchInFiles()
 {
-    return mQueryModeFilter;
+    return mSearchInFiles;
 }
 
-void DirModel::setQueryModeFilter(bool queryModeFilter)
+void DirModel::setSearchInFiles(bool searchInFiles)
 {
-    mQueryModeFilter = queryModeFilter;
+    mSearchInFiles = searchInFiles;
     refresh();
-    emit queryModeFilterChanged(queryModeFilter);
+    emit searchInFilesChanged(searchInFiles);
 }
 
-bool DirModel::getQueryModeRecursive()
+bool DirModel::getSearchRecursive()
 {
-    return mQueryModeRecursive;
+    return mSearchRecursive;
 }
 
-void DirModel::setQueryModeRecursive(bool queryModeRecursive)
+void DirModel::setSearchRecursive(bool searchRecursive)
 {
-    mQueryModeRecursive = queryModeRecursive;
+    mSearchRecursive = searchRecursive;
     refresh();
-    emit queryModeRecursiveChanged(queryModeRecursive);
+    emit searchRecursiveChanged(searchRecursive);
 }

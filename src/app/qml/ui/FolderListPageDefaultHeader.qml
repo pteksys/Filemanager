@@ -17,6 +17,7 @@ PageHeader {
     property var popover
     property bool showSearchBar: false
     property bool recursiveOptionChecked: false
+    property bool filesOptionChecked: false
     property int queryModeIndex: 0
 
     title: FmUtils.basename(folderModel.path)
@@ -52,7 +53,7 @@ PageHeader {
                 }
             }
 
-            placeholderText: i18n.tr("Filter...")
+            placeholderText: i18n.tr("Search...")
 
             // Disable predictive text
             inputMethodHints: Qt.ImhNoPredictiveText
@@ -93,46 +94,17 @@ PageHeader {
                         right: parent.right
                     }
 
-                    Row {
-                        id: choicesRow
-                        SlotsLayout.position: SlotsLayout.Last
-                        height: units.gu(4)
-                        anchors.horizontalCenter: parent.horizontalCenter
+                    ListItem {
+                        height: filesOptionLayout.height + (divider.visible ? divider.height : 0)
+                        ListItemLayout {
+                            id: filesOptionLayout
+                            title.text: i18n.tr("Search in Files")
 
-                        Repeater {
-                            model: [ i18n.tr("Filter"), i18n.tr("Search") ]
-
-                            delegate: AbstractButton {
-                                id: del
-                                property bool isSelected: model.index == rootItem.queryModeIndex
-
-                                onClicked: {
-                                    if (model.index == 0) {
-                                        searchField.placeholderText = i18n.tr("Filter...")
-                                        folderModel.model.setQueryModeFilter(true)
-                                    }
-                                    else {
-                                        searchField.placeholderText = i18n.tr("Search...")
-                                        folderModel.model.setQueryModeFilter(false)
-                                    }
-                                    rootItem.queryModeIndex = model.index
-                                }
-
-                                width: delLabel.width + units.gu(2)
-                                height: parent.height
-
-                                Rectangle {
-                                    anchors.fill: parent
-                                    color: theme.palette.selected.base
-                                    visible: del.pressed
-                                }
-
-                                Label {
-                                    id: delLabel
-                                    anchors.centerIn: parent
-                                    text: modelData
-                                    textSize: Label.Medium
-                                    color: isSelected ? theme.palette.normal.backgroundText : theme.palette.disabled.backgroundText
+                            CheckBox {
+                                checked: filesOptionChecked
+                                onCheckedChanged: {
+                                    filesOptionChecked = checked
+                                    folderModel.model.setSearchInFiles(checked)
                                 }
                             }
                         }
@@ -142,7 +114,7 @@ PageHeader {
                         height: recursiveOptionLayout.height + (divider.visible ? divider.height : 0)
                         ListItemLayout {
                             id: recursiveOptionLayout
-                            title.text: i18n.tr("Recursive")
+                            title.text: i18n.tr("Search Recursively")
                             summary.text: i18n.tr("Note: Slow in large directories")
                             summary.wrapMode: Text.WrapAtWordBoundaryOrAnywhere
 
@@ -150,7 +122,7 @@ PageHeader {
                                 checked: recursiveOptionChecked
                                 onCheckedChanged: {
                                     recursiveOptionChecked = checked
-                                    folderModel.model.setQueryModeRecursive(checked)
+                                    folderModel.model.setSearchRecursive(checked)
                                 }
                             }
                         }

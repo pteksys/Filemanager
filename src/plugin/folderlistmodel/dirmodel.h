@@ -73,8 +73,8 @@ class DirModel : public DirItemAbstractListModel, public QQmlParserStatus
     Q_PROPERTY(int clipboardUrlsCounter READ getClipboardUrlsCounter NOTIFY clipboardChanged)
     Q_PROPERTY(bool enableExternalFSWatcher READ getEnabledExternalFSWatcher WRITE setEnabledExternalFSWatcher NOTIFY enabledExternalFSWatcherChanged)
     Q_PROPERTY(QString searchString READ getSearchString WRITE setSearchString NOTIFY searchStringChanged)
-    Q_PROPERTY(bool queryModeFilter READ getQueryModeFilter WRITE setQueryModeFilter NOTIFY queryModeFilterChanged)
-    Q_PROPERTY(bool queryModeRecursive READ getQueryModeRecursive WRITE setQueryModeRecursive NOTIFY queryModeRecursiveChanged)
+    Q_PROPERTY(bool searchInFiles READ getSearchInFiles WRITE setSearchInFiles NOTIFY searchInFilesChanged)
+    Q_PROPERTY(bool searchRecursive READ getSearchRecursive WRITE setSearchRecursive NOTIFY searchRecursiveChanged)
 
 public:
     enum Roles {
@@ -451,11 +451,11 @@ public slots:   // Also invokable from QML
     }
     bool isAllowedPath(const QString &absolutePath) const;
 
-    bool getQueryModeFilter();
-    void setQueryModeFilter(bool queryModeFilter);
+    bool getSearchInFiles();
+    void setSearchInFiles(bool searchInFiles);
 
-    bool getQueryModeRecursive();
-    void setQueryModeRecursive(bool queryModeRecursive);
+    bool getSearchRecursive();
+    void setSearchRecursive(bool searchRecursive);
 
 public slots:
     void onItemsAdded(const DirItemInfoList &newFiles);
@@ -472,11 +472,8 @@ private:
     bool mReadsMediaMetadata;
     QString mCurrentDir;
     DirItemInfoList  mDirectoryContents;
-    /*!
-     * \brief Mode of querying - true when filtering, false when searching
-     */
-    bool mQueryModeFilter;
-    bool mQueryModeRecursive;
+    bool mSearchInFiles;
+    bool mSearchRecursive;
     QString mSearchString;
 
 signals:
@@ -538,8 +535,8 @@ signals:
     void     downloadTemporaryComplete(const QString &filename);
 
     void searchStringChanged(QString searchString);
-    void queryModeFilterChanged(bool queryModeFilter);
-    void queryModeRecursiveChanged(bool queryModeRecursive);
+    void searchInFilesChanged(bool searchInFiles);
+    void searchRecursiveChanged(bool searchRecursive);
 
 private slots:
     void onItemRemoved(const DirItemInfo &);
