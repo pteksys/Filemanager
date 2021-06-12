@@ -14,7 +14,7 @@ PageHeader {
     property var folderPage
     property var folderModel
     property var showPanelAction
-    property var popup
+    property var popover
     property bool showSearchBar: false
     property bool recursiveOptionChecked: false
     property int queryModeIndex: 0
@@ -38,6 +38,20 @@ PageHeader {
                 verticalCenter: parent.verticalCenter
             }
 
+            function __openPopover() {
+                if (!popover) {
+                    popover = PopupUtils.open(popoverComponent, this)
+                    this.forceActiveFocus()
+                }
+            }
+
+            function __closePopover() {
+                if (popover) {
+                    PopupUtils.close(popover)
+                    popover = null
+                }
+            }
+
             placeholderText: i18n.tr("Filter...")
 
             // Disable predictive text
@@ -45,21 +59,12 @@ PageHeader {
 
             // Force active focus when this becomes the current PageHead state and
             // show OSK if appropriate.
-            onVisibleChanged: if (visible) { popup = PopupUtils.open(popoverComponent, this); forceActiveFocus() }
+            onVisibleChanged: if (visible) forceActiveFocus()
             onActiveFocusChanged: {
-                if (!popup && activeFocus && searchMouseField.containsMouse) {
-                    popup = PopupUtils.open(popoverComponent, this)
-                }
-                else if (popup && !activeFocus) {
-                    PopupUtils.close(popup)
-                    popup = null
-                }
-            }
-
-            MouseArea {
-                id: searchMouseField
-                anchors.fill: parent
-                hoverEnabled: true
+                if (!popover && activeFocus)
+                    this.__openPopover()
+                else if (popover && !activeFocus)
+                    this.__closePopover()
             }
 
             // https://stackoverflow.com/questions/41232999/two-way-binding-c-model-in-qml
@@ -76,9 +81,9 @@ PageHeader {
             id: popoverComponent
 
             Popover {
+                id: popover
                 contentWidth: searchField.width
                 autoClose: false
-                id: popover
 
                 Column {
                     id: containerLayout
@@ -138,7 +143,8 @@ PageHeader {
                         ListItemLayout {
                             id: recursiveOptionLayout
                             title.text: i18n.tr("Recursive")
-                            subtitle.text: i18n.tr("Note: Slow in large directories")
+                            summary.text: i18n.tr("Note: Slow in large directories")
+                            summary.wrapMode: Text.WrapAtWordBoundaryOrAnywhere
 
                             CheckBox {
                                 checked: recursiveOptionChecked
@@ -237,9 +243,8 @@ PageHeader {
             id: searchButton
             onTriggered: {
                 showSearchBar = !showSearchBar;
-                if (popup && !showSearchBar) {
-                    PopupUtils.close(popup)
-                    popup = null
+                if (popover && !showSearchBar) {
+                    searchField.__closePopover()
                 }
             }
         }
