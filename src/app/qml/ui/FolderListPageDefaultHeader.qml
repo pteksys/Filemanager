@@ -16,8 +16,8 @@ PageHeader {
     property var showPanelAction
     property var popover
     property bool showSearchBar: false
-    property bool recursiveOptionChecked: false
-    property bool filesOptionChecked: false
+    property bool searchRecursiveOptionChecked: false
+    property bool searchFilesOptionChecked: false
     property int queryModeIndex: 0
 
     title: FmUtils.basename(folderModel.path)
@@ -101,9 +101,9 @@ PageHeader {
                             title.text: i18n.tr("Search in Files")
 
                             CheckBox {
-                                checked: filesOptionChecked
+                                checked: searchFilesOptionChecked
                                 onCheckedChanged: {
-                                    filesOptionChecked = checked
+                                    searchFilesOptionChecked = checked
                                     folderModel.model.setSearchInFiles(checked)
                                 }
                             }
@@ -119,9 +119,9 @@ PageHeader {
                             summary.wrapMode: Text.WrapAtWordBoundaryOrAnywhere
 
                             CheckBox {
-                                checked: recursiveOptionChecked
+                                checked: searchRecursiveOptionChecked
                                 onCheckedChanged: {
-                                    recursiveOptionChecked = checked
+                                    searchRecursiveOptionChecked = checked
                                     folderModel.model.setSearchRecursive(checked)
                                 }
                             }
