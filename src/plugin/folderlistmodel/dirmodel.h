@@ -73,7 +73,7 @@ class DirModel : public DirItemAbstractListModel, public QQmlParserStatus
     Q_PROPERTY(int clipboardUrlsCounter READ getClipboardUrlsCounter NOTIFY clipboardChanged)
     Q_PROPERTY(bool enableExternalFSWatcher READ getEnabledExternalFSWatcher WRITE setEnabledExternalFSWatcher NOTIFY enabledExternalFSWatcherChanged)
     Q_PROPERTY(QString searchString READ getSearchString WRITE setSearchString NOTIFY searchStringChanged)
-    Q_PROPERTY(bool searchInFiles READ getSearchInFiles WRITE setSearchInFiles NOTIFY searchInFilesChanged)
+    Q_PROPERTY(bool searchFileContents READ getSearchFileContents WRITE setSearchFileContents NOTIFY searchFileContentsChanged)
     Q_PROPERTY(bool searchRecursive READ getSearchRecursive WRITE setSearchRecursive NOTIFY searchRecursiveChanged)
 
 public:
@@ -451,8 +451,8 @@ public slots:   // Also invokable from QML
     }
     bool isAllowedPath(const QString &absolutePath) const;
 
-    bool getSearchInFiles();
-    void setSearchInFiles(bool searchInFiles);
+    bool getSearchFileContents();
+    void setSearchFileContents(bool searchInFiles);
 
     bool getSearchRecursive();
     void setSearchRecursive(bool searchRecursive);
@@ -472,7 +472,7 @@ private:
     bool mReadsMediaMetadata;
     QString mCurrentDir;
     DirItemInfoList  mDirectoryContents;
-    bool mSearchInFiles;
+    bool mSearchFileContents;
     bool mSearchRecursive;
     QString mSearchString;
 
@@ -535,7 +535,7 @@ signals:
     void     downloadTemporaryComplete(const QString &filename);
 
     void searchStringChanged(QString searchString);
-    void searchInFilesChanged(bool searchInFiles);
+    void searchFileContentsChanged(bool searchFileContents);
     void searchRecursiveChanged(bool searchRecursive);
 
 private slots:

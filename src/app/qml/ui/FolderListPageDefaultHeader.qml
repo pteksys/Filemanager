@@ -27,7 +27,7 @@ PageHeader {
 
         ListItemLayout {
             anchors.verticalCenter: parent.verticalCenter
-            title.text: rootItem.title
+            title.text: showSearchBar && searchField.text.trim().length ? i18n.tr("Search Results") : rootItem.title
             subtitle.text: i18n.tr("%1 item", "%1 items", folderModel.count).arg(folderModel.count)
         }
 
@@ -98,13 +98,13 @@ PageHeader {
                         height: filesOptionLayout.height + (divider.visible ? divider.height : 0)
                         ListItemLayout {
                             id: filesOptionLayout
-                            title.text: i18n.tr("Search in Files")
+                            title.text: i18n.tr("File Contents")
 
                             CheckBox {
                                 checked: searchFilesOptionChecked
                                 onCheckedChanged: {
                                     searchFilesOptionChecked = checked
-                                    folderModel.model.setSearchInFiles(checked)
+                                    folderModel.model.setSearchFileContents(checked)
                                 }
                             }
                         }
@@ -114,7 +114,7 @@ PageHeader {
                         height: recursiveOptionLayout.height + (divider.visible ? divider.height : 0)
                         ListItemLayout {
                             id: recursiveOptionLayout
-                            title.text: i18n.tr("Search Recursively")
+                            title.text: i18n.tr("Recursive")
                             summary.text: i18n.tr("Note: Slow in large directories")
                             summary.wrapMode: Text.WrapAtWordBoundaryOrAnywhere
 

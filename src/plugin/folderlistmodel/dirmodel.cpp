@@ -104,7 +104,7 @@ static CompareFunction availableCompareFunctions[3][2] = {
 
 DirModel::DirModel(QObject *parent)
     : DirItemAbstractListModel(parent)
-    , mSearchInFiles(false)
+    , mSearchFileContents(false)
     , mSearchRecursive(false)
     , mFilterDirectories(false)
     , mShowDirectories(true)
@@ -352,7 +352,7 @@ QVariant DirModel::data(const QModelIndex &index, int role) const
         // Bold first instance of search string (https://stackoverflow.com/a/21024983)
         QString fileName(fi.fileName());
         if (!mSearchString.isEmpty()) {
-            if (!mSearchInFiles) {
+            if (!mSearchFileContents) {
                 // When filtering, highlight search parameter in filename
                 QString highlighted("<b>" + mSearchString + "</b>");
                 fileName = fileName.replace(fileName.indexOf(mSearchString), mSearchString.size(), highlighted);
@@ -530,7 +530,7 @@ void DirModel::setPathFromCurrentLocation()
     clear();
 
     mCurrentDir = mCurLocation->urlPath();
-    if (mSearchRecursive)
+    if (!mSearchString.isEmpty() && mSearchRecursive)
         // Force recursive mode when querying recursively
         mCurLocation->fetchItems(currentDirFilter(), true);
     else
@@ -651,11 +651,11 @@ void DirModel::onItemsAdded(const DirItemInfoList &newFiles)
 
         if (!mSearchString.isEmpty()) {
             // Filtering
-            if (!mSearchInFiles)
+            if (!mSearchFileContents)
                 // Toggle doAdd depending on if filename contains search string
                 doAdd = fi.fileName().contains(mSearchString, Qt::CaseInsensitive);
             // Searching
-            else if (!fi.isDir()) {  // Ignore folders when searching
+            else if (!fi.isDir()) {  // Ignore folders when searching in files
                 QFile file(fi.absoluteFilePath());
                 if (file.open(QFile::ReadOnly | QFile::Text)) {
                     QTextStream in(&file);
@@ -2048,16 +2048,16 @@ void DirModel::setSearchString(QString searchString)
     emit searchStringChanged(searchString);
 }
 
-bool DirModel::getSearchInFiles()
+bool DirModel::getSearchFileContents()
 {
-    return mSearchInFiles;
+    return mSearchFileContents;
 }
 
-void DirModel::setSearchInFiles(bool searchInFiles)
+void DirModel::setSearchFileContents(bool searchFileContents)
 {
-    mSearchInFiles = searchInFiles;
+    mSearchFileContents = searchFileContents;
     refresh();
-    emit searchInFilesChanged(searchInFiles);
+    emit searchFileContentsChanged(searchFileContents);
 }
 
 bool DirModel::getSearchRecursive()
