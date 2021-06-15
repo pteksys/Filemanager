@@ -2045,7 +2045,7 @@ void DirModel::setSearchString(QString searchString)
 {
     // Stop any running IO requests when the search field is cleared
     if (searchString.isEmpty() && mSearchRecursive && !mSearchString.isEmpty()) {
-        mCurLocation->stopIORequests();
+        terminateIORequest();
     }
 
     mSearchString = searchString;
@@ -2075,4 +2075,9 @@ void DirModel::setSearchRecursive(bool searchRecursive)
     mSearchRecursive = searchRecursive;
     refresh();
     emit searchRecursiveChanged(searchRecursive);
+}
+
+void DirModel::terminateIORequest()
+{
+    mCurLocation->stopIORequests();
 }

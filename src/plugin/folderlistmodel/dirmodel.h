@@ -457,6 +457,11 @@ public slots:   // Also invokable from QML
     bool getSearchRecursive();
     void setSearchRecursive(bool searchRecursive);
 
+    /*!
+     * \brief Terminates the current running IO request (takes effect in the IORequestLoader::add function)
+     */
+    void terminateIORequest();
+
 public slots:
     void onItemsAdded(const DirItemInfoList &newFiles);
     void onItemsFetched();
