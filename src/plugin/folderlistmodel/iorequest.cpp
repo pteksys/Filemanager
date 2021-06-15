@@ -122,7 +122,7 @@ DirItemInfoList IORequestLoader::add(const QString &pathName,
 {
     QDir tmpDir = QDir(pathName, QString(), QDir::NoSort, filter);
     QDirIterator it(tmpDir);
-    while (it.hasNext()) {
+    while (it.hasNext() && !*mKilled) {
         it.next();
         if (it.fileInfo().isDir() && isRecursive) {
             directoryContents = add(it.fileInfo().filePath(),
@@ -131,6 +131,7 @@ DirItemInfoList IORequestLoader::add(const QString &pathName,
             directoryContents.append(DirItemInfo(it.fileInfo()));
         }
     }
+
     return directoryContents;
 }
 
@@ -185,11 +186,12 @@ DirListWorker::~DirListWorker()
 
 }
 
-void DirListWorker::run()
+void DirListWorker::run(bool &killed)
 {
 #if DEBUG_MESSAGES
     qDebug() << Q_FUNC_INFO << "Running on: " << QThread::currentThreadId();
 #endif
+    mKilled = &killed;
 
     DirItemInfoList directoryContents = getContents();
 
@@ -282,8 +284,9 @@ int ExternalFileSystemChangesWorker::compareItems(const DirItemInfoList &content
     return counter;
 }
 
-void ExternalFileSystemChangesWorker::run()
+void ExternalFileSystemChangesWorker::run(bool &killed)
 {
+    mKilled = &killed;
     DirItemInfoList directoryContents = getContents();
     int remainingitemsCounter = compareItems(directoryContents);
     emit finished(remainingitemsCounter);
@@ -306,8 +309,9 @@ ExternalFileSystemTrashChangesWorker::~ExternalFileSystemTrashChangesWorker()
 
 }
 
-void ExternalFileSystemTrashChangesWorker::run()
+void ExternalFileSystemTrashChangesWorker::run(bool &killed)
 {
+    mKilled = &killed;
     DirItemInfoList directoryContents;
     for (int counter = 0; counter < m_pathList.count(); counter++) {
         mPathName = QTrashUtilInfo::filesTrashDir(m_pathList.at(counter));

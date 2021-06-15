@@ -56,6 +56,7 @@ public:
 
     virtual void startWorking();
     virtual void stopWorking();
+    virtual void stopIORequests();
 
     virtual DirItemInfo *newItemInfo(const QString &urlPath);
     virtual DirListWorker *newListWorker(const QString &urlPath, QDir::Filters filter, const bool isRecursive);

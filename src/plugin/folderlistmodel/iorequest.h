@@ -50,7 +50,7 @@ public:
         DirListExternalFSChanges,
         SambaList
     };
-    virtual void run() = 0;
+    virtual void run(bool &killed) = 0;
     RequestType  type() const;
 
 private:
@@ -100,6 +100,7 @@ protected:
     QDir::Filters mFilter;
     bool          mIsRecursive;
     QString       mTtrashRootDir;
+    bool          *mKilled;
 };
 
 
@@ -113,7 +114,7 @@ public:
     explicit DirListWorker(const QString &trashRootDir, const QString &pathName, QDir::Filters filter,
                            const bool isRecursive);
     virtual ~DirListWorker();
-    void run();
+    void run(bool &killed);
 protected:
 signals:
     void workerFinished();
@@ -142,7 +143,7 @@ public:
                                              QDir::Filters filter,
                                              const bool isRecursive);
     virtual ~ExternalFileSystemChangesWorker();
-    void     run();
+    void     run(bool &killed);
 
 protected:
     int  compareItems(const DirItemInfoList &contentNew);
@@ -168,7 +169,7 @@ public:
                                          const DirItemInfoList &list,
                                          QDir::Filters filter);
     virtual ~ExternalFileSystemTrashChangesWorker();
-    void run();
+    void run(bool &killed);
 private:
     QStringList    m_pathList;
 };

@@ -113,6 +113,10 @@ void Location::stopWorking()
 
 }
 
+void Location::stopIORequests() {
+    workerThread()->stop();
+}
+
 
 IOWorkerThread *Location::workerThread() const
 {

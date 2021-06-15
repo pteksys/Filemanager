@@ -48,7 +48,7 @@ DiskLocation::DiskLocation(int type, QObject *parent)
 {
 }
 
-DiskLocation::~ DiskLocation()
+DiskLocation::~DiskLocation()
 {
     stopExternalFsWatcher();
 }
@@ -104,6 +104,11 @@ void DiskLocation::startWorking()
 void DiskLocation::stopWorking()
 {
     stopExternalFsWatcher();
+}
+
+void DiskLocation::stopIORequests()
+{
+    workerThread()->stop();
 }
 
 void DiskLocation::fetchExternalChanges(const QString &path, const DirItemInfoList &list, QDir::Filters dirFilter)

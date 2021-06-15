@@ -252,6 +252,7 @@ public: //virtual
     virtual QString     urlPath() const;
     virtual void        startWorking();
     virtual void        stopWorking();
+    virtual void        stopIORequests();
     virtual QString     currentAuthenticationUser();
     virtual QString     currentAuthenticationPassword();
 

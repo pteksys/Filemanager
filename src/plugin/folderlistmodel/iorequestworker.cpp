@@ -54,6 +54,7 @@ void IORequestWorker::addRequest(IORequest *request)
     qDebug() << "[exfsWatcher]" << QDateTime::currentDateTime().toString("hh:mm:ss.zzz")
              << Q_FUNC_INFO;
 #endif
+    mStopAction = false;
 
     request->moveToThread(this);
 
@@ -81,7 +82,7 @@ void IORequestWorker::run()
 
             lock.unlock();
 
-            request->run();
+            request->run(mStopAction);
             request->deleteLater();
             lock.relock();
         }
@@ -97,4 +98,10 @@ void IORequestWorker::exit()
     QMutexLocker lock(&mMutex);
     mTimeToQuit = true;
     mWaitCondition.wakeOne();
+}
+
+
+void IORequestWorker::stopWorking()
+{
+    mStopAction = true;
 }
