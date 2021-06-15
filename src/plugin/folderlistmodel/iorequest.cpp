@@ -132,6 +132,14 @@ DirItemInfoList IORequestLoader::add(const QString &pathName,
         }
     }
 
+    if (*mKilled) {
+#if DEBUG_MESSAGES
+        qDebug() << "IORequest Killed";
+#endif
+        // If killed don't return any results
+        directoryContents.clear();
+    }
+
     return directoryContents;
 }
 

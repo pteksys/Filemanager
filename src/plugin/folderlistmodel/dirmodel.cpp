@@ -478,7 +478,6 @@ void DirModel::setPathWithAuthentication(const QString &path, const QString &use
 void DirModel::setPath(const QString &pathName, const QString &user, const QString &password,
                        bool savePassword)
 {
-    qDebug() << mAwaitingResults << pathName;
     if (pathName.isEmpty())
         return;
 
@@ -2044,13 +2043,12 @@ QString DirModel::getSearchString()
 
 void DirModel::setSearchString(QString searchString)
 {
-    mSearchString = searchString;
-
     // Stop any running IO requests when the search field is cleared
-    if (searchString.isEmpty() && mSearchRecursive) {
+    if (searchString.isEmpty() && mSearchRecursive && !mSearchString.isEmpty()) {
         mCurLocation->stopIORequests();
     }
 
+    mSearchString = searchString;
     refresh();
     emit searchStringChanged(searchString);
 }
