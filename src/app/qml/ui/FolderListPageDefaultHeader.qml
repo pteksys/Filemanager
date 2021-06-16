@@ -60,7 +60,12 @@ PageHeader {
 
             // Force active focus when this becomes the current PageHead state and
             // show OSK if appropriate.
-            onVisibleChanged: if (visible) forceActiveFocus()
+            onVisibleChanged: {
+                if (visible)
+                    forceActiveFocus()
+                else
+                    this.text = ""
+            }
             onActiveFocusChanged: {
                 if (!popover && activeFocus)
                     this.__openPopover()
@@ -156,10 +161,11 @@ PageHeader {
     trailingActionBar.numberOfSlots: 5
     trailingActionBar.actions: [
         FMActions.Settings {
-            visible: !folderModel.model.clipboardUrlsCounter > 0 && !showSearchBar
+            visible: !folderModel.model.clipboardUrlsCounter > 0
             onTriggered: PopupUtils.open(Qt.resolvedUrl("ViewPopover.qml"), mainView, { folderListModel: folderModel.model })
         },
         FMActions.Properties {
+            visible: !showSearchBar
             onTriggered: {
                 print(text)
                 PopupUtils.open(Qt.resolvedUrl("../ui/FileDetailsPopover.qml"), mainView,{ "model": folderModel.model })
@@ -216,9 +222,8 @@ PageHeader {
             id: searchButton
             onTriggered: {
                 showSearchBar = !showSearchBar;
-                if (popover && !showSearchBar) {
+                if (popover && !showSearchBar)
                     searchField.__closePopover()
-                }
             }
         }
     ]

@@ -2044,7 +2044,7 @@ QString DirModel::getSearchString()
 void DirModel::setSearchString(QString searchString)
 {
     // Stop any running IO requests when the search field is cleared
-    if (searchString.isEmpty() && mSearchRecursive && !mSearchString.isEmpty()) {
+    if (searchString.isEmpty() && !mSearchString.isEmpty()) {
         terminateIORequest();
     }
 
