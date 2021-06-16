@@ -354,8 +354,8 @@ QVariant DirModel::data(const QModelIndex &index, int role) const
         if (!mSearchString.isEmpty()) {
             if (!mSearchFileContents) {
                 // When filtering, highlight search parameter in filename
-                QString highlighted("<b>" + mSearchString + "</b>");
-                fileName = fileName.replace(fileName.indexOf(mSearchString), mSearchString.size(), highlighted);
+                fileName.insert(fileName.toLower().indexOf(mSearchString.toLower()), "<b>");
+                fileName.insert(fileName.toLower().indexOf(mSearchString.toLower()) + mSearchString.length(), "</b>");
             }
             else if (!fi.isDir())  // Do not highlight folders when in search mode
                 // When searching, highlight full filename
