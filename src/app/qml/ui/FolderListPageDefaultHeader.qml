@@ -38,6 +38,7 @@ PageHeader {
                 right: parent.right
                 verticalCenter: parent.verticalCenter
             }
+            implicitWidth: units.gu(22.5)
 
             function __openPopover() {
                 if (!popover) {
