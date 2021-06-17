@@ -172,10 +172,13 @@ PageHeader {
                 PopupUtils.open(Qt.resolvedUrl("../ui/FileDetailsPopover.qml"), mainView,{ "model": folderModel.model })
             }
         },
-        FMActions.Terminal {
+        FMActions.Search {
+            id: searchButton
+            iconName: showSearchBar ? "close" : "find"
             onTriggered: {
-                print(text)
-                Qt.openUrlExternally("terminal://?path=" + folderModel.model.path)
+                showSearchBar = !showSearchBar;
+                if (popover && !showSearchBar)
+                    searchField.__closePopover()
             }
         },
         FMActions.NewItem {
@@ -219,12 +222,11 @@ PageHeader {
                 folderModel.model.clearClipboard()
             }
         },
-        FMActions.Search {
-            id: searchButton
+        FMActions.Terminal {
+            visible: !showSearchBar
             onTriggered: {
-                showSearchBar = !showSearchBar;
-                if (popover && !showSearchBar)
-                    searchField.__closePopover()
+                print(text)
+                Qt.openUrlExternally("terminal://?path=" + folderModel.model.path)
             }
         }
     ]
