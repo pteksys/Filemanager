@@ -26,9 +26,22 @@ PageHeader {
         anchors.fill: parent
 
         ListItemLayout {
+            id: titleItem
             anchors.verticalCenter: parent.verticalCenter
             title.text: showSearchBar && searchField.text.trim().length ? i18n.tr("Search Results") : rootItem.title
             subtitle.text: i18n.tr("%1 item", "%1 items", folderModel.count).arg(folderModel.count)
+            width: this.titleWidth()
+
+            function titleWidth() {
+                var titleWidth = title.font.pixelSize * title.text.length
+                var subtitleWidth = subtitle.font.pixelSize * subtitle.text.length
+                var overallWidth = 0.8 * Math.max(titleWidth, subtitleWidth)
+                if ((parent.width - overallWidth) < 150) {
+                    return 0
+                }
+
+                return overallWidth
+            }
         }
 
         TextField {
@@ -36,9 +49,9 @@ PageHeader {
             visible: showSearchBar
             anchors {
                 right: parent.right
+                left: titleItem.right
                 verticalCenter: parent.verticalCenter
             }
-            implicitWidth: units.gu(22.5)
 
             function __openPopover() {
                 if (!popover) {
@@ -162,7 +175,6 @@ PageHeader {
     trailingActionBar.numberOfSlots: 5
     trailingActionBar.actions: [
         FMActions.Settings {
-            visible: !folderModel.model.clipboardUrlsCounter > 0
             onTriggered: PopupUtils.open(Qt.resolvedUrl("ViewPopover.qml"), mainView, { folderListModel: folderModel.model })
         },
         FMActions.Properties {
@@ -174,7 +186,6 @@ PageHeader {
         },
         FMActions.Search {
             id: searchButton
-            iconName: showSearchBar ? "close" : "find"
             onTriggered: {
                 showSearchBar = !showSearchBar;
                 if (popover && !showSearchBar)
@@ -190,18 +201,9 @@ PageHeader {
                 PopupUtils.open(Qt.resolvedUrl("../dialogs/CreateItemDialog.qml"), mainView, { folderPage: folderPage, folderModel: folderModel.model })
             }
         },
-        FMActions.AddBookmark {
-            visible: !folderModel.model.clipboardUrlsCounter > 0 && !showSearchBar
-            onTriggered: {
-                print(text)
-                folderModel.places.addLocation(folderModel.model.path)
-                folderPage.tooltipMsg = i18n.tr("Added '%1' to Places").arg(folderModel.model.fileName)
-
-            }
-        },
         FMActions.FileClearSelection {
             clipboardUrlsCounter: folderModel.model.clipboardUrlsCounter
-            visible: folderModel.model.clipboardUrlsCounter > 0
+            visible: folderModel.model.clipboardUrlsCounter > 0 && !showSearchBar
             onTriggered: {
                 console.log("Clearing clipboard")
                 folderModel.model.clearClipboard()
@@ -211,7 +213,7 @@ PageHeader {
         FMActions.FilePaste {
             property bool smallText: true
             clipboardUrlsCounter: folderModel.model.clipboardUrlsCounter
-            visible: folderModel.model.clipboardUrlsCounter > 0
+            visible: folderModel.model.clipboardUrlsCounter > 0 && !showSearchBar
             onTriggered: {
                 console.log("Pasting to current folder items of count " + folderModel.model.clipboardUrlsCounter)
                 fileOperationDialog.startOperation(i18n.tr("Paste files"))
@@ -220,6 +222,15 @@ PageHeader {
 
                 // We want this in a mobile environment.
                 folderModel.model.clearClipboard()
+            }
+        },
+        FMActions.AddBookmark {
+            visible: !folderModel.model.clipboardUrlsCounter > 0 && !showSearchBar
+            onTriggered: {
+                print(text)
+                folderModel.places.addLocation(folderModel.model.path)
+                folderPage.tooltipMsg = i18n.tr("Added '%1' to Places").arg(folderModel.model.fileName)
+
             }
         },
         FMActions.Terminal {
