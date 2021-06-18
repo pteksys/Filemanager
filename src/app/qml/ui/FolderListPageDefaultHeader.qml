@@ -30,18 +30,10 @@ PageHeader {
             anchors.verticalCenter: parent.verticalCenter
             title.text: showSearchBar && searchField.text.trim().length ? i18n.tr("Search Results") : rootItem.title
             subtitle.text: i18n.tr("%1 item", "%1 items", folderModel.count).arg(folderModel.count)
-            width: this.titleWidth()
-
-            function titleWidth() {
-                var titleWidth = title.font.pixelSize * title.text.length
-                var subtitleWidth = subtitle.font.pixelSize * subtitle.text.length
-                var overallWidth = 0.8 * Math.max(titleWidth, subtitleWidth)
-                if ((parent.width - overallWidth) < 150) {
-                    return 0
-                }
-
-                return overallWidth
-            }
+            title.elide: Text.ElideRight
+            title.wrapMode: Text.WrapAtWordBoundaryOrAnywhere
+            title.maximumLineCount: 3
+            width: units.gu(15)
         }
 
         TextField {
