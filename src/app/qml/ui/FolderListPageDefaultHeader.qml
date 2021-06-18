@@ -28,12 +28,18 @@ PageHeader {
         ListItemLayout {
             id: titleItem
             anchors.verticalCenter: parent.verticalCenter
-            title.text: showSearchBar && searchField.text.trim().length ? i18n.tr("Search Results") : rootItem.title
+            title.text: showSearchBar && searchField.text.trim().length ? t_metrics.text : rootItem.title
             subtitle.text: i18n.tr("%1 item", "%1 items", folderModel.count).arg(folderModel.count)
             title.elide: Text.ElideRight
             title.wrapMode: Text.WrapAtWordBoundaryOrAnywhere
             title.maximumLineCount: 3
-            width: units.gu(15)
+            width: Math.max(units.gu(12), t_metrics.width*0.75)
+
+            TextMetrics {
+                id: t_metrics
+                font: parent.title.font
+                text: i18n.tr("Search Results")
+            }
         }
 
         TextField {
