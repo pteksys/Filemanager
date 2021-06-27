@@ -100,7 +100,7 @@ PageHeader {
 
             Popover {
                 id: popover
-                contentWidth: searchField.width
+                contentWidth: parent.width
                 autoClose: false
 
                 Column {
