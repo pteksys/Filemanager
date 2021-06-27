@@ -26,9 +26,20 @@ PageHeader {
         anchors.fill: parent
 
         ListItemLayout {
+            id: titleItem
             anchors.verticalCenter: parent.verticalCenter
-            title.text: showSearchBar && searchField.text.trim().length ? i18n.tr("Search Results") : rootItem.title
+            title.text: showSearchBar && searchField.text.trim().length ? t_metrics.text : rootItem.title
             subtitle.text: i18n.tr("%1 item", "%1 items", folderModel.count).arg(folderModel.count)
+            title.elide: Text.ElideRight
+            title.wrapMode: Text.WrapAtWordBoundaryOrAnywhere
+            title.maximumLineCount: 3
+            width: showSearchBar ? Math.max(units.gu(15), t_metrics.width*0.75) : parent.width
+
+            TextMetrics {
+                id: t_metrics
+                font: parent.title.font
+                text: i18n.tr("Search Results")
+            }
         }
 
         TextField {
@@ -36,9 +47,9 @@ PageHeader {
             visible: showSearchBar
             anchors {
                 right: parent.right
+                left: titleItem.right
                 verticalCenter: parent.verticalCenter
             }
-            implicitWidth: units.gu(22.5)
 
             function __openPopover() {
                 if (!popover) {
@@ -162,7 +173,6 @@ PageHeader {
     trailingActionBar.numberOfSlots: 5
     trailingActionBar.actions: [
         FMActions.Settings {
-            visible: !folderModel.model.clipboardUrlsCounter > 0
             onTriggered: PopupUtils.open(Qt.resolvedUrl("ViewPopover.qml"), mainView, { folderListModel: folderModel.model })
         },
         FMActions.Properties {
@@ -172,10 +182,12 @@ PageHeader {
                 PopupUtils.open(Qt.resolvedUrl("../ui/FileDetailsPopover.qml"), mainView,{ "model": folderModel.model })
             }
         },
-        FMActions.Terminal {
+        FMActions.Search {
+            id: searchButton
             onTriggered: {
-                print(text)
-                Qt.openUrlExternally("terminal://?path=" + folderModel.model.path)
+                showSearchBar = !showSearchBar;
+                if (popover && !showSearchBar)
+                    searchField.__closePopover()
             }
         },
         FMActions.NewItem {
@@ -187,18 +199,9 @@ PageHeader {
                 PopupUtils.open(Qt.resolvedUrl("../dialogs/CreateItemDialog.qml"), mainView, { folderPage: folderPage, folderModel: folderModel.model })
             }
         },
-        FMActions.AddBookmark {
-            visible: !folderModel.model.clipboardUrlsCounter > 0 && !showSearchBar
-            onTriggered: {
-                print(text)
-                folderModel.places.addLocation(folderModel.model.path)
-                folderPage.tooltipMsg = i18n.tr("Added '%1' to Places").arg(folderModel.model.fileName)
-
-            }
-        },
         FMActions.FileClearSelection {
             clipboardUrlsCounter: folderModel.model.clipboardUrlsCounter
-            visible: folderModel.model.clipboardUrlsCounter > 0
+            visible: folderModel.model.clipboardUrlsCounter > 0 && !showSearchBar
             onTriggered: {
                 console.log("Clearing clipboard")
                 folderModel.model.clearClipboard()
@@ -208,7 +211,7 @@ PageHeader {
         FMActions.FilePaste {
             property bool smallText: true
             clipboardUrlsCounter: folderModel.model.clipboardUrlsCounter
-            visible: folderModel.model.clipboardUrlsCounter > 0
+            visible: folderModel.model.clipboardUrlsCounter > 0 && !showSearchBar
             onTriggered: {
                 console.log("Pasting to current folder items of count " + folderModel.model.clipboardUrlsCounter)
                 fileOperationDialog.startOperation(i18n.tr("Paste files"))
@@ -219,12 +222,20 @@ PageHeader {
                 folderModel.model.clearClipboard()
             }
         },
-        FMActions.Search {
-            id: searchButton
+        FMActions.AddBookmark {
+            visible: !folderModel.model.clipboardUrlsCounter > 0 && !showSearchBar
             onTriggered: {
-                showSearchBar = !showSearchBar;
-                if (popover && !showSearchBar)
-                    searchField.__closePopover()
+                print(text)
+                folderModel.places.addLocation(folderModel.model.path)
+                folderPage.tooltipMsg = i18n.tr("Added '%1' to Places").arg(folderModel.model.fileName)
+
+            }
+        },
+        FMActions.Terminal {
+            visible: !showSearchBar
+            onTriggered: {
+                print(text)
+                Qt.openUrlExternally("terminal://?path=" + folderModel.model.path)
             }
         }
     ]
