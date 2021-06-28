@@ -76,7 +76,7 @@ PageHeader {
                 if (visible)
                     forceActiveFocus()
                 else
-                    this.text = ""
+                    folderModel.model.setSearchString("");
             }
             onActiveFocusChanged: {
                 if (!popover && activeFocus)
@@ -100,7 +100,7 @@ PageHeader {
 
             Popover {
                 id: popover
-                contentWidth: parent.width
+                contentWidth: Math.max(searchField.width, units.gu(22))
                 autoClose: false
 
                 Column {
