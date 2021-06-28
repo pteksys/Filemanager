@@ -353,9 +353,13 @@ QVariant DirModel::data(const QModelIndex &index, int role) const
         QString fileName(fi.fileName());
         if (!mSearchString.isEmpty()) {
             if (!mSearchFileContents) {
-                // When filtering, highlight search parameter in filename
-                fileName.insert(fileName.toLower().indexOf(mSearchString.toLower()), "<b>");
-                fileName.insert(fileName.toLower().indexOf(mSearchString.toLower()) + mSearchString.length(), "</b>");
+                // When filtering, highlight search parameter in filenamex
+                int pos = fileName.toLower().indexOf(mSearchString.toLower());
+                fileName = QString("%1<b>%2</b>%3").arg(
+                    fileName.mid(0, pos),
+                    fileName.mid(pos, mSearchString.length()),
+                    fileName.mid(pos+mSearchString.length())
+                );
             }
             else if (!fi.isDir())  // Do not highlight folders when in search mode
                 // When searching, highlight full filename
@@ -530,18 +534,19 @@ void DirModel::setPathFromCurrentLocation()
     clear();
 
     mCurrentDir = mCurLocation->urlPath();
+
+    if (mPathList.count() == 0 || mPathList.last() != mCurrentDir) {
+        mPathList.append(mCurrentDir);
+
+        // Clear search string when folder has changed
+        setSearchString("");
+    }
+
     if (!mSearchString.isEmpty() && mSearchRecursive)
         // Force recursive mode when querying recursively
         mCurLocation->fetchItems(currentDirFilter(), true);
     else
         mCurLocation->fetchItems(currentDirFilter(), mIsRecursive);
-
-    if (mPathList.count() == 0 || mPathList.last() != mCurrentDir) {
-        mPathList.append(mCurrentDir);
-
-        // Reset search string when folder has changed
-        setSearchString("");
-    }
 
     emit canGoBackChanged();
     emit pathChanged(mCurLocation->urlPath());
