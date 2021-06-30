@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2021-05-29 18:40+0000\n"
+"PO-Revision-Date: 2021-06-30 19:36+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/nl/>\n"
@@ -230,13 +230,13 @@ msgstr "Archiefbestand uitpakken"
 #: ../src/app/qml/dialogs/ConfirmExtractDialog.qml:16
 #, qt-format
 msgid "Are you sure you want to extract '%1' here?"
-msgstr "Weet je zeker dat je '%1' hier wilt uitpakken?"
+msgstr "Weet je zeker dat je ‘%1’ hier wilt uitpakken?"
 
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:15
 #: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:16
 #, qt-format
 msgid "Are you sure you want to permanently delete '%1'?"
-msgstr "Weet je zeker dat je '%1' permanent wilt verwijderen?"
+msgstr "Weet je zeker dat je ‘%1’ permanent wilt verwijderen?"
 
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:15
 msgid "these files"
@@ -274,7 +274,7 @@ msgstr "Map maken"
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:23
 #, qt-format
 msgid "Extracting archive '%1'"
-msgstr "Bezig met uitpakken van '%1'"
+msgstr "Bezig met uitpakken van ‘%1’…"
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:44
 #: ../src/app/qml/dialogs/NotifyDialog.qml:27
@@ -290,7 +290,7 @@ msgstr "Uitpakken mislukt"
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:60
 #, qt-format
 msgid "Extracting the archive '%1' failed."
-msgstr "Uitpakken mislukt (%1)."
+msgstr "Het uitpakken van ‘%1’ is mislukt."
 
 #: ../src/app/qml/dialogs/FileActionDialog.qml:30
 msgid "Choose action"
@@ -542,7 +542,8 @@ msgid ""
 "Insufficient permissions, name contains special chars (e.g. '/'), or already "
 "exists"
 msgstr ""
-"Onvoldoende gemachtigd, naam bevat speciale tekens (zoals '/') of bestaat al"
+"De naam is al in gebruik, bevat speciale tekens (zoals ‘/’) of je bent "
+"onbevoegd"
 
 #: ../src/app/qml/views/FolderListView.qml:72
 msgid "Directories"
