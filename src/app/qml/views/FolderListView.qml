@@ -51,6 +51,8 @@ ScrollView {
 
             title: model.stylizedFileName
             subtitle: __delegateActions.itemDateAndSize(model)
+            summary: folderModel.model.getSearchRecursive() && folderModel.model.getSearchString() ?
+                         model.filePath.toString().replace(folderModel.model.homePath(), "~") : ""
             iconName: model.iconName
             showProgressionSlot: model.isBrowsable
             isSelected: model.isSelected

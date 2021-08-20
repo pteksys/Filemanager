@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-28 13:00+0000\n"
+"POT-Creation-Date: 2021-08-20 16:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1272,19 +1272,19 @@ msgstr ""
 msgid "Can not access %1"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/views/FolderListView.qml:85
-#: ../build/arm-linux-gnueabihf/app/src/app/qml/views/FolderListView.qml:85
+#: ../build/arm-linux-gnueabihf/app/install/qml/views/FolderListView.qml:87
+#: ../build/arm-linux-gnueabihf/app/src/app/qml/views/FolderListView.qml:87
 #: ../build/src/app/qml/views/FolderListView.qml:82
-#: ../build/x86_64-linux-gnu/app/src/app/qml/views/FolderListView.qml:85
-#: ../src/app/qml/views/FolderListView.qml:85
+#: ../build/x86_64-linux-gnu/app/src/app/qml/views/FolderListView.qml:87
+#: ../src/app/qml/views/FolderListView.qml:87
 msgid "Directories"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/views/FolderListView.qml:85
-#: ../build/arm-linux-gnueabihf/app/src/app/qml/views/FolderListView.qml:85
+#: ../build/arm-linux-gnueabihf/app/install/qml/views/FolderListView.qml:87
+#: ../build/arm-linux-gnueabihf/app/src/app/qml/views/FolderListView.qml:87
 #: ../build/src/app/qml/views/FolderListView.qml:82
-#: ../build/x86_64-linux-gnu/app/src/app/qml/views/FolderListView.qml:85
-#: ../src/app/qml/views/FolderListView.qml:85
+#: ../build/x86_64-linux-gnu/app/src/app/qml/views/FolderListView.qml:87
+#: ../src/app/qml/views/FolderListView.qml:87
 msgid "Files"
 msgstr ""
 

@@ -333,7 +333,7 @@ public:
     void  restoreIndexesFromTrash(const QList<int> &);
     void  moveIndexesToTrash(const QList<int> &);
 
-    QString getSearchString();
+    Q_INVOKABLE QString getSearchString();
     Q_INVOKABLE void setSearchString(QString searchString);
 
 public slots:   // Also invokable from QML
