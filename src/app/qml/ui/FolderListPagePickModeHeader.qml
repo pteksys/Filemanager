@@ -26,7 +26,15 @@ PageHeader {
             id: titleItem
             anchors.verticalCenter: parent.verticalCenter
             title.text: showSearchBar && searchField.text.trim().length ? t_metrics.text : rootItem.title
-            subtitle.text: !importMode ? i18n.tr("%1 item", "%1 items", folderModel.count).arg(folderModel.count) : i18n.tr("Save here")
+            subtitle.text: {
+                if (!isContentHub)
+                    i18n.tr("%1 item", "%1 items", folderModel.count).arg(folderModel.count)
+                else if (importMode)
+                    i18n.tr("Save here")
+                else
+                    i18n.tr("Select files (%1 files selected)", selectionManager.counter).arg(folderModel.model.selectionObject.counter)
+            }
+
             title.elide: Text.ElideRight
             title.wrapMode: Text.WrapAtWordBoundaryOrAnywhere
             title.maximumLineCount: 3
