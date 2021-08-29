@@ -75,6 +75,7 @@ class DirModel : public DirItemAbstractListModel, public QQmlParserStatus
     Q_PROPERTY(QString searchString READ getSearchString WRITE setSearchString NOTIFY searchStringChanged)
     Q_PROPERTY(bool searchFileContents READ getSearchFileContents WRITE setSearchFileContents NOTIFY searchFileContentsChanged)
     Q_PROPERTY(bool searchRecursive READ getSearchRecursive WRITE setSearchRecursive NOTIFY searchRecursiveChanged)
+    Q_PROPERTY(bool importing READ getImporting WRITE setImporting NOTIFY importingChanged)
 
 public:
     enum Roles {
@@ -457,6 +458,9 @@ public slots:   // Also invokable from QML
     bool getSearchRecursive();
     void setSearchRecursive(bool searchRecursive);
 
+    bool getImporting();
+    void setImporting(bool importing);
+
     /*!
      * \brief Terminates the current running IO request (takes effect in the IORequestLoader::add function)
      */
@@ -474,6 +478,7 @@ private:
     bool mShowDirectories;
     bool mAwaitingResults;
     bool mIsRecursive;
+    bool mImporting;
     bool mReadsMediaMetadata;
     QString mCurrentDir;
     DirItemInfoList  mDirectoryContents;
@@ -542,6 +547,7 @@ signals:
     void searchStringChanged(QString searchString);
     void searchFileContentsChanged(bool searchFileContents);
     void searchRecursiveChanged(bool searchRecursive);
+    void importingChanged(bool importing);
 
 private slots:
     void onItemRemoved(const DirItemInfo &);

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-28 13:00+0000\n"
+"POT-Creation-Date: 2021-08-29 13:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,23 +18,37 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/actions/AddBookmark.qml:6
+#: ../build/arm-linux-gnueabihf/app/po/com.ubuntu.filemanager.desktop.in.in.h:1
+#: ../build/po/com.ubuntu.filemanager.desktop.in.in.h:1
+#: ../build/x86_64-linux-gnu/app/po/com.ubuntu.filemanager.desktop.in.in.h:1
+#: com.ubuntu.filemanager.desktop.in.in.h:1
+msgid "File Manager"
+msgstr ""
+
+#: ../build/arm-linux-gnueabihf/app/po/com.ubuntu.filemanager.desktop.in.in.h:2
+#: ../build/po/com.ubuntu.filemanager.desktop.in.in.h:2
+#: ../build/x86_64-linux-gnu/app/po/com.ubuntu.filemanager.desktop.in.in.h:2
+#: com.ubuntu.filemanager.desktop.in.in.h:2
+msgid "folder;manager;explore;disk;filesystem;"
+msgstr ""
+
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/actions/AddBookmark.qml:6
 #: ../build/src/app/qml/actions/AddBookmark.qml:6
+#: ../build/x86_64-linux-gnu/app/install/qml/actions/AddBookmark.qml:6
 #: ../build/x86_64-linux-gnu/app/src/app/qml/actions/AddBookmark.qml:6
 #: ../src/app/qml/actions/AddBookmark.qml:6
 msgid "Add bookmark"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/actions/ArchiveExtract.qml:6
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/OpenArchiveDialog.qml:18
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/OpenWithDialog.qml:33
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/actions/ArchiveExtract.qml:6
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/OpenArchiveDialog.qml:18
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/OpenWithDialog.qml:33
 #: ../build/src/app/qml/actions/ArchiveExtract.qml:6
 #: ../build/src/app/qml/dialogs/OpenArchiveDialog.qml:18
 #: ../build/src/app/qml/dialogs/OpenWithDialog.qml:33
+#: ../build/x86_64-linux-gnu/app/install/qml/actions/ArchiveExtract.qml:6
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/OpenArchiveDialog.qml:18
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/OpenWithDialog.qml:33
 #: ../build/x86_64-linux-gnu/app/src/app/qml/actions/ArchiveExtract.qml:6
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/OpenArchiveDialog.qml:18
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/OpenWithDialog.qml:33
@@ -44,20 +58,6 @@ msgstr ""
 msgid "Extract archive"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/actions/Cancel.qml:6
-#: ../build/arm-linux-gnueabihf/app/install/qml/authentication/FingerprintDialog.qml:68
-#: ../build/arm-linux-gnueabihf/app/install/qml/authentication/PasswordDialog.qml:80
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/CreateItemDialog.qml:64
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/ExtractingDialog.qml:44
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/FileActionDialog.qml:46
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/FileOperationProgressDialog.qml:44
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/NetAuthenticationDialog.qml:96
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/OpenArchiveDialog.qml:37
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/OpenWithDialog.qml:67
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/templates/ConfirmDialog.qml:45
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/templates/ConfirmDialogWithInput.qml:60
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FolderListPagePickModeHeader.qml:50
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FolderListPageSelectionHeader.qml:44
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/actions/Cancel.qml:6
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/authentication/FingerprintDialog.qml:68
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/authentication/PasswordDialog.qml:80
@@ -70,7 +70,7 @@ msgstr ""
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/OpenWithDialog.qml:67
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/templates/ConfirmDialog.qml:45
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/templates/ConfirmDialogWithInput.qml:60
-#: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPagePickModeHeader.qml:50
+#: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPagePickModeHeader.qml:185
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPageSelectionHeader.qml:44
 #: ../build/src/app/qml/actions/Cancel.qml:6
 #: ../build/src/app/qml/authentication/FingerprintDialog.qml:68
@@ -86,6 +86,20 @@ msgstr ""
 #: ../build/src/app/qml/dialogs/templates/ConfirmDialogWithInput.qml:60
 #: ../build/src/app/qml/ui/FolderListPagePickModeHeader.qml:50
 #: ../build/src/app/qml/ui/FolderListPageSelectionHeader.qml:44
+#: ../build/x86_64-linux-gnu/app/install/qml/actions/Cancel.qml:6
+#: ../build/x86_64-linux-gnu/app/install/qml/authentication/FingerprintDialog.qml:68
+#: ../build/x86_64-linux-gnu/app/install/qml/authentication/PasswordDialog.qml:80
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/CreateItemDialog.qml:64
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/ExtractingDialog.qml:44
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/FileActionDialog.qml:46
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/FileOperationProgressDialog.qml:44
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/NetAuthenticationDialog.qml:96
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/OpenArchiveDialog.qml:37
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/OpenWithDialog.qml:67
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/templates/ConfirmDialog.qml:45
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/templates/ConfirmDialogWithInput.qml:60
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FolderListPagePickModeHeader.qml:50
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FolderListPageSelectionHeader.qml:44
 #: ../build/x86_64-linux-gnu/app/src/app/qml/actions/Cancel.qml:6
 #: ../build/x86_64-linux-gnu/app/src/app/qml/authentication/FingerprintDialog.qml:68
 #: ../build/x86_64-linux-gnu/app/src/app/qml/authentication/PasswordDialog.qml:80
@@ -112,20 +126,20 @@ msgstr ""
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:67
 #: ../src/app/qml/dialogs/templates/ConfirmDialog.qml:45
 #: ../src/app/qml/dialogs/templates/ConfirmDialogWithInput.qml:60
-#: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:50
+#: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:185
 #: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:44
 msgid "Cancel"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/actions/Delete.qml:5
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/ConfirmMultipleDeleteDialog.qml:16
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/ConfirmSingleDeleteDialog.qml:17
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/actions/Delete.qml:5
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:16
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:17
 #: ../build/src/app/qml/actions/Delete.qml:5
 #: ../build/src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:16
 #: ../build/src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:17
+#: ../build/x86_64-linux-gnu/app/install/qml/actions/Delete.qml:5
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/ConfirmMultipleDeleteDialog.qml:16
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/ConfirmSingleDeleteDialog.qml:17
 #: ../build/x86_64-linux-gnu/app/src/app/qml/actions/Delete.qml:5
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:16
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:17
@@ -135,33 +149,33 @@ msgstr ""
 msgid "Delete"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/actions/FileClearSelection.qml:8
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/actions/FileClearSelection.qml:8
 #: ../build/src/app/qml/actions/FileClearSelection.qml:8
+#: ../build/x86_64-linux-gnu/app/install/qml/actions/FileClearSelection.qml:8
 #: ../build/x86_64-linux-gnu/app/src/app/qml/actions/FileClearSelection.qml:8
 #: ../src/app/qml/actions/FileClearSelection.qml:8
 msgid "Clear clipboard"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/actions/FileCopy.qml:5
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/actions/FileCopy.qml:5
 #: ../build/src/app/qml/actions/FileCopy.qml:5
+#: ../build/x86_64-linux-gnu/app/install/qml/actions/FileCopy.qml:5
 #: ../build/x86_64-linux-gnu/app/src/app/qml/actions/FileCopy.qml:5
 #: ../src/app/qml/actions/FileCopy.qml:5
 msgid "Copy"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/actions/FileCut.qml:5
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/actions/FileCut.qml:5
 #: ../build/src/app/qml/actions/FileCut.qml:5
+#: ../build/x86_64-linux-gnu/app/install/qml/actions/FileCut.qml:5
 #: ../build/x86_64-linux-gnu/app/src/app/qml/actions/FileCut.qml:5
 #: ../src/app/qml/actions/FileCut.qml:5
 msgid "Cut"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/actions/FilePaste.qml:30
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/actions/FilePaste.qml:30
 #: ../build/src/app/qml/actions/FilePaste.qml:30
+#: ../build/x86_64-linux-gnu/app/install/qml/actions/FilePaste.qml:30
 #: ../build/x86_64-linux-gnu/app/src/app/qml/actions/FilePaste.qml:30
 #: ../src/app/qml/actions/FilePaste.qml:30
 #, qt-format
@@ -170,52 +184,52 @@ msgid_plural "Paste %1 files"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/actions/GoBack.qml:5
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/actions/GoBack.qml:5
 #: ../build/src/app/qml/actions/GoBack.qml:5
+#: ../build/x86_64-linux-gnu/app/install/qml/actions/GoBack.qml:5
 #: ../build/x86_64-linux-gnu/app/src/app/qml/actions/GoBack.qml:5
 #: ../src/app/qml/actions/GoBack.qml:5
 msgid "Go back"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/actions/GoNext.qml:5
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/actions/GoNext.qml:5
 #: ../build/src/app/qml/actions/GoNext.qml:5
+#: ../build/x86_64-linux-gnu/app/install/qml/actions/GoNext.qml:5
 #: ../build/x86_64-linux-gnu/app/src/app/qml/actions/GoNext.qml:5
 #: ../src/app/qml/actions/GoNext.qml:5
 msgid "Go next"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/actions/GoTo.qml:6
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/actions/GoTo.qml:6
 #: ../build/src/app/qml/actions/GoTo.qml:6
+#: ../build/x86_64-linux-gnu/app/install/qml/actions/GoTo.qml:6
 #: ../build/x86_64-linux-gnu/app/src/app/qml/actions/GoTo.qml:6
 #: ../src/app/qml/actions/GoTo.qml:6
 msgid "Go To"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/actions/NewItem.qml:6
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/actions/NewItem.qml:6
 #: ../build/src/app/qml/actions/NewItem.qml:6
+#: ../build/x86_64-linux-gnu/app/install/qml/actions/NewItem.qml:6
 #: ../build/x86_64-linux-gnu/app/src/app/qml/actions/NewItem.qml:6
 #: ../src/app/qml/actions/NewItem.qml:6
 msgid "New Item"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/actions/OpenAdvanced.qml:6
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/actions/OpenAdvanced.qml:6
 #: ../build/src/app/qml/actions/OpenAdvanced.qml:6
+#: ../build/x86_64-linux-gnu/app/install/qml/actions/OpenAdvanced.qml:6
 #: ../build/x86_64-linux-gnu/app/src/app/qml/actions/OpenAdvanced.qml:6
 #: ../src/app/qml/actions/OpenAdvanced.qml:6
 msgid "Open with..."
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/actions/PlacesBookmarks.qml:6
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/PlacesPage.qml:16
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/actions/PlacesBookmarks.qml:6
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/PlacesPage.qml:16
 #: ../build/src/app/qml/actions/PlacesBookmarks.qml:6
 #: ../build/src/app/qml/ui/PlacesPage.qml:16
+#: ../build/x86_64-linux-gnu/app/install/qml/actions/PlacesBookmarks.qml:6
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/PlacesPage.qml:16
 #: ../build/x86_64-linux-gnu/app/src/app/qml/actions/PlacesBookmarks.qml:6
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/PlacesPage.qml:16
 #: ../src/app/qml/actions/PlacesBookmarks.qml:6
@@ -223,12 +237,12 @@ msgstr ""
 msgid "Places"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/actions/Properties.qml:6
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/OpenWithDialog.qml:58
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/actions/Properties.qml:6
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/OpenWithDialog.qml:58
 #: ../build/src/app/qml/actions/Properties.qml:6
 #: ../build/src/app/qml/dialogs/OpenWithDialog.qml:58
+#: ../build/x86_64-linux-gnu/app/install/qml/actions/Properties.qml:6
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/OpenWithDialog.qml:58
 #: ../build/x86_64-linux-gnu/app/src/app/qml/actions/Properties.qml:6
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/OpenWithDialog.qml:58
 #: ../src/app/qml/actions/Properties.qml:6
@@ -236,12 +250,12 @@ msgstr ""
 msgid "Properties"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/actions/Rename.qml:5
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/ConfirmRenameDialog.qml:20
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/actions/Rename.qml:5
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/ConfirmRenameDialog.qml:20
 #: ../build/src/app/qml/actions/Rename.qml:5
 #: ../build/src/app/qml/dialogs/ConfirmRenameDialog.qml:20
+#: ../build/x86_64-linux-gnu/app/install/qml/actions/Rename.qml:5
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/ConfirmRenameDialog.qml:20
 #: ../build/x86_64-linux-gnu/app/src/app/qml/actions/Rename.qml:5
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/ConfirmRenameDialog.qml:20
 #: ../src/app/qml/actions/Rename.qml:5
@@ -249,86 +263,86 @@ msgstr ""
 msgid "Rename"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/actions/Search.qml:6
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/actions/Search.qml:6
+#: ../build/x86_64-linux-gnu/app/install/qml/actions/Search.qml:6
 #: ../build/x86_64-linux-gnu/app/src/app/qml/actions/Search.qml:6
 #: ../src/app/qml/actions/Search.qml:6
 msgid "Search"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/actions/Select.qml:6
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/actions/Select.qml:6
 #: ../build/src/app/qml/actions/Select.qml:6
+#: ../build/x86_64-linux-gnu/app/install/qml/actions/Select.qml:6
 #: ../build/x86_64-linux-gnu/app/src/app/qml/actions/Select.qml:6
 #: ../src/app/qml/actions/Select.qml:6
 msgid "Select"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/actions/Settings.qml:6
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/actions/Settings.qml:6
 #: ../build/src/app/qml/actions/Settings.qml:6
+#: ../build/x86_64-linux-gnu/app/install/qml/actions/Settings.qml:6
 #: ../build/x86_64-linux-gnu/app/src/app/qml/actions/Settings.qml:6
 #: ../src/app/qml/actions/Settings.qml:6
 msgid "Settings"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/actions/Share.qml:5
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/actions/Share.qml:5
 #: ../build/src/app/qml/actions/Share.qml:5
+#: ../build/x86_64-linux-gnu/app/install/qml/actions/Share.qml:5
 #: ../build/x86_64-linux-gnu/app/src/app/qml/actions/Share.qml:5
 #: ../src/app/qml/actions/Share.qml:5
 msgid "Share"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/actions/TabsAdd.qml:5
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/actions/TabsAdd.qml:5
 #: ../build/src/app/qml/actions/TabsAdd.qml:5
+#: ../build/x86_64-linux-gnu/app/install/qml/actions/TabsAdd.qml:5
 #: ../build/x86_64-linux-gnu/app/src/app/qml/actions/TabsAdd.qml:5
 #: ../src/app/qml/actions/TabsAdd.qml:5
 msgid "Add tab"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/actions/TabsCloseThis.qml:5
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/actions/TabsCloseThis.qml:5
 #: ../build/src/app/qml/actions/TabsCloseThis.qml:5
+#: ../build/x86_64-linux-gnu/app/install/qml/actions/TabsCloseThis.qml:5
 #: ../build/x86_64-linux-gnu/app/src/app/qml/actions/TabsCloseThis.qml:5
 #: ../src/app/qml/actions/TabsCloseThis.qml:5
 msgid "Close this tab"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/actions/TabsOpenInNewTab.qml:5
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/actions/TabsOpenInNewTab.qml:5
 #: ../build/src/app/qml/actions/TabsOpenInNewTab.qml:5
+#: ../build/x86_64-linux-gnu/app/install/qml/actions/TabsOpenInNewTab.qml:5
 #: ../build/x86_64-linux-gnu/app/src/app/qml/actions/TabsOpenInNewTab.qml:5
 #: ../src/app/qml/actions/TabsOpenInNewTab.qml:5
 msgid "Open in a new tab"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/actions/Terminal.qml:5
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/actions/Terminal.qml:5
 #: ../build/src/app/qml/actions/Terminal.qml:5
+#: ../build/x86_64-linux-gnu/app/install/qml/actions/Terminal.qml:5
 #: ../build/x86_64-linux-gnu/app/src/app/qml/actions/Terminal.qml:5
 #: ../src/app/qml/actions/Terminal.qml:5
 msgid "Open Terminal Here"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/actions/UnlockFullAccess.qml:6
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/actions/UnlockFullAccess.qml:6
 #: ../build/src/app/qml/actions/UnlockFullAccess.qml:6
+#: ../build/x86_64-linux-gnu/app/install/qml/actions/UnlockFullAccess.qml:6
 #: ../build/x86_64-linux-gnu/app/src/app/qml/actions/UnlockFullAccess.qml:6
 #: ../src/app/qml/actions/UnlockFullAccess.qml:6
 msgid "Unlock"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/authentication/FingerprintDialog.qml:26
-#: ../build/arm-linux-gnueabihf/app/install/qml/authentication/PasswordDialog.qml:43
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/NetAuthenticationDialog.qml:28
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/authentication/FingerprintDialog.qml:26
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/authentication/PasswordDialog.qml:43
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/NetAuthenticationDialog.qml:28
 #: ../build/src/app/qml/authentication/FingerprintDialog.qml:26
 #: ../build/src/app/qml/authentication/PasswordDialog.qml:43
 #: ../build/src/app/qml/dialogs/NetAuthenticationDialog.qml:28
+#: ../build/x86_64-linux-gnu/app/install/qml/authentication/FingerprintDialog.qml:26
+#: ../build/x86_64-linux-gnu/app/install/qml/authentication/PasswordDialog.qml:43
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/NetAuthenticationDialog.qml:28
 #: ../build/x86_64-linux-gnu/app/src/app/qml/authentication/FingerprintDialog.qml:26
 #: ../build/x86_64-linux-gnu/app/src/app/qml/authentication/PasswordDialog.qml:43
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/NetAuthenticationDialog.qml:28
@@ -338,111 +352,111 @@ msgstr ""
 msgid "Authentication required"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/authentication/FingerprintDialog.qml:27
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/authentication/FingerprintDialog.qml:27
 #: ../build/src/app/qml/authentication/FingerprintDialog.qml:27
+#: ../build/x86_64-linux-gnu/app/install/qml/authentication/FingerprintDialog.qml:27
 #: ../build/x86_64-linux-gnu/app/src/app/qml/authentication/FingerprintDialog.qml:27
 #: ../src/app/qml/authentication/FingerprintDialog.qml:27
 msgid "Use your fingerprint to access restricted content"
 msgstr ""
 
 #. TRANSLATORS: "Touch" here is a verb
-#: ../build/arm-linux-gnueabihf/app/install/qml/authentication/FingerprintDialog.qml:55
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/authentication/FingerprintDialog.qml:55
 #: ../build/src/app/qml/authentication/FingerprintDialog.qml:55
+#: ../build/x86_64-linux-gnu/app/install/qml/authentication/FingerprintDialog.qml:55
 #: ../build/x86_64-linux-gnu/app/src/app/qml/authentication/FingerprintDialog.qml:55
 #: ../src/app/qml/authentication/FingerprintDialog.qml:55
 msgid "Touch sensor"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/authentication/FingerprintDialog.qml:60
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/authentication/FingerprintDialog.qml:60
 #: ../build/src/app/qml/authentication/FingerprintDialog.qml:60
+#: ../build/x86_64-linux-gnu/app/install/qml/authentication/FingerprintDialog.qml:60
 #: ../build/x86_64-linux-gnu/app/src/app/qml/authentication/FingerprintDialog.qml:60
 #: ../src/app/qml/authentication/FingerprintDialog.qml:60
 msgid "Use password"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/authentication/FingerprintDialog.qml:124
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/authentication/FingerprintDialog.qml:124
 #: ../build/src/app/qml/authentication/FingerprintDialog.qml:124
+#: ../build/x86_64-linux-gnu/app/install/qml/authentication/FingerprintDialog.qml:124
 #: ../build/x86_64-linux-gnu/app/src/app/qml/authentication/FingerprintDialog.qml:124
 #: ../src/app/qml/authentication/FingerprintDialog.qml:124
 msgid "Authentication failed!"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/authentication/FingerprintDialog.qml:135
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/authentication/FingerprintDialog.qml:135
 #: ../build/src/app/qml/authentication/FingerprintDialog.qml:135
+#: ../build/x86_64-linux-gnu/app/install/qml/authentication/FingerprintDialog.qml:135
 #: ../build/x86_64-linux-gnu/app/src/app/qml/authentication/FingerprintDialog.qml:135
 #: ../src/app/qml/authentication/FingerprintDialog.qml:135
 msgid "Please retry"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/authentication/PasswordDialog.qml:35
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/authentication/PasswordDialog.qml:35
 #: ../build/src/app/qml/authentication/PasswordDialog.qml:35
+#: ../build/x86_64-linux-gnu/app/install/qml/authentication/PasswordDialog.qml:35
 #: ../build/x86_64-linux-gnu/app/src/app/qml/authentication/PasswordDialog.qml:35
 #: ../src/app/qml/authentication/PasswordDialog.qml:35
 msgid "Authentication failed"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/authentication/PasswordDialog.qml:45
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/authentication/PasswordDialog.qml:45
 #: ../build/src/app/qml/authentication/PasswordDialog.qml:45
+#: ../build/x86_64-linux-gnu/app/install/qml/authentication/PasswordDialog.qml:45
 #: ../build/x86_64-linux-gnu/app/src/app/qml/authentication/PasswordDialog.qml:45
 #: ../src/app/qml/authentication/PasswordDialog.qml:45
 msgid "Your passphrase is required to access restricted content"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/authentication/PasswordDialog.qml:46
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/authentication/PasswordDialog.qml:46
 #: ../build/src/app/qml/authentication/PasswordDialog.qml:46
+#: ../build/x86_64-linux-gnu/app/install/qml/authentication/PasswordDialog.qml:46
 #: ../build/x86_64-linux-gnu/app/src/app/qml/authentication/PasswordDialog.qml:46
 #: ../src/app/qml/authentication/PasswordDialog.qml:46
 msgid "Your passcode is required to access restricted content"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/authentication/PasswordDialog.qml:57
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/authentication/PasswordDialog.qml:57
 #: ../build/src/app/qml/authentication/PasswordDialog.qml:57
+#: ../build/x86_64-linux-gnu/app/install/qml/authentication/PasswordDialog.qml:57
 #: ../build/x86_64-linux-gnu/app/src/app/qml/authentication/PasswordDialog.qml:57
 #: ../src/app/qml/authentication/PasswordDialog.qml:57
 msgid "passphrase (default is 0000 if unset)"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/authentication/PasswordDialog.qml:57
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/authentication/PasswordDialog.qml:57
 #: ../build/src/app/qml/authentication/PasswordDialog.qml:57
+#: ../build/x86_64-linux-gnu/app/install/qml/authentication/PasswordDialog.qml:57
 #: ../build/x86_64-linux-gnu/app/src/app/qml/authentication/PasswordDialog.qml:57
 #: ../src/app/qml/authentication/PasswordDialog.qml:57
 msgid "passcode (default is 0000 if unset)"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/authentication/PasswordDialog.qml:69
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/authentication/PasswordDialog.qml:69
 #: ../build/src/app/qml/authentication/PasswordDialog.qml:69
+#: ../build/x86_64-linux-gnu/app/install/qml/authentication/PasswordDialog.qml:69
 #: ../build/x86_64-linux-gnu/app/src/app/qml/authentication/PasswordDialog.qml:69
 #: ../src/app/qml/authentication/PasswordDialog.qml:69
 msgid "Authentication failed. Please retry"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/authentication/PasswordDialog.qml:74
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/authentication/PasswordDialog.qml:74
 #: ../build/src/app/qml/authentication/PasswordDialog.qml:74
+#: ../build/x86_64-linux-gnu/app/install/qml/authentication/PasswordDialog.qml:74
 #: ../build/x86_64-linux-gnu/app/src/app/qml/authentication/PasswordDialog.qml:74
 #: ../src/app/qml/authentication/PasswordDialog.qml:74
 msgid "Authenticate"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/backend/FolderListModel.qml:122
-#: ../build/arm-linux-gnueabihf/app/install/qml/filemanager.qml:185
-#: ../build/arm-linux-gnueabihf/app/install/qml/filemanager.qml:188
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/backend/FolderListModel.qml:122
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/filemanager.qml:185
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/filemanager.qml:188
 #: ../build/src/app/qml/backend/FolderListModel.qml:124
 #: ../build/src/app/qml/filemanager.qml:176
+#: ../build/x86_64-linux-gnu/app/install/qml/backend/FolderListModel.qml:122
+#: ../build/x86_64-linux-gnu/app/install/qml/filemanager.qml:185
+#: ../build/x86_64-linux-gnu/app/install/qml/filemanager.qml:188
 #: ../build/x86_64-linux-gnu/app/src/app/qml/backend/FolderListModel.qml:122
 #: ../build/x86_64-linux-gnu/app/src/app/qml/filemanager.qml:185
 #: ../build/x86_64-linux-gnu/app/src/app/qml/filemanager.qml:188
@@ -454,23 +468,23 @@ msgid_plural "%1 files"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/backend/FolderListModel.qml:133
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/backend/FolderListModel.qml:133
 #: ../build/src/app/qml/backend/FolderListModel.qml:135
+#: ../build/x86_64-linux-gnu/app/install/qml/backend/FolderListModel.qml:133
 #: ../build/x86_64-linux-gnu/app/src/app/qml/backend/FolderListModel.qml:133
 #: ../src/app/qml/backend/FolderListModel.qml:133
 msgid "Folder"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/components/TextualButtonStyle.qml:48
-#: ../build/arm-linux-gnueabihf/app/install/qml/components/TextualButtonStyle.qml:56
-#: ../build/arm-linux-gnueabihf/app/install/qml/components/TextualButtonStyle.qml:63
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/components/TextualButtonStyle.qml:48
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/components/TextualButtonStyle.qml:56
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/components/TextualButtonStyle.qml:63
 #: ../build/src/app/qml/components/TextualButtonStyle.qml:48
 #: ../build/src/app/qml/components/TextualButtonStyle.qml:56
 #: ../build/src/app/qml/components/TextualButtonStyle.qml:63
+#: ../build/x86_64-linux-gnu/app/install/qml/components/TextualButtonStyle.qml:48
+#: ../build/x86_64-linux-gnu/app/install/qml/components/TextualButtonStyle.qml:56
+#: ../build/x86_64-linux-gnu/app/install/qml/components/TextualButtonStyle.qml:63
 #: ../build/x86_64-linux-gnu/app/src/app/qml/components/TextualButtonStyle.qml:48
 #: ../build/x86_64-linux-gnu/app/src/app/qml/components/TextualButtonStyle.qml:56
 #: ../build/x86_64-linux-gnu/app/src/app/qml/components/TextualButtonStyle.qml:63
@@ -480,37 +494,37 @@ msgstr ""
 msgid "Pick"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/content-hub/FileOpener.qml:27
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/content-hub/FileOpener.qml:27
 #: ../build/src/app/qml/content-hub/FileOpener.qml:27
+#: ../build/x86_64-linux-gnu/app/install/qml/content-hub/FileOpener.qml:27
 #: ../build/x86_64-linux-gnu/app/src/app/qml/content-hub/FileOpener.qml:27
 #: ../src/app/qml/content-hub/FileOpener.qml:27
 msgid "Open with"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/ConfirmExtractDialog.qml:15
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/ConfirmExtractDialog.qml:15
 #: ../build/src/app/qml/dialogs/ConfirmExtractDialog.qml:15
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/ConfirmExtractDialog.qml:15
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/ConfirmExtractDialog.qml:15
 #: ../src/app/qml/dialogs/ConfirmExtractDialog.qml:15
 msgid "Extract Archive"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/ConfirmExtractDialog.qml:16
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/ConfirmExtractDialog.qml:16
 #: ../build/src/app/qml/dialogs/ConfirmExtractDialog.qml:16
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/ConfirmExtractDialog.qml:16
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/ConfirmExtractDialog.qml:16
 #: ../src/app/qml/dialogs/ConfirmExtractDialog.qml:16
 #, qt-format
 msgid "Are you sure you want to extract '%1' here?"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/ConfirmMultipleDeleteDialog.qml:17
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/ConfirmSingleDeleteDialog.qml:18
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:17
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:18
 #: ../build/src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:17
 #: ../build/src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:18
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/ConfirmMultipleDeleteDialog.qml:17
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/ConfirmSingleDeleteDialog.qml:18
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:17
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:18
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:17
@@ -519,20 +533,20 @@ msgstr ""
 msgid "Are you sure you want to permanently delete '%1'?"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/ConfirmMultipleDeleteDialog.qml:17
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:17
 #: ../build/src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:17
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/ConfirmMultipleDeleteDialog.qml:17
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:17
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:17
 msgid "these files"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/ConfirmMultipleDeleteDialog.qml:20
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/ConfirmSingleDeleteDialog.qml:23
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:20
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:23
 #: ../build/src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:20
 #: ../build/src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:23
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/ConfirmMultipleDeleteDialog.qml:20
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/ConfirmSingleDeleteDialog.qml:23
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:20
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:23
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:20
@@ -540,85 +554,81 @@ msgstr ""
 msgid "Deleting files"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/ConfirmRenameDialog.qml:21
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/ConfirmRenameDialog.qml:21
 #: ../build/src/app/qml/dialogs/ConfirmRenameDialog.qml:21
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/ConfirmRenameDialog.qml:21
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/ConfirmRenameDialog.qml:21
 #: ../src/app/qml/dialogs/ConfirmRenameDialog.qml:21
 msgid "Enter a new name"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/CreateItemDialog.qml:14
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/CreateItemDialog.qml:14
 #: ../build/src/app/qml/dialogs/CreateItemDialog.qml:14
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/CreateItemDialog.qml:14
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/CreateItemDialog.qml:14
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:14
 msgid "Create Item"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/CreateItemDialog.qml:15
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/CreateItemDialog.qml:15
 #: ../build/src/app/qml/dialogs/CreateItemDialog.qml:15
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/CreateItemDialog.qml:15
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/CreateItemDialog.qml:15
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:15
 msgid "Enter name for new item"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/CreateItemDialog.qml:19
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/CreateItemDialog.qml:19
 #: ../build/src/app/qml/dialogs/CreateItemDialog.qml:19
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/CreateItemDialog.qml:19
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/CreateItemDialog.qml:19
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:19
 msgid "Item name"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/CreateItemDialog.qml:25
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/CreateItemDialog.qml:25
 #: ../build/src/app/qml/dialogs/CreateItemDialog.qml:25
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/CreateItemDialog.qml:25
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/CreateItemDialog.qml:25
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:25
 msgid "Create file"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/CreateItemDialog.qml:34
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/CreateItemDialog.qml:34
 #: ../build/src/app/qml/dialogs/CreateItemDialog.qml:34
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/CreateItemDialog.qml:34
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/CreateItemDialog.qml:34
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:34
 #, qt-format
 msgid "Created file '%1'"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/CreateItemDialog.qml:46
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/CreateItemDialog.qml:46
 #: ../build/src/app/qml/dialogs/CreateItemDialog.qml:46
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/CreateItemDialog.qml:46
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/CreateItemDialog.qml:46
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:46
 msgid "Create Folder"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/CreateItemDialog.qml:53
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/CreateItemDialog.qml:53
 #: ../build/src/app/qml/dialogs/CreateItemDialog.qml:53
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/CreateItemDialog.qml:53
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/CreateItemDialog.qml:53
 #: ../src/app/qml/dialogs/CreateItemDialog.qml:53
 #, qt-format
 msgid "Created folder '%1'"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/ExtractingDialog.qml:23
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/ExtractingDialog.qml:23
 #: ../build/src/app/qml/dialogs/ExtractingDialog.qml:23
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/ExtractingDialog.qml:23
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/ExtractingDialog.qml:23
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:23
 #, qt-format
 msgid "Extracting archive '%1'"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/ExtractingDialog.qml:35
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/NotifyDialog.qml:30
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/templates/ConfirmDialog.qml:33
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/templates/ConfirmDialogWithInput.qml:49
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/ExtractingDialog.qml:35
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/NotifyDialog.qml:30
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/templates/ConfirmDialog.qml:33
@@ -627,6 +637,10 @@ msgstr ""
 #: ../build/src/app/qml/dialogs/NotifyDialog.qml:27
 #: ../build/src/app/qml/dialogs/templates/ConfirmDialog.qml:33
 #: ../build/src/app/qml/dialogs/templates/ConfirmDialogWithInput.qml:49
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/ExtractingDialog.qml:35
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/NotifyDialog.qml:30
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/templates/ConfirmDialog.qml:33
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/templates/ConfirmDialogWithInput.qml:49
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/ExtractingDialog.qml:35
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/NotifyDialog.qml:30
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/templates/ConfirmDialog.qml:33
@@ -638,118 +652,118 @@ msgstr ""
 msgid "OK"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/ExtractingDialog.qml:59
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/ExtractingDialog.qml:59
 #: ../build/src/app/qml/dialogs/ExtractingDialog.qml:59
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/ExtractingDialog.qml:59
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/ExtractingDialog.qml:59
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:59
 msgid "Extracting failed"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/ExtractingDialog.qml:60
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/ExtractingDialog.qml:60
 #: ../build/src/app/qml/dialogs/ExtractingDialog.qml:60
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/ExtractingDialog.qml:60
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/ExtractingDialog.qml:60
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:60
 #, qt-format
 msgid "Extracting the archive '%1' failed."
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/FileActionDialog.qml:30
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/FileActionDialog.qml:30
 #: ../build/src/app/qml/dialogs/FileActionDialog.qml:30
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/FileActionDialog.qml:30
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/FileActionDialog.qml:30
 #: ../src/app/qml/dialogs/FileActionDialog.qml:30
 msgid "Choose action"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/FileActionDialog.qml:31
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/FileActionDialog.qml:31
 #: ../build/src/app/qml/dialogs/FileActionDialog.qml:31
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/FileActionDialog.qml:31
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/FileActionDialog.qml:31
 #: ../src/app/qml/dialogs/FileActionDialog.qml:31
 #, qt-format
 msgid "For file: %1"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/FileActionDialog.qml:36
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/FileActionDialog.qml:36
 #: ../build/src/app/qml/dialogs/FileActionDialog.qml:36
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/FileActionDialog.qml:36
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/FileActionDialog.qml:36
 #: ../src/app/qml/dialogs/FileActionDialog.qml:36
 msgid "Open"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/FileOperationProgressDialog.qml:27
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/FileOperationProgressDialog.qml:27
 #: ../build/src/app/qml/dialogs/FileOperationProgressDialog.qml:27
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/FileOperationProgressDialog.qml:27
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/FileOperationProgressDialog.qml:27
 #: ../src/app/qml/dialogs/FileOperationProgressDialog.qml:27
 msgid "Operation in progress"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/FileOperationProgressDialog.qml:29
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/FileOperationProgressDialog.qml:29
 #: ../build/src/app/qml/dialogs/FileOperationProgressDialog.qml:29
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/FileOperationProgressDialog.qml:29
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/FileOperationProgressDialog.qml:29
 #: ../src/app/qml/dialogs/FileOperationProgressDialog.qml:29
 msgid "File operation"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/NetAuthenticationDialog.qml:45
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/NetAuthenticationDialog.qml:45
 #: ../build/src/app/qml/dialogs/NetAuthenticationDialog.qml:45
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/NetAuthenticationDialog.qml:45
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/NetAuthenticationDialog.qml:45
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:45
 msgid "User"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/NetAuthenticationDialog.qml:58
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/NetAuthenticationDialog.qml:58
 #: ../build/src/app/qml/dialogs/NetAuthenticationDialog.qml:58
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/NetAuthenticationDialog.qml:58
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/NetAuthenticationDialog.qml:58
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:58
 msgid "Password"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/NetAuthenticationDialog.qml:72
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/NetAuthenticationDialog.qml:72
 #: ../build/src/app/qml/dialogs/NetAuthenticationDialog.qml:72
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/NetAuthenticationDialog.qml:72
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/NetAuthenticationDialog.qml:72
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:72
 msgid "Save password"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/NetAuthenticationDialog.qml:108
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/NetAuthenticationDialog.qml:108
 #: ../build/src/app/qml/dialogs/NetAuthenticationDialog.qml:108
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/NetAuthenticationDialog.qml:108
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/NetAuthenticationDialog.qml:108
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:108
 msgid "Ok"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/OpenArchiveDialog.qml:8
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/OpenArchiveDialog.qml:8
 #: ../build/src/app/qml/dialogs/OpenArchiveDialog.qml:8
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/OpenArchiveDialog.qml:8
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/OpenArchiveDialog.qml:8
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:8
 msgid "Archive file"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/OpenArchiveDialog.qml:9
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/OpenArchiveDialog.qml:9
 #: ../build/src/app/qml/dialogs/OpenArchiveDialog.qml:9
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/OpenArchiveDialog.qml:9
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/OpenArchiveDialog.qml:9
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:9
 msgid "Do you want to extract the archive here?"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/OpenArchiveDialog.qml:28
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/OpenWithDialog.qml:44
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/OpenArchiveDialog.qml:28
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/OpenWithDialog.qml:44
 #: ../build/src/app/qml/dialogs/OpenArchiveDialog.qml:28
 #: ../build/src/app/qml/dialogs/OpenWithDialog.qml:44
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/OpenArchiveDialog.qml:28
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/OpenWithDialog.qml:44
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/OpenArchiveDialog.qml:28
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/OpenWithDialog.qml:44
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:28
@@ -757,54 +771,54 @@ msgstr ""
 msgid "Open with another app"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/OpenWithDialog.qml:8
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/OpenWithDialog.qml:8
 #: ../build/src/app/qml/dialogs/OpenWithDialog.qml:8
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/OpenWithDialog.qml:8
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/OpenWithDialog.qml:8
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:8
 msgid "Open file"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/OpenWithDialog.qml:9
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/OpenWithDialog.qml:9
 #: ../build/src/app/qml/dialogs/OpenWithDialog.qml:9
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/OpenWithDialog.qml:9
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/OpenWithDialog.qml:9
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:9
 msgid "What do you want to do with the clicked file?"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/dialogs/OpenWithDialog.qml:22
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/dialogs/OpenWithDialog.qml:22
 #: ../build/src/app/qml/dialogs/OpenWithDialog.qml:22
+#: ../build/x86_64-linux-gnu/app/install/qml/dialogs/OpenWithDialog.qml:22
 #: ../build/x86_64-linux-gnu/app/src/app/qml/dialogs/OpenWithDialog.qml:22
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:22
 msgid "Preview"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/filemanager.qml:185
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/filemanager.qml:185
+#: ../build/x86_64-linux-gnu/app/install/qml/filemanager.qml:185
 #: ../build/x86_64-linux-gnu/app/src/app/qml/filemanager.qml:185
 #: ../src/app/qml/filemanager.qml:185
 msgid "successfully saved: "
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/filemanager.qml:188
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/filemanager.qml:188
+#: ../build/x86_64-linux-gnu/app/install/qml/filemanager.qml:188
 #: ../build/x86_64-linux-gnu/app/src/app/qml/filemanager.qml:188
 #: ../src/app/qml/filemanager.qml:188
 msgid "failed to save: "
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/filemanager.qml:190
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/filemanager.qml:190
+#: ../build/x86_64-linux-gnu/app/install/qml/filemanager.qml:190
 #: ../build/x86_64-linux-gnu/app/src/app/qml/filemanager.qml:190
 #: ../src/app/qml/filemanager.qml:190
 #, qt-format
 msgid "into: %1"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/filemanager.qml:194
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/filemanager.qml:194
+#: ../build/x86_64-linux-gnu/app/install/qml/filemanager.qml:194
 #: ../build/x86_64-linux-gnu/app/src/app/qml/filemanager.qml:194
 #: ../src/app/qml/filemanager.qml:194
 msgid ""
@@ -812,91 +826,91 @@ msgid ""
 "detected:"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/filemanager.qml:205
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/filemanager.qml:205
+#: ../build/x86_64-linux-gnu/app/install/qml/filemanager.qml:205
 #: ../build/x86_64-linux-gnu/app/src/app/qml/filemanager.qml:205
 #: ../src/app/qml/filemanager.qml:205
 msgid "Import Results"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FileDetailsPopover.qml:34
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FileDetailsPopover.qml:34
 #: ../build/src/app/qml/ui/FileDetailsPopover.qml:34
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FileDetailsPopover.qml:34
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FileDetailsPopover.qml:34
 #: ../src/app/qml/ui/FileDetailsPopover.qml:34
 msgid "Readable"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FileDetailsPopover.qml:37
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FileDetailsPopover.qml:37
 #: ../build/src/app/qml/ui/FileDetailsPopover.qml:37
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FileDetailsPopover.qml:37
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FileDetailsPopover.qml:37
 #: ../src/app/qml/ui/FileDetailsPopover.qml:37
 msgid "Writable"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FileDetailsPopover.qml:40
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FileDetailsPopover.qml:40
 #: ../build/src/app/qml/ui/FileDetailsPopover.qml:40
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FileDetailsPopover.qml:40
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FileDetailsPopover.qml:40
 #: ../src/app/qml/ui/FileDetailsPopover.qml:40
 msgid "Executable"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FileDetailsPopover.qml:100
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FileDetailsPopover.qml:100
 #: ../build/src/app/qml/ui/FileDetailsPopover.qml:100
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FileDetailsPopover.qml:100
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FileDetailsPopover.qml:100
 #: ../src/app/qml/ui/FileDetailsPopover.qml:100
 msgid "Where:"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FileDetailsPopover.qml:127
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FileDetailsPopover.qml:127
 #: ../build/src/app/qml/ui/FileDetailsPopover.qml:127
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FileDetailsPopover.qml:127
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FileDetailsPopover.qml:127
 #: ../src/app/qml/ui/FileDetailsPopover.qml:127
 msgid "Created:"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FileDetailsPopover.qml:141
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FileDetailsPopover.qml:141
 #: ../build/src/app/qml/ui/FileDetailsPopover.qml:141
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FileDetailsPopover.qml:141
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FileDetailsPopover.qml:141
 #: ../src/app/qml/ui/FileDetailsPopover.qml:141
 msgid "Modified:"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FileDetailsPopover.qml:155
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FileDetailsPopover.qml:155
 #: ../build/src/app/qml/ui/FileDetailsPopover.qml:155
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FileDetailsPopover.qml:155
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FileDetailsPopover.qml:155
 #: ../src/app/qml/ui/FileDetailsPopover.qml:155
 msgid "Accessed:"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FileDetailsPopover.qml:176
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FileDetailsPopover.qml:176
 #: ../build/src/app/qml/ui/FileDetailsPopover.qml:176
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FileDetailsPopover.qml:176
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FileDetailsPopover.qml:176
 #: ../src/app/qml/ui/FileDetailsPopover.qml:176
 msgid "Permissions:"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FileDetailsPopover.qml:184
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FileDetailsPopover.qml:184
 #: ../build/src/app/qml/ui/FileDetailsPopover.qml:184
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FileDetailsPopover.qml:184
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FileDetailsPopover.qml:184
 #: ../src/app/qml/ui/FileDetailsPopover.qml:184
 msgid "Close"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FolderListPage.qml:249
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FolderListPage.qml:304
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPage.qml:249
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPage.qml:304
 #: ../build/src/app/qml/ui/FolderListPage.qml:249
 #: ../build/src/app/qml/ui/FolderListPage.qml:304
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FolderListPage.qml:249
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FolderListPage.qml:304
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FolderListPage.qml:249
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FolderListPage.qml:304
 #: ../src/app/qml/ui/FolderListPage.qml:249
@@ -904,117 +918,127 @@ msgstr ""
 msgid "Restricted access"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FolderListPage.qml:253
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPage.qml:253
 #: ../build/src/app/qml/ui/FolderListPage.qml:253
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FolderListPage.qml:253
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FolderListPage.qml:253
 #: ../src/app/qml/ui/FolderListPage.qml:253
 msgid ""
 "Authentication is required in order to see all the content of this folder."
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FolderListPage.qml:290
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPage.qml:290
 #: ../build/src/app/qml/ui/FolderListPage.qml:290
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FolderListPage.qml:290
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FolderListPage.qml:290
 #: ../src/app/qml/ui/FolderListPage.qml:290
 msgid "No files"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FolderListPage.qml:291
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPage.qml:291
 #: ../build/src/app/qml/ui/FolderListPage.qml:291
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FolderListPage.qml:291
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FolderListPage.qml:291
 #: ../src/app/qml/ui/FolderListPage.qml:291
 msgid "This folder is empty."
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FolderListPage.qml:305
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPage.qml:305
 #: ../build/src/app/qml/ui/FolderListPage.qml:305
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FolderListPage.qml:305
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FolderListPage.qml:305
 #: ../src/app/qml/ui/FolderListPage.qml:305
 msgid "Authentication is required in order to see the content of this folder."
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FolderListPage.qml:320
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPage.qml:320
 #: ../build/src/app/qml/ui/FolderListPage.qml:320
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FolderListPage.qml:320
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FolderListPage.qml:320
 #: ../src/app/qml/ui/FolderListPage.qml:320
 msgid "File operation error"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FolderListPageDefaultHeader.qml:32
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FolderListPagePickModeHeader.qml:21
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPageDefaultHeader.qml:32
-#: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPagePickModeHeader.qml:21
+#: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPagePickModeHeader.qml:31
 #: ../build/src/app/qml/ui/FolderListPageDefaultHeader.qml:22
 #: ../build/src/app/qml/ui/FolderListPagePickModeHeader.qml:21
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FolderListPageDefaultHeader.qml:32
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FolderListPagePickModeHeader.qml:21
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FolderListPageDefaultHeader.qml:32
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FolderListPagePickModeHeader.qml:21
 #: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:32
-#: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:21
+#: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:31
 #, qt-format
 msgid "%1 item"
 msgid_plural "%1 items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FolderListPageDefaultHeader.qml:41
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPageDefaultHeader.qml:41
+#: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPagePickModeHeader.qml:46
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FolderListPageDefaultHeader.qml:41
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FolderListPageDefaultHeader.qml:41
 #: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:41
+#: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:46
 msgid "Search Results"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FolderListPageDefaultHeader.qml:68
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPageDefaultHeader.qml:68
+#: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPagePickModeHeader.qml:73
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FolderListPageDefaultHeader.qml:68
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FolderListPageDefaultHeader.qml:68
 #: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:68
+#: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:73
 msgid "Search..."
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FolderListPageDefaultHeader.qml:118
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPageDefaultHeader.qml:118
+#: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPagePickModeHeader.qml:125
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FolderListPageDefaultHeader.qml:118
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FolderListPageDefaultHeader.qml:118
 #: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:118
+#: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:125
 msgid "File Contents"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FolderListPageDefaultHeader.qml:134
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPageDefaultHeader.qml:134
+#: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPagePickModeHeader.qml:141
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FolderListPageDefaultHeader.qml:134
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FolderListPageDefaultHeader.qml:134
 #: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:134
+#: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:141
 msgid "Recursive"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FolderListPageDefaultHeader.qml:135
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPageDefaultHeader.qml:135
+#: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPagePickModeHeader.qml:142
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FolderListPageDefaultHeader.qml:135
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FolderListPageDefaultHeader.qml:135
 #: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:135
+#: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:142
 msgid "Note: Slow in large directories"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FolderListPageDefaultHeader.qml:208
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPageDefaultHeader.qml:208
 #: ../build/src/app/qml/ui/FolderListPageDefaultHeader.qml:87
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FolderListPageDefaultHeader.qml:208
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FolderListPageDefaultHeader.qml:208
 #: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:208
 msgid "Cleared clipboard"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FolderListPageDefaultHeader.qml:217
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPageDefaultHeader.qml:217
 #: ../build/src/app/qml/ui/FolderListPageDefaultHeader.qml:96
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FolderListPageDefaultHeader.qml:217
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FolderListPageDefaultHeader.qml:217
 #: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:217
 msgid "Paste files"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FolderListPageDefaultHeader.qml:219
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPageDefaultHeader.qml:219
 #: ../build/src/app/qml/ui/FolderListPageDefaultHeader.qml:98
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FolderListPageDefaultHeader.qml:219
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FolderListPageDefaultHeader.qml:219
 #: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:219
 msgid "Pasted item"
@@ -1022,26 +1046,32 @@ msgid_plural "Pasted items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FolderListPageDefaultHeader.qml:230
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPageDefaultHeader.qml:230
 #: ../build/src/app/qml/ui/FolderListPageDefaultHeader.qml:77
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FolderListPageDefaultHeader.qml:230
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FolderListPageDefaultHeader.qml:230
 #: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:230
 #, qt-format
 msgid "Added '%1' to Places"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FolderListPagePickModeHeader.qml:21
-#: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPagePickModeHeader.qml:21
+#: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPagePickModeHeader.qml:33
 #: ../build/src/app/qml/ui/FolderListPagePickModeHeader.qml:21
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FolderListPagePickModeHeader.qml:21
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FolderListPagePickModeHeader.qml:21
-#: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:21
+#: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:33
 msgid "Save here"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FolderListPageSelectionHeader.qml:36
+#: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPagePickModeHeader.qml:35
+#: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:35
+#, qt-format
+msgid "Select files (%1 files selected)"
+msgstr ""
+
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPageSelectionHeader.qml:36
 #: ../build/src/app/qml/ui/FolderListPageSelectionHeader.qml:36
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FolderListPageSelectionHeader.qml:36
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FolderListPageSelectionHeader.qml:36
 #: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:36
 #, qt-format
@@ -1050,12 +1080,12 @@ msgid_plural "%1 items selected"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FolderListPageSelectionHeader.qml:119
-#: ../build/arm-linux-gnueabihf/app/install/qml/views/FolderDelegateActions.qml:183
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPageSelectionHeader.qml:119
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/views/FolderDelegateActions.qml:183
 #: ../build/src/app/qml/ui/FolderListPageSelectionHeader.qml:119
 #: ../build/src/app/qml/views/FolderDelegateActions.qml:183
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FolderListPageSelectionHeader.qml:119
+#: ../build/x86_64-linux-gnu/app/install/qml/views/FolderDelegateActions.qml:183
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FolderListPageSelectionHeader.qml:119
 #: ../build/x86_64-linux-gnu/app/src/app/qml/views/FolderDelegateActions.qml:183
 #: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:119
@@ -1063,12 +1093,12 @@ msgstr[1] ""
 msgid "Could not rename"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/FolderListPageSelectionHeader.qml:120
-#: ../build/arm-linux-gnueabihf/app/install/qml/views/FolderDelegateActions.qml:184
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPageSelectionHeader.qml:120
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/views/FolderDelegateActions.qml:184
 #: ../build/src/app/qml/ui/FolderListPageSelectionHeader.qml:120
 #: ../build/src/app/qml/views/FolderDelegateActions.qml:184
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/FolderListPageSelectionHeader.qml:120
+#: ../build/x86_64-linux-gnu/app/install/qml/views/FolderDelegateActions.qml:184
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FolderListPageSelectionHeader.qml:120
 #: ../build/x86_64-linux-gnu/app/src/app/qml/views/FolderDelegateActions.qml:184
 #: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:120
@@ -1078,228 +1108,214 @@ msgid ""
 "exists"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/ViewPopover.qml:24
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/ViewPopover.qml:24
 #: ../build/src/app/qml/ui/ViewPopover.qml:24
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/ViewPopover.qml:24
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/ViewPopover.qml:24
 #: ../src/app/qml/ui/ViewPopover.qml:24
 msgid "Show Hidden Files"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/ViewPopover.qml:42
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/ViewPopover.qml:42
 #: ../build/src/app/qml/ui/ViewPopover.qml:42
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/ViewPopover.qml:42
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/ViewPopover.qml:42
 #: ../src/app/qml/ui/ViewPopover.qml:42
 msgid "Default open action"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/ViewPopover.qml:55
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/ViewPopover.qml:55
 #: ../build/src/app/qml/ui/ViewPopover.qml:55
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/ViewPopover.qml:55
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/ViewPopover.qml:55
 #: ../src/app/qml/ui/ViewPopover.qml:55
 msgid "View As"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/ViewPopover.qml:57
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/ViewPopover.qml:57
 #: ../build/src/app/qml/ui/ViewPopover.qml:57
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/ViewPopover.qml:57
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/ViewPopover.qml:57
 #: ../src/app/qml/ui/ViewPopover.qml:57
 msgid "List"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/ViewPopover.qml:57
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/ViewPopover.qml:57
 #: ../build/src/app/qml/ui/ViewPopover.qml:57
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/ViewPopover.qml:57
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/ViewPopover.qml:57
 #: ../src/app/qml/ui/ViewPopover.qml:57
 msgid "Icons"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/ViewPopover.qml:62
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/ViewPopover.qml:62
 #: ../build/src/app/qml/ui/ViewPopover.qml:62
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/ViewPopover.qml:62
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/ViewPopover.qml:62
 #: ../src/app/qml/ui/ViewPopover.qml:62
 msgid "Grid size"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/ViewPopover.qml:65
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/ViewPopover.qml:73
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/ViewPopover.qml:65
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/ViewPopover.qml:73
 #: ../build/src/app/qml/ui/ViewPopover.qml:65
 #: ../build/src/app/qml/ui/ViewPopover.qml:73
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/ViewPopover.qml:65
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/ViewPopover.qml:73
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/ViewPopover.qml:65
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/ViewPopover.qml:73
 #: ../src/app/qml/ui/ViewPopover.qml:65 ../src/app/qml/ui/ViewPopover.qml:73
 msgid "S"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/ViewPopover.qml:65
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/ViewPopover.qml:73
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/ViewPopover.qml:65
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/ViewPopover.qml:73
 #: ../build/src/app/qml/ui/ViewPopover.qml:65
 #: ../build/src/app/qml/ui/ViewPopover.qml:73
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/ViewPopover.qml:65
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/ViewPopover.qml:73
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/ViewPopover.qml:65
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/ViewPopover.qml:73
 #: ../src/app/qml/ui/ViewPopover.qml:65 ../src/app/qml/ui/ViewPopover.qml:73
 msgid "M"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/ViewPopover.qml:65
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/ViewPopover.qml:73
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/ViewPopover.qml:65
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/ViewPopover.qml:73
 #: ../build/src/app/qml/ui/ViewPopover.qml:65
 #: ../build/src/app/qml/ui/ViewPopover.qml:73
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/ViewPopover.qml:65
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/ViewPopover.qml:73
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/ViewPopover.qml:65
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/ViewPopover.qml:73
 #: ../src/app/qml/ui/ViewPopover.qml:65 ../src/app/qml/ui/ViewPopover.qml:73
 msgid "L"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/ViewPopover.qml:65
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/ViewPopover.qml:73
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/ViewPopover.qml:65
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/ViewPopover.qml:73
 #: ../build/src/app/qml/ui/ViewPopover.qml:65
 #: ../build/src/app/qml/ui/ViewPopover.qml:73
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/ViewPopover.qml:65
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/ViewPopover.qml:73
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/ViewPopover.qml:65
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/ViewPopover.qml:73
 #: ../src/app/qml/ui/ViewPopover.qml:65 ../src/app/qml/ui/ViewPopover.qml:73
 msgid "XL"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/ViewPopover.qml:70
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/ViewPopover.qml:70
 #: ../build/src/app/qml/ui/ViewPopover.qml:70
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/ViewPopover.qml:70
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/ViewPopover.qml:70
 #: ../src/app/qml/ui/ViewPopover.qml:70
 msgid "List size"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/ViewPopover.qml:78
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/ViewPopover.qml:78
 #: ../build/src/app/qml/ui/ViewPopover.qml:78
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/ViewPopover.qml:78
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/ViewPopover.qml:78
 #: ../src/app/qml/ui/ViewPopover.qml:78
 msgid "Sort By"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/ViewPopover.qml:80
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/ViewPopover.qml:80
 #: ../build/src/app/qml/ui/ViewPopover.qml:80
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/ViewPopover.qml:80
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/ViewPopover.qml:80
 #: ../src/app/qml/ui/ViewPopover.qml:80
 msgid "Name"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/ViewPopover.qml:80
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/ViewPopover.qml:80
 #: ../build/src/app/qml/ui/ViewPopover.qml:80
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/ViewPopover.qml:80
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/ViewPopover.qml:80
 #: ../src/app/qml/ui/ViewPopover.qml:80
 msgid "Date"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/ViewPopover.qml:80
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/ViewPopover.qml:80
 #: ../build/src/app/qml/ui/ViewPopover.qml:80
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/ViewPopover.qml:80
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/ViewPopover.qml:80
 #: ../src/app/qml/ui/ViewPopover.qml:80
 msgid "Size"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/ViewPopover.qml:85
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/ViewPopover.qml:85
 #: ../build/src/app/qml/ui/ViewPopover.qml:85
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/ViewPopover.qml:85
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/ViewPopover.qml:85
 #: ../src/app/qml/ui/ViewPopover.qml:85
 msgid "Sort Order"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/ViewPopover.qml:92
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/ViewPopover.qml:92
 #: ../build/src/app/qml/ui/ViewPopover.qml:92
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/ViewPopover.qml:92
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/ViewPopover.qml:92
 #: ../src/app/qml/ui/ViewPopover.qml:92
 msgid "Theme"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/ViewPopover.qml:94
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/ViewPopover.qml:94
 #: ../build/src/app/qml/ui/ViewPopover.qml:94
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/ViewPopover.qml:94
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/ViewPopover.qml:94
 #: ../src/app/qml/ui/ViewPopover.qml:94
 msgid "System"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/ViewPopover.qml:94
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/ViewPopover.qml:94
 #: ../build/src/app/qml/ui/ViewPopover.qml:94
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/ViewPopover.qml:94
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/ViewPopover.qml:94
 #: ../src/app/qml/ui/ViewPopover.qml:94
 msgid "Light"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/ui/ViewPopover.qml:94
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/ViewPopover.qml:94
 #: ../build/src/app/qml/ui/ViewPopover.qml:94
+#: ../build/x86_64-linux-gnu/app/install/qml/ui/ViewPopover.qml:94
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/ViewPopover.qml:94
 #: ../src/app/qml/ui/ViewPopover.qml:94
 msgid "Dark"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/views/FolderDelegateActions.qml:41
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/views/FolderDelegateActions.qml:41
 #: ../build/src/app/qml/views/FolderDelegateActions.qml:41
+#: ../build/x86_64-linux-gnu/app/install/qml/views/FolderDelegateActions.qml:41
 #: ../build/x86_64-linux-gnu/app/src/app/qml/views/FolderDelegateActions.qml:41
 #: ../src/app/qml/views/FolderDelegateActions.qml:41
 msgid "Folder not accessible"
 msgstr ""
 
 #. TRANSLATORS: this refers to a folder name
-#: ../build/arm-linux-gnueabihf/app/install/qml/views/FolderDelegateActions.qml:43
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/views/FolderDelegateActions.qml:43
 #: ../build/src/app/qml/views/FolderDelegateActions.qml:43
+#: ../build/x86_64-linux-gnu/app/install/qml/views/FolderDelegateActions.qml:43
 #: ../build/x86_64-linux-gnu/app/src/app/qml/views/FolderDelegateActions.qml:43
 #: ../src/app/qml/views/FolderDelegateActions.qml:43
 #, qt-format
 msgid "Can not access %1"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/views/FolderListView.qml:85
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/views/FolderListView.qml:85
 #: ../build/src/app/qml/views/FolderListView.qml:82
-#: ../build/x86_64-linux-gnu/app/src/app/qml/views/FolderListView.qml:85
+#: ../build/x86_64-linux-gnu/app/install/qml/views/FolderListView.qml:87
+#: ../build/x86_64-linux-gnu/app/src/app/qml/views/FolderListView.qml:87
 #: ../src/app/qml/views/FolderListView.qml:85
 msgid "Directories"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/install/qml/views/FolderListView.qml:85
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/views/FolderListView.qml:85
 #: ../build/src/app/qml/views/FolderListView.qml:82
-#: ../build/x86_64-linux-gnu/app/src/app/qml/views/FolderListView.qml:85
+#: ../build/x86_64-linux-gnu/app/install/qml/views/FolderListView.qml:87
+#: ../build/x86_64-linux-gnu/app/src/app/qml/views/FolderListView.qml:87
 #: ../src/app/qml/views/FolderListView.qml:85
 msgid "Files"
-msgstr ""
-
-#: ../build/arm-linux-gnueabihf/app/po/com.ubuntu.filemanager.desktop.in.in.h:1
-#: ../build/po/com.ubuntu.filemanager.desktop.in.in.h:1
-#: ../build/x86_64-linux-gnu/app/po/com.ubuntu.filemanager.desktop.in.in.h:1
-#: com.ubuntu.filemanager.desktop.in.in.h:1
-msgid "File Manager"
-msgstr ""
-
-#: ../build/arm-linux-gnueabihf/app/po/com.ubuntu.filemanager.desktop.in.in.h:2
-#: ../build/po/com.ubuntu.filemanager.desktop.in.in.h:2
-#: ../build/x86_64-linux-gnu/app/po/com.ubuntu.filemanager.desktop.in.in.h:2
-#: com.ubuntu.filemanager.desktop.in.in.h:2
-msgid "folder;manager;explore;disk;filesystem;"
 msgstr ""
 
 #: ../build/src/app/qml/filemanager.qml:177
@@ -1311,27 +1327,27 @@ msgstr ""
 msgid "Filter"
 msgstr ""
 
-#: ../src/plugin/folderlistmodel/dirmodel.cpp:383
+#: ../src/plugin/folderlistmodel/dirmodel.cpp:384
 msgid "Unknown"
 msgstr ""
 
-#: ../src/plugin/folderlistmodel/dirmodel.cpp:510
+#: ../src/plugin/folderlistmodel/dirmodel.cpp:511
 msgid "path or url may not exist or cannot be read"
 msgstr ""
 
-#: ../src/plugin/folderlistmodel/dirmodel.cpp:744
+#: ../src/plugin/folderlistmodel/dirmodel.cpp:751
 msgid "Rename error"
 msgstr ""
 
-#: ../src/plugin/folderlistmodel/dirmodel.cpp:767
+#: ../src/plugin/folderlistmodel/dirmodel.cpp:774
 msgid "Error creating new folder"
 msgstr ""
 
-#: ../src/plugin/folderlistmodel/dirmodel.cpp:794
+#: ../src/plugin/folderlistmodel/dirmodel.cpp:801
 msgid "Touch file error"
 msgstr ""
 
-#: ../src/plugin/folderlistmodel/dirmodel.cpp:1407
+#: ../src/plugin/folderlistmodel/dirmodel.cpp:1414
 msgid "items"
 msgstr ""
 
