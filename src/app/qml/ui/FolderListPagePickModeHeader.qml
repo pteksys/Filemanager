@@ -32,7 +32,7 @@ PageHeader {
                 else if (importMode)
                     i18n.tr("Save here")
                 else
-                    i18n.tr("Select files (%1 files selected)", selectionManager.counter).arg(folderModel.model.selectionObject.counter)
+                    i18n.tr("Select files (%1 selected)", selectionManager.counter).arg(folderModel.model.selectionObject.counter)
             }
 
             title.elide: Text.ElideRight

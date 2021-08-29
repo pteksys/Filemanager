@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-29 13:43+0000\n"
+"POT-Creation-Date: 2021-08-29 18:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -263,10 +263,10 @@ msgstr ""
 msgid "Rename"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/src/app/qml/actions/Search.qml:6
+#: ../build/arm-linux-gnueabihf/app/src/app/qml/actions/Search.qml:7
 #: ../build/x86_64-linux-gnu/app/install/qml/actions/Search.qml:6
 #: ../build/x86_64-linux-gnu/app/src/app/qml/actions/Search.qml:6
-#: ../src/app/qml/actions/Search.qml:6
+#: ../src/app/qml/actions/Search.qml:7
 msgid "Search"
 msgstr ""
 
@@ -1020,37 +1020,37 @@ msgstr ""
 msgid "Note: Slow in large directories"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPageDefaultHeader.qml:208
+#: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPageDefaultHeader.qml:201
 #: ../build/src/app/qml/ui/FolderListPageDefaultHeader.qml:87
 #: ../build/x86_64-linux-gnu/app/install/qml/ui/FolderListPageDefaultHeader.qml:208
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FolderListPageDefaultHeader.qml:208
-#: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:208
+#: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:201
 msgid "Cleared clipboard"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPageDefaultHeader.qml:217
+#: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPageDefaultHeader.qml:210
 #: ../build/src/app/qml/ui/FolderListPageDefaultHeader.qml:96
 #: ../build/x86_64-linux-gnu/app/install/qml/ui/FolderListPageDefaultHeader.qml:217
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FolderListPageDefaultHeader.qml:217
-#: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:217
+#: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:210
 msgid "Paste files"
 msgstr ""
 
-#: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPageDefaultHeader.qml:219
+#: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPageDefaultHeader.qml:212
 #: ../build/src/app/qml/ui/FolderListPageDefaultHeader.qml:98
 #: ../build/x86_64-linux-gnu/app/install/qml/ui/FolderListPageDefaultHeader.qml:219
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FolderListPageDefaultHeader.qml:219
-#: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:219
+#: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:212
 msgid "Pasted item"
 msgid_plural "Pasted items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPageDefaultHeader.qml:230
+#: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPageDefaultHeader.qml:223
 #: ../build/src/app/qml/ui/FolderListPageDefaultHeader.qml:77
 #: ../build/x86_64-linux-gnu/app/install/qml/ui/FolderListPageDefaultHeader.qml:230
 #: ../build/x86_64-linux-gnu/app/src/app/qml/ui/FolderListPageDefaultHeader.qml:230
-#: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:230
+#: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:223
 #, qt-format
 msgid "Added '%1' to Places"
 msgstr ""
@@ -1066,7 +1066,7 @@ msgstr ""
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPagePickModeHeader.qml:35
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:35
 #, qt-format
-msgid "Select files (%1 files selected)"
+msgid "Select files (%1 selected)"
 msgstr ""
 
 #: ../build/arm-linux-gnueabihf/app/src/app/qml/ui/FolderListPageSelectionHeader.qml:36
