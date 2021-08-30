@@ -34,6 +34,7 @@ ListItem {
 
     property string title
     property string subtitle
+    property string summary
     property string iconName
     property string path
     property bool showProgressionSlot
@@ -52,9 +53,11 @@ ListItem {
         id: layout
         title.text: del.title
         subtitle.text: del.subtitle
+        summary.text: del.summary
 
         title.textSize: getTextSize()
         subtitle.textSize: getTextSize(true)
+        summary.textSize: getTextSize(true)
 
         Item {
             SlotsLayout.position: SlotsLayout.Leading

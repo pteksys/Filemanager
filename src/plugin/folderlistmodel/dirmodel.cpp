@@ -2043,6 +2043,7 @@ QVariant DirModel::getAudioMetaData(const QFileInfo &fi, int role) const
 
 QString DirModel::getSearchString()
 {
+    qDebug() << mSearchString;
     return mSearchString;
 }
 
