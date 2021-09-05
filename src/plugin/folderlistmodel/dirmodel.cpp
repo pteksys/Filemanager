@@ -110,6 +110,7 @@ DirModel::DirModel(QObject *parent)
     , mShowDirectories(true)
     , mAwaitingResults(false)
     , mIsRecursive(false)
+    , mImporting(false)
     , mReadsMediaMetadata(false)
     , mQmlCompleted(false)
     , mShowHiddenFiles(false)
@@ -656,9 +657,15 @@ void DirModel::onItemsAdded(const DirItemInfoList &newFiles)
 
         if (!mSearchString.isEmpty()) {
             // Filtering
-            if (!mSearchFileContents)
+            if (!mSearchFileContents) {
                 // Toggle doAdd depending on if filename contains search string
                 doAdd = fi.fileName().contains(mSearchString, Qt::CaseInsensitive);
+
+                if (mImporting) {
+                    // If we are importing (i.e. picking a location to save a file into), don't show files when searching
+                    doAdd &= fi.isDir();
+                }
+            }
             // Searching
             else if (!fi.isDir()) {  // Ignore folders when searching in files
                 QFile file(fi.absoluteFilePath());
@@ -2041,6 +2048,11 @@ QVariant DirModel::getAudioMetaData(const QFileInfo &fi, int role) const
 }
 #endif
 
+void DirModel::terminateIORequest()
+{
+    mCurLocation->stopIORequests();
+}
+
 QString DirModel::getSearchString()
 {
     qDebug() << mSearchString;
@@ -2083,7 +2095,15 @@ void DirModel::setSearchRecursive(bool searchRecursive)
     emit searchRecursiveChanged(searchRecursive);
 }
 
-void DirModel::terminateIORequest()
+bool DirModel::getImporting()
 {
-    mCurLocation->stopIORequests();
+    return mImporting;
+}
+
+void DirModel::setImporting(bool importing)
+{
+    qDebug() << Q_FUNC_INFO << this << "Setting importing mode to:";
+    qDebug() << importing << "\n";
+    mImporting = importing;
+    emit importingChanged(importing);
 }
