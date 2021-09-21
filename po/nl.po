@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2021-06-30 19:36+0000\n"
+"PO-Revision-Date: 2021-09-21 19:30+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/nl/>\n"
@@ -55,8 +55,8 @@ msgstr "Knippen"
 #, qt-format
 msgid "Paste %1 file"
 msgid_plural "Paste %1 files"
-msgstr[0] "Plak %1 bestand"
-msgstr[1] "Plak %1 bestanden"
+msgstr[0] "%1 bestand plakken"
+msgstr[1] "%1 bestanden plakken"
 
 #: ../src/app/qml/actions/GoBack.qml:5
 msgid "Go back"
@@ -176,24 +176,23 @@ msgstr "Authenticatie mislukt"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:45
 msgid "Your passphrase is required to access restricted content"
-msgstr "Je wachtwoord is vereist om toegang te krijgen tot afgeschermde inhoud"
+msgstr "Voer je wachtwoord in om toegang te krijgen tot afgeschermde inhoud"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:46
 msgid "Your passcode is required to access restricted content"
-msgstr ""
-"Je toegangscode is vereist om toegang te krijgen tot afgeschermde inhoud"
+msgstr "Voer je toegangscode in om toegang te krijgen tot afgeschermde inhoud"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:57
 msgid "passphrase (default is 0000 if unset)"
-msgstr "wachtwoord (standaard is dit 0000 indien uitgeschakeld)"
+msgstr "wachtwoord (standaard: 0000 indien uitgeschakeld)"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:57
 msgid "passcode (default is 0000 if unset)"
-msgstr "toegangscode (standaard is dit 0000 indien uitgeschakeld)"
+msgstr "toegangscode (standaard: 0000 indien uitgeschakeld)"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:69
 msgid "Authentication failed. Please retry"
-msgstr "Authenticatie mislukt; probeer het opnieuw"
+msgstr "Authenticatie mislukt; probeer het opnieuw."
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:74
 msgid "Authenticate"
@@ -348,11 +347,11 @@ msgstr "Bestand openen"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:9
 msgid "What do you want to do with the clicked file?"
-msgstr "Wat wil je doen met het geselecteerde bestand?"
+msgstr "Kies een actie voor het geselecteerde bestand:"
 
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:22
 msgid "Preview"
-msgstr "Voorvertoning"
+msgstr "Voorvertonen"
 
 #: ../src/app/qml/filemanager.qml:170
 #, qt-format
@@ -531,7 +530,7 @@ msgstr "De map is ontoegankelijk"
 #: ../src/app/qml/views/FolderDelegateActions.qml:42
 #, qt-format
 msgid "Can not access %1"
-msgstr "Geen toegang tot %1"
+msgstr "Geen toegang tot ‘%1’"
 
 #: ../src/app/qml/views/FolderDelegateActions.qml:136
 msgid "Could not rename"
@@ -559,7 +558,7 @@ msgstr "Onbekend"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:487
 msgid "path or url may not exist or cannot be read"
-msgstr "locatie of url bestaat mogelijk niet of mag niet worden uitgelezen"
+msgstr "De locatie of url bestaat mogelijk niet of mag niet worden uitgelezen"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:690
 msgid "Rename error"
@@ -604,43 +603,43 @@ msgstr "geen schrijfbevoegdheden in map "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:642
 msgid "Could not remove the item "
-msgstr "Kan het volgende item niet verwijderen: "
+msgstr "Het volgende item kan niet worden verwijderd: "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:680
 msgid "Could not find a suitable name to backup"
-msgstr "Kan geen geschikte naam vinden om te back-uppen"
+msgstr "Er is geen geschikte naam gevonden om te back-uppen"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:733
 msgid "Could not create the directory"
-msgstr "Kan map niet maken"
+msgstr "De map kan niet worden aangemaakt"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:738
 msgid "Could not create link to"
-msgstr "Kan geen link maken naar"
+msgstr "Er kan geen verwijzing worden gemaakt naar"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:746
 msgid "Could not set permissions to dir"
-msgstr "Kan maprechten niet instellen"
+msgstr "De maprechten kunnen niet worden ingesteld"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:756
 msgid "Could not open file"
-msgstr "Kan bestand niet openen"
+msgstr "Het bestand kan niet worden geopend"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:772
 msgid "There is no space to copy"
-msgstr "Te weinig ruimte om te kopiëren"
+msgstr "Er is te weinig ruimte om te kopiëren"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:780
 msgid "Could not create file"
-msgstr "Kan bestand niet maken"
+msgstr "Het bestand kan niet worden aangemaakt"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:837
 msgid "Could not remove the directory/file "
-msgstr "Kan bestand/map niet verwijderen "
+msgstr "Het bestand/De map kan niet worden verwijderd: "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:850
 msgid "Could not move the directory/file "
-msgstr "Kan bestand/map niet verplaatsen "
+msgstr "Het bestand/De map kan niet worden verplaatst: "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1089
 msgid "Write error in "
@@ -656,32 +655,32 @@ msgstr " Kopiëren"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1371
 msgid "Set permissions error in "
-msgstr "Kan rechten niet instellen in/op "
+msgstr "Er kunnen geen rechten worden ingesteld in/op "
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1437
 msgid "Could not create trash info file"
-msgstr "Kan prullenbakinformatiebestand niet maken"
+msgstr "Het prullenbakinformatiebestand kan niet worden aangemaakt"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1449
 msgid "Could not remove the trash info file"
-msgstr "Kan prullenbakinformatiebestand niet verwijderen"
+msgstr "Het prullenbakinformatiebestand kan niet worden verwijderd"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1479
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1486
 msgid "Cannot move items"
-msgstr "Kan bestanden niet verplaatsen"
+msgstr "De bestanden kunnen niet worden verplaatst"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1481
 msgid "origin and destination folders are the same"
-msgstr "bron- en doellocatie zijn hetzelfde"
+msgstr "De bron- en doellocatie zijn hetzelfde"
 
 #: ../src/plugin/folderlistmodel/filesystemaction.cpp:1524
 msgid "There is no space to download"
-msgstr "Onvoldoende opslagruimte om te downloaden"
+msgstr "Er is onvoldoende opslagruimte om te downloaden"
 
 #: ../src/plugin/folderlistmodel/smb/qsambaclient/src/smbusershare.cpp:72
 msgid "net tool not found, check samba installation"
-msgstr "geen netwerkhulpprogramma; controleer de samba-installatie"
+msgstr "Geen netwerkhulpprogramma; controleer de samba-installatie"
 
 #: ../src/plugin/folderlistmodel/smb/qsambaclient/src/smbusershare.cpp:80
 msgid "cannot write in "
