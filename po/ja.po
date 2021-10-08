@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2021-07-05 11:19+0000\n"
+"PO-Revision-Date: 2021-10-08 11:25+0000\n"
 "Last-Translator: M.Sugahara <equaaqua@hotmail.com>\n"
 "Language-Team: Japanese <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/ja/>\n"
@@ -288,7 +288,7 @@ msgstr "解凍に失敗しました"
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:60
 #, qt-format
 msgid "Extracting the archive '%1' failed."
-msgstr ""
+msgstr "%1を解凍できませんでした。"
 
 #: ../src/app/qml/dialogs/FileActionDialog.qml:30
 msgid "Choose action"
@@ -297,7 +297,7 @@ msgstr "アクションを選択"
 #: ../src/app/qml/dialogs/FileActionDialog.qml:31
 #, qt-format
 msgid "For file: %1"
-msgstr ""
+msgstr "ファイル: %1"
 
 #: ../src/app/qml/dialogs/FileActionDialog.qml:35
 msgid "Open"
@@ -333,7 +333,7 @@ msgstr "ファイルをアーカイブする"
 
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:9
 msgid "Do you want to extract the archive here?"
-msgstr ""
+msgstr "ここにアーカイブを展開しますか？"
 
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:28
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:44
@@ -360,12 +360,12 @@ msgstr "ファイル %1"
 #: ../src/app/qml/filemanager.qml:170
 #, qt-format
 msgid "%1 Files"
-msgstr ""
+msgstr "%1 個のファイル"
 
 #: ../src/app/qml/filemanager.qml:171
 #, qt-format
 msgid "Saved to: %1"
-msgstr ""
+msgstr "%1に保存しました"
 
 #: ../src/app/qml/panels/DefaultBottomBar.qml:24
 msgid "Paste files"
@@ -373,35 +373,35 @@ msgstr "ファイルをペースト"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:34
 msgid "Readable"
-msgstr ""
+msgstr "読込可"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:37
 msgid "Writable"
-msgstr ""
+msgstr "書込可"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:40
 msgid "Executable"
-msgstr ""
+msgstr "実行可"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:100
 msgid "Where:"
-msgstr ""
+msgstr "場所:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:127
 msgid "Created:"
-msgstr ""
+msgstr "作成日:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:141
 msgid "Modified:"
-msgstr ""
+msgstr "変更日:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:155
 msgid "Accessed:"
-msgstr ""
+msgstr "アクセス日:"
 
 #: ../src/app/qml/ui/FileDetailsPopover.qml:176
 msgid "Permissions:"
-msgstr ""
+msgstr "パーミッション:"
 
 #: ../src/app/qml/ui/FolderListPage.qml:241
 #: ../src/app/qml/ui/FolderListPage.qml:296
@@ -427,7 +427,7 @@ msgstr ""
 
 #: ../src/app/qml/ui/FolderListPage.qml:313
 msgid "File operation error"
-msgstr ""
+msgstr "ファイル操作エラー"
 
 #: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:21
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:21
