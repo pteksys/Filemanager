@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2021-08-30 09:30+0000\n"
+"PO-Revision-Date: 2021-10-12 07:49+0000\n"
 "Last-Translator: HEROBRINE7GAMER <tapermeerkat77@gmail.com>\n"
 "Language-Team: Arabic <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/ar/>\n"
@@ -177,7 +177,7 @@ msgstr "أعد المحاولة"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:35
 msgid "Authentication failed"
-msgstr "فشل التعرف"
+msgstr "فشل المصادقة"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:45
 msgid "Your passphrase is required to access restricted content"
@@ -508,7 +508,7 @@ msgstr "ترتيب حسب"
 
 #: ../src/app/qml/ui/ViewPopover.qml:62
 msgid "Name"
-msgstr "اسم"
+msgstr "الاسم"
 
 #: ../src/app/qml/ui/ViewPopover.qml:62
 msgid "Date"
