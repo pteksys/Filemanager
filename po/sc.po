@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2020-09-18 15:59+0000\n"
+"PO-Revision-Date: 2021-11-21 15:09+0000\n"
 "Last-Translator: Adria <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/sc/>\n"
@@ -415,11 +415,11 @@ msgstr "Ti depes autenticare pro bìdere su cuntenutu de custa cartella."
 
 #: ../src/app/qml/ui/FolderListPage.qml:282
 msgid "No files"
-msgstr "Perunu archìviu"
+msgstr "Nissunu archìviu"
 
 #: ../src/app/qml/ui/FolderListPage.qml:283
 msgid "This folder is empty."
-msgstr "Sa cartella est boida."
+msgstr "Sa cartella est bòida."
 
 #: ../src/app/qml/ui/FolderListPage.qml:297
 msgid "Authentication is required in order to see the content of this folder."
