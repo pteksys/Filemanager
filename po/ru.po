@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2021-06-30 00:49+0000\n"
+"PO-Revision-Date: 2022-02-10 00:28+0000\n"
 "Last-Translator: Герман Семенов <GermanAizek@yandex.ru>\n"
 "Language-Team: Russian <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/ru/>\n"
@@ -94,7 +94,7 @@ msgstr "Переименовать"
 #: ../src/app/qml/actions/Select.qml:5
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:60
 msgid "Select"
-msgstr "Выделить"
+msgstr "Выбрать"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
 msgid "Select None"

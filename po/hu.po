@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2022-02-05 23:01+0000\n"
+"PO-Revision-Date: 2022-02-09 18:22+0000\n"
 "Last-Translator: Lundrin <berenyi.vilmos@tutanota.com>\n"
 "Language-Team: Hungarian <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/hu/>\n"
@@ -472,7 +472,7 @@ msgstr "Rács méret"
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "S"
-msgstr "S"
+msgstr "D"
 
 #: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
 msgid "M"
