@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2022-02-09 18:22+0000\n"
+"PO-Revision-Date: 2022-02-28 01:52+0000\n"
 "Last-Translator: Lundrin <berenyi.vilmos@tutanota.com>\n"
 "Language-Team: Hungarian <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/hu/>\n"
@@ -569,9 +569,8 @@ msgid "Error creating new folder"
 msgstr "Hiba a mappa létrehozása közben"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:740
-#, fuzzy
 msgid "Touch file error"
-msgstr "Elérési hiba"
+msgstr "Fájl elérési hiba"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:1353
 msgid "items"
