@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2020-02-12 15:21+0000\n"
-"Last-Translator: HSN80 <hosseinabbasi80@outlook.com>\n"
+"PO-Revision-Date: 2022-03-10 09:21+0000\n"
+"Last-Translator: Behzad <behzadasbahi@gmail.com>\n"
 "Language-Team: Persian <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/fa/>\n"
 "Language: fa\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2017-04-08 06:04+0000\n"
 
 #: ../src/app/qml/actions/AddBookmark.qml:6
@@ -95,7 +95,7 @@ msgstr "گزینش"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
 msgid "Select None"
-msgstr "هیچ کدام را انتخاب نکنید"
+msgstr "انتخاب هیچ‌کدام"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
 msgid "Select All"
@@ -159,7 +159,7 @@ msgstr "استفاده از گذرواژه"
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:51
 #: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:26
 msgid "Cancel"
-msgstr "انصراف"
+msgstr "لغو"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:126
 msgid "Authentication failed!"
