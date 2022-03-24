@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2014-08-13 03:07+0000\n"
-"Last-Translator: Sophea Sok <sksophea@gmail.com>\n"
-"Language-Team: Khmer <km@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2022-03-21 11:08+0000\n"
+"Last-Translator: ប៉ុកណូ រ៉ូយ៉ាល់ <poknoroyal@outlook.com>\n"
+"Language-Team: Central Khmer <https://translate.ubports.com/projects/ubports/"
+"filemanager-app/km/>\n"
+"Language: km\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2017-04-08 06:04+0000\n"
-"X-Generator: Launchpad (build 18343)\n"
 
 #: ../src/app/qml/actions/AddBookmark.qml:6
 msgid "Add bookmark"
@@ -43,7 +44,7 @@ msgstr ""
 #: ../src/app/qml/actions/FileCopy.qml:5
 #: ../src/app/qml/panels/SelectionBottomBar.qml:45
 msgid "Copy"
-msgstr "​ចម្លង"
+msgstr "ចម្លង"
 
 #: ../src/app/qml/actions/FileCut.qml:5
 #: ../src/app/qml/panels/SelectionBottomBar.qml:60
@@ -85,22 +86,20 @@ msgstr "លក្ខណសម្បត្តិ"
 #: ../src/app/qml/actions/Rename.qml:5
 #: ../src/app/qml/dialogs/ConfirmRenameDialog.qml:20
 msgid "Rename"
-msgstr "ប្តូរ​​ឈ្មោះ"
+msgstr "ប្ដូរឈ្មោះ"
 
 #: ../src/app/qml/actions/Select.qml:5
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:60
 msgid "Select"
-msgstr "ជ្រើស​"
+msgstr "ជ្រើស"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
-#, fuzzy
 msgid "Select None"
-msgstr "ជ្រើស​"
+msgstr "គ្មានជ្រើស"
 
 #: ../src/app/qml/actions/SelectUnselectAll.qml:6
-#, fuzzy
 msgid "Select All"
-msgstr "ជ្រើស​"
+msgstr "ជ្រើសទាំងអស់"
 
 #: ../src/app/qml/actions/Settings.qml:6
 msgid "Settings"
@@ -108,7 +107,7 @@ msgstr "ការកំណត់"
 
 #: ../src/app/qml/actions/Share.qml:5
 msgid "Share"
-msgstr ""
+msgstr "ចែករំលែក"
 
 #: ../src/app/qml/actions/TabsAdd.qml:5
 msgid "Add tab"
@@ -124,13 +123,13 @@ msgstr "បើក​ក្នុង​ផ្ទាំង​ថ្មី"
 
 #: ../src/app/qml/actions/UnlockFullAccess.qml:6
 msgid "Unlock"
-msgstr ""
+msgstr "ដោះសោ"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:26
 #: ../src/app/qml/authentication/PasswordDialog.qml:43
 #: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:28
 msgid "Authentication required"
-msgstr ""
+msgstr "តម្រូវការយថាភូតកម្ម"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:27
 msgid "Use your fingerprint to access restricted content"
@@ -160,7 +159,7 @@ msgstr ""
 #: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:51
 #: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:26
 msgid "Cancel"
-msgstr "បោះ​បង់"
+msgstr "បោះបង់"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:126
 msgid "Authentication failed!"
@@ -172,7 +171,7 @@ msgstr ""
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:35
 msgid "Authentication failed"
-msgstr ""
+msgstr "យថាភូតកម្មបានបរាជ័យ"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:45
 msgid "Your passphrase is required to access restricted content"
@@ -196,7 +195,7 @@ msgstr ""
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:74
 msgid "Authenticate"
-msgstr ""
+msgstr "យថាភូត"
 
 #: ../src/app/qml/backend/FolderListModel.qml:123
 #, fuzzy, qt-format
@@ -216,7 +215,7 @@ msgstr ""
 #: ../src/app/qml/components/TextualButtonStyle.qml:56
 #: ../src/app/qml/components/TextualButtonStyle.qml:63
 msgid "Pick"
-msgstr ""
+msgstr "រើស"
 
 #: ../src/app/qml/content-hub/FileOpener.qml:27
 msgid "Open with"
@@ -285,7 +284,7 @@ msgstr ""
 #: ../src/app/qml/dialogs/templates/ConfirmDialog.qml:31
 #: ../src/app/qml/dialogs/templates/ConfirmDialogWithInput.qml:49
 msgid "OK"
-msgstr ""
+msgstr "យល់ព្រម"
 
 #: ../src/app/qml/dialogs/ExtractingDialog.qml:59
 msgid "Extracting failed"
@@ -518,7 +517,7 @@ msgstr "លំដាប់​តម្រៀប"
 
 #: ../src/app/qml/ui/ViewPopover.qml:74
 msgid "Theme"
-msgstr ""
+msgstr "ស្បែក"
 
 #: ../src/app/qml/ui/ViewPopover.qml:76
 msgid "Light"
@@ -560,7 +559,7 @@ msgstr "មិន​មាន​ឯកសារ"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:360
 msgid "Unknown"
-msgstr ""
+msgstr "មិនស្គាល់"
 
 #: ../src/plugin/folderlistmodel/dirmodel.cpp:487
 msgid "path or url may not exist or cannot be read"
