@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2022-03-21 11:08+0000\n"
+"PO-Revision-Date: 2022-04-01 08:29+0000\n"
 "Last-Translator: ប៉ុកណូ រ៉ូយ៉ាល់ <poknoroyal@outlook.com>\n"
 "Language-Team: Central Khmer <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/km/>\n"
@@ -49,7 +49,7 @@ msgstr "ចម្លង"
 #: ../src/app/qml/actions/FileCut.qml:5
 #: ../src/app/qml/panels/SelectionBottomBar.qml:60
 msgid "Cut"
-msgstr "​កាត់"
+msgstr "កាត់"
 
 #: ../src/app/qml/actions/FilePaste.qml:30
 #, fuzzy, qt-format
