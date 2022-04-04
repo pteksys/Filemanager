@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-03 13:35+0000\n"
-"PO-Revision-Date: 2022-04-01 08:29+0000\n"
+"PO-Revision-Date: 2022-04-04 11:51+0000\n"
 "Last-Translator: ប៉ុកណូ រ៉ូយ៉ាល់ <poknoroyal@outlook.com>\n"
 "Language-Team: Central Khmer <https://translate.ubports.com/projects/ubports/"
 "filemanager-app/km/>\n"
@@ -22,13 +22,13 @@ msgstr ""
 
 #: ../src/app/qml/actions/AddBookmark.qml:6
 msgid "Add bookmark"
-msgstr ""
+msgstr "បន្ថែមចំណាំ"
 
 #: ../src/app/qml/actions/ArchiveExtract.qml:6
 #: ../src/app/qml/dialogs/OpenArchiveDialog.qml:18
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:33
 msgid "Extract archive"
-msgstr ""
+msgstr "ស្រង់បណ្ណសារចេញ"
 
 #: ../src/app/qml/actions/Delete.qml:5
 #: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:14
@@ -39,7 +39,7 @@ msgstr "លុប"
 
 #: ../src/app/qml/actions/FileClearSelection.qml:8
 msgid "Clear clipboard"
-msgstr ""
+msgstr "ជម្រះក្ដារតម្រៀប"
 
 #: ../src/app/qml/actions/FileCopy.qml:5
 #: ../src/app/qml/panels/SelectionBottomBar.qml:45
@@ -52,26 +52,26 @@ msgid "Cut"
 msgstr "កាត់"
 
 #: ../src/app/qml/actions/FilePaste.qml:30
-#, fuzzy, qt-format
+#, qt-format
 msgid "Paste %1 file"
 msgid_plural "Paste %1 files"
 msgstr[0] "បិទភ្ជាប់​ឯកសារ %1"
 
 #: ../src/app/qml/actions/GoBack.qml:5
 msgid "Go back"
-msgstr ""
+msgstr "ទៅក្រោយ"
 
 #: ../src/app/qml/actions/GoNext.qml:5
 msgid "Go next"
-msgstr ""
+msgstr "ទៅបន្ទាប់"
 
 #: ../src/app/qml/actions/GoTo.qml:6
 msgid "Go To"
-msgstr ""
+msgstr "ទៅកាន់"
 
 #: ../src/app/qml/actions/NewItem.qml:6
 msgid "New Item"
-msgstr ""
+msgstr "ធាតុថ្មី"
 
 #: ../src/app/qml/actions/PlacesBookmarks.qml:6
 #: ../src/app/qml/ui/PlacesPage.qml:16
@@ -81,7 +81,7 @@ msgstr "ទីតាំង"
 #: ../src/app/qml/actions/Properties.qml:6
 #: ../src/app/qml/dialogs/OpenWithDialog.qml:54
 msgid "Properties"
-msgstr "លក្ខណសម្បត្តិ"
+msgstr "លក្ខណៈសម្បត្តិ"
 
 #: ../src/app/qml/actions/Rename.qml:5
 #: ../src/app/qml/dialogs/ConfirmRenameDialog.qml:20
@@ -111,7 +111,7 @@ msgstr "ចែករំលែក"
 
 #: ../src/app/qml/actions/TabsAdd.qml:5
 msgid "Add tab"
-msgstr ""
+msgstr "បន្ថែមផ្ទាំង"
 
 #: ../src/app/qml/actions/TabsCloseThis.qml:5
 msgid "Close this tab"
@@ -133,16 +133,16 @@ msgstr "តម្រូវការយថាភូតកម្ម"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:27
 msgid "Use your fingerprint to access restricted content"
-msgstr ""
+msgstr "ប្រើស្នាមម្រាមដៃរបស់អ្នក ដើម្បីអាក់សេសមាតិកាដែលបានកម្រិត"
 
 #. TRANSLATORS: "Touch" here is a verb
 #: ../src/app/qml/authentication/FingerprintDialog.qml:55
 msgid "Touch sensor"
-msgstr ""
+msgstr "ឧបករណ៍ចាប់សញ្ញាថាច់"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:60
 msgid "Use password"
-msgstr ""
+msgstr "ប្រើពាក្យសម្ងាត់"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:69
 #: ../src/app/qml/authentication/PasswordDialog.qml:80
@@ -163,11 +163,11 @@ msgstr "បោះបង់"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:126
 msgid "Authentication failed!"
-msgstr ""
+msgstr "យថាភូតកម្មបានបរាជ័យ!"
 
 #: ../src/app/qml/authentication/FingerprintDialog.qml:137
 msgid "Please retry"
-msgstr ""
+msgstr "សូមព្យាយាមឡើងវិញ"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:35
 msgid "Authentication failed"
@@ -175,23 +175,23 @@ msgstr "យថាភូតកម្មបានបរាជ័យ"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:45
 msgid "Your passphrase is required to access restricted content"
-msgstr ""
+msgstr "ឃ្លាសម្ងាត់របស់អ្នក ត្រូវបានទាមទារដើម្បីអាក់សេសមាតិកាដែលហាមឃាត់"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:46
 msgid "Your passcode is required to access restricted content"
-msgstr ""
+msgstr "កូដសម្ងាត់របស់អ្នក ត្រូវបានទាមទារដើម្បីអាក់សេសមាតិកាហាមឃាត់"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:57
 msgid "passphrase (default is 0000 if unset)"
-msgstr ""
+msgstr "ឃ្លាសម្ងាត់ (បុរេជម្រើសគឺ ០០០០ បើសិនមិនកំណត់)"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:57
 msgid "passcode (default is 0000 if unset)"
-msgstr ""
+msgstr "កូដសម្ងាត់ (បុរេជម្រើសគឺ ០០០០ បើសិនមិនកំណត់)"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:69
 msgid "Authentication failed. Please retry"
-msgstr ""
+msgstr "យថាភូតកម្មបានបរាជ័យ។ សូមព្យាយាមឡើងវិញ"
 
 #: ../src/app/qml/authentication/PasswordDialog.qml:74
 msgid "Authenticate"
@@ -209,7 +209,7 @@ msgstr "ឯកសារ %1"
 
 #: ../src/app/qml/backend/FolderListModel.qml:135
 msgid "Folder"
-msgstr ""
+msgstr "ថត"
 
 #: ../src/app/qml/components/TextualButtonStyle.qml:48
 #: ../src/app/qml/components/TextualButtonStyle.qml:56
@@ -219,11 +219,11 @@ msgstr "រើស"
 
 #: ../src/app/qml/content-hub/FileOpener.qml:27
 msgid "Open with"
-msgstr ""
+msgstr "បើកជាមួយ"
 
 #: ../src/app/qml/dialogs/ConfirmExtractDialog.qml:15
 msgid "Extract Archive"
-msgstr ""
+msgstr "ស្រង់បណ្ណសារចេញ"
 
 #: ../src/app/qml/dialogs/ConfirmExtractDialog.qml:16
 #, qt-format
@@ -507,9 +507,8 @@ msgid "Date"
 msgstr "កាល​បរិច្ឆេទ"
 
 #: ../src/app/qml/ui/ViewPopover.qml:62
-#, fuzzy
 msgid "Size"
-msgstr "ទំហំ៖"
+msgstr "ទំហំ"
 
 #: ../src/app/qml/ui/ViewPopover.qml:67
 msgid "Sort Order"
