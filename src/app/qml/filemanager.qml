@@ -17,14 +17,14 @@
  * Authored by: Arto Jalkanen <ajalkane@gmail.com>
  */
 import QtQuick 2.4
-import Ubuntu.Components 1.3
-import Ubuntu.Components.Popups 1.3
+import Lomiri.Components 1.3
+import Lomiri.Components.Popups 1.3
 import Qt.labs.settings 1.0
-import Ubuntu.Content 1.3
+import Lomiri.Content 1.3
 import com.ubuntu.PamAuthentication 0.1
 
-// This makes the Ubuntu Thumbnailer available in all the other QML documents.
-import Ubuntu.Thumbnailer 0.1
+// This makes the Lomiri Thumbnailer available in all the other QML documents.
+import Lomiri.Thumbnailer 0.1
 
 import "ui"
 import "backend" as Backend
@@ -41,9 +41,9 @@ MainView {
 
     theme.name: {
         if (globalSettings.theme == 1) {
-            return "Ubuntu.Components.Themes.Ambiance";
+            return "Lomiri.Components.Themes.Ambiance";
         } else if (globalSettings.theme == 2) {
-            return "Ubuntu.Components.Themes.SuruDark";
+            return "Lomiri.Components.Themes.SuruDark";
         } else {
             return "";
         }

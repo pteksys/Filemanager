@@ -25,12 +25,12 @@ import shutil
 import autopilot.logging
 from autopilot import input
 from autopilot.introspection import dbus
-import ubuntuuitoolkit
+import lomiriuitoolkit
 
 logger = logging.getLogger(__name__)
 
 
-class FilemanagerException(ubuntuuitoolkit.ToolkitException):
+class FilemanagerException(lomiriuitoolkit.ToolkitException):
 
     """Exception raised when there are problems with the Filemanager."""
 
@@ -49,7 +49,7 @@ class Filemanager(object):
         return self.app.pointing_device
 
 
-class MainView(ubuntuuitoolkit.MainView):
+class MainView(lomiriuitoolkit.MainView):
     """File Manager MainView Autopilot emulator."""
 
     def __init__(self, *args):
@@ -108,7 +108,7 @@ class MainView(ubuntuuitoolkit.MainView):
         """Bring the places page to the screen"""
         try:
             action_item = self.wait_select_single(
-                'UCUbuntuShape', objectName='bottomEdgeTip')
+                'UCLomiriShape', objectName='bottomEdgeTip')
             action_item.visible.wait_for(True)
             action_item.isAnimating.wait_for(False)
             start_x = (action_item.globalRect.x +
@@ -250,7 +250,7 @@ class MainView(ubuntuuitoolkit.MainView):
         shutil.copy(content_dir_file, dir_path)
 
 
-class PlacesSidebar(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class PlacesSidebar(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
     """PlacesSidebar Autopilot emulator."""
 
     @autopilot.logging.log_action(logger.info)
@@ -266,7 +266,7 @@ class PlacesSidebar(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
         self.pointing_device.click_object(place)
 
 
-class FolderListPage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class FolderListPage(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
     """FolderListPage Autopilot emulator."""
 
     def open_file_actions(self, name):
@@ -357,7 +357,7 @@ class FolderListPage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
                 'Path bar is hidden in small mode.')
 
 
-class PlacesPage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class PlacesPage(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
     """ Places Page Autopilot emulator.     """
 
     @autopilot.logging.log_action(logger.info)
@@ -382,7 +382,7 @@ class PlacesPage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
             self.pointing_device.click_object(place)
 
 
-class FolderListView(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class FolderListView(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
     """FolderListView Autopilot emulator."""
 
     SPLIT_HEADER_REGEX = '(.+) \((\d+) \w+\)$'
@@ -418,7 +418,7 @@ class FolderListView(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
         return [item.fileName for item in list_delegates]
 
 
-class FolderIconView(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class FolderIconView(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
     """FolderListView Autopilot emulator."""
 
     SPLIT_HEADER_REGEX = '(.+) \((\d+) \w+\)$'
@@ -454,7 +454,7 @@ class FolderIconView(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
         return [icon.fileName for icon in icon_delegates]
 
 
-class FolderListDelegate(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class FolderListDelegate(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
     """FolderListPage Autopilot emulator.
 
     This is a file or folder on the FolderListPage.
@@ -463,7 +463,7 @@ class FolderListDelegate(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
 
     def __init__(self, *args):
         super(FolderListDelegate, self).__init__(*args)
-        self.pointing_device = ubuntuuitoolkit.get_pointing_device()
+        self.pointing_device = lomiriuitoolkit.get_pointing_device()
 
     def open_directory(self):
         """Open the directory."""
@@ -490,7 +490,7 @@ class FolderListDelegate(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
         self.pointing_device.release()
 
 
-class FolderIconDelegate(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class FolderIconDelegate(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
     """FolderIconPage Autopilot emulator.
 
     This is a file or folder on the FolderListPage.
@@ -499,7 +499,7 @@ class FolderIconDelegate(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
 
     def __init__(self, *args):
         super(FolderIconDelegate, self).__init__(*args)
-        self.pointing_device = ubuntuuitoolkit.get_pointing_device()
+        self.pointing_device = lomiriuitoolkit.get_pointing_device()
 
     def open_directory(self):
         """Open the directory."""
@@ -526,12 +526,12 @@ class FolderIconDelegate(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
         self.pointing_device.release()
 
 
-class FileActionDialog(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class FileActionDialog(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
     """FileActionDialog Autopilot emulator."""
 
     def __init__(self, *args):
         super(FileActionDialog, self).__init__(*args)
-        self.pointing_device = ubuntuuitoolkit.get_pointing_device()
+        self.pointing_device = lomiriuitoolkit.get_pointing_device()
 
     def open(self):
         open_button = self.select_single('Button', objectName='openButton')
@@ -542,12 +542,12 @@ class FileActionDialog(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
         self.pointing_device.click_object(cancel_button)
 
 
-class ConfirmDialog(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class ConfirmDialog(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
     """ConfirmDialog Autopilot emulator."""
 
     def __init__(self, *args):
         super(ConfirmDialog, self).__init__(*args)
-        self.pointing_device = ubuntuuitoolkit.get_pointing_device()
+        self.pointing_device = lomiriuitoolkit.get_pointing_device()
 
     def ok(self):
         okButton = self.select_single('Button', objectName='okButton')
@@ -571,7 +571,7 @@ class ConfirmDialogWithInput(ConfirmDialog):
 
     def _select_text_field(self):
         return self.select_single(
-            ubuntuuitoolkit.TextField, objectName='inputField')
+            lomiriuitoolkit.TextField, objectName='inputField')
 
 
 class Dialog(ConfirmDialogWithInput):
@@ -602,14 +602,14 @@ class Popover(ConfirmDialogWithInput):
                 return button
 
 
-class FileDetailsPopover(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class FileDetailsPopover(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
     """FileDetailsPopover Autopilot emulator."""
 
     def get_path(self):
         return self.select_single('UCLabel', objectName='pathLabel').text
 
 
-class PathBar(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class PathBar(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
 
     def go_to_location(self):
         editButton = self.select_single(objectName='goToButton')

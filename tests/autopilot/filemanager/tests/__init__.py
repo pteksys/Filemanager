@@ -28,7 +28,7 @@ from filemanager import CMakePluginParser
 from autopilot.matchers import Eventually
 from autopilot.testcase import AutopilotTestCase
 from testtools.matchers import Equals
-import ubuntuuitoolkit
+import lomiriuitoolkit
 
 import filemanager
 from filemanager import fixture_setup as fm_fixtures
@@ -88,7 +88,7 @@ class BaseTestCaseWithPatchedHome(AutopilotTestCase):
             '-p',
             '-q', self.local_location_qml,
             app_type='qt',
-            emulator_base=ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase)
+            emulator_base=lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase)
 
     @autopilot_logging.log_action(logger.info)
     def launch_test_installed(self):
@@ -96,7 +96,7 @@ class BaseTestCaseWithPatchedHome(AutopilotTestCase):
             self.installed_location_binary,
             '-q', self.installed_location_qml,
             app_type='qt',
-            emulator_base=ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase)
+            emulator_base=lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase)
 
     @autopilot_logging.log_action(logger.info)
     def launch_test_click(self):
@@ -109,7 +109,7 @@ class BaseTestCaseWithPatchedHome(AutopilotTestCase):
         application_name, _ = os.path.splitext(desktop_file_name)
         return self.launch_upstart_application(
             application_name,
-            emulator_base=ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase)
+            emulator_base=lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase)
 
     def write_sandbox_desktop_file(self):
         desktop_file_dir = self.get_local_desktop_file_directory()

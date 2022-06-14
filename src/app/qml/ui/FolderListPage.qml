@@ -17,8 +17,8 @@
  *              Niklas Wenzel <nikwen.developer@gmail.com>
  */
 import QtQuick 2.4
-import Ubuntu.Components 1.3
-import Ubuntu.Components.Popups 1.3
+import Lomiri.Components 1.3
+import Lomiri.Components.Popups 1.3
 import org.nemomobile.folderlistmodel 1.0
 
 import "../components"

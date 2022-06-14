@@ -15,7 +15,7 @@
  */
 
 import QtQuick 2.4
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 import com.ubuntu.filemanager 1.0
 
 import "../backend"
@@ -154,10 +154,10 @@ ListView {
         interval: 1
         onTriggered: __gotoIndex(currentIndex)
 
-        property QtObject positionAnimation: UbuntuNumberAnimation {
+        property QtObject positionAnimation: LomiriNumberAnimation {
             target: rootItem
             property: "contentX"
-            duration: UbuntuAnimation.SnapDuration
+            duration: LomiriAnimation.SnapDuration
         }
     }
 
