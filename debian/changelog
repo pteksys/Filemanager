@@ -1,3 +1,9 @@
+lomiri-filemanager-app (0.7.9) UNRELEASED; urgency=medium
+
+  * Port to focal
+
+ -- Guido Berhoerster <guido+gitlab.com@berhoerster.name>  Tue, 14 Jun 2022 15:08:41 +0200
+
 ubuntu-filemanager-app (0.5ubports1) xenial; urgency=medium
 
   * Improved READMEs

@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: ubuntu-filemanager-app
-Source: https://launchpad.net/ubuntu-filemanager-app
+Upstream-Name: lomiri-filemanager-app
+Source: https://gitlab.com/ubports/development/apps/lomiri-filemanager-app
 
 Files: *
 Copyright: 2013 Canonical Ltd.
