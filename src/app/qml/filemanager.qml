@@ -34,7 +34,7 @@ MainView {
     id: mainView
     // objectName for functional testing purposes (autopilot-qt5)
     objectName: "filemanager"
-    applicationName: "com.ubuntu.filemanager"
+    applicationName: "filemanager.ubports"
 
     width: phone ? units.gu(40) : units.gu(100)
     height: units.gu(75)

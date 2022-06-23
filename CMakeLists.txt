@@ -1,4 +1,4 @@
-project(com.ubuntu.filemanager C CXX)
+project(lomiri-filemanager-app C CXX)
 cmake_minimum_required(VERSION 2.8.9)
 find_program(INTLTOOL_MERGE intltool-merge)
 find_program(INTLTOOL_EXTRACT intltool-extract)
@@ -12,15 +12,14 @@ include(GNUInstallDirs)
 option(INSTALL_TESTS "Install the tests on make install" on)
 option(CLICK_MODE "Installs to a contained location" on)
 
-set(APP_NAME filemanager)
+set(APP_NAME ${PROJECT_NAME})
 set(DESKTOP_FILE "${PROJECT_NAME}.desktop")
-set(LP_PROJECT ubuntu-filemanager-app)
 set(ICON_FILE filemanager.svg)
 set(SPLASH_FILE splash.svg)
-set(AUTOPILOT_DIR ${APP_NAME})
+set(AUTOPILOT_DIR lomiri_filemanager_app)
 set(EXEC "${APP_NAME}")
 set(CONTENT_HUB_JSON content-hub.json)
-set(UBUNTU_MANIFEST_PATH "manifest.json.in" CACHE INTERNAL "Relative path to the manifest file")
+set(MANIFEST_PATH "manifest.json.in" CACHE INTERNAL "Relative path to the manifest file")
 
 # global FILE definitions for stat system call, it works for any sub module
 add_definitions(-D_LARGEFILE_SOURCE)
@@ -81,7 +80,7 @@ if(CLICK_MODE)
          RELATIVE ${CMAKE_CURRENT_SOURCE_DIR}
          manifest.json.in *.apparmor)
 
-    add_custom_target(com_ubuntu_calendar_CLICKFiles ALL SOURCES ${CLICK_FILES})
+    add_custom_target(filemanager_ubports_CLICKFiles ALL SOURCES ${CLICK_FILES})
     install(FILES ${CMAKE_CURRENT_BINARY_DIR}/manifest.json filemanager.apparmor ${CONTENT_HUB_JSON} DESTINATION ${CMAKE_INSTALL_PREFIX})
     get_filename_component(BLD_CONFIGURATION_NAME ${CMAKE_BINARY_DIR} NAME)
 

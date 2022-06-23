@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export APP_ID=com.ubuntu.filemanager_filemanager_test
+export APP_ID=filemanager.ubports_filemanager_test
 
 DESKTOP=`ls /usr/share/applications/*.desktop | tail -1`
 

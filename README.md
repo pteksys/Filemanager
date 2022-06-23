@@ -1,9 +1,9 @@
-ReadMe - Ubuntu File Manager
+ReadMe - Lomiri File Manager
 ============================
 
-Ubuntu File Manager App is the official file manager app for Ubuntu Touch. We follow an open
+Lomiri File Manager App is the official file manager app for Ubuntu Touch. We follow an open
 source model where the code is available to anyone to branch and hack on. The
-ubuntu file manager app originally followed a test driven development (TDD) where tests were
+Lomiri File Manager App originally followed a test driven development (TDD) where tests were
 written in parallel to feature implementation to help spot regressions easier.
 
 Attention!
@@ -44,4 +44,4 @@ Here are some useful links with regards to the File Manager App development.
 
 * [UBports](https://ubports.com/)
 * [clickable](http://clickable.bhdouglass.com/en/latest/)
-* [OpenStore](https://open-store.io/app/com.ubuntu.filemanager)
+* [OpenStore](https://open-store.io/app/filemanager.ubports)
