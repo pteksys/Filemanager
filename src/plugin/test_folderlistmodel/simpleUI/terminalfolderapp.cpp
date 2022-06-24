@@ -69,7 +69,7 @@ TerminalFolderApp::~TerminalFolderApp()
  *
  *  It tries to open the terminal application in the sequence:
  *  \li  "meego-terminal"          for Nemo Mobile and Nokia N9
- *  \li  "ubuntu-terminal-app"     for Ubuntu Touch
+ *  \li  "terminal-app"            for Ubuntu Touch
  *  \li  "x-terminal-emulator"     for any Desktop such as KDE and Gnome
  *  \li  TERM environment variable if defined
  *
@@ -135,14 +135,14 @@ void TerminalFolderApp::findTerminalApp()
     }
 
     // Ubuntu Touch
-    // appid://com.ubuntu.terminal/terminal/current-user-version"
+    // appid://com.ubports.terminal/terminal/current-user-version"
 
 
     const char *desktop_terminal_emulator = "x-terminal-emulator";
     const char * apps [] =
     {
         "meego-terminal"          // Nemo Mobile and Nokia N9
-       ,"ubuntu-terminal-app"     // Ubuntu Touch
+       ,"terminal-app"            // Ubuntu Touch
        ,desktop_terminal_emulator // Desktop (any) KDE/GNOME
        ,terminalEnvVar            // TERM environment variable
     };
