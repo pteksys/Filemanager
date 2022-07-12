@@ -19,9 +19,9 @@
 import QtQuick 2.4
 import Lomiri.Components 1.3
 import Lomiri.Components.Popups 1.3
+import Lomiri.Components.Extras.PamAuthentication 0.1
 import Qt.labs.settings 1.0
 import Lomiri.Content 1.3
-import com.ubuntu.PamAuthentication 0.1
 
 // This makes the Lomiri Thumbnailer available in all the other QML documents.
 import Lomiri.Thumbnailer 0.1
