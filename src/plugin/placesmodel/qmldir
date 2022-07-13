@@ -1,2 +1,2 @@
-module com.ubuntu.PlacesModel
+module Lomiri.FileManager.PlacesModel
 plugin PlacesModel

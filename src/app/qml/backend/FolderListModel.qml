@@ -22,7 +22,7 @@ import Lomiri.Components 1.3
 import Lomiri.Components.Popups 1.3
 import Lomiri.FileManager.Archives 0.1
 import Lomiri.FileManager.folderlistmodel 1.0
-import com.ubuntu.PlacesModel 0.1
+import Lomiri.FileManager.PlacesModel 0.1
 
 QtObject {
     id: folderModel
