@@ -20,7 +20,7 @@
 import QtQuick 2.4
 import Lomiri.Components 1.3
 import Lomiri.Components.Popups 1.3
-import com.ubuntu.Archives 0.1
+import Lomiri.FileManager.Archives 0.1
 import org.nemomobile.folderlistmodel 1.0
 import com.ubuntu.PlacesModel 0.1
 
