@@ -1,7 +1,9 @@
 project(lomiri-filemanager-app C CXX)
 cmake_minimum_required(VERSION 2.8.9)
-find_program(INTLTOOL_MERGE intltool-merge)
-find_program(INTLTOOL_EXTRACT intltool-extract)
+include(FindGettext)
+if(NOT GETTEXT_FOUND)
+  message(FATAL_ERROR "Could not find gettext")
+endif(NOT GETTEXT_FOUND)
 
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -fno-permissive -pedantic -Wall -Wextra -fPIC")
@@ -96,12 +98,6 @@ else(CLICK_MODE)
     set(DESKTOP_DIR ${CMAKE_INSTALL_DATADIR}/applications)
 endif(CLICK_MODE)
 
-file(GLOB_RECURSE I18N_SRC_FILES
-     RELATIVE ${CMAKE_CURRENT_SOURCE_DIR}/po
-     *.qml *.js *.cpp *.h)
-list(APPEND I18N_SRC_FILES ${DESKTOP_FILE}.in.in.h)
-list(SORT I18N_SRC_FILES)
-
 file(GLOB SRC_FILES
      RELATIVE ${CMAKE_CURRENT_SOURCE_DIR}
      *.qml *.js *.png *.svg *.json)
@@ -112,7 +108,10 @@ configure_file(${DESKTOP_FILE}.in.in ${DESKTOP_FILE}.in)
 
 add_custom_target(${DESKTOP_FILE} ALL
     COMMENT "Merging translations into ${DESKTOP_FILE}..."
-    COMMAND LC_ALL=C ${INTLTOOL_MERGE} -d -u ${CMAKE_SOURCE_DIR}/po ${DESKTOP_FILE}.in ${DESKTOP_FILE}
+    COMMAND ${GETTEXT_MSGFMT_EXECUTABLE}
+            --desktop --template=${CMAKE_CURRENT_BINARY_DIR}/${DESKTOP_FILE}.in
+            -o ${DESKTOP_FILE}
+            -d ${CMAKE_SOURCE_DIR}/po
 )
 
 install(FILES ${CMAKE_CURRENT_BINARY_DIR}/${DESKTOP_FILE}
