@@ -5,7 +5,7 @@ stages:
 variables:
     GIT_SUBMODULE_STRATEGY: 'recursive'
     DOCKER_DRIVER: overlay2
-    CLICKABLE_VERSION: "7.5.0"
+    CLICKABLE_VERSION: "7.6.0"
 
 .armhf: &armhf
     variables:
@@ -25,7 +25,7 @@ variables:
 .build:
     image: "clickable/ci-20.04-$ARCH:$CLICKABLE_VERSION"
     stage: build
-    script: 'clickable build --clean --arch $ARCH --accept-review-errors'
+    script: 'clickable build --clean --all --arch $ARCH --accept-review-errors'
     artifacts:
         paths:
             - "build/$ARCH_TRIPLET/app"
