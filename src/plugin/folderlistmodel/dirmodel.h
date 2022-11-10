@@ -473,7 +473,9 @@ public slots:
 private:
     QHash<int, QByteArray> buildRoleNames() const;
     QHash<int, QByteArray> roleNames() const;
+    bool mSearchFileContents;
     QStringList mNameFilters;
+    bool mSearchRecursive;
     bool mFilterDirectories;
     bool mShowDirectories;
     bool mAwaitingResults;
@@ -482,8 +484,6 @@ private:
     bool mReadsMediaMetadata;
     QString mCurrentDir;
     DirItemInfoList  mDirectoryContents;
-    bool mSearchFileContents;
-    bool mSearchRecursive;
     QString mSearchString;
 
 signals:
@@ -579,6 +579,7 @@ private slots:
 
 
 private:
+    bool                mQmlCompleted;
     bool                mShowHiddenFiles;
     bool                mOnlyAllowedPaths;
     SortBy              mSortBy;
@@ -591,10 +592,7 @@ private:
     LocationsFactory   *mLocationFactory;
     Location           *mCurLocation;
     QStringList         mPathList;    //!< it will be used for goBack()
-
-private:
-    bool mQmlCompleted;
-    QString mQmlCachePath;
+    QString             mQmlCachePath;
 
 private:
     FileSystemAction    *m_fsAction;  //!< it does file system recursive remove/copy/move

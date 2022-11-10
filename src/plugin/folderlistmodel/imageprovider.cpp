@@ -68,6 +68,8 @@ QImage CoverArtImageProvider::requestImage(const QString &id, QSize *size,
         img.loadFromData((const uchar *) Pic->picture().data(), Pic->picture().size());
         img = img.scaled(45, 45);
     }
+#else
+    Q_UNUSED(id)
 #endif
     return img;
 }
@@ -91,6 +93,8 @@ QImage CoverArtFullImageProvider::requestImage(const QString &id, QSize *size,
         img.loadFromData((const uchar *) Pic->picture().data(), Pic->picture().size());
         img = img.scaled(300, 300);
     }
+#else
+    Q_UNUSED(id)
 #endif
     return img;
 }
