@@ -7,7 +7,7 @@ clickable desktop
 To build a click package for the device run:
 
 ```
-clickable
+clickable build --all --arch arm64 # or amd64 / armhf
 ```
 
 See [clickable documentation](http://clickable.bhdouglass.com/en/latest/) for details.

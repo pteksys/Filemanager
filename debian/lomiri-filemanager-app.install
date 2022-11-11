@@ -1,0 +1,5 @@
+usr/bin/*
+usr/share/*
+usr/lib/*/qt5/qml/Lomiri/FileManager/Archives/
+usr/lib/*/qt5/qml/Lomiri/FileManager/PlacesModel/
+usr/lib/*/qt5/qml/Lomiri/FileManager/folderlistmodel/

@@ -1,2 +1,2 @@
-module com.ubuntu.Archives
+module Lomiri.FileManager.Archives
 plugin Archives

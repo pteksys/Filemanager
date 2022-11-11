@@ -2,7 +2,7 @@ include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
-set(PLUGIN_DIR com/ubuntu/PlacesModel)
+set(PLUGIN_DIR Lomiri/FileManager/PlacesModel)
 
 set(placesmodel_SRCS
     placesmodel.cpp

@@ -1,6 +1,6 @@
 import QtQuick 2.4
-import Ubuntu.Components 1.3
-import Ubuntu.Components.Popups 1.3
+import Lomiri.Components 1.3
+import Lomiri.Components.Popups 1.3
 
 Dialog {
     id: dialog
@@ -44,9 +44,9 @@ Dialog {
         text: i18n.tr("Open with another app")
         color: !extractButtonVisible && !previewButtonVisible
             ? theme.palette.normal.positive
-            : theme.name == "Ubuntu.Components.Themes.Ambiance"
-                ? UbuntuColors.graphite
-                : UbuntuColors.ash
+            : theme.name == "Lomiri.Components.Themes.Ambiance"
+                ? LomiriColors.graphite
+                : LomiriColors.ash
         onClicked: {
             PopupUtils.close(dialog)
             openWith()

@@ -23,7 +23,7 @@
 
 void BackendPlugin::registerTypes(const char *uri)
 {
-    Q_ASSERT(uri == QLatin1String("com.ubuntu.PlacesModel"));
+    Q_ASSERT(uri == QLatin1String("Lomiri.FileManager.PlacesModel"));
 
     qmlRegisterType<PlacesModel>(uri, 0, 1, "PlacesModel");
 }

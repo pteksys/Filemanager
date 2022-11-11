@@ -21,7 +21,7 @@
 
 void Archives::extractZip(const QString path, const QString destination)
 {
-    // This programm is available in the images as it is one of the dependencies of the ubuntu-download-manager package.
+    // This programm is available in the images as it is one of the dependencies of the lomiri-download-manager package.
     QString program = "unzip";
     QStringList arguments;
     arguments << path << "-d" << destination;

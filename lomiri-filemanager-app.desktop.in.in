@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=@EXEC@
+Icon=@ICON@
+Name=File Manager
+Keywords=folder;manager;explore;disk;filesystem;
+X-Lomiri-Touch=true
+X-Lomiri-Default-Department-ID=accessories
+X-Lomiri-Splash-Show-Header=false
+X-Lomiri-Splash-Image=@SPLASH@
+X-Lomiri-Splash-Color=#494949
+X-Lomiri-Single-Instance=true

@@ -1,14 +1,14 @@
 /*
  * Copyright: 2013 - 2014 Canonical, Ltd
  *
- * This file is part of ubuntu-filemanager-app
+ * This file is part of lomiri-filemanager-app
  *
- * ubuntu-filemanager-app is free software: you can redistribute it and/or modify
+ * lomiri-filemanager-app is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * ubuntu-filemanager-app is distributed in the hope that it will be useful,
+ * lomiri-filemanager-app is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
@@ -41,7 +41,7 @@ int main(int argc, char *argv[])
     QQuickView view;
     view.setResizeMode(QQuickView::SizeRootObjectToView);
 
-    qmlRegisterType<PathArrowBackground>("com.ubuntu.filemanager", 1, 0, "PathArrowBackground");
+    qmlRegisterType<PathArrowBackground>("filemanager.ubports", 1, 0, "PathArrowBackground");
 
     // Set up import paths
     QStringList importPathList = view.engine()->importPathList();

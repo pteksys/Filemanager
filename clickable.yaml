@@ -1,0 +1,22 @@
+clickable_minimum_required: '7.6.0'
+
+builder: cmake
+build_args:
+- -DCMAKE_INCLUDE_PATH=${LIBSMBCLIENT_LIB_INSTALL_DIR}/usr/include/samba-4.0/
+- -DCMAKE_LIBRARY_PATH=${LIBSMBCLIENT_LIB_INSTALL_DIR}/usr/lib/${ARCH_TRIPLET}/
+
+framework: ubuntu-sdk-20.04
+
+kill: 'lomiri-filemanager-app'
+
+libraries:
+  libsmbclient:
+    image_setup:
+      run:
+      - apt update
+    builder: custom
+    build:
+    - apt download libsmbclient-dev:${ARCH}
+    - apt download libsmbclient:${ARCH}
+    - dpkg-deb --extract libsmbclient-dev_*.deb ${INSTALL_DIR}
+    - dpkg-deb --extract libsmbclient_*.deb ${INSTALL_DIR}

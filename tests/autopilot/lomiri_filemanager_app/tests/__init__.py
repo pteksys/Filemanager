@@ -23,15 +23,15 @@ import tempfile
 
 import fixtures
 from autopilot import logging as autopilot_logging
-from filemanager import CMakePluginParser
+from lomiri_filemanager_app import CMakePluginParser
 
 from autopilot.matchers import Eventually
 from autopilot.testcase import AutopilotTestCase
 from testtools.matchers import Equals
-import ubuntuuitoolkit
+import lomiriuitoolkit
 
-import filemanager
-from filemanager import fixture_setup as fm_fixtures
+import lomiri_filemanager_app
+from lomiri_filemanager_app import fixture_setup as fm_fixtures
 import gi
 gi.require_version('Click', '0.4')
 from gi.repository import Click
@@ -42,7 +42,7 @@ logger = logging.getLogger(__name__)
 class BaseTestCaseWithPatchedHome(AutopilotTestCase):
 
     """A common test case class that provides several useful methods for
-    filemanager-app tests.
+    lomiri-filemanager-app tests.
 
     """
 
@@ -59,7 +59,7 @@ class BaseTestCaseWithPatchedHome(AutopilotTestCase):
         return launcher, test_type
 
     def setUp(self):
-        self.binary = 'filemanager'
+        self.binary = 'lomiri-filemanager-app'
         self.source_dir = os.path.dirname(
             os.path.dirname(os.path.abspath('.')))
         self.build_dir = self._get_build_dir()
@@ -72,7 +72,7 @@ class BaseTestCaseWithPatchedHome(AutopilotTestCase):
                                                   'src', 'app', self.binary)
         self.installed_location_binary = os.path.join('/usr/bin/', self.binary)
         self.installed_location_qml = \
-            '/usr/share/filemanager/qml/filemanager.qml'
+            '/usr/share/lomiri-filemanager-app/qml/filemanager.qml'
         super(BaseTestCaseWithPatchedHome, self).setUp()
         self.launcher, self.test_type = self.get_launcher_and_type()
         self.real_home_dir = os.getenv('HOME')
@@ -88,7 +88,7 @@ class BaseTestCaseWithPatchedHome(AutopilotTestCase):
             '-p',
             '-q', self.local_location_qml,
             app_type='qt',
-            emulator_base=ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase)
+            emulator_base=lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase)
 
     @autopilot_logging.log_action(logger.info)
     def launch_test_installed(self):
@@ -96,20 +96,20 @@ class BaseTestCaseWithPatchedHome(AutopilotTestCase):
             self.installed_location_binary,
             '-q', self.installed_location_qml,
             app_type='qt',
-            emulator_base=ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase)
+            emulator_base=lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase)
 
     @autopilot_logging.log_action(logger.info)
     def launch_test_click(self):
-        # We need to pass the "--forceAuth false" argument to the filemanager
-        # binary, but ubuntu-app-launch doesn't pass arguments to the exec line
-        # on the desktop file. So we make a test desktop file that has the
-        # "--forceAuth false"  on the exec line.
+        # We need to pass the "--forceAuth false" argument to the
+        # lomiri-filemanager-app binary, but lomiri-app-launch doesn't pass
+        # arguments to the exec line on the desktop file. So we make a test
+        # desktop file that has the "--forceAuth false"  on the exec line.
         desktop_file_path = self.write_sandbox_desktop_file()
         desktop_file_name = os.path.basename(desktop_file_path)
         application_name, _ = os.path.splitext(desktop_file_name)
         return self.launch_upstart_application(
             application_name,
-            emulator_base=ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase)
+            emulator_base=lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase)
 
     def write_sandbox_desktop_file(self):
         desktop_file_dir = self.get_local_desktop_file_directory()
@@ -118,11 +118,11 @@ class BaseTestCaseWithPatchedHome(AutopilotTestCase):
         desktop_file.write('[Desktop Entry]\n')
         version, installed_path = self.get_installed_version_and_directory()
         filemanager_sandbox_exec = (
-            'aa-exec-click -p com.ubuntu.filemanager_filemanager_{}'
-            ' -- filemanager --forceAuth false'.format(version))
+            'aa-exec-click -p filemanager.ubports_filemanager_{}'
+            ' -- lomiri-filemanager-app --forceAuth false'.format(version))
         desktop_file_dict = {
             'Type': 'Application',
-            'Name': 'filemanager',
+            'Name': 'lomiri-filemanager-app',
             'Exec': filemanager_sandbox_exec,
             'Icon': 'Not important',
             'Path': installed_path
@@ -151,7 +151,7 @@ class BaseTestCaseWithPatchedHome(AutopilotTestCase):
     def get_installed_version_and_directory(self):
         db = Click.DB()
         db.read()
-        package_name = 'com.ubuntu.filemanager'
+        package_name = 'filemanager.ubports'
         registry = Click.User.for_user(db, name=os.environ.get('USER'))
         version = registry.get_version(package_name)
         directory = registry.get_path(package_name)
@@ -212,7 +212,7 @@ class BaseTestCaseWithPatchedHome(AutopilotTestCase):
 
 class FileManagerTestCase(BaseTestCaseWithPatchedHome):
 
-    """Base test case that launches the filemanager-app."""
+    """Base test case that launches the lomiri-filemanager-app."""
 
     def setUp(self):
         super(FileManagerTestCase, self).setUp()
@@ -223,7 +223,7 @@ class FileManagerTestCase(BaseTestCaseWithPatchedHome):
         logger.debug('Directory Listing for HOME\n%s' %
                      os.listdir(self.fakehome))
         logger.debug('File count in HOME is %s' % self.original_file_count)
-        self.app = filemanager.Filemanager(self.launcher(), self.test_type)
+        self.app = lomiri_filemanager_app.Filemanager(self.launcher(), self.test_type)
 
     def make_file_in_home(self):
         return self.make_content_in_home('file')

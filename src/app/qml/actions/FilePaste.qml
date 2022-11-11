@@ -18,13 +18,13 @@
  */
 
 import QtQuick 2.4
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 
 Action {
     property int clipboardUrlsCounter
 
     // Translation message was implemented according to:
-    // http://developer.ubuntu.com/api/qml/sdk-14.04/Ubuntu.Components.i18n/
+    // http://developer.ubuntu.com/api/qml/sdk-14.04/Lomiri.Components.i18n/
     // It allows correct translation for languages with more than two plural forms:
     // http://localization-guide.readthedocs.org/en/latest/l10n/pluralforms.html
     text: i18n.tr("Paste %1 file", "Paste %1 files", clipboardUrlsCounter).arg(clipboardUrlsCounter)

@@ -2,7 +2,7 @@ include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
-set(PLUGIN_DIR com/ubuntu/Archives)
+set(PLUGIN_DIR Lomiri/FileManager/Archives)
 
 set(archives_SRCS
     archives.cpp
