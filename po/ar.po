@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-03 13:35+0000\n"
+"POT-Creation-Date: 2022-10-07 09:00+0000\n"
 "PO-Revision-Date: 2022-03-24 05:37+0000\n"
 "Last-Translator: HEROBRINE7GAMER <tapermeerkat77@gmail.com>\n"
 "Language-Team: Arabic <https://translate.ubports.com/projects/ubports/"
@@ -21,38 +21,64 @@ msgstr ""
 "X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2017-04-08 06:04+0000\n"
 
-#: ../src/app/qml/actions/AddBookmark.qml:6
+#: lomiri-filemanager-app.desktop.in:7
+msgid "/usr/share/lomiri-filemanager-app/filemanager.svg"
+msgstr ""
+
+#: lomiri-filemanager-app.desktop.in:8
+msgid "File Manager"
+msgstr "مدير الملفات"
+
+#: lomiri-filemanager-app.desktop.in:9
+msgid "folder;manager;explore;disk;filesystem;"
+msgstr "مجلد;مدير;استكشاف;قرص;ملف نظام;"
+
+#: src/app/qml/actions/AddBookmark.qml:6
 msgid "Add bookmark"
 msgstr "أضف كعلامة"
 
-#: ../src/app/qml/actions/ArchiveExtract.qml:6
-#: ../src/app/qml/dialogs/OpenArchiveDialog.qml:18
-#: ../src/app/qml/dialogs/OpenWithDialog.qml:33
+#: src/app/qml/actions/ArchiveExtract.qml:6
+#: src/app/qml/dialogs/OpenArchiveDialog.qml:18
+#: src/app/qml/dialogs/OpenWithDialog.qml:33
 msgid "Extract archive"
 msgstr "استخرج الأرشيف"
 
-#: ../src/app/qml/actions/Delete.qml:5
-#: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:14
-#: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:15
-#: ../src/app/qml/panels/SelectionBottomBar.qml:26
+#: src/app/qml/actions/Cancel.qml:6
+#: src/app/qml/authentication/FingerprintDialog.qml:68
+#: src/app/qml/authentication/PasswordDialog.qml:80
+#: src/app/qml/dialogs/CreateItemDialog.qml:64
+#: src/app/qml/dialogs/ExtractingDialog.qml:44
+#: src/app/qml/dialogs/FileActionDialog.qml:46
+#: src/app/qml/dialogs/FileOperationProgressDialog.qml:44
+#: src/app/qml/dialogs/NetAuthenticationDialog.qml:96
+#: src/app/qml/dialogs/OpenArchiveDialog.qml:37
+#: src/app/qml/dialogs/OpenWithDialog.qml:67
+#: src/app/qml/dialogs/templates/ConfirmDialog.qml:45
+#: src/app/qml/dialogs/templates/ConfirmDialogWithInput.qml:60
+#: src/app/qml/ui/FolderListPagePickModeHeader.qml:185
+#: src/app/qml/ui/FolderListPageSelectionHeader.qml:44
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: src/app/qml/actions/Delete.qml:5
+#: src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:16
+#: src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:17
 msgid "Delete"
 msgstr "احذف"
 
-#: ../src/app/qml/actions/FileClearSelection.qml:8
+#: src/app/qml/actions/FileClearSelection.qml:8
 msgid "Clear clipboard"
 msgstr "امسح الحافظة"
 
-#: ../src/app/qml/actions/FileCopy.qml:5
-#: ../src/app/qml/panels/SelectionBottomBar.qml:45
+#: src/app/qml/actions/FileCopy.qml:5
 msgid "Copy"
 msgstr "انسخ"
 
-#: ../src/app/qml/actions/FileCut.qml:5
-#: ../src/app/qml/panels/SelectionBottomBar.qml:60
+#: src/app/qml/actions/FileCut.qml:5
 msgid "Cut"
 msgstr "قص"
 
-#: ../src/app/qml/actions/FilePaste.qml:30
+#: src/app/qml/actions/FilePaste.qml:30
 #, qt-format
 msgid "Paste %1 file"
 msgid_plural "Paste %1 files"
@@ -63,380 +89,392 @@ msgstr[3] "لصق %1 ملفات"
 msgstr[4] "لصق %1 ملفا"
 msgstr[5] "لصق %1 ملف"
 
-#: ../src/app/qml/actions/GoBack.qml:5
+#: src/app/qml/actions/GoBack.qml:5
 msgid "Go back"
 msgstr "للخلف"
 
-#: ../src/app/qml/actions/GoNext.qml:5
+#: src/app/qml/actions/GoNext.qml:5
 msgid "Go next"
 msgstr "التالي"
 
-#: ../src/app/qml/actions/GoTo.qml:6
+#: src/app/qml/actions/GoTo.qml:6
 msgid "Go To"
 msgstr "اذهب إلى"
 
-#: ../src/app/qml/actions/NewItem.qml:6
+#: src/app/qml/actions/NewItem.qml:6
 msgid "New Item"
 msgstr "عنصر جديد"
 
-#: ../src/app/qml/actions/PlacesBookmarks.qml:6
-#: ../src/app/qml/ui/PlacesPage.qml:16
+#: src/app/qml/actions/OpenAdvanced.qml:6
+#, fuzzy
+#| msgid "Open with"
+msgid "Open with..."
+msgstr "مفتوحة مع"
+
+#: src/app/qml/actions/PlacesBookmarks.qml:6 src/app/qml/ui/PlacesPage.qml:16
 msgid "Places"
 msgstr "أماكن"
 
-#: ../src/app/qml/actions/Properties.qml:6
-#: ../src/app/qml/dialogs/OpenWithDialog.qml:54
+#: src/app/qml/actions/Properties.qml:6
+#: src/app/qml/dialogs/OpenWithDialog.qml:58
 msgid "Properties"
 msgstr "خصائص"
 
-#: ../src/app/qml/actions/Rename.qml:5
-#: ../src/app/qml/dialogs/ConfirmRenameDialog.qml:20
+#: src/app/qml/actions/Rename.qml:5
+#: src/app/qml/dialogs/ConfirmRenameDialog.qml:20
 msgid "Rename"
 msgstr "أعد التسمية"
 
-#: ../src/app/qml/actions/Select.qml:5
-#: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:60
+#: src/app/qml/actions/Search.qml:6
+msgid "Search"
+msgstr ""
+
+#: src/app/qml/actions/Select.qml:6
 msgid "Select"
 msgstr "حدد"
 
-#: ../src/app/qml/actions/SelectUnselectAll.qml:6
-msgid "Select None"
-msgstr "لا تختر شيء"
-
-#: ../src/app/qml/actions/SelectUnselectAll.qml:6
-msgid "Select All"
-msgstr "حدد الكل"
-
-#: ../src/app/qml/actions/Settings.qml:6
+#: src/app/qml/actions/Settings.qml:6
 msgid "Settings"
 msgstr "الإعدادات"
 
-#: ../src/app/qml/actions/Share.qml:5
+#: src/app/qml/actions/Share.qml:5
 msgid "Share"
 msgstr "شارك"
 
-#: ../src/app/qml/actions/TabsAdd.qml:5
+#: src/app/qml/actions/TabsAdd.qml:5
 msgid "Add tab"
 msgstr "أضف لسان"
 
-#: ../src/app/qml/actions/TabsCloseThis.qml:5
+#: src/app/qml/actions/TabsCloseThis.qml:5
 msgid "Close this tab"
 msgstr "أغلق اللسان"
 
-#: ../src/app/qml/actions/TabsOpenInNewTab.qml:5
+#: src/app/qml/actions/TabsOpenInNewTab.qml:5
 msgid "Open in a new tab"
 msgstr "افتح في لسان جديد"
 
-#: ../src/app/qml/actions/UnlockFullAccess.qml:6
+#: src/app/qml/actions/Terminal.qml:5
+msgid "Open Terminal Here"
+msgstr ""
+
+#: src/app/qml/actions/UnlockFullAccess.qml:6
 msgid "Unlock"
 msgstr "فك الإيصاد"
 
-#: ../src/app/qml/authentication/FingerprintDialog.qml:26
-#: ../src/app/qml/authentication/PasswordDialog.qml:43
-#: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:28
+#: src/app/qml/authentication/FingerprintDialog.qml:26
+#: src/app/qml/authentication/PasswordDialog.qml:43
+#: src/app/qml/dialogs/NetAuthenticationDialog.qml:28
 msgid "Authentication required"
 msgstr "يستلزم الاستيثاق"
 
-#: ../src/app/qml/authentication/FingerprintDialog.qml:27
+#: src/app/qml/authentication/FingerprintDialog.qml:27
 msgid "Use your fingerprint to access restricted content"
 msgstr "إستخدم بصمة الإصبع للوصول إلى المحتوى المقيد"
 
 #. TRANSLATORS: "Touch" here is a verb
-#: ../src/app/qml/authentication/FingerprintDialog.qml:55
+#: src/app/qml/authentication/FingerprintDialog.qml:55
 msgid "Touch sensor"
 msgstr "المس الحساس"
 
-#: ../src/app/qml/authentication/FingerprintDialog.qml:60
+#: src/app/qml/authentication/FingerprintDialog.qml:60
 msgid "Use password"
 msgstr "استخدم كلمة المرور"
 
-#: ../src/app/qml/authentication/FingerprintDialog.qml:69
-#: ../src/app/qml/authentication/PasswordDialog.qml:80
-#: ../src/app/qml/dialogs/CreateItemDialog.qml:60
-#: ../src/app/qml/dialogs/ExtractingDialog.qml:35
-#: ../src/app/qml/dialogs/FileActionDialog.qml:45
-#: ../src/app/qml/dialogs/FileOperationProgressDialog.qml:44
-#: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:96
-#: ../src/app/qml/dialogs/OpenArchiveDialog.qml:38
-#: ../src/app/qml/dialogs/OpenWithDialog.qml:64
-#: ../src/app/qml/dialogs/templates/ConfirmDialog.qml:41
-#: ../src/app/qml/dialogs/templates/ConfirmDialogWithInput.qml:60
-#: ../src/app/qml/ui/FileDetailsPopover.qml:184
-#: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:51
-#: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:26
-msgid "Cancel"
-msgstr "إلغاء"
-
-#: ../src/app/qml/authentication/FingerprintDialog.qml:126
+#: src/app/qml/authentication/FingerprintDialog.qml:124
 msgid "Authentication failed!"
 msgstr "فشل التعرف!"
 
-#: ../src/app/qml/authentication/FingerprintDialog.qml:137
+#: src/app/qml/authentication/FingerprintDialog.qml:135
 msgid "Please retry"
 msgstr "أعد المحاولة"
 
-#: ../src/app/qml/authentication/PasswordDialog.qml:35
+#: src/app/qml/authentication/PasswordDialog.qml:35
 msgid "Authentication failed"
 msgstr "فشل المصادقة"
 
-#: ../src/app/qml/authentication/PasswordDialog.qml:45
+#: src/app/qml/authentication/PasswordDialog.qml:45
 msgid "Your passphrase is required to access restricted content"
 msgstr "كلمة السر مطلوبة للوصول إلى المحتوى المقيد"
 
-#: ../src/app/qml/authentication/PasswordDialog.qml:46
+#: src/app/qml/authentication/PasswordDialog.qml:46
 msgid "Your passcode is required to access restricted content"
 msgstr "كلمة السر مطلوبة للوصول إلى المحتوى المقيد"
 
-#: ../src/app/qml/authentication/PasswordDialog.qml:57
+#: src/app/qml/authentication/PasswordDialog.qml:57
 msgid "passphrase (default is 0000 if unset)"
 msgstr "كلمة السر (كلمة السر الإفتراضية هي 0000 إذا لم يتم وضعها)"
 
-#: ../src/app/qml/authentication/PasswordDialog.qml:57
+#: src/app/qml/authentication/PasswordDialog.qml:57
 msgid "passcode (default is 0000 if unset)"
 msgstr "كلمة السر (كلمة السر الإفتراضية هي 0000 إذا لم يتم وضعها)"
 
-#: ../src/app/qml/authentication/PasswordDialog.qml:69
+#: src/app/qml/authentication/PasswordDialog.qml:69
 msgid "Authentication failed. Please retry"
 msgstr "فشل التعرف. أعد المحاولة"
 
-#: ../src/app/qml/authentication/PasswordDialog.qml:74
+#: src/app/qml/authentication/PasswordDialog.qml:74
 msgid "Authenticate"
 msgstr "التعرف"
 
-#: ../src/app/qml/backend/FolderListModel.qml:123
-#, qt-format
+#: src/app/qml/backend/FolderListModel.qml:122 src/app/qml/filemanager.qml:185
+#: src/app/qml/filemanager.qml:188
+#, fuzzy, qt-format
+#| msgid "%1 file"
 msgid "%1 file"
-msgstr "%1 ملف"
+msgid_plural "%1 files"
+msgstr[0] "%1 ملف"
+msgstr[1] "%1 ملف"
+msgstr[2] "%1 ملف"
+msgstr[3] "%1 ملف"
+msgstr[4] "%1 ملف"
+msgstr[5] "%1 ملف"
 
-#: ../src/app/qml/backend/FolderListModel.qml:124
-#, qt-format
-msgid "%1 files"
-msgstr "%1 ملفات"
-
-#: ../src/app/qml/backend/FolderListModel.qml:135
+#: src/app/qml/backend/FolderListModel.qml:133
 msgid "Folder"
 msgstr "مجلد"
 
-#: ../src/app/qml/components/TextualButtonStyle.qml:48
-#: ../src/app/qml/components/TextualButtonStyle.qml:56
-#: ../src/app/qml/components/TextualButtonStyle.qml:63
+#: src/app/qml/components/TextualButtonStyle.qml:48
+#: src/app/qml/components/TextualButtonStyle.qml:56
+#: src/app/qml/components/TextualButtonStyle.qml:63
 msgid "Pick"
 msgstr "إلتقط"
 
-#: ../src/app/qml/content-hub/FileOpener.qml:27
+#: src/app/qml/content-hub/FileOpener.qml:27
 msgid "Open with"
 msgstr "مفتوحة مع"
 
-#: ../src/app/qml/dialogs/ConfirmExtractDialog.qml:15
+#: src/app/qml/dialogs/ConfirmExtractDialog.qml:15
 msgid "Extract Archive"
 msgstr "استخراج الأرشيف"
 
-#: ../src/app/qml/dialogs/ConfirmExtractDialog.qml:16
+#: src/app/qml/dialogs/ConfirmExtractDialog.qml:16
 #, qt-format
 msgid "Are you sure you want to extract '%1' here?"
 msgstr "هل تريد بالتأكيد استخراج \"٪ 1\" هنا؟"
 
-#: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:15
-#: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:16
+#: src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:17
+#: src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:18
 #, qt-format
 msgid "Are you sure you want to permanently delete '%1'?"
 msgstr "هل تريد بالتأكيد حذف '٪ 1' نهائيا؟"
 
-#: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:15
+#: src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:17
 msgid "these files"
 msgstr "هذه الملفات"
 
-#: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:18
-#: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:21
+#: src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:20
+#: src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:23
 msgid "Deleting files"
 msgstr "حذف الملفات"
 
-#: ../src/app/qml/dialogs/ConfirmRenameDialog.qml:21
+#: src/app/qml/dialogs/ConfirmRenameDialog.qml:21
 msgid "Enter a new name"
 msgstr "أدخل اسما جديدا"
 
-#: ../src/app/qml/dialogs/CreateItemDialog.qml:13
+#: src/app/qml/dialogs/CreateItemDialog.qml:14
 msgid "Create Item"
 msgstr "إنشاء عنصر"
 
-#: ../src/app/qml/dialogs/CreateItemDialog.qml:14
+#: src/app/qml/dialogs/CreateItemDialog.qml:15
 msgid "Enter name for new item"
 msgstr "أدخل اسم العنصر الجديد"
 
-#: ../src/app/qml/dialogs/CreateItemDialog.qml:18
+#: src/app/qml/dialogs/CreateItemDialog.qml:19
 msgid "Item name"
 msgstr "اسم العنصر"
 
-#: ../src/app/qml/dialogs/CreateItemDialog.qml:24
+#: src/app/qml/dialogs/CreateItemDialog.qml:25
 msgid "Create file"
 msgstr "إنشاء ملف"
 
-#: ../src/app/qml/dialogs/CreateItemDialog.qml:43
+#: src/app/qml/dialogs/CreateItemDialog.qml:34
+#, fuzzy, qt-format
+#| msgid "Create file"
+msgid "Created file '%1'"
+msgstr "إنشاء ملف"
+
+#: src/app/qml/dialogs/CreateItemDialog.qml:46
 msgid "Create Folder"
 msgstr "أنشئ مجلد"
 
-#: ../src/app/qml/dialogs/ExtractingDialog.qml:23
+#: src/app/qml/dialogs/CreateItemDialog.qml:53
+#, fuzzy, qt-format
+#| msgid "Create Folder"
+msgid "Created folder '%1'"
+msgstr "أنشئ مجلد"
+
+#: src/app/qml/dialogs/ExtractingDialog.qml:23
 #, qt-format
 msgid "Extracting archive '%1'"
 msgstr "استخراج الأرشيف '٪ 1'"
 
-#: ../src/app/qml/dialogs/ExtractingDialog.qml:44
-#: ../src/app/qml/dialogs/NotifyDialog.qml:27
-#: ../src/app/qml/dialogs/templates/ConfirmDialog.qml:31
-#: ../src/app/qml/dialogs/templates/ConfirmDialogWithInput.qml:49
+#: src/app/qml/dialogs/ExtractingDialog.qml:35
+#: src/app/qml/dialogs/NotifyDialog.qml:30
+#: src/app/qml/dialogs/templates/ConfirmDialog.qml:33
+#: src/app/qml/dialogs/templates/ConfirmDialogWithInput.qml:49
 msgid "OK"
 msgstr "موافق"
 
-#: ../src/app/qml/dialogs/ExtractingDialog.qml:59
+#: src/app/qml/dialogs/ExtractingDialog.qml:59
 msgid "Extracting failed"
 msgstr "أخفقت عملية الاستخراج"
 
-#: ../src/app/qml/dialogs/ExtractingDialog.qml:60
+#: src/app/qml/dialogs/ExtractingDialog.qml:60
 #, qt-format
 msgid "Extracting the archive '%1' failed."
 msgstr "أخفق استخراج الأرشيف '٪ 1'."
 
-#: ../src/app/qml/dialogs/FileActionDialog.qml:30
+#: src/app/qml/dialogs/FileActionDialog.qml:30
 msgid "Choose action"
 msgstr "اختر الإجراء"
 
-#: ../src/app/qml/dialogs/FileActionDialog.qml:31
+#: src/app/qml/dialogs/FileActionDialog.qml:31
 #, qt-format
 msgid "For file: %1"
 msgstr "للملف:٪ 1"
 
-#: ../src/app/qml/dialogs/FileActionDialog.qml:35
+#: src/app/qml/dialogs/FileActionDialog.qml:36
 msgid "Open"
 msgstr "افتح"
 
-#: ../src/app/qml/dialogs/FileOperationProgressDialog.qml:27
+#: src/app/qml/dialogs/FileOperationProgressDialog.qml:27
 msgid "Operation in progress"
 msgstr "عملية قيد التنفيذ"
 
-#: ../src/app/qml/dialogs/FileOperationProgressDialog.qml:29
+#: src/app/qml/dialogs/FileOperationProgressDialog.qml:29
 msgid "File operation"
 msgstr "تشغيل الملف"
 
-#: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:45
+#: src/app/qml/dialogs/NetAuthenticationDialog.qml:45
 msgid "User"
 msgstr "مستخدم"
 
-#: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:58
+#: src/app/qml/dialogs/NetAuthenticationDialog.qml:58
 msgid "Password"
 msgstr "كلمة السر"
 
-#: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:72
+#: src/app/qml/dialogs/NetAuthenticationDialog.qml:72
 msgid "Save password"
 msgstr "حفظ كلمة المرور"
 
-#: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:108
+#: src/app/qml/dialogs/NetAuthenticationDialog.qml:108
 msgid "Ok"
 msgstr "موافق"
 
-#: ../src/app/qml/dialogs/OpenArchiveDialog.qml:8
+#: src/app/qml/dialogs/OpenArchiveDialog.qml:8
 msgid "Archive file"
 msgstr "ملف الأرشيف"
 
-#: ../src/app/qml/dialogs/OpenArchiveDialog.qml:9
+#: src/app/qml/dialogs/OpenArchiveDialog.qml:9
 msgid "Do you want to extract the archive here?"
 msgstr "هل تريد استخراج الأرشيف هنا؟"
 
-#: ../src/app/qml/dialogs/OpenArchiveDialog.qml:28
-#: ../src/app/qml/dialogs/OpenWithDialog.qml:44
+#: src/app/qml/dialogs/OpenArchiveDialog.qml:28
+#: src/app/qml/dialogs/OpenWithDialog.qml:44
 msgid "Open with another app"
 msgstr "فتح مع التطبيق آخر"
 
-#: ../src/app/qml/dialogs/OpenWithDialog.qml:8
+#: src/app/qml/dialogs/OpenWithDialog.qml:8
 msgid "Open file"
 msgstr "افتح الملف"
 
-#: ../src/app/qml/dialogs/OpenWithDialog.qml:9
+#: src/app/qml/dialogs/OpenWithDialog.qml:9
 msgid "What do you want to do with the clicked file?"
 msgstr "ماذا تريد أن تفعل بالملف المحدد؟"
 
-#: ../src/app/qml/dialogs/OpenWithDialog.qml:22
+#: src/app/qml/dialogs/OpenWithDialog.qml:22
 msgid "Preview"
 msgstr "معاينة"
 
-#: ../src/app/qml/filemanager.qml:170
-#, qt-format
-msgid "File %1"
-msgstr "الملف٪ 1"
+#: src/app/qml/filemanager.qml:185
+msgid "successfully saved: "
+msgstr ""
 
-#: ../src/app/qml/filemanager.qml:170
-#, qt-format
-msgid "%1 Files"
-msgstr "٪ 1 ملفات"
+#: src/app/qml/filemanager.qml:188
+#, fuzzy
+#| msgid "File saved"
+msgid "failed to save: "
+msgstr "تم حفظ الملف"
 
-#: ../src/app/qml/filemanager.qml:171
-#, qt-format
-msgid "Saved to: %1"
+#: src/app/qml/filemanager.qml:190
+#, fuzzy, qt-format
+#| msgid "Saved to: %1"
+msgid "into: %1"
 msgstr "تم الحفظ إلى:٪ 1"
 
-#: ../src/app/qml/panels/DefaultBottomBar.qml:24
-msgid "Paste files"
-msgstr "لصق الملفات"
+#: src/app/qml/filemanager.qml:194
+msgid ""
+"Warning: Content-Hub does not overwrite existing files. The following were "
+"detected:"
+msgstr ""
 
-#: ../src/app/qml/ui/FileDetailsPopover.qml:34
+#: src/app/qml/filemanager.qml:205
+msgid "Import Results"
+msgstr ""
+
+#: src/app/qml/ui/FileDetailsPopover.qml:34
 msgid "Readable"
 msgstr "مقروء"
 
-#: ../src/app/qml/ui/FileDetailsPopover.qml:37
+#: src/app/qml/ui/FileDetailsPopover.qml:37
 msgid "Writable"
 msgstr "للكتابة"
 
-#: ../src/app/qml/ui/FileDetailsPopover.qml:40
+#: src/app/qml/ui/FileDetailsPopover.qml:40
 msgid "Executable"
 msgstr "تنفيذ"
 
-#: ../src/app/qml/ui/FileDetailsPopover.qml:100
+#: src/app/qml/ui/FileDetailsPopover.qml:100
 msgid "Where:"
 msgstr "أين:"
 
-#: ../src/app/qml/ui/FileDetailsPopover.qml:127
+#: src/app/qml/ui/FileDetailsPopover.qml:127
 msgid "Created:"
 msgstr "أنشئ:"
 
-#: ../src/app/qml/ui/FileDetailsPopover.qml:141
+#: src/app/qml/ui/FileDetailsPopover.qml:141
 msgid "Modified:"
 msgstr "تم التعديل:"
 
-#: ../src/app/qml/ui/FileDetailsPopover.qml:155
+#: src/app/qml/ui/FileDetailsPopover.qml:155
 msgid "Accessed:"
 msgstr "الوصول:"
 
-#: ../src/app/qml/ui/FileDetailsPopover.qml:176
+#: src/app/qml/ui/FileDetailsPopover.qml:176
 msgid "Permissions:"
 msgstr "ضوابط:"
 
-#: ../src/app/qml/ui/FolderListPage.qml:241
-#: ../src/app/qml/ui/FolderListPage.qml:296
+#: src/app/qml/ui/FileDetailsPopover.qml:184
+msgid "Close"
+msgstr ""
+
+#: src/app/qml/ui/FolderListPage.qml:249 src/app/qml/ui/FolderListPage.qml:304
 msgid "Restricted access"
 msgstr "وصول مقيد"
 
-#: ../src/app/qml/ui/FolderListPage.qml:245
+#: src/app/qml/ui/FolderListPage.qml:253
 msgid ""
 "Authentication is required in order to see all the content of this folder."
 msgstr "التعرف مطلوب لرؤية محتوى المجلد."
 
-#: ../src/app/qml/ui/FolderListPage.qml:282
+#: src/app/qml/ui/FolderListPage.qml:290
 msgid "No files"
 msgstr "لا ملفات"
 
-#: ../src/app/qml/ui/FolderListPage.qml:283
+#: src/app/qml/ui/FolderListPage.qml:291
 msgid "This folder is empty."
 msgstr "هاذا المجلد فارغ."
 
-#: ../src/app/qml/ui/FolderListPage.qml:297
+#: src/app/qml/ui/FolderListPage.qml:305
 msgid "Authentication is required in order to see the content of this folder."
 msgstr "التعرف مطلوب لرؤية محتوى المجلد."
 
-#: ../src/app/qml/ui/FolderListPage.qml:313
+#: src/app/qml/ui/FolderListPage.qml:320
 msgid "File operation error"
 msgstr "خطأ في تشغيل الملف"
 
-#: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:21
-#: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:21
+#: src/app/qml/ui/FolderListPageDefaultHeader.qml:32
+#: src/app/qml/ui/FolderListPagePickModeHeader.qml:31
 #, qt-format
 msgid "%1 item"
 msgid_plural "%1 items"
@@ -447,11 +485,70 @@ msgstr[3] "%1 بضعة عناصر"
 msgstr[4] "%1 العديد من العناصر"
 msgstr[5] "%1 العناصر الأخرى"
 
-#: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:21
+#: src/app/qml/ui/FolderListPageDefaultHeader.qml:41
+#: src/app/qml/ui/FolderListPagePickModeHeader.qml:46
+msgid "Search Results"
+msgstr ""
+
+#: src/app/qml/ui/FolderListPageDefaultHeader.qml:68
+#: src/app/qml/ui/FolderListPagePickModeHeader.qml:73
+msgid "Search..."
+msgstr ""
+
+#: src/app/qml/ui/FolderListPageDefaultHeader.qml:118
+#: src/app/qml/ui/FolderListPagePickModeHeader.qml:125
+#, fuzzy
+#| msgid "Contents:"
+msgid "File Contents"
+msgstr "محتويات:"
+
+#: src/app/qml/ui/FolderListPageDefaultHeader.qml:134
+#: src/app/qml/ui/FolderListPagePickModeHeader.qml:141
+msgid "Recursive"
+msgstr ""
+
+#: src/app/qml/ui/FolderListPageDefaultHeader.qml:135
+#: src/app/qml/ui/FolderListPagePickModeHeader.qml:142
+msgid "Note: Slow in large directories"
+msgstr ""
+
+#: src/app/qml/ui/FolderListPageDefaultHeader.qml:208
+#, fuzzy
+#| msgid "Clear clipboard"
+msgid "Cleared clipboard"
+msgstr "امسح الحافظة"
+
+#: src/app/qml/ui/FolderListPageDefaultHeader.qml:217
+msgid "Paste files"
+msgstr "لصق الملفات"
+
+#: src/app/qml/ui/FolderListPageDefaultHeader.qml:219
+#, fuzzy
+#| msgid "Paste files"
+msgid "Pasted item"
+msgid_plural "Pasted items"
+msgstr[0] "لصق الملفات"
+msgstr[1] "لصق الملفات"
+msgstr[2] "لصق الملفات"
+msgstr[3] "لصق الملفات"
+msgstr[4] "لصق الملفات"
+msgstr[5] "لصق الملفات"
+
+#: src/app/qml/ui/FolderListPageDefaultHeader.qml:230
+#, qt-format
+msgid "Added '%1' to Places"
+msgstr ""
+
+#: src/app/qml/ui/FolderListPagePickModeHeader.qml:33
 msgid "Save here"
 msgstr "احفظ هنا"
 
-#: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:18
+#: src/app/qml/ui/FolderListPagePickModeHeader.qml:35
+#, qt-format
+msgid "Select files (%1 selected)"
+msgstr ""
+
+#: src/app/qml/ui/FolderListPageSelectionHeader.qml:36
 #, qt-format
 msgid "%1 item selected"
 msgid_plural "%1 items selected"
@@ -462,248 +559,270 @@ msgstr[3] "تم اختيار %1 عناصر"
 msgstr[4] "تم اختيار %1 عناصر"
 msgstr[5] "تم اختيار %1 العناصر الأخرى"
 
-#: ../src/app/qml/ui/ViewPopover.qml:24
-msgid "Show Hidden Files"
-msgstr "أظهر الملفات المخفية"
-
-#: ../src/app/qml/ui/ViewPopover.qml:37
-msgid "View As"
-msgstr "عرض ك"
-
-#: ../src/app/qml/ui/ViewPopover.qml:39
-msgid "List"
-msgstr "قائمة"
-
-#: ../src/app/qml/ui/ViewPopover.qml:39
-msgid "Icons"
-msgstr "أيقونات"
-
-#: ../src/app/qml/ui/ViewPopover.qml:44
-msgid "Grid size"
-msgstr "حجم الشبكة"
-
-#: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
-msgid "S"
-msgstr "س"
-
-#: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
-msgid "M"
-msgstr "م"
-
-#: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
-msgid "L"
-msgstr "ل"
-
-#: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
-msgid "XL"
-msgstr "إكس إل"
-
-#: ../src/app/qml/ui/ViewPopover.qml:52
-msgid "List size"
-msgstr "حجم القائمة"
-
-#: ../src/app/qml/ui/ViewPopover.qml:60
-msgid "Sort By"
-msgstr "ترتيب حسب"
-
-#: ../src/app/qml/ui/ViewPopover.qml:62
-msgid "Name"
-msgstr "الاسم"
-
-#: ../src/app/qml/ui/ViewPopover.qml:62
-msgid "Date"
-msgstr "تاريخ"
-
-#: ../src/app/qml/ui/ViewPopover.qml:62
-msgid "Size"
-msgstr "الحجم"
-
-#: ../src/app/qml/ui/ViewPopover.qml:67
-msgid "Sort Order"
-msgstr "امر ترتيب"
-
-#: ../src/app/qml/ui/ViewPopover.qml:74
-msgid "Theme"
-msgstr "‫سمة"
-
-#: ../src/app/qml/ui/ViewPopover.qml:76
-msgid "Light"
-msgstr "فاتح"
-
-#: ../src/app/qml/ui/ViewPopover.qml:76
-msgid "Dark"
-msgstr "داكن"
-
-#: ../src/app/qml/views/FolderDelegateActions.qml:40
-msgid "Folder not accessible"
-msgstr "لا يمكن الوصول إلى المجلد"
-
-#. TRANSLATORS: this refers to a folder name
-#: ../src/app/qml/views/FolderDelegateActions.qml:42
-#, qt-format
-msgid "Can not access %1"
-msgstr "لا يمكن الوصول إلى %1"
-
-#: ../src/app/qml/views/FolderDelegateActions.qml:136
+#: src/app/qml/ui/FolderListPageSelectionHeader.qml:119
+#: src/app/qml/views/FolderDelegateActions.qml:183
 msgid "Could not rename"
 msgstr "لا يمكن إعادة التسمية"
 
-#: ../src/app/qml/views/FolderDelegateActions.qml:137
+#: src/app/qml/ui/FolderListPageSelectionHeader.qml:120
+#: src/app/qml/views/FolderDelegateActions.qml:184
 msgid ""
 "Insufficient permissions, name contains special chars (e.g. '/'), or already "
 "exists"
 msgstr ""
 "أذونات غير كافية، يحتوي الإسم على رموز خاصة (مثل '/')، أو الإسم موجود بالفعل"
 
-#: ../src/app/qml/views/FolderListView.qml:72
+#: src/app/qml/ui/ViewPopover.qml:24
+msgid "Show Hidden Files"
+msgstr "أظهر الملفات المخفية"
+
+#: src/app/qml/ui/ViewPopover.qml:42
+#, fuzzy
+#| msgid "File operation"
+msgid "Default open action"
+msgstr "تشغيل الملف"
+
+#: src/app/qml/ui/ViewPopover.qml:55
+msgid "View As"
+msgstr "عرض ك"
+
+#: src/app/qml/ui/ViewPopover.qml:57
+msgid "List"
+msgstr "قائمة"
+
+#: src/app/qml/ui/ViewPopover.qml:57
+msgid "Icons"
+msgstr "أيقونات"
+
+#: src/app/qml/ui/ViewPopover.qml:62
+msgid "Grid size"
+msgstr "حجم الشبكة"
+
+#: src/app/qml/ui/ViewPopover.qml:65 src/app/qml/ui/ViewPopover.qml:73
+msgid "S"
+msgstr "س"
+
+#: src/app/qml/ui/ViewPopover.qml:65 src/app/qml/ui/ViewPopover.qml:73
+msgid "M"
+msgstr "م"
+
+#: src/app/qml/ui/ViewPopover.qml:65 src/app/qml/ui/ViewPopover.qml:73
+msgid "L"
+msgstr "ل"
+
+#: src/app/qml/ui/ViewPopover.qml:65 src/app/qml/ui/ViewPopover.qml:73
+msgid "XL"
+msgstr "إكس إل"
+
+#: src/app/qml/ui/ViewPopover.qml:70
+msgid "List size"
+msgstr "حجم القائمة"
+
+#: src/app/qml/ui/ViewPopover.qml:78
+msgid "Sort By"
+msgstr "ترتيب حسب"
+
+#: src/app/qml/ui/ViewPopover.qml:80
+msgid "Name"
+msgstr "الاسم"
+
+#: src/app/qml/ui/ViewPopover.qml:80
+msgid "Date"
+msgstr "تاريخ"
+
+#: src/app/qml/ui/ViewPopover.qml:80
+msgid "Size"
+msgstr "الحجم"
+
+#: src/app/qml/ui/ViewPopover.qml:85
+msgid "Sort Order"
+msgstr "امر ترتيب"
+
+#: src/app/qml/ui/ViewPopover.qml:92
+msgid "Theme"
+msgstr "‫سمة"
+
+#: src/app/qml/ui/ViewPopover.qml:94
+msgid "System"
+msgstr ""
+
+#: src/app/qml/ui/ViewPopover.qml:94
+msgid "Light"
+msgstr "فاتح"
+
+#: src/app/qml/ui/ViewPopover.qml:94
+msgid "Dark"
+msgstr "داكن"
+
+#: src/app/qml/views/FolderDelegateActions.qml:41
+msgid "Folder not accessible"
+msgstr "لا يمكن الوصول إلى المجلد"
+
+#. TRANSLATORS: this refers to a folder name
+#: src/app/qml/views/FolderDelegateActions.qml:43
+#, qt-format
+msgid "Can not access %1"
+msgstr "لا يمكن الوصول إلى %1"
+
+#: src/app/qml/views/FolderListView.qml:87
 msgid "Directories"
 msgstr "دلائل"
 
-#: ../src/app/qml/views/FolderListView.qml:72
+#: src/app/qml/views/FolderListView.qml:87
 msgid "Files"
 msgstr "ملفات"
 
-#: ../src/plugin/folderlistmodel/dirmodel.cpp:360
+#: src/plugin/folderlistmodel/dirmodel.cpp:384
 msgid "Unknown"
 msgstr "مجهول"
 
-#: ../src/plugin/folderlistmodel/dirmodel.cpp:487
+#: src/plugin/folderlistmodel/dirmodel.cpp:511
 msgid "path or url may not exist or cannot be read"
 msgstr "مسار أو عنوان الرابط قد لا يكون موجودا أو لا يمكن قراءته"
 
-#: ../src/plugin/folderlistmodel/dirmodel.cpp:690
+#: src/plugin/folderlistmodel/dirmodel.cpp:751
 msgid "Rename error"
 msgstr "خطأ إعادة تسمية"
 
-#: ../src/plugin/folderlistmodel/dirmodel.cpp:713
+#: src/plugin/folderlistmodel/dirmodel.cpp:774
 msgid "Error creating new folder"
 msgstr "حدث خطأ أثناء إنشاء مجلد جديد"
 
-#: ../src/plugin/folderlistmodel/dirmodel.cpp:740
+#: src/plugin/folderlistmodel/dirmodel.cpp:801
 msgid "Touch file error"
 msgstr "خطأ ملف اللمس"
 
-#: ../src/plugin/folderlistmodel/dirmodel.cpp:1353
+#: src/plugin/folderlistmodel/dirmodel.cpp:1414
 msgid "items"
 msgstr "العناصر"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:320
+#: src/plugin/folderlistmodel/filesystemaction.cpp:320
 msgid "File or Directory does not exist"
 msgstr "الملف أو الدليل غير موجود"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:321
+#: src/plugin/folderlistmodel/filesystemaction.cpp:321
 msgid " does not exist"
 msgstr " غير موجود"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:326
+#: src/plugin/folderlistmodel/filesystemaction.cpp:326
 msgid "Cannot access File or Directory"
 msgstr "لا يمكن الوصول إلى الملف أو الدليل"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:327
+#: src/plugin/folderlistmodel/filesystemaction.cpp:327
 msgid " it needs Authentication"
 msgstr " فإنه يحتاج المصادقة"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:361
+#: src/plugin/folderlistmodel/filesystemaction.cpp:361
 msgid "Cannot copy/move items"
 msgstr "لا يمكن نسخ / نقل العناصر"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:362
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1487
+#: src/plugin/folderlistmodel/filesystemaction.cpp:362
+#: src/plugin/folderlistmodel/filesystemaction.cpp:1487
 msgid "no write permission on folder "
 msgstr "لا إذن الكتابة على المجلد _ "
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:642
+#: src/plugin/folderlistmodel/filesystemaction.cpp:642
 msgid "Could not remove the item "
 msgstr "تعذر إزالة العنصر "
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:680
+#: src/plugin/folderlistmodel/filesystemaction.cpp:680
 msgid "Could not find a suitable name to backup"
 msgstr "تعذر العثور على اسم مناسب للنسخ الاحتياطي"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:733
+#: src/plugin/folderlistmodel/filesystemaction.cpp:733
 msgid "Could not create the directory"
 msgstr "تعذر إنشاء الدليل"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:738
+#: src/plugin/folderlistmodel/filesystemaction.cpp:738
 msgid "Could not create link to"
 msgstr "تعذر إنشاء رابط إلى"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:746
+#: src/plugin/folderlistmodel/filesystemaction.cpp:746
 msgid "Could not set permissions to dir"
 msgstr "تعذر تعيين الأذونات إلى dir"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:756
+#: src/plugin/folderlistmodel/filesystemaction.cpp:756
 msgid "Could not open file"
 msgstr "لا يمكن فتح الملف"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:772
+#: src/plugin/folderlistmodel/filesystemaction.cpp:772
 msgid "There is no space to copy"
 msgstr "ليس هناك مساحة للنسخ"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:780
+#: src/plugin/folderlistmodel/filesystemaction.cpp:780
 msgid "Could not create file"
 msgstr "تعذر إنشاء ملف"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:837
+#: src/plugin/folderlistmodel/filesystemaction.cpp:837
 msgid "Could not remove the directory/file "
 msgstr "تعذر إزالة الدليل / الملف "
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:850
+#: src/plugin/folderlistmodel/filesystemaction.cpp:850
 msgid "Could not move the directory/file "
 msgstr "تعذر نقل الدليل / الملف "
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1089
+#: src/plugin/folderlistmodel/filesystemaction.cpp:1089
 msgid "Write error in "
 msgstr "اكتب خطأ في "
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1101
+#: src/plugin/folderlistmodel/filesystemaction.cpp:1101
 msgid "Read error in "
 msgstr "قراءة الخطأ في "
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1318
+#: src/plugin/folderlistmodel/filesystemaction.cpp:1318
 msgid " Copy"
 msgstr " نسخ"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1371
+#: src/plugin/folderlistmodel/filesystemaction.cpp:1371
 msgid "Set permissions error in "
 msgstr "خطأ تعيين الأذونات في "
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1437
+#: src/plugin/folderlistmodel/filesystemaction.cpp:1437
 msgid "Could not create trash info file"
 msgstr "تعذر إنشاء ملف معلومات المهملات"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1449
+#: src/plugin/folderlistmodel/filesystemaction.cpp:1449
 msgid "Could not remove the trash info file"
 msgstr "تعذر إزالة ملف معلومات المهملات"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1479
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1486
+#: src/plugin/folderlistmodel/filesystemaction.cpp:1479
+#: src/plugin/folderlistmodel/filesystemaction.cpp:1486
 msgid "Cannot move items"
 msgstr "لا يمكن نقل العناصر"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1481
+#: src/plugin/folderlistmodel/filesystemaction.cpp:1481
 msgid "origin and destination folders are the same"
 msgstr "المقصد و المجلدات الأصل  هي نفسها"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1524
+#: src/plugin/folderlistmodel/filesystemaction.cpp:1524
 msgid "There is no space to download"
 msgstr "ليس هناك مساحة للتحميل"
 
-#: ../src/plugin/folderlistmodel/smb/qsambaclient/src/smbusershare.cpp:72
+#: src/plugin/folderlistmodel/smb/qsambaclient/src/smbusershare.cpp:72
 msgid "net tool not found, check samba installation"
 msgstr "صافي أداة لم يتم العثور عليها، والتحقق من تركيب سامبا"
 
-#: ../src/plugin/folderlistmodel/smb/qsambaclient/src/smbusershare.cpp:80
+#: src/plugin/folderlistmodel/smb/qsambaclient/src/smbusershare.cpp:80
 msgid "cannot write in "
 msgstr "لا يمكن الكتابة في "
 
-#: com.ubuntu.filemanager.desktop.in.in.h:1
-msgid "File Manager"
-msgstr "مدير الملفات"
+#~ msgid "Select None"
+#~ msgstr "لا تختر شيء"
 
-#: com.ubuntu.filemanager.desktop.in.in.h:2
-msgid "folder;manager;explore;disk;filesystem;"
-msgstr "مجلد;مدير;استكشاف;قرص;ملف نظام;"
+#~ msgid "Select All"
+#~ msgstr "حدد الكل"
+
+#, qt-format
+#~ msgid "%1 files"
+#~ msgstr "%1 ملفات"
+
+#, qt-format
+#~ msgid "File %1"
+#~ msgstr "الملف٪ 1"
+
+#, qt-format
+#~ msgid "%1 Files"
+#~ msgstr "٪ 1 ملفات"
 
 #~ msgid "About Application"
 #~ msgstr "عن التطبيق"
@@ -810,9 +929,6 @@ msgstr "مجلد;مدير;استكشاف;قرص;ملف نظام;"
 #~ "لا يمكن كتابة ملف٪ 1:\n"
 #~ "٪ 2."
 
-#~ msgid "File saved"
-#~ msgstr "تم حفظ الملف"
-
 #~ msgid "Device"
 #~ msgstr "جهاز"
 
@@ -824,9 +940,6 @@ msgstr "مجلد;مدير;استكشاف;قرص;ملف نظام;"
 
 #~ msgid "Path:"
 #~ msgstr "مسار:"
-
-#~ msgid "Contents:"
-#~ msgstr "محتويات:"
 
 #~ msgid "Unlock full access"
 #~ msgstr "فتح الوصول الكامل"

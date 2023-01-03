@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-03 13:35+0000\n"
+"POT-Creation-Date: 2022-10-07 09:00+0000\n"
 "PO-Revision-Date: 2020-10-29 01:02+0000\n"
 "Last-Translator: George Kitsopoulos <gkitsopoulos@tutanota.com>\n"
 "Language-Team: Greek <https://translate.ubports.com/projects/ubports/"
@@ -20,524 +20,533 @@ msgstr ""
 "X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2017-04-08 06:04+0000\n"
 
-#: ../src/app/qml/actions/AddBookmark.qml:6
+#: lomiri-filemanager-app.desktop.in:7
+msgid "/usr/share/lomiri-filemanager-app/filemanager.svg"
+msgstr ""
+
+#: lomiri-filemanager-app.desktop.in:8
+msgid "File Manager"
+msgstr "Διαχειριστής αρχείων"
+
+#: lomiri-filemanager-app.desktop.in:9
+msgid "folder;manager;explore;disk;filesystem;"
+msgstr ""
+"φάκελος;διαχειριστής;εξερεύνηση;δίσκος;σύστημα αρχείων;folder;manager;"
+"explore;disk;filesystem;"
+
+#: src/app/qml/actions/AddBookmark.qml:6
 msgid "Add bookmark"
 msgstr "Προσθήκη σελιδοδείκτη"
 
-#: ../src/app/qml/actions/ArchiveExtract.qml:6
-#: ../src/app/qml/dialogs/OpenArchiveDialog.qml:18
-#: ../src/app/qml/dialogs/OpenWithDialog.qml:33
+#: src/app/qml/actions/ArchiveExtract.qml:6
+#: src/app/qml/dialogs/OpenArchiveDialog.qml:18
+#: src/app/qml/dialogs/OpenWithDialog.qml:33
 msgid "Extract archive"
 msgstr "Αποσυμπίεση αρχείου"
 
-#: ../src/app/qml/actions/Delete.qml:5
-#: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:14
-#: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:15
-#: ../src/app/qml/panels/SelectionBottomBar.qml:26
+#: src/app/qml/actions/Cancel.qml:6
+#: src/app/qml/authentication/FingerprintDialog.qml:68
+#: src/app/qml/authentication/PasswordDialog.qml:80
+#: src/app/qml/dialogs/CreateItemDialog.qml:64
+#: src/app/qml/dialogs/ExtractingDialog.qml:44
+#: src/app/qml/dialogs/FileActionDialog.qml:46
+#: src/app/qml/dialogs/FileOperationProgressDialog.qml:44
+#: src/app/qml/dialogs/NetAuthenticationDialog.qml:96
+#: src/app/qml/dialogs/OpenArchiveDialog.qml:37
+#: src/app/qml/dialogs/OpenWithDialog.qml:67
+#: src/app/qml/dialogs/templates/ConfirmDialog.qml:45
+#: src/app/qml/dialogs/templates/ConfirmDialogWithInput.qml:60
+#: src/app/qml/ui/FolderListPagePickModeHeader.qml:185
+#: src/app/qml/ui/FolderListPageSelectionHeader.qml:44
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: src/app/qml/actions/Delete.qml:5
+#: src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:16
+#: src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:17
 msgid "Delete"
 msgstr "Διαγραφή"
 
-#: ../src/app/qml/actions/FileClearSelection.qml:8
+#: src/app/qml/actions/FileClearSelection.qml:8
 msgid "Clear clipboard"
 msgstr "Καθαρισμός προχείρου"
 
-#: ../src/app/qml/actions/FileCopy.qml:5
-#: ../src/app/qml/panels/SelectionBottomBar.qml:45
+#: src/app/qml/actions/FileCopy.qml:5
 msgid "Copy"
 msgstr "Αντιγραφή"
 
-#: ../src/app/qml/actions/FileCut.qml:5
-#: ../src/app/qml/panels/SelectionBottomBar.qml:60
+#: src/app/qml/actions/FileCut.qml:5
 msgid "Cut"
 msgstr "Αποκοπή"
 
-#: ../src/app/qml/actions/FilePaste.qml:30
+#: src/app/qml/actions/FilePaste.qml:30
 #, qt-format
 msgid "Paste %1 file"
 msgid_plural "Paste %1 files"
 msgstr[0] "Επικόλληση %1 αρχείου"
 msgstr[1] "Επικόλληση %1 αρχείων"
 
-#: ../src/app/qml/actions/GoBack.qml:5
+#: src/app/qml/actions/GoBack.qml:5
 msgid "Go back"
 msgstr "Μετάβαση πίσω"
 
-#: ../src/app/qml/actions/GoNext.qml:5
+#: src/app/qml/actions/GoNext.qml:5
 msgid "Go next"
 msgstr "Μετάβαση εμπρός"
 
-#: ../src/app/qml/actions/GoTo.qml:6
+#: src/app/qml/actions/GoTo.qml:6
 msgid "Go To"
 msgstr "Μετάβαση σε"
 
-#: ../src/app/qml/actions/NewItem.qml:6
+#: src/app/qml/actions/NewItem.qml:6
 msgid "New Item"
 msgstr "Νέο Αντικείμενο"
 
-#: ../src/app/qml/actions/PlacesBookmarks.qml:6
-#: ../src/app/qml/ui/PlacesPage.qml:16
+#: src/app/qml/actions/OpenAdvanced.qml:6
+#, fuzzy
+#| msgid "Open with"
+msgid "Open with..."
+msgstr "Άνοιγμα με"
+
+#: src/app/qml/actions/PlacesBookmarks.qml:6 src/app/qml/ui/PlacesPage.qml:16
 msgid "Places"
 msgstr "Τοποθεσίες"
 
-#: ../src/app/qml/actions/Properties.qml:6
-#: ../src/app/qml/dialogs/OpenWithDialog.qml:54
+#: src/app/qml/actions/Properties.qml:6
+#: src/app/qml/dialogs/OpenWithDialog.qml:58
 msgid "Properties"
 msgstr "Ιδιότητες"
 
-#: ../src/app/qml/actions/Rename.qml:5
-#: ../src/app/qml/dialogs/ConfirmRenameDialog.qml:20
+#: src/app/qml/actions/Rename.qml:5
+#: src/app/qml/dialogs/ConfirmRenameDialog.qml:20
 msgid "Rename"
 msgstr "Μετονομασία"
 
-#: ../src/app/qml/actions/Select.qml:5
-#: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:60
+#: src/app/qml/actions/Search.qml:6
+msgid "Search"
+msgstr ""
+
+#: src/app/qml/actions/Select.qml:6
 msgid "Select"
 msgstr "Επιλογή"
 
-#: ../src/app/qml/actions/SelectUnselectAll.qml:6
-msgid "Select None"
-msgstr "Καμία επιλογή"
-
-#: ../src/app/qml/actions/SelectUnselectAll.qml:6
-msgid "Select All"
-msgstr "Επιλογή όλων"
-
-#: ../src/app/qml/actions/Settings.qml:6
+#: src/app/qml/actions/Settings.qml:6
 msgid "Settings"
 msgstr "Ρυθμίσεις"
 
-#: ../src/app/qml/actions/Share.qml:5
+#: src/app/qml/actions/Share.qml:5
 msgid "Share"
 msgstr "Διαμοιρασμός"
 
-#: ../src/app/qml/actions/TabsAdd.qml:5
+#: src/app/qml/actions/TabsAdd.qml:5
 msgid "Add tab"
 msgstr "Προσθήκη καρτέλας"
 
-#: ../src/app/qml/actions/TabsCloseThis.qml:5
+#: src/app/qml/actions/TabsCloseThis.qml:5
 msgid "Close this tab"
 msgstr "Κλείσιμο της καρτέλας"
 
-#: ../src/app/qml/actions/TabsOpenInNewTab.qml:5
+#: src/app/qml/actions/TabsOpenInNewTab.qml:5
 msgid "Open in a new tab"
 msgstr "Άνοιγμα σε νέα καρτέλα"
 
-#: ../src/app/qml/actions/UnlockFullAccess.qml:6
+#: src/app/qml/actions/Terminal.qml:5
+msgid "Open Terminal Here"
+msgstr ""
+
+#: src/app/qml/actions/UnlockFullAccess.qml:6
 msgid "Unlock"
 msgstr "Ξεκλείδωμα"
 
-#: ../src/app/qml/authentication/FingerprintDialog.qml:26
-#: ../src/app/qml/authentication/PasswordDialog.qml:43
-#: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:28
+#: src/app/qml/authentication/FingerprintDialog.qml:26
+#: src/app/qml/authentication/PasswordDialog.qml:43
+#: src/app/qml/dialogs/NetAuthenticationDialog.qml:28
 msgid "Authentication required"
 msgstr "Απαιτείται πιστοποίηση"
 
-#: ../src/app/qml/authentication/FingerprintDialog.qml:27
+#: src/app/qml/authentication/FingerprintDialog.qml:27
 msgid "Use your fingerprint to access restricted content"
 msgstr ""
 "Χρησιμοποίησε το δακτυλικό αποτύπωμα για την είσοδο σε απαγορευμένο υλικό"
 
 #. TRANSLATORS: "Touch" here is a verb
-#: ../src/app/qml/authentication/FingerprintDialog.qml:55
+#: src/app/qml/authentication/FingerprintDialog.qml:55
 msgid "Touch sensor"
 msgstr "Αισθητήρας επαφής"
 
-#: ../src/app/qml/authentication/FingerprintDialog.qml:60
+#: src/app/qml/authentication/FingerprintDialog.qml:60
 msgid "Use password"
 msgstr "Χρήση συνθηματικού"
 
-#: ../src/app/qml/authentication/FingerprintDialog.qml:69
-#: ../src/app/qml/authentication/PasswordDialog.qml:80
-#: ../src/app/qml/dialogs/CreateItemDialog.qml:60
-#: ../src/app/qml/dialogs/ExtractingDialog.qml:35
-#: ../src/app/qml/dialogs/FileActionDialog.qml:45
-#: ../src/app/qml/dialogs/FileOperationProgressDialog.qml:44
-#: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:96
-#: ../src/app/qml/dialogs/OpenArchiveDialog.qml:38
-#: ../src/app/qml/dialogs/OpenWithDialog.qml:64
-#: ../src/app/qml/dialogs/templates/ConfirmDialog.qml:41
-#: ../src/app/qml/dialogs/templates/ConfirmDialogWithInput.qml:60
-#: ../src/app/qml/ui/FileDetailsPopover.qml:184
-#: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:51
-#: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:26
-msgid "Cancel"
-msgstr "Ακύρωση"
-
-#: ../src/app/qml/authentication/FingerprintDialog.qml:126
+#: src/app/qml/authentication/FingerprintDialog.qml:124
 msgid "Authentication failed!"
 msgstr "Αποτυχία πιστοποίησης!"
 
-#: ../src/app/qml/authentication/FingerprintDialog.qml:137
+#: src/app/qml/authentication/FingerprintDialog.qml:135
 msgid "Please retry"
 msgstr "Παρακαλούμε προσπαθήστε ξανά"
 
-#: ../src/app/qml/authentication/PasswordDialog.qml:35
+#: src/app/qml/authentication/PasswordDialog.qml:35
 msgid "Authentication failed"
 msgstr "Αποτυχία πιστοποίησης"
 
-#: ../src/app/qml/authentication/PasswordDialog.qml:45
+#: src/app/qml/authentication/PasswordDialog.qml:45
 msgid "Your passphrase is required to access restricted content"
 msgstr "Απαιτείται κωδικός για πρόσβαση σε απαγορευμένο υλικό"
 
-#: ../src/app/qml/authentication/PasswordDialog.qml:46
+#: src/app/qml/authentication/PasswordDialog.qml:46
 msgid "Your passcode is required to access restricted content"
 msgstr "Απαιτείται κωδικός για πρόσβαση σε απαγορευμένο υλικό"
 
-#: ../src/app/qml/authentication/PasswordDialog.qml:57
+#: src/app/qml/authentication/PasswordDialog.qml:57
 msgid "passphrase (default is 0000 if unset)"
 msgstr "Κωδικός (προεπιλεγμένο 0000 αν δεν έχει οριστεί)"
 
-#: ../src/app/qml/authentication/PasswordDialog.qml:57
+#: src/app/qml/authentication/PasswordDialog.qml:57
 msgid "passcode (default is 0000 if unset)"
 msgstr "κωδικός (προεπιλεγμένο 0000 αν δεν έχει οριστεί)"
 
-#: ../src/app/qml/authentication/PasswordDialog.qml:69
+#: src/app/qml/authentication/PasswordDialog.qml:69
 msgid "Authentication failed. Please retry"
 msgstr "Αποτυχία πιστοποίησης. Παρακαλούμε προσπαθήστε ξανά"
 
-#: ../src/app/qml/authentication/PasswordDialog.qml:74
+#: src/app/qml/authentication/PasswordDialog.qml:74
 msgid "Authenticate"
 msgstr "Πιστοποίηση"
 
-#: ../src/app/qml/backend/FolderListModel.qml:123
-#, qt-format
+#: src/app/qml/backend/FolderListModel.qml:122 src/app/qml/filemanager.qml:185
+#: src/app/qml/filemanager.qml:188
+#, fuzzy, qt-format
+#| msgid "%1 file"
 msgid "%1 file"
-msgstr "%1 αρχείο"
+msgid_plural "%1 files"
+msgstr[0] "%1 αρχείο"
+msgstr[1] "%1 αρχείο"
 
-#: ../src/app/qml/backend/FolderListModel.qml:124
-#, qt-format
-msgid "%1 files"
-msgstr "%1 αρχεία"
-
-#: ../src/app/qml/backend/FolderListModel.qml:135
+#: src/app/qml/backend/FolderListModel.qml:133
 msgid "Folder"
 msgstr "Φακελος"
 
-#: ../src/app/qml/components/TextualButtonStyle.qml:48
-#: ../src/app/qml/components/TextualButtonStyle.qml:56
-#: ../src/app/qml/components/TextualButtonStyle.qml:63
+#: src/app/qml/components/TextualButtonStyle.qml:48
+#: src/app/qml/components/TextualButtonStyle.qml:56
+#: src/app/qml/components/TextualButtonStyle.qml:63
 msgid "Pick"
 msgstr "Επιλογή"
 
-#: ../src/app/qml/content-hub/FileOpener.qml:27
+#: src/app/qml/content-hub/FileOpener.qml:27
 msgid "Open with"
 msgstr "Άνοιγμα με"
 
-#: ../src/app/qml/dialogs/ConfirmExtractDialog.qml:15
+#: src/app/qml/dialogs/ConfirmExtractDialog.qml:15
 msgid "Extract Archive"
 msgstr "Αποσυμπίεση αρχείου"
 
-#: ../src/app/qml/dialogs/ConfirmExtractDialog.qml:16
+#: src/app/qml/dialogs/ConfirmExtractDialog.qml:16
 #, qt-format
 msgid "Are you sure you want to extract '%1' here?"
 msgstr "Είστε σίγουρος πως θέλετε να αποσυμπιέσετε το '%1' εδώ;"
 
-#: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:15
-#: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:16
+#: src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:17
+#: src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:18
 #, qt-format
 msgid "Are you sure you want to permanently delete '%1'?"
 msgstr "Είστε βέβαιοι ότι θέλετε να διαγράψετε μόνιμα '%1';"
 
-#: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:15
+#: src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:17
 msgid "these files"
 msgstr "αυτά τα αρχεία"
 
-#: ../src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:18
-#: ../src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:21
+#: src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:20
+#: src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:23
 msgid "Deleting files"
 msgstr "Διαγραφή αρχείων"
 
-#: ../src/app/qml/dialogs/ConfirmRenameDialog.qml:21
+#: src/app/qml/dialogs/ConfirmRenameDialog.qml:21
 msgid "Enter a new name"
 msgstr "Πληκτρολογήστε νέο όνομα"
 
-#: ../src/app/qml/dialogs/CreateItemDialog.qml:13
+#: src/app/qml/dialogs/CreateItemDialog.qml:14
 msgid "Create Item"
 msgstr "Δημιουργία αντικειμένου"
 
-#: ../src/app/qml/dialogs/CreateItemDialog.qml:14
+#: src/app/qml/dialogs/CreateItemDialog.qml:15
 msgid "Enter name for new item"
 msgstr "Εισάγετε όνομα για νέο αντικείμενο"
 
-#: ../src/app/qml/dialogs/CreateItemDialog.qml:18
+#: src/app/qml/dialogs/CreateItemDialog.qml:19
 msgid "Item name"
 msgstr "Ονομασία αντικειμένου"
 
-#: ../src/app/qml/dialogs/CreateItemDialog.qml:24
+#: src/app/qml/dialogs/CreateItemDialog.qml:25
 msgid "Create file"
 msgstr "Δημιουργία αρχείου"
 
-#: ../src/app/qml/dialogs/CreateItemDialog.qml:43
+#: src/app/qml/dialogs/CreateItemDialog.qml:34
+#, fuzzy, qt-format
+#| msgid "Create file"
+msgid "Created file '%1'"
+msgstr "Δημιουργία αρχείου"
+
+#: src/app/qml/dialogs/CreateItemDialog.qml:46
 msgid "Create Folder"
 msgstr "Δημιουργία φακέλου"
 
-#: ../src/app/qml/dialogs/ExtractingDialog.qml:23
+#: src/app/qml/dialogs/CreateItemDialog.qml:53
+#, fuzzy, qt-format
+#| msgid "Create Folder"
+msgid "Created folder '%1'"
+msgstr "Δημιουργία φακέλου"
+
+#: src/app/qml/dialogs/ExtractingDialog.qml:23
 #, qt-format
 msgid "Extracting archive '%1'"
 msgstr "Αποσυμπίεση αρχείου '%1'"
 
-#: ../src/app/qml/dialogs/ExtractingDialog.qml:44
-#: ../src/app/qml/dialogs/NotifyDialog.qml:27
-#: ../src/app/qml/dialogs/templates/ConfirmDialog.qml:31
-#: ../src/app/qml/dialogs/templates/ConfirmDialogWithInput.qml:49
+#: src/app/qml/dialogs/ExtractingDialog.qml:35
+#: src/app/qml/dialogs/NotifyDialog.qml:30
+#: src/app/qml/dialogs/templates/ConfirmDialog.qml:33
+#: src/app/qml/dialogs/templates/ConfirmDialogWithInput.qml:49
 msgid "OK"
 msgstr "ΟΚ"
 
-#: ../src/app/qml/dialogs/ExtractingDialog.qml:59
+#: src/app/qml/dialogs/ExtractingDialog.qml:59
 msgid "Extracting failed"
 msgstr "Αποτυχία αποσυμπίεσης"
 
-#: ../src/app/qml/dialogs/ExtractingDialog.qml:60
+#: src/app/qml/dialogs/ExtractingDialog.qml:60
 #, qt-format
 msgid "Extracting the archive '%1' failed."
 msgstr "Αποτυχία αποσυμπίεσης αρχείου '%1'."
 
-#: ../src/app/qml/dialogs/FileActionDialog.qml:30
+#: src/app/qml/dialogs/FileActionDialog.qml:30
 msgid "Choose action"
 msgstr "Επιλογή ενέργειας"
 
-#: ../src/app/qml/dialogs/FileActionDialog.qml:31
+#: src/app/qml/dialogs/FileActionDialog.qml:31
 #, qt-format
 msgid "For file: %1"
 msgstr "Για αρχείο: %1"
 
-#: ../src/app/qml/dialogs/FileActionDialog.qml:35
+#: src/app/qml/dialogs/FileActionDialog.qml:36
 msgid "Open"
 msgstr "Άνοιγμα"
 
-#: ../src/app/qml/dialogs/FileOperationProgressDialog.qml:27
+#: src/app/qml/dialogs/FileOperationProgressDialog.qml:27
 msgid "Operation in progress"
 msgstr "Λειτουργία σε εξέλιξη"
 
-#: ../src/app/qml/dialogs/FileOperationProgressDialog.qml:29
+#: src/app/qml/dialogs/FileOperationProgressDialog.qml:29
 msgid "File operation"
 msgstr "Λειτουργία αρχείου"
 
-#: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:45
+#: src/app/qml/dialogs/NetAuthenticationDialog.qml:45
 msgid "User"
 msgstr "Χρήστης"
 
-#: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:58
+#: src/app/qml/dialogs/NetAuthenticationDialog.qml:58
 msgid "Password"
 msgstr "Κωδικός"
 
-#: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:72
+#: src/app/qml/dialogs/NetAuthenticationDialog.qml:72
 msgid "Save password"
 msgstr "Αποθήκευση συνθηματικού"
 
-#: ../src/app/qml/dialogs/NetAuthenticationDialog.qml:108
+#: src/app/qml/dialogs/NetAuthenticationDialog.qml:108
 msgid "Ok"
 msgstr "Εντάξει"
 
-#: ../src/app/qml/dialogs/OpenArchiveDialog.qml:8
+#: src/app/qml/dialogs/OpenArchiveDialog.qml:8
 msgid "Archive file"
 msgstr "Όνομα αρχείου"
 
-#: ../src/app/qml/dialogs/OpenArchiveDialog.qml:9
+#: src/app/qml/dialogs/OpenArchiveDialog.qml:9
 msgid "Do you want to extract the archive here?"
 msgstr "Θέλετε να αποσυμπιέσετε το αρχείο εδώ?"
 
-#: ../src/app/qml/dialogs/OpenArchiveDialog.qml:28
-#: ../src/app/qml/dialogs/OpenWithDialog.qml:44
+#: src/app/qml/dialogs/OpenArchiveDialog.qml:28
+#: src/app/qml/dialogs/OpenWithDialog.qml:44
 msgid "Open with another app"
 msgstr "Άνοιγμα με άλλη εφαρμογή"
 
-#: ../src/app/qml/dialogs/OpenWithDialog.qml:8
+#: src/app/qml/dialogs/OpenWithDialog.qml:8
 msgid "Open file"
 msgstr "Άνοιγμα αρχείου"
 
-#: ../src/app/qml/dialogs/OpenWithDialog.qml:9
+#: src/app/qml/dialogs/OpenWithDialog.qml:9
 msgid "What do you want to do with the clicked file?"
 msgstr "Τι θέλετε να κάνετε με το επιλεγμένο αρχείο;"
 
-#: ../src/app/qml/dialogs/OpenWithDialog.qml:22
+#: src/app/qml/dialogs/OpenWithDialog.qml:22
 msgid "Preview"
 msgstr "Προεπισκόπηση"
 
-#: ../src/app/qml/filemanager.qml:170
-#, qt-format
-msgid "File %1"
-msgstr "Αρχείο %1"
+#: src/app/qml/filemanager.qml:185
+msgid "successfully saved: "
+msgstr ""
 
-#: ../src/app/qml/filemanager.qml:170
-#, qt-format
-msgid "%1 Files"
-msgstr "%1 Αρχεία"
+#: src/app/qml/filemanager.qml:188
+msgid "failed to save: "
+msgstr ""
 
-#: ../src/app/qml/filemanager.qml:171
-#, qt-format
-msgid "Saved to: %1"
+#: src/app/qml/filemanager.qml:190
+#, fuzzy, qt-format
+#| msgid "Saved to: %1"
+msgid "into: %1"
 msgstr "Αποθήκευση σε: %1"
 
-#: ../src/app/qml/panels/DefaultBottomBar.qml:24
-msgid "Paste files"
-msgstr "Επικόλληση αρχείων"
+#: src/app/qml/filemanager.qml:194
+msgid ""
+"Warning: Content-Hub does not overwrite existing files. The following were "
+"detected:"
+msgstr ""
 
-#: ../src/app/qml/ui/FileDetailsPopover.qml:34
+#: src/app/qml/filemanager.qml:205
+msgid "Import Results"
+msgstr ""
+
+#: src/app/qml/ui/FileDetailsPopover.qml:34
 msgid "Readable"
 msgstr "Αναγνώσιμο"
 
-#: ../src/app/qml/ui/FileDetailsPopover.qml:37
+#: src/app/qml/ui/FileDetailsPopover.qml:37
 msgid "Writable"
 msgstr "Εγγράψιμο"
 
-#: ../src/app/qml/ui/FileDetailsPopover.qml:40
+#: src/app/qml/ui/FileDetailsPopover.qml:40
 msgid "Executable"
 msgstr "Εκτελέσιμο"
 
-#: ../src/app/qml/ui/FileDetailsPopover.qml:100
+#: src/app/qml/ui/FileDetailsPopover.qml:100
 msgid "Where:"
 msgstr "Που:"
 
-#: ../src/app/qml/ui/FileDetailsPopover.qml:127
+#: src/app/qml/ui/FileDetailsPopover.qml:127
 msgid "Created:"
 msgstr "Δημιουργήθηκε:"
 
-#: ../src/app/qml/ui/FileDetailsPopover.qml:141
+#: src/app/qml/ui/FileDetailsPopover.qml:141
 msgid "Modified:"
 msgstr "Τροποποιήθηκε:"
 
-#: ../src/app/qml/ui/FileDetailsPopover.qml:155
+#: src/app/qml/ui/FileDetailsPopover.qml:155
 msgid "Accessed:"
 msgstr "Προσπελάστηκε:"
 
-#: ../src/app/qml/ui/FileDetailsPopover.qml:176
+#: src/app/qml/ui/FileDetailsPopover.qml:176
 msgid "Permissions:"
 msgstr "Δικαιώματα:"
 
-#: ../src/app/qml/ui/FolderListPage.qml:241
-#: ../src/app/qml/ui/FolderListPage.qml:296
+#: src/app/qml/ui/FileDetailsPopover.qml:184
+msgid "Close"
+msgstr ""
+
+#: src/app/qml/ui/FolderListPage.qml:249 src/app/qml/ui/FolderListPage.qml:304
 msgid "Restricted access"
 msgstr "Απαγορευμένη πρόσβαση"
 
-#: ../src/app/qml/ui/FolderListPage.qml:245
+#: src/app/qml/ui/FolderListPage.qml:253
 msgid ""
 "Authentication is required in order to see all the content of this folder."
 msgstr ""
 "Απαιτείται πιστοποίηση για να δείτε όλο το περιεχόμενο αυτού του φακέλου."
 
-#: ../src/app/qml/ui/FolderListPage.qml:282
+#: src/app/qml/ui/FolderListPage.qml:290
 msgid "No files"
 msgstr "Κανένα αρχείο"
 
-#: ../src/app/qml/ui/FolderListPage.qml:283
+#: src/app/qml/ui/FolderListPage.qml:291
 msgid "This folder is empty."
 msgstr "Ο φάκελος είναι άδειος."
 
-#: ../src/app/qml/ui/FolderListPage.qml:297
+#: src/app/qml/ui/FolderListPage.qml:305
 msgid "Authentication is required in order to see the content of this folder."
 msgstr "Απαιτείται πιστοποίηση για να δείτε το περιεχόμενο αυτού του φακέλου."
 
-#: ../src/app/qml/ui/FolderListPage.qml:313
+#: src/app/qml/ui/FolderListPage.qml:320
 msgid "File operation error"
 msgstr "Σφάλμα λειτουργίας αρχείου"
 
-#: ../src/app/qml/ui/FolderListPageDefaultHeader.qml:21
-#: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:21
+#: src/app/qml/ui/FolderListPageDefaultHeader.qml:32
+#: src/app/qml/ui/FolderListPagePickModeHeader.qml:31
 #, qt-format
 msgid "%1 item"
 msgid_plural "%1 items"
 msgstr[0] "%1 αντικείμενο"
 msgstr[1] "%1 αντικείμενα"
 
-#: ../src/app/qml/ui/FolderListPagePickModeHeader.qml:21
+#: src/app/qml/ui/FolderListPageDefaultHeader.qml:41
+#: src/app/qml/ui/FolderListPagePickModeHeader.qml:46
+msgid "Search Results"
+msgstr ""
+
+#: src/app/qml/ui/FolderListPageDefaultHeader.qml:68
+#: src/app/qml/ui/FolderListPagePickModeHeader.qml:73
+msgid "Search..."
+msgstr ""
+
+#: src/app/qml/ui/FolderListPageDefaultHeader.qml:118
+#: src/app/qml/ui/FolderListPagePickModeHeader.qml:125
+#, fuzzy
+#| msgid "Contents:"
+msgid "File Contents"
+msgstr "Περιεχόμενα:"
+
+#: src/app/qml/ui/FolderListPageDefaultHeader.qml:134
+#: src/app/qml/ui/FolderListPagePickModeHeader.qml:141
+msgid "Recursive"
+msgstr ""
+
+#: src/app/qml/ui/FolderListPageDefaultHeader.qml:135
+#: src/app/qml/ui/FolderListPagePickModeHeader.qml:142
+msgid "Note: Slow in large directories"
+msgstr ""
+
+#: src/app/qml/ui/FolderListPageDefaultHeader.qml:208
+#, fuzzy
+#| msgid "Clear clipboard"
+msgid "Cleared clipboard"
+msgstr "Καθαρισμός προχείρου"
+
+#: src/app/qml/ui/FolderListPageDefaultHeader.qml:217
+msgid "Paste files"
+msgstr "Επικόλληση αρχείων"
+
+#: src/app/qml/ui/FolderListPageDefaultHeader.qml:219
+#, fuzzy
+#| msgid "Paste files"
+msgid "Pasted item"
+msgid_plural "Pasted items"
+msgstr[0] "Επικόλληση αρχείων"
+msgstr[1] "Επικόλληση αρχείων"
+
+#: src/app/qml/ui/FolderListPageDefaultHeader.qml:230
+#, qt-format
+msgid "Added '%1' to Places"
+msgstr ""
+
+#: src/app/qml/ui/FolderListPagePickModeHeader.qml:33
 msgid "Save here"
 msgstr "Αποθήκευση εδώ"
 
-#: ../src/app/qml/ui/FolderListPageSelectionHeader.qml:18
+#: src/app/qml/ui/FolderListPagePickModeHeader.qml:35
+#, qt-format
+msgid "Select files (%1 selected)"
+msgstr ""
+
+#: src/app/qml/ui/FolderListPageSelectionHeader.qml:36
 #, qt-format
 msgid "%1 item selected"
 msgid_plural "%1 items selected"
 msgstr[0] "Επιλέχθηκε %1 αντικείμενο"
 msgstr[1] "Επιλέχθηκαν %1 αντικείμενα"
 
-#: ../src/app/qml/ui/ViewPopover.qml:24
-msgid "Show Hidden Files"
-msgstr "Προβολή κρυφών αρχείων"
-
-#: ../src/app/qml/ui/ViewPopover.qml:37
-msgid "View As"
-msgstr "Προβολή ως"
-
-#: ../src/app/qml/ui/ViewPopover.qml:39
-msgid "List"
-msgstr "Λίστα"
-
-#: ../src/app/qml/ui/ViewPopover.qml:39
-msgid "Icons"
-msgstr "Εικονίδια"
-
-#: ../src/app/qml/ui/ViewPopover.qml:44
-msgid "Grid size"
-msgstr "Μέγεθος πλέγματος"
-
-#: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
-msgid "S"
-msgstr "S"
-
-#: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
-msgid "M"
-msgstr "M"
-
-#: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
-msgid "L"
-msgstr "L"
-
-#: ../src/app/qml/ui/ViewPopover.qml:47 ../src/app/qml/ui/ViewPopover.qml:55
-msgid "XL"
-msgstr "XL"
-
-#: ../src/app/qml/ui/ViewPopover.qml:52
-msgid "List size"
-msgstr "Μέγεθος λίστας"
-
-#: ../src/app/qml/ui/ViewPopover.qml:60
-msgid "Sort By"
-msgstr "Ταξινόμηση κατά"
-
-#: ../src/app/qml/ui/ViewPopover.qml:62
-msgid "Name"
-msgstr "Όνομα"
-
-#: ../src/app/qml/ui/ViewPopover.qml:62
-msgid "Date"
-msgstr "Ημερομηνία"
-
-#: ../src/app/qml/ui/ViewPopover.qml:62
-msgid "Size"
-msgstr "Μέγεθος"
-
-#: ../src/app/qml/ui/ViewPopover.qml:67
-msgid "Sort Order"
-msgstr "Σειρά ταξινόμησης"
-
-#: ../src/app/qml/ui/ViewPopover.qml:74
-msgid "Theme"
-msgstr "Θέμα"
-
-#: ../src/app/qml/ui/ViewPopover.qml:76
-msgid "Light"
-msgstr "Φωτεινό"
-
-#: ../src/app/qml/ui/ViewPopover.qml:76
-msgid "Dark"
-msgstr "Σκούρο"
-
-#: ../src/app/qml/views/FolderDelegateActions.qml:40
-msgid "Folder not accessible"
-msgstr "Μη προσβάσιμος φάκελος"
-
-#. TRANSLATORS: this refers to a folder name
-#: ../src/app/qml/views/FolderDelegateActions.qml:42
-#, qt-format
-msgid "Can not access %1"
-msgstr "Αδυναμία πρόσβασης %1"
-
-#: ../src/app/qml/views/FolderDelegateActions.qml:136
+#: src/app/qml/ui/FolderListPageSelectionHeader.qml:119
+#: src/app/qml/views/FolderDelegateActions.qml:183
 msgid "Could not rename"
 msgstr "Αδυναμία μετονομασίας"
 
-#: ../src/app/qml/views/FolderDelegateActions.qml:137
+#: src/app/qml/ui/FolderListPageSelectionHeader.qml:120
+#: src/app/qml/views/FolderDelegateActions.qml:184
 msgid ""
 "Insufficient permissions, name contains special chars (e.g. '/'), or already "
 "exists"
@@ -545,158 +554,258 @@ msgstr ""
 "Ανεπαρκή δικαιώματα, το όνομα περιέχει ειδικούς χαρακτήρες (π.χ. «/») ή "
 "υπάρχει ήδη"
 
-#: ../src/app/qml/views/FolderListView.qml:72
+#: src/app/qml/ui/ViewPopover.qml:24
+msgid "Show Hidden Files"
+msgstr "Προβολή κρυφών αρχείων"
+
+#: src/app/qml/ui/ViewPopover.qml:42
+#, fuzzy
+#| msgid "File operation"
+msgid "Default open action"
+msgstr "Λειτουργία αρχείου"
+
+#: src/app/qml/ui/ViewPopover.qml:55
+msgid "View As"
+msgstr "Προβολή ως"
+
+#: src/app/qml/ui/ViewPopover.qml:57
+msgid "List"
+msgstr "Λίστα"
+
+#: src/app/qml/ui/ViewPopover.qml:57
+msgid "Icons"
+msgstr "Εικονίδια"
+
+#: src/app/qml/ui/ViewPopover.qml:62
+msgid "Grid size"
+msgstr "Μέγεθος πλέγματος"
+
+#: src/app/qml/ui/ViewPopover.qml:65 src/app/qml/ui/ViewPopover.qml:73
+msgid "S"
+msgstr "S"
+
+#: src/app/qml/ui/ViewPopover.qml:65 src/app/qml/ui/ViewPopover.qml:73
+msgid "M"
+msgstr "M"
+
+#: src/app/qml/ui/ViewPopover.qml:65 src/app/qml/ui/ViewPopover.qml:73
+msgid "L"
+msgstr "L"
+
+#: src/app/qml/ui/ViewPopover.qml:65 src/app/qml/ui/ViewPopover.qml:73
+msgid "XL"
+msgstr "XL"
+
+#: src/app/qml/ui/ViewPopover.qml:70
+msgid "List size"
+msgstr "Μέγεθος λίστας"
+
+#: src/app/qml/ui/ViewPopover.qml:78
+msgid "Sort By"
+msgstr "Ταξινόμηση κατά"
+
+#: src/app/qml/ui/ViewPopover.qml:80
+msgid "Name"
+msgstr "Όνομα"
+
+#: src/app/qml/ui/ViewPopover.qml:80
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: src/app/qml/ui/ViewPopover.qml:80
+msgid "Size"
+msgstr "Μέγεθος"
+
+#: src/app/qml/ui/ViewPopover.qml:85
+msgid "Sort Order"
+msgstr "Σειρά ταξινόμησης"
+
+#: src/app/qml/ui/ViewPopover.qml:92
+msgid "Theme"
+msgstr "Θέμα"
+
+#: src/app/qml/ui/ViewPopover.qml:94
+msgid "System"
+msgstr ""
+
+#: src/app/qml/ui/ViewPopover.qml:94
+msgid "Light"
+msgstr "Φωτεινό"
+
+#: src/app/qml/ui/ViewPopover.qml:94
+msgid "Dark"
+msgstr "Σκούρο"
+
+#: src/app/qml/views/FolderDelegateActions.qml:41
+msgid "Folder not accessible"
+msgstr "Μη προσβάσιμος φάκελος"
+
+#. TRANSLATORS: this refers to a folder name
+#: src/app/qml/views/FolderDelegateActions.qml:43
+#, qt-format
+msgid "Can not access %1"
+msgstr "Αδυναμία πρόσβασης %1"
+
+#: src/app/qml/views/FolderListView.qml:87
 msgid "Directories"
 msgstr "Κατάλογοι"
 
-#: ../src/app/qml/views/FolderListView.qml:72
+#: src/app/qml/views/FolderListView.qml:87
 msgid "Files"
 msgstr "Αρχεία"
 
-#: ../src/plugin/folderlistmodel/dirmodel.cpp:360
+#: src/plugin/folderlistmodel/dirmodel.cpp:384
 msgid "Unknown"
 msgstr "'Αγνωστο"
 
-#: ../src/plugin/folderlistmodel/dirmodel.cpp:487
+#: src/plugin/folderlistmodel/dirmodel.cpp:511
 msgid "path or url may not exist or cannot be read"
 msgstr ""
 "η διαδρομή ή η διεύθυνση μπορεί να μην υπάρχει ή να μην μπορεί να διαβαστεί"
 
-#: ../src/plugin/folderlistmodel/dirmodel.cpp:690
+#: src/plugin/folderlistmodel/dirmodel.cpp:751
 msgid "Rename error"
 msgstr "Σφάλμα μετονομασίας"
 
-#: ../src/plugin/folderlistmodel/dirmodel.cpp:713
+#: src/plugin/folderlistmodel/dirmodel.cpp:774
 msgid "Error creating new folder"
 msgstr "Σφάλμα δημιουργίας νέου φακέλου"
 
-#: ../src/plugin/folderlistmodel/dirmodel.cpp:740
+#: src/plugin/folderlistmodel/dirmodel.cpp:801
 msgid "Touch file error"
 msgstr "Σφάλμα αρχείου επαφής"
 
-#: ../src/plugin/folderlistmodel/dirmodel.cpp:1353
+#: src/plugin/folderlistmodel/dirmodel.cpp:1414
 msgid "items"
 msgstr "αντικείμενα"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:320
+#: src/plugin/folderlistmodel/filesystemaction.cpp:320
 msgid "File or Directory does not exist"
 msgstr "Αρχείο ή Κατάλογος δεν υπάρχει"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:321
+#: src/plugin/folderlistmodel/filesystemaction.cpp:321
 msgid " does not exist"
 msgstr " δεν υπάρχει"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:326
+#: src/plugin/folderlistmodel/filesystemaction.cpp:326
 msgid "Cannot access File or Directory"
 msgstr "Αδυναμία πρόσβασης αρχείου ή καταλόγου"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:327
+#: src/plugin/folderlistmodel/filesystemaction.cpp:327
 msgid " it needs Authentication"
 msgstr " απαιτεί πιστοποίηση"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:361
+#: src/plugin/folderlistmodel/filesystemaction.cpp:361
 msgid "Cannot copy/move items"
 msgstr "Αδυναμία αντιγραφής/μετακίνησης αντικειμένων"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:362
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1487
+#: src/plugin/folderlistmodel/filesystemaction.cpp:362
+#: src/plugin/folderlistmodel/filesystemaction.cpp:1487
 msgid "no write permission on folder "
 msgstr "έλλειψη δικαιωμάτων εγγραφής στον φάκελο "
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:642
+#: src/plugin/folderlistmodel/filesystemaction.cpp:642
 msgid "Could not remove the item "
 msgstr "Αδυναμία αφαίρεσης αντικειμένου "
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:680
+#: src/plugin/folderlistmodel/filesystemaction.cpp:680
 msgid "Could not find a suitable name to backup"
 msgstr "Αδυναμία εύρεσης κατάλληλου ονόματος για αντίγραφο ασφαλείας"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:733
+#: src/plugin/folderlistmodel/filesystemaction.cpp:733
 msgid "Could not create the directory"
 msgstr "Αδυναμία δημιουργίας καταλόγου"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:738
+#: src/plugin/folderlistmodel/filesystemaction.cpp:738
 msgid "Could not create link to"
 msgstr "Αδυναμία δημιουργίας συνδέσμου"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:746
+#: src/plugin/folderlistmodel/filesystemaction.cpp:746
 msgid "Could not set permissions to dir"
 msgstr "Αδυναμία ορισμού δικαιωμάτων σε κατάλογο"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:756
+#: src/plugin/folderlistmodel/filesystemaction.cpp:756
 msgid "Could not open file"
 msgstr "Αδυναμία ανοίγματος αρχείου"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:772
+#: src/plugin/folderlistmodel/filesystemaction.cpp:772
 msgid "There is no space to copy"
 msgstr "Δεν υπάρχει χώρος για αντιγραφή"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:780
+#: src/plugin/folderlistmodel/filesystemaction.cpp:780
 msgid "Could not create file"
 msgstr "Αδυναμία δημιουργίας αρχείου"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:837
+#: src/plugin/folderlistmodel/filesystemaction.cpp:837
 msgid "Could not remove the directory/file "
 msgstr "Αδυναμία αφαίρεσης καταλόγου/αρχείου "
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:850
+#: src/plugin/folderlistmodel/filesystemaction.cpp:850
 msgid "Could not move the directory/file "
 msgstr "Αδυναμία μετακίνησης καταλόγου/αρχείου "
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1089
+#: src/plugin/folderlistmodel/filesystemaction.cpp:1089
 msgid "Write error in "
 msgstr "Σφάλμα εγγραφής σε "
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1101
+#: src/plugin/folderlistmodel/filesystemaction.cpp:1101
 msgid "Read error in "
 msgstr "Σφάλμα ανάγνωσης σε "
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1318
+#: src/plugin/folderlistmodel/filesystemaction.cpp:1318
 msgid " Copy"
 msgstr " Αντιγραφή"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1371
+#: src/plugin/folderlistmodel/filesystemaction.cpp:1371
 msgid "Set permissions error in "
 msgstr "Σφάλμα ορισμού δικαιωμάτων σε "
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1437
+#: src/plugin/folderlistmodel/filesystemaction.cpp:1437
 msgid "Could not create trash info file"
 msgstr "Αδυναμία δημιουργίας αρχείου πληροφοριών απορριμάτων"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1449
+#: src/plugin/folderlistmodel/filesystemaction.cpp:1449
 msgid "Could not remove the trash info file"
 msgstr "Αδυναμία αφαίρεσης αρχείου πληροφοριών απορριμάτων"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1479
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1486
+#: src/plugin/folderlistmodel/filesystemaction.cpp:1479
+#: src/plugin/folderlistmodel/filesystemaction.cpp:1486
 msgid "Cannot move items"
 msgstr "Αδυναμία μετακίνησης αντικειμένων"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1481
+#: src/plugin/folderlistmodel/filesystemaction.cpp:1481
 msgid "origin and destination folders are the same"
 msgstr "οι φάκελοι προέλευσης και προορισμού είναι ίδιοι"
 
-#: ../src/plugin/folderlistmodel/filesystemaction.cpp:1524
+#: src/plugin/folderlistmodel/filesystemaction.cpp:1524
 msgid "There is no space to download"
 msgstr "Δεν υπάρχει χώρος για λήψη"
 
-#: ../src/plugin/folderlistmodel/smb/qsambaclient/src/smbusershare.cpp:72
+#: src/plugin/folderlistmodel/smb/qsambaclient/src/smbusershare.cpp:72
 msgid "net tool not found, check samba installation"
 msgstr "το εργαλείο δικτύου δεν βρέθηκε, ελέγξτε την εγκατάσταση samba"
 
-#: ../src/plugin/folderlistmodel/smb/qsambaclient/src/smbusershare.cpp:80
+#: src/plugin/folderlistmodel/smb/qsambaclient/src/smbusershare.cpp:80
 msgid "cannot write in "
 msgstr "αδυναμία εγγραφής σε "
 
-#: com.ubuntu.filemanager.desktop.in.in.h:1
-msgid "File Manager"
-msgstr "Διαχειριστής αρχείων"
+#~ msgid "Select None"
+#~ msgstr "Καμία επιλογή"
 
-#: com.ubuntu.filemanager.desktop.in.in.h:2
-msgid "folder;manager;explore;disk;filesystem;"
-msgstr ""
-"φάκελος;διαχειριστής;εξερεύνηση;δίσκος;σύστημα "
-"αρχείων;folder;manager;explore;disk;filesystem;"
+#~ msgid "Select All"
+#~ msgstr "Επιλογή όλων"
+
+#, qt-format
+#~ msgid "%1 files"
+#~ msgstr "%1 αρχεία"
+
+#, qt-format
+#~ msgid "File %1"
+#~ msgstr "Αρχείο %1"
+
+#, qt-format
+#~ msgid "%1 Files"
+#~ msgstr "%1 Αρχεία"
 
 #~ msgid "%1 (%2 file)"
 #~ msgid_plural "%1 (%2 files)"
@@ -714,9 +823,6 @@ msgstr ""
 
 #~ msgid "Path:"
 #~ msgstr "Διαδρομή:"
-
-#~ msgid "Contents:"
-#~ msgstr "Περιεχόμενα:"
 
 #~ msgid "Unlock full access"
 #~ msgstr "Ξεκλείδωμα πλήρης πρόσβασης"
