@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: lomiri-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 09:00+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-01-04 00:40+0000\n"
+"Last-Translator: Muhammad <muhammad23012009@hotmail.com>\n"
+"Language-Team: Urdu <https://hosted.weblate.org/projects/lomiri/"
+"lomiri-filemanager-app/ur/>\n"
 "Language: ur\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #: lomiri-filemanager-app.desktop.in:7
 msgid "/usr/share/lomiri-filemanager-app/filemanager.svg"
@@ -54,7 +56,7 @@ msgstr ""
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:185
 #: src/app/qml/ui/FolderListPageSelectionHeader.qml:44
 msgid "Cancel"
-msgstr ""
+msgstr "منسوخ کریں"
 
 #: src/app/qml/actions/Delete.qml:5
 #: src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:16
@@ -68,11 +70,11 @@ msgstr ""
 
 #: src/app/qml/actions/FileCopy.qml:5
 msgid "Copy"
-msgstr ""
+msgstr "نقل"
 
 #: src/app/qml/actions/FileCut.qml:5
 msgid "Cut"
-msgstr ""
+msgstr "کاٹیں"
 
 #: src/app/qml/actions/FilePaste.qml:30
 #, qt-format
@@ -125,7 +127,7 @@ msgstr ""
 
 #: src/app/qml/actions/Settings.qml:6
 msgid "Settings"
-msgstr ""
+msgstr "ترتیبات"
 
 #: src/app/qml/actions/Share.qml:5
 msgid "Share"
@@ -629,7 +631,7 @@ msgstr ""
 
 #: src/app/qml/views/FolderListView.qml:87
 msgid "Files"
-msgstr ""
+msgstr "فایلز"
 
 #: src/plugin/folderlistmodel/dirmodel.cpp:384
 msgid "Unknown"
