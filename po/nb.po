@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 09:00+0000\n"
-"PO-Revision-Date: 2023-01-04 08:05+0000\n"
+"PO-Revision-Date: 2023-01-04 19:45+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-filemanager-app/nb_NO/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: lomiri-filemanager-app.desktop.in:7
 msgid "/usr/share/lomiri-filemanager-app/filemanager.svg"
-msgstr ""
+msgstr "/usr/share/lomiri-filemanager-app/filemanager.svg"
 
 #: lomiri-filemanager-app.desktop.in:8
 msgid "File Manager"
@@ -150,7 +150,7 @@ msgstr "Åpne i ny fane"
 
 #: src/app/qml/actions/Terminal.qml:5
 msgid "Open Terminal Here"
-msgstr ""
+msgstr "Åpne terminal her"
 
 #: src/app/qml/actions/UnlockFullAccess.qml:6
 msgid "Unlock"
@@ -378,8 +378,9 @@ msgid "Preview"
 msgstr "Forhåndsvis"
 
 #: src/app/qml/filemanager.qml:185
+#, fuzzy
 msgid "successfully saved: "
-msgstr ""
+msgstr "lagret: "
 
 #: src/app/qml/filemanager.qml:188
 #, fuzzy
@@ -398,10 +399,13 @@ msgid ""
 "Warning: Content-Hub does not overwrite existing files. The following were "
 "detected:"
 msgstr ""
+"Advarsel: Innholdshubben overskriver ikke eksisterende filer. Følgende ble "
+"oppdaget:"
 
 #: src/app/qml/filemanager.qml:205
+#, fuzzy
 msgid "Import Results"
-msgstr ""
+msgstr "Importresultater"
 
 #: src/app/qml/ui/FileDetailsPopover.qml:34
 msgid "Readable"
@@ -493,13 +497,15 @@ msgstr "Innhold:"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:134
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:141
+#, fuzzy
 msgid "Recursive"
-msgstr ""
+msgstr "Rekursivt"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:135
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:142
+#, fuzzy
 msgid "Note: Slow in large directories"
-msgstr ""
+msgstr "Merk: tregt for store kataloger"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:208
 #, fuzzy
@@ -520,9 +526,9 @@ msgstr[0] "Lim inn filer"
 msgstr[1] "Lim inn filer"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:230
-#, qt-format
+#, fuzzy, qt-format
 msgid "Added '%1' to Places"
-msgstr ""
+msgstr "La til «%1» i steder"
 
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:33
 msgid "Save here"
@@ -531,7 +537,7 @@ msgstr "Lagre her"
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:35
 #, qt-format
 msgid "Select files (%1 selected)"
-msgstr ""
+msgstr "Velg filer (%1 valgt)"
 
 #: src/app/qml/ui/FolderListPageSelectionHeader.qml:36
 #, qt-format
@@ -626,7 +632,7 @@ msgstr "Drakt"
 
 #: src/app/qml/ui/ViewPopover.qml:94
 msgid "System"
-msgstr ""
+msgstr "System"
 
 #: src/app/qml/ui/ViewPopover.qml:94
 msgid "Light"
