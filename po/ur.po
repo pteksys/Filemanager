@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: lomiri-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 09:00+0000\n"
-"PO-Revision-Date: 2023-01-04 00:40+0000\n"
+"PO-Revision-Date: 2023-01-04 19:45+0000\n"
 "Last-Translator: Muhammad <muhammad23012009@hotmail.com>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-filemanager-app/ur/>\n"
@@ -336,7 +336,7 @@ msgstr ""
 
 #: src/app/qml/dialogs/NetAuthenticationDialog.qml:58
 msgid "Password"
-msgstr ""
+msgstr "پاس ورڈ"
 
 #: src/app/qml/dialogs/NetAuthenticationDialog.qml:72
 msgid "Save password"
@@ -428,7 +428,7 @@ msgstr ""
 
 #: src/app/qml/ui/FileDetailsPopover.qml:184
 msgid "Close"
-msgstr ""
+msgstr "بند کریں"
 
 #: src/app/qml/ui/FolderListPage.qml:249 src/app/qml/ui/FolderListPage.qml:304
 msgid "Restricted access"
@@ -585,7 +585,7 @@ msgstr ""
 
 #: src/app/qml/ui/ViewPopover.qml:80
 msgid "Name"
-msgstr ""
+msgstr "نام"
 
 #: src/app/qml/ui/ViewPopover.qml:80
 msgid "Date"
