@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 09:00+0000\n"
-"PO-Revision-Date: 2021-03-11 00:46+0000\n"
-"Last-Translator: Jan Christian Sherdahl <jan@sherdahl.no>\n"
-"Language-Team: Norwegian Bokmål <https://translate.ubports.com/projects/"
-"ubports/filemanager-app/nb/>\n"
+"PO-Revision-Date: 2023-01-04 08:05+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/lomiri/"
+"lomiri-filemanager-app/nb_NO/>\n"
 "Language: nb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 "X-Launchpad-Export-Date: 2017-04-08 06:04+0000\n"
 
 #: lomiri-filemanager-app.desktop.in:7
@@ -122,7 +122,7 @@ msgstr "Gi nytt navn"
 
 #: src/app/qml/actions/Search.qml:6
 msgid "Search"
-msgstr ""
+msgstr "Søk"
 
 #: src/app/qml/actions/Select.qml:6
 msgid "Select"
@@ -437,7 +437,7 @@ msgstr "Tillatelser:"
 
 #: src/app/qml/ui/FileDetailsPopover.qml:184
 msgid "Close"
-msgstr ""
+msgstr "Lukk"
 
 #: src/app/qml/ui/FolderListPage.qml:249 src/app/qml/ui/FolderListPage.qml:304
 msgid "Restricted access"
@@ -476,12 +476,13 @@ msgstr[1] "%1 elementer"
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:41
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:46
 msgid "Search Results"
-msgstr ""
+msgstr "Søkeresultater"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:68
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:73
+#, fuzzy
 msgid "Search..."
-msgstr ""
+msgstr "Søk …"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:118
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:125
