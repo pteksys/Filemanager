@@ -13,5 +13,5 @@
     "maintainer": "UBports <dev@ubports.com>",
     "name": "filemanager.ubports",
     "title": "File Manager",
-    "version": "0.7.9"
+    "version": "@PROJECT_VERSION@"
 }
