@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 09:00+0000\n"
-"PO-Revision-Date: 2023-01-04 19:45+0000\n"
+"PO-Revision-Date: 2023-01-07 02:52+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-filemanager-app/nb_NO/>\n"
@@ -101,10 +101,8 @@ msgid "New Item"
 msgstr "Nytt element"
 
 #: src/app/qml/actions/OpenAdvanced.qml:6
-#, fuzzy
-#| msgid "Open with"
 msgid "Open with..."
-msgstr "Åpne med"
+msgstr "Åpne med …"
 
 #: src/app/qml/actions/PlacesBookmarks.qml:6 src/app/qml/ui/PlacesPage.qml:16
 msgid "Places"
@@ -213,12 +211,11 @@ msgstr "Autentiser"
 
 #: src/app/qml/backend/FolderListModel.qml:122 src/app/qml/filemanager.qml:185
 #: src/app/qml/filemanager.qml:188
-#, fuzzy, qt-format
-#| msgid "%1 file"
+#, qt-format
 msgid "%1 file"
 msgid_plural "%1 files"
 msgstr[0] "%1 fil"
-msgstr[1] "%1 fil"
+msgstr[1] "%1 filer"
 
 #: src/app/qml/backend/FolderListModel.qml:133
 msgid "Folder"
@@ -289,10 +286,9 @@ msgid "Create Folder"
 msgstr "Opprett mappe"
 
 #: src/app/qml/dialogs/CreateItemDialog.qml:53
-#, fuzzy, qt-format
-#| msgid "Create Folder"
+#, qt-format
 msgid "Created folder '%1'"
-msgstr "Opprett mappe"
+msgstr "Opprett mappen «%1»"
 
 #: src/app/qml/dialogs/ExtractingDialog.qml:23
 #, qt-format
@@ -386,13 +382,12 @@ msgstr "lagret: "
 #, fuzzy
 #| msgid "File saved"
 msgid "failed to save: "
-msgstr "Fil lagret"
+msgstr "klarte ikke å lagre: "
 
 #: src/app/qml/filemanager.qml:190
-#, fuzzy, qt-format
-#| msgid "Saved to: %1"
+#, qt-format
 msgid "into: %1"
-msgstr "Lagret til: %1"
+msgstr "i: %1"
 
 #: src/app/qml/filemanager.qml:194
 msgid ""
@@ -518,12 +513,10 @@ msgid "Paste files"
 msgstr "Lim inn filer"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:219
-#, fuzzy
-#| msgid "Paste files"
 msgid "Pasted item"
 msgid_plural "Pasted items"
-msgstr[0] "Lim inn filer"
-msgstr[1] "Lim inn filer"
+msgstr[0] "Innlimt element"
+msgstr[1] "Innlimte elementer"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:230
 #, fuzzy, qt-format
@@ -565,10 +558,8 @@ msgid "Show Hidden Files"
 msgstr "Vis skjulte filer"
 
 #: src/app/qml/ui/ViewPopover.qml:42
-#, fuzzy
-#| msgid "File operation"
 msgid "Default open action"
-msgstr "Filhandling"
+msgstr "Forvalgt åpningshandling"
 
 #: src/app/qml/ui/ViewPopover.qml:55
 msgid "View As"
