@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 09:00+0000\n"
-"PO-Revision-Date: 2021-07-24 19:07+0000\n"
-"Last-Translator: Stefan Kalb <stefan.kalb@gmx.ch>\n"
-"Language-Team: German <https://translate.ubports.com/projects/ubports/"
-"filemanager-app/de/>\n"
+"PO-Revision-Date: 2023-01-12 21:48+0000\n"
+"Last-Translator: Alexander Richards <electrodeyt@gmail.com>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/lomiri/"
+"lomiri-filemanager-app/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 "X-Launchpad-Export-Date: 2017-04-08 06:04+0000\n"
 
 #: lomiri-filemanager-app.desktop.in:7
@@ -650,7 +650,7 @@ msgstr "Verzeichnisse"
 
 #: src/app/qml/views/FolderListView.qml:87
 msgid "Files"
-msgstr "Dateien"
+msgstr "Datein"
 
 #: src/plugin/folderlistmodel/dirmodel.cpp:384
 msgid "Unknown"
