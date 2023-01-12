@@ -1,5 +1,6 @@
-project(lomiri-filemanager-app C CXX)
-cmake_minimum_required(VERSION 2.8.12)
+cmake_minimum_required(VERSION 3.5)
+project(lomiri-filemanager-app VERSION 0.7.9 LANGUAGES CXX)
+
 include(FindGettext)
 if(NOT GETTEXT_FOUND)
   message(FATAL_ERROR "Could not find gettext")

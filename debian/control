@@ -31,7 +31,8 @@ Depends: ${misc:Depends},
          qml-module-lomiri-thumbnailer0.1,
          libsmbclient,
 Description: File Manager application
- Core File Manager application
+ Lomiri File Manager App is a convergent file manager supporting both mobile
+ devices and desktops.
 
 Package: lomiri-filemanager-app-autopilot
 Architecture: all
@@ -43,5 +44,5 @@ Depends: ${misc:Depends},
          python3-autopilot,
          python3-fixtures,
          python3-lxml,
-Description: Autopilot tests for File Manager Application
- This package contains the autopilot tests for the File Manager
+Description: Autopilot tests for Lomiri File Manager
+ This package contains the autopilot tests for Lomiri File Manager

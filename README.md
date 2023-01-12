@@ -1,47 +1,27 @@
-ReadMe - Lomiri File Manager
-============================
+# Lomiri File Manager
 
-Lomiri File Manager App is the official file manager app for Ubuntu Touch. We follow an open
-source model where the code is available to anyone to branch and hack on. The
-Lomiri File Manager App originally followed a test driven development (TDD) where tests were
-written in parallel to feature implementation to help spot regressions easier.
+Lomiri File Manager App is a convergent file manager supporting both mobile
+devices and desktops. It is the official file manager app for Ubuntu Touch. We
+follow an open source model where the code is available to anyone to branch and
+hack on.
+The Lomiri File Manager App originally followed a test driven development (TDD)
+where tests were written in parallel to feature implementation to help spot
+regressions easier.
 
-Attention!
-==========
-Currently the ci is unable to build the c++ parts due to memory lag. As workaround the app is
-built into the prebuilt directory externally and fetches the qml parts from src. From this dir the
-pure app is built by the ci as expected. So before publishing a new version be sure to keep that
-dir upstream!
+## i18n: Translating lomiri-filemanager-app into your Language
 
-Telegram group
-==============
-Join the Telgram group by clicking this link
-* [Telegram group](https://t.me/ubports_fm_app)
+You can easily contribute to the localization of this project (i.e. the
+translation into your language) by visiting (and signing up with) the
+Hosted Weblate service:
+https://hosted.weblate.org/projects/lomiri/lomiri-filemanager-app
 
-Building with clickable
-=======================
-The easiest way to build this app is using clickable by running the command:
+The localization platform of this project is sponsored by Hosted Weblate
+via their free hosting plan for Libre and Open Source Projects.
 
-```
-clickable
-```
+## Useful Links
 
-See [clickable documentation](http://clickable.bhdouglass.com/en/latest/) for details.
-
-Building without clickable
-==========================
-**DEPENDENCIES ARE NEEDED TO BE INSTALLED TO BUILD AND RUN THE APP**.
-
-A complete list of dependencies for the project can be found in filemanager-app/debian/control
-
-The following essential packages are also required to develop this app:
-* [ubuntu-sdk](http://developer.ubuntu.com/start)
-* intltool   - run  `sudo apt-get install intltool`
-
-Useful Links
-============
 Here are some useful links with regards to the File Manager App development.
 
 * [UBports](https://ubports.com/)
-* [clickable](http://clickable.bhdouglass.com/en/latest/)
+* [Clickable](https://clickable-ut.dev/en/latest/)
 * [OpenStore](https://open-store.io/app/filemanager.ubports)

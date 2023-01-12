@@ -1,6 +1,8 @@
 ReadMe - Run Autopilot tests
 ============================
 
+NOTE: autopilot is currently not available in UBports and the instructions below are no longer accurate.
+
 # Prerequisites
 * ubuntu-ui-toolkit-autopilot : sudo apt-get install ubuntu-ui-toolkit-autopilot
 
