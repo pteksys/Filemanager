@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 09:00+0000\n"
-"PO-Revision-Date: 2023-01-11 15:55+0000\n"
-"Last-Translator: Dan <denqwerta@gmail.com>\n"
+"PO-Revision-Date: 2023-01-16 00:47+0000\n"
+"Last-Translator: Sergii Horichenko <m@sgg.im>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-filemanager-app/uk/>\n"
 "Language: uk\n"
@@ -64,7 +64,7 @@ msgstr "Скасувати"
 #: src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:16
 #: src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:17
 msgid "Delete"
-msgstr "Вилучити"
+msgstr "Видалити"
 
 #: src/app/qml/actions/FileClearSelection.qml:8
 msgid "Clear clipboard"
