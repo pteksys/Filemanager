@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 09:00+0000\n"
-"PO-Revision-Date: 2023-01-16 00:47+0000\n"
+"PO-Revision-Date: 2023-01-17 14:51+0000\n"
 "Last-Translator: Ivo Xavier <ivofernandes12@gmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-filemanager-app/pt/>\n"
@@ -101,10 +101,8 @@ msgid "New Item"
 msgstr "Novo item"
 
 #: src/app/qml/actions/OpenAdvanced.qml:6
-#, fuzzy
-#| msgid "Open with"
 msgid "Open with..."
-msgstr "Abrir com"
+msgstr "Abrir com..."
 
 #: src/app/qml/actions/PlacesBookmarks.qml:6 src/app/qml/ui/PlacesPage.qml:16
 msgid "Places"
@@ -213,12 +211,11 @@ msgstr "Autenticar"
 
 #: src/app/qml/backend/FolderListModel.qml:122 src/app/qml/filemanager.qml:185
 #: src/app/qml/filemanager.qml:188
-#, fuzzy, qt-format
-#| msgid "%1 file"
+#, qt-format
 msgid "%1 file"
 msgid_plural "%1 files"
 msgstr[0] "%1 ficheiro"
-msgstr[1] "%1 ficheiro"
+msgstr[1] "%1 ficheiros"
 
 #: src/app/qml/backend/FolderListModel.qml:133
 msgid "Folder"
@@ -279,20 +276,18 @@ msgid "Create file"
 msgstr "Criar um ficheiro"
 
 #: src/app/qml/dialogs/CreateItemDialog.qml:34
-#, fuzzy, qt-format
-#| msgid "Create file"
+#, qt-format
 msgid "Created file '%1'"
-msgstr "Criar um ficheiro"
+msgstr "Criado o ficheiro '%1'"
 
 #: src/app/qml/dialogs/CreateItemDialog.qml:46
 msgid "Create Folder"
 msgstr "Criar uma pasta"
 
 #: src/app/qml/dialogs/CreateItemDialog.qml:53
-#, fuzzy, qt-format
-#| msgid "Create Folder"
+#, qt-format
 msgid "Created folder '%1'"
-msgstr "Criar uma pasta"
+msgstr "Criada a pasta '%1'"
 
 #: src/app/qml/dialogs/ExtractingDialog.qml:23
 #, qt-format
@@ -382,16 +377,13 @@ msgid "successfully saved: "
 msgstr "guardado com sucesso: "
 
 #: src/app/qml/filemanager.qml:188
-#, fuzzy
-#| msgid "File saved"
 msgid "failed to save: "
-msgstr "Ficheiro gravado"
+msgstr "falha a guardar: "
 
 #: src/app/qml/filemanager.qml:190
-#, fuzzy, qt-format
-#| msgid "Saved to: %1"
+#, qt-format
 msgid "into: %1"
-msgstr "Guardado para: %1"
+msgstr "em: %1"
 
 #: src/app/qml/filemanager.qml:194
 msgid ""
@@ -485,10 +477,8 @@ msgstr "Procurar..."
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:118
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:125
-#, fuzzy
-#| msgid "Contents:"
 msgid "File Contents"
-msgstr "Conteúdo:"
+msgstr "Conteúdos do Ficheiro"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:134
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:141
@@ -501,22 +491,18 @@ msgid "Note: Slow in large directories"
 msgstr "Nota: Lento em diretórios grandes"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:208
-#, fuzzy
-#| msgid "Clear clipboard"
 msgid "Cleared clipboard"
-msgstr "Limpar área de transferência"
+msgstr "Área de transferência limpa"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:217
 msgid "Paste files"
 msgstr "Colar ficheiros"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:219
-#, fuzzy
-#| msgid "Paste files"
 msgid "Pasted item"
 msgid_plural "Pasted items"
-msgstr[0] "Colar ficheiros"
-msgstr[1] "Colar ficheiros"
+msgstr[0] "Ficheiro colado"
+msgstr[1] "Ficheiros colados"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:230
 #, qt-format
@@ -558,10 +544,8 @@ msgid "Show Hidden Files"
 msgstr "Mostrar ficheiros ocultos"
 
 #: src/app/qml/ui/ViewPopover.qml:42
-#, fuzzy
-#| msgid "File operation"
 msgid "Default open action"
-msgstr "Operação de ficheiro"
+msgstr "Ação de abertura padrão"
 
 #: src/app/qml/ui/ViewPopover.qml:55
 msgid "View As"
