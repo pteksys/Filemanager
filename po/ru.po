@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 09:00+0000\n"
-"PO-Revision-Date: 2023-01-16 00:47+0000\n"
+"PO-Revision-Date: 2023-01-17 14:51+0000\n"
 "Last-Translator: Sergii Horichenko <m@sgg.im>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-filemanager-app/ru/>\n"
@@ -103,10 +103,8 @@ msgid "New Item"
 msgstr "Новый элемент"
 
 #: src/app/qml/actions/OpenAdvanced.qml:6
-#, fuzzy
-#| msgid "Open with"
 msgid "Open with..."
-msgstr "Открыть в"
+msgstr "Открыть в..."
 
 #: src/app/qml/actions/PlacesBookmarks.qml:6 src/app/qml/ui/PlacesPage.qml:16
 msgid "Places"
@@ -124,7 +122,7 @@ msgstr "Переименовать"
 
 #: src/app/qml/actions/Search.qml:6
 msgid "Search"
-msgstr ""
+msgstr "Поиск"
 
 #: src/app/qml/actions/Select.qml:6
 msgid "Select"
@@ -152,7 +150,7 @@ msgstr "Открыть в новой вкладке"
 
 #: src/app/qml/actions/Terminal.qml:5
 msgid "Open Terminal Here"
-msgstr ""
+msgstr "Открыть терминал здесь"
 
 #: src/app/qml/actions/UnlockFullAccess.qml:6
 msgid "Unlock"
@@ -215,13 +213,12 @@ msgstr "Проверка подлинности"
 
 #: src/app/qml/backend/FolderListModel.qml:122 src/app/qml/filemanager.qml:185
 #: src/app/qml/filemanager.qml:188
-#, fuzzy, qt-format
-#| msgid "%1 file"
+#, qt-format
 msgid "%1 file"
 msgid_plural "%1 files"
 msgstr[0] "%1 файл"
-msgstr[1] "%1 файл"
-msgstr[2] "%1 файл"
+msgstr[1] "%1 файла"
+msgstr[2] "%1 файлов"
 
 #: src/app/qml/backend/FolderListModel.qml:133
 msgid "Folder"
@@ -282,20 +279,18 @@ msgid "Create file"
 msgstr "Создать файл"
 
 #: src/app/qml/dialogs/CreateItemDialog.qml:34
-#, fuzzy, qt-format
-#| msgid "Create file"
+#, qt-format
 msgid "Created file '%1'"
-msgstr "Создать файл"
+msgstr "Создан файл \"%1\""
 
 #: src/app/qml/dialogs/CreateItemDialog.qml:46
 msgid "Create Folder"
 msgstr "Создать папку"
 
 #: src/app/qml/dialogs/CreateItemDialog.qml:53
-#, fuzzy, qt-format
-#| msgid "Create Folder"
+#, qt-format
 msgid "Created folder '%1'"
-msgstr "Создать папку"
+msgstr "Создана папка \"%1\""
 
 #: src/app/qml/dialogs/ExtractingDialog.qml:23
 #, qt-format
@@ -382,29 +377,28 @@ msgstr "Просмотреть"
 
 #: src/app/qml/filemanager.qml:185
 msgid "successfully saved: "
-msgstr ""
+msgstr "успешно сохранено: "
 
 #: src/app/qml/filemanager.qml:188
-#, fuzzy
-#| msgid "File saved"
 msgid "failed to save: "
-msgstr "Файл записан"
+msgstr "не удалось сохранить: "
 
 #: src/app/qml/filemanager.qml:190
-#, fuzzy, qt-format
-#| msgid "Saved to: %1"
+#, qt-format
 msgid "into: %1"
-msgstr "Записано в: %1"
+msgstr "в: %1"
 
 #: src/app/qml/filemanager.qml:194
 msgid ""
 "Warning: Content-Hub does not overwrite existing files. The following were "
 "detected:"
 msgstr ""
+"Предупреждение: Content-Hub не перезаписывает существующие файлы. Были "
+"обнаружены:"
 
 #: src/app/qml/filemanager.qml:205
 msgid "Import Results"
-msgstr ""
+msgstr "Результаты импорта"
 
 #: src/app/qml/ui/FileDetailsPopover.qml:34
 msgid "Readable"
@@ -479,53 +473,47 @@ msgstr[2] "%1 элементов"
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:41
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:46
 msgid "Search Results"
-msgstr ""
+msgstr "Результаты поиска"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:68
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:73
 msgid "Search..."
-msgstr ""
+msgstr "Поиск..."
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:118
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:125
-#, fuzzy
-#| msgid "Contents:"
 msgid "File Contents"
-msgstr "Содержимое:"
+msgstr "Содержимое файла"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:134
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:141
 msgid "Recursive"
-msgstr ""
+msgstr "Рекурсивно"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:135
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:142
 msgid "Note: Slow in large directories"
-msgstr ""
+msgstr "Примечание: в больших каталогах медленно"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:208
-#, fuzzy
-#| msgid "Clear clipboard"
 msgid "Cleared clipboard"
-msgstr "Очистить буфер обмена"
+msgstr "Очищен буфер обмена"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:217
 msgid "Paste files"
 msgstr "Вставить файлы"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:219
-#, fuzzy
-#| msgid "Paste files"
 msgid "Pasted item"
 msgid_plural "Pasted items"
-msgstr[0] "Вставить файлы"
-msgstr[1] "Вставить файлы"
-msgstr[2] "Вставить файлы"
+msgstr[0] "Вставлено"
+msgstr[1] "Вставлены"
+msgstr[2] "Вставлены"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:230
 #, qt-format
 msgid "Added '%1' to Places"
-msgstr ""
+msgstr "Добавлено \"%1\" к \"Местам\""
 
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:33
 msgid "Save here"
@@ -534,7 +522,7 @@ msgstr "Сохранить здесь"
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:35
 #, qt-format
 msgid "Select files (%1 selected)"
-msgstr ""
+msgstr "Выберите файлы (выбрано %1)"
 
 #: src/app/qml/ui/FolderListPageSelectionHeader.qml:36
 #, qt-format
@@ -563,10 +551,8 @@ msgid "Show Hidden Files"
 msgstr "Показать скрытые файлы"
 
 #: src/app/qml/ui/ViewPopover.qml:42
-#, fuzzy
-#| msgid "File operation"
 msgid "Default open action"
-msgstr "Действие с файлом"
+msgstr "Действие открытия по умолчанию"
 
 #: src/app/qml/ui/ViewPopover.qml:55
 msgid "View As"
@@ -630,7 +616,7 @@ msgstr "Тема"
 
 #: src/app/qml/ui/ViewPopover.qml:94
 msgid "System"
-msgstr ""
+msgstr "Система"
 
 #: src/app/qml/ui/ViewPopover.qml:94
 msgid "Light"
