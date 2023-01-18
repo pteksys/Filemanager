@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(lomiri-filemanager-app VERSION 0.7.9 LANGUAGES CXX)
+project(lomiri-filemanager-app VERSION 1.0.0 LANGUAGES CXX)
 
 include(FindGettext)
 if(NOT GETTEXT_FOUND)
