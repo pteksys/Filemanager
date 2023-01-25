@@ -8,22 +8,22 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 09:00+0000\n"
-"PO-Revision-Date: 2019-10-26 17:36+0000\n"
-"Last-Translator: Daniel Frańczak <danielfranczak5@wp.pl>\n"
-"Language-Team: Polish <https://translate.ubports.com/projects/ubports/"
-"filemanager-app/pl/>\n"
+"PO-Revision-Date: 2023-01-26 14:51+0000\n"
+"Last-Translator: gnu-ewm <gnu.ewm@protonmail.com>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/lomiri/"
+"lomiri-filemanager-app/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: Weblate 4.16-dev\n"
 "X-Launchpad-Export-Date: 2017-04-08 06:04+0000\n"
 
 #: lomiri-filemanager-app.desktop.in:7
 msgid "/usr/share/lomiri-filemanager-app/filemanager.svg"
-msgstr ""
+msgstr "/usr/share/lomiri-filemanager-app/filemanager.svg"
 
 #: lomiri-filemanager-app.desktop.in:8
 msgid "File Manager"
@@ -124,7 +124,7 @@ msgstr "Zmień nazwę"
 
 #: src/app/qml/actions/Search.qml:6
 msgid "Search"
-msgstr ""
+msgstr "Szukaj"
 
 #: src/app/qml/actions/Select.qml:6
 msgid "Select"
@@ -152,7 +152,7 @@ msgstr "Otwórz w nowej karcie"
 
 #: src/app/qml/actions/Terminal.qml:5
 msgid "Open Terminal Here"
-msgstr ""
+msgstr "Otwórz Terminal w tym położeniu"
 
 #: src/app/qml/actions/UnlockFullAccess.qml:6
 msgid "Unlock"
@@ -215,13 +215,12 @@ msgstr "Uwierzytelnij"
 
 #: src/app/qml/backend/FolderListModel.qml:122 src/app/qml/filemanager.qml:185
 #: src/app/qml/filemanager.qml:188
-#, fuzzy, qt-format
-#| msgid "%1 file"
+#, qt-format
 msgid "%1 file"
 msgid_plural "%1 files"
 msgstr[0] "%1 plik"
-msgstr[1] "%1 plik"
-msgstr[2] "%1 plik"
+msgstr[1] "%1 pliki"
+msgstr[2] "%1 plików"
 
 #: src/app/qml/backend/FolderListModel.qml:133
 msgid "Folder"
@@ -282,10 +281,9 @@ msgid "Create file"
 msgstr "Utwórz plik"
 
 #: src/app/qml/dialogs/CreateItemDialog.qml:34
-#, fuzzy, qt-format
-#| msgid "Create file"
+#, qt-format
 msgid "Created file '%1'"
-msgstr "Utwórz plik"
+msgstr "Utworzono plik \"%1\""
 
 #: src/app/qml/dialogs/CreateItemDialog.qml:46
 msgid "Create Folder"
@@ -440,7 +438,7 @@ msgstr "Uprawnienia:"
 
 #: src/app/qml/ui/FileDetailsPopover.qml:184
 msgid "Close"
-msgstr ""
+msgstr "Zamknij"
 
 #: src/app/qml/ui/FolderListPage.qml:249 src/app/qml/ui/FolderListPage.qml:304
 msgid "Restricted access"
