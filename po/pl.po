@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 09:00+0000\n"
-"PO-Revision-Date: 2023-01-26 14:51+0000\n"
+"PO-Revision-Date: 2023-01-27 17:40+0000\n"
 "Last-Translator: gnu-ewm <gnu.ewm@protonmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-filemanager-app/pl/>\n"
@@ -103,10 +103,8 @@ msgid "New Item"
 msgstr "Nowy element"
 
 #: src/app/qml/actions/OpenAdvanced.qml:6
-#, fuzzy
-#| msgid "Open with"
 msgid "Open with..."
-msgstr "Otwórz za pomocą"
+msgstr "Otwórz za pomocą..."
 
 #: src/app/qml/actions/PlacesBookmarks.qml:6 src/app/qml/ui/PlacesPage.qml:16
 msgid "Places"
@@ -290,10 +288,9 @@ msgid "Create Folder"
 msgstr "Utwórz katalog"
 
 #: src/app/qml/dialogs/CreateItemDialog.qml:53
-#, fuzzy, qt-format
-#| msgid "Create Folder"
+#, qt-format
 msgid "Created folder '%1'"
-msgstr "Utwórz katalog"
+msgstr "Utworzono katalog '%1'"
 
 #: src/app/qml/dialogs/ExtractingDialog.qml:23
 #, qt-format
@@ -380,19 +377,16 @@ msgstr "Podgląd"
 
 #: src/app/qml/filemanager.qml:185
 msgid "successfully saved: "
-msgstr ""
+msgstr "Pomyślnie zapisano: "
 
 #: src/app/qml/filemanager.qml:188
-#, fuzzy
-#| msgid "File saved"
 msgid "failed to save: "
-msgstr "Zapisano plik"
+msgstr "nie udało się zapisać: "
 
 #: src/app/qml/filemanager.qml:190
-#, fuzzy, qt-format
-#| msgid "Saved to: %1"
+#, qt-format
 msgid "into: %1"
-msgstr "Zapisano: %1"
+msgstr "do: %1"
 
 #: src/app/qml/filemanager.qml:194
 msgid ""
@@ -402,7 +396,7 @@ msgstr ""
 
 #: src/app/qml/filemanager.qml:205
 msgid "Import Results"
-msgstr ""
+msgstr "Importuj wyniki"
 
 #: src/app/qml/ui/FileDetailsPopover.qml:34
 msgid "Readable"
@@ -471,60 +465,54 @@ msgstr "Błąd operacji na pliku"
 #, qt-format
 msgid "%1 item"
 msgid_plural "%1 items"
-msgstr[0] "element"
-msgstr[1] "elementy"
-msgstr[2] "elementów"
+msgstr[0] "%1 element"
+msgstr[1] "%1 elementy"
+msgstr[2] "%1 elementów"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:41
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:46
 msgid "Search Results"
-msgstr ""
+msgstr "Wyniki wyszukiwania"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:68
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:73
 msgid "Search..."
-msgstr ""
+msgstr "Szukaj..."
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:118
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:125
-#, fuzzy
-#| msgid "Contents:"
 msgid "File Contents"
-msgstr "Zawartość:"
+msgstr "Zawartość pliku"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:134
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:141
 msgid "Recursive"
-msgstr ""
+msgstr "Cyklicznie"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:135
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:142
 msgid "Note: Slow in large directories"
-msgstr ""
+msgstr "Uwaga: Wolny w dużych katalogach"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:208
-#, fuzzy
-#| msgid "Clear clipboard"
 msgid "Cleared clipboard"
-msgstr "Wyczyść schowek"
+msgstr "Wyczyszczono schowek"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:217
 msgid "Paste files"
 msgstr "Wklej pliki"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:219
-#, fuzzy
-#| msgid "Paste files"
 msgid "Pasted item"
 msgid_plural "Pasted items"
-msgstr[0] "Wklej pliki"
-msgstr[1] "Wklej pliki"
-msgstr[2] "Wklej pliki"
+msgstr[0] "Wklejono plik"
+msgstr[1] "Wklejono pliki"
+msgstr[2] "Wklejono pliki"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:230
 #, qt-format
 msgid "Added '%1' to Places"
-msgstr ""
+msgstr "Dodano „%1” do Miejsc"
 
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:33
 msgid "Save here"
@@ -533,7 +521,7 @@ msgstr "Zapisz tutaj"
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:35
 #, qt-format
 msgid "Select files (%1 selected)"
-msgstr ""
+msgstr "Wybierz pliki (wybrano %1)"
 
 #: src/app/qml/ui/FolderListPageSelectionHeader.qml:36
 #, qt-format
@@ -562,10 +550,8 @@ msgid "Show Hidden Files"
 msgstr "Pokaż ukryte pliki"
 
 #: src/app/qml/ui/ViewPopover.qml:42
-#, fuzzy
-#| msgid "File operation"
 msgid "Default open action"
-msgstr "Operacje na pliku"
+msgstr "Domyślna akcja otwierania"
 
 #: src/app/qml/ui/ViewPopover.qml:55
 msgid "View As"
@@ -629,7 +615,7 @@ msgstr "Motyw"
 
 #: src/app/qml/ui/ViewPopover.qml:94
 msgid "System"
-msgstr ""
+msgstr "System"
 
 #: src/app/qml/ui/ViewPopover.qml:94
 msgid "Light"
