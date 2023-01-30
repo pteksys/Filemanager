@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 09:00+0000\n"
-"PO-Revision-Date: 2023-01-16 00:47+0000\n"
-"Last-Translator: Dan <denqwerta@gmail.com>\n"
+"PO-Revision-Date: 2023-01-31 12:18+0000\n"
+"Last-Translator: Sergii Horichenko <m@sgg.im>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-filemanager-app/uk/>\n"
 "Language: uk\n"
@@ -18,20 +18,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 "X-Launchpad-Export-Date: 2017-04-08 06:04+0000\n"
 
 #: lomiri-filemanager-app.desktop.in:7
 msgid "/usr/share/lomiri-filemanager-app/filemanager.svg"
-msgstr ""
+msgstr "/usr/share/lomiri-filemanager-app/filemanager.svg"
 
 #: lomiri-filemanager-app.desktop.in:8
 msgid "File Manager"
-msgstr ""
+msgstr "Файловий менеджер"
 
 #: lomiri-filemanager-app.desktop.in:9
 msgid "folder;manager;explore;disk;filesystem;"
 msgstr ""
+"папка;менеджер;дослідити;диск;файлова "
+"система;folder;manager;explore;disk;filesystem;"
 
 #: src/app/qml/actions/AddBookmark.qml:6
 msgid "Add bookmark"
@@ -103,10 +105,8 @@ msgid "New Item"
 msgstr "Новий об'єкт"
 
 #: src/app/qml/actions/OpenAdvanced.qml:6
-#, fuzzy
-#| msgid "Open with"
 msgid "Open with..."
-msgstr "Відкрити за допомогою"
+msgstr "Відкрити з..."
 
 #: src/app/qml/actions/PlacesBookmarks.qml:6 src/app/qml/ui/PlacesPage.qml:16
 msgid "Places"
@@ -152,7 +152,7 @@ msgstr "Відкрити в новій вкладці"
 
 #: src/app/qml/actions/Terminal.qml:5
 msgid "Open Terminal Here"
-msgstr ""
+msgstr "Відкрити термінал тут"
 
 #: src/app/qml/actions/UnlockFullAccess.qml:6
 msgid "Unlock"
@@ -215,13 +215,12 @@ msgstr "Аутентифікація"
 
 #: src/app/qml/backend/FolderListModel.qml:122 src/app/qml/filemanager.qml:185
 #: src/app/qml/filemanager.qml:188
-#, fuzzy, qt-format
-#| msgid "%1 file"
+#, qt-format
 msgid "%1 file"
 msgid_plural "%1 files"
 msgstr[0] "%1 файл"
-msgstr[1] "%1 файл"
-msgstr[2] "%1 файл"
+msgstr[1] "%1 файли"
+msgstr[2] "%1 файлів"
 
 #: src/app/qml/backend/FolderListModel.qml:133
 msgid "Folder"
@@ -282,20 +281,18 @@ msgid "Create file"
 msgstr "Створити файл"
 
 #: src/app/qml/dialogs/CreateItemDialog.qml:34
-#, fuzzy, qt-format
-#| msgid "Create file"
+#, qt-format
 msgid "Created file '%1'"
-msgstr "Створити файл"
+msgstr "Створено файл \"%1\""
 
 #: src/app/qml/dialogs/CreateItemDialog.qml:46
 msgid "Create Folder"
 msgstr "Створити директорію"
 
 #: src/app/qml/dialogs/CreateItemDialog.qml:53
-#, fuzzy, qt-format
-#| msgid "Create Folder"
+#, qt-format
 msgid "Created folder '%1'"
-msgstr "Створити директорію"
+msgstr "Створено теку \"%1\""
 
 #: src/app/qml/dialogs/ExtractingDialog.qml:23
 #, qt-format
@@ -333,7 +330,7 @@ msgstr "Відкрити"
 
 #: src/app/qml/dialogs/FileOperationProgressDialog.qml:27
 msgid "Operation in progress"
-msgstr "Зачекайте,  будь ласка"
+msgstr "Виконується дія"
 
 #: src/app/qml/dialogs/FileOperationProgressDialog.qml:29
 msgid "File operation"
@@ -374,7 +371,7 @@ msgstr "Відкрити файл"
 
 #: src/app/qml/dialogs/OpenWithDialog.qml:9
 msgid "What do you want to do with the clicked file?"
-msgstr "Що ви  хочете зробити з обраним файлом?"
+msgstr "Що Ви хочете зробити з обраним файлом?"
 
 #: src/app/qml/dialogs/OpenWithDialog.qml:22
 msgid "Preview"
@@ -382,27 +379,28 @@ msgstr "Перегляд"
 
 #: src/app/qml/filemanager.qml:185
 msgid "successfully saved: "
-msgstr ""
+msgstr "успішно збережено: "
 
 #: src/app/qml/filemanager.qml:188
 msgid "failed to save: "
-msgstr ""
+msgstr "не вдалося зберегти: "
 
 #: src/app/qml/filemanager.qml:190
-#, fuzzy, qt-format
-#| msgid "Saved to: %1"
+#, qt-format
 msgid "into: %1"
-msgstr "Збережено до:  %1"
+msgstr "до: %1"
 
 #: src/app/qml/filemanager.qml:194
 msgid ""
 "Warning: Content-Hub does not overwrite existing files. The following were "
 "detected:"
 msgstr ""
+"Попередження: Content-Hub не перезаписує існуючі файли. Було виявлено "
+"наступне:"
 
 #: src/app/qml/filemanager.qml:205
 msgid "Import Results"
-msgstr ""
+msgstr "Результати імпорту"
 
 #: src/app/qml/ui/FileDetailsPopover.qml:34
 msgid "Readable"
@@ -442,13 +440,12 @@ msgstr "Закрити"
 
 #: src/app/qml/ui/FolderListPage.qml:249 src/app/qml/ui/FolderListPage.qml:304
 msgid "Restricted access"
-msgstr "Захищений доступ:"
+msgstr "Захищений доступ"
 
 #: src/app/qml/ui/FolderListPage.qml:253
 msgid ""
 "Authentication is required in order to see all the content of this folder."
-msgstr ""
-"Потрібно пройти аутентифікацію перед переглядом усього вмісту цієї директорії"
+msgstr "Для перегляду вмісту цієї теки потрібно пройти аутентифікацію."
 
 #: src/app/qml/ui/FolderListPage.qml:290
 msgid "No files"
@@ -456,95 +453,91 @@ msgstr "Нема файлів"
 
 #: src/app/qml/ui/FolderListPage.qml:291
 msgid "This folder is empty."
-msgstr "Ця  директорія порожня"
+msgstr "Ця тека порожня."
 
 #: src/app/qml/ui/FolderListPage.qml:305
 msgid "Authentication is required in order to see the content of this folder."
-msgstr ""
+msgstr "Для перегляду вмісту цієї теки потрібна аутентифікація."
 
 #: src/app/qml/ui/FolderListPage.qml:320
 msgid "File operation error"
-msgstr ""
+msgstr "Помилка файлової операції"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:32
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:31
 #, qt-format
 msgid "%1 item"
 msgid_plural "%1 items"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%1 елемент"
+msgstr[1] "%1 елементи"
+msgstr[2] "%1 елементів"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:41
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:46
 msgid "Search Results"
-msgstr ""
+msgstr "Результати пошуку"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:68
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:73
 msgid "Search..."
-msgstr ""
+msgstr "Пошук..."
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:118
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:125
 msgid "File Contents"
-msgstr ""
+msgstr "Вміст файлу"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:134
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:141
 msgid "Recursive"
-msgstr ""
+msgstr "Рекурсивно"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:135
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:142
 msgid "Note: Slow in large directories"
-msgstr ""
+msgstr "Примітка: Повільно працює у великих теках"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:208
-#, fuzzy
-#| msgid "Clear clipboard"
 msgid "Cleared clipboard"
-msgstr "Очистити буфер обміну"
+msgstr "Буфер обміну очищений"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:217
 msgid "Paste files"
 msgstr "Вставити файли"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:219
-#, fuzzy
-#| msgid "Paste files"
 msgid "Pasted item"
 msgid_plural "Pasted items"
-msgstr[0] "Вставити файли"
-msgstr[1] "Вставити файли"
-msgstr[2] "Вставити файли"
+msgstr[0] "Вставлений файл"
+msgstr[1] "Вставлені файли"
+msgstr[2] "Вставлені файли"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:230
 #, qt-format
 msgid "Added '%1' to Places"
-msgstr ""
+msgstr "\"%1\" додано до Місць"
 
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:33
 msgid "Save here"
-msgstr ""
+msgstr "Зберегти тут"
 
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:35
 #, qt-format
 msgid "Select files (%1 selected)"
-msgstr ""
+msgstr "Оберіть файли (%1 обрано)"
 
 #: src/app/qml/ui/FolderListPageSelectionHeader.qml:36
 #, qt-format
 msgid "%1 item selected"
 msgid_plural "%1 items selected"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%1 елемент обраний"
+msgstr[1] "%1 елементи обрано"
+msgstr[2] "%1 елементів обрано"
 
 #: src/app/qml/ui/FolderListPageSelectionHeader.qml:119
 #: src/app/qml/views/FolderDelegateActions.qml:183
 msgid "Could not rename"
-msgstr ""
+msgstr "Перейменувати не вийшло"
 
 #: src/app/qml/ui/FolderListPageSelectionHeader.qml:120
 #: src/app/qml/views/FolderDelegateActions.qml:184
@@ -552,72 +545,72 @@ msgid ""
 "Insufficient permissions, name contains special chars (e.g. '/'), or already "
 "exists"
 msgstr ""
+"Недостатньо дозволів, назва містить спеціальні символи (наприклад, \"/\") "
+"або вже існує"
 
 #: src/app/qml/ui/ViewPopover.qml:24
 msgid "Show Hidden Files"
-msgstr ""
+msgstr "Показати приховані файли"
 
 #: src/app/qml/ui/ViewPopover.qml:42
-#, fuzzy
-#| msgid "File operation"
 msgid "Default open action"
-msgstr "Операція з файлом"
+msgstr "Типове відкриття файлу"
 
 #: src/app/qml/ui/ViewPopover.qml:55
 msgid "View As"
-msgstr ""
+msgstr "Переглянути як"
 
 #: src/app/qml/ui/ViewPopover.qml:57
 msgid "List"
-msgstr ""
+msgstr "Список"
 
 #: src/app/qml/ui/ViewPopover.qml:57
 msgid "Icons"
-msgstr ""
+msgstr "Піктограми"
 
 #: src/app/qml/ui/ViewPopover.qml:62
 msgid "Grid size"
-msgstr ""
+msgstr "Розмір сітки"
 
 #: src/app/qml/ui/ViewPopover.qml:65 src/app/qml/ui/ViewPopover.qml:73
 msgid "S"
-msgstr ""
+msgstr "Мал"
 
 #: src/app/qml/ui/ViewPopover.qml:65 src/app/qml/ui/ViewPopover.qml:73
 msgid "M"
-msgstr ""
+msgstr "Сер"
 
 #: src/app/qml/ui/ViewPopover.qml:65 src/app/qml/ui/ViewPopover.qml:73
 msgid "L"
-msgstr ""
+msgstr "Вел"
 
 #: src/app/qml/ui/ViewPopover.qml:65 src/app/qml/ui/ViewPopover.qml:73
 msgid "XL"
-msgstr ""
+msgstr "Вел+"
 
 #: src/app/qml/ui/ViewPopover.qml:70
 msgid "List size"
-msgstr ""
+msgstr "Розмір списку"
 
 #: src/app/qml/ui/ViewPopover.qml:78
 msgid "Sort By"
-msgstr ""
+msgstr "Впорядкувати за"
 
 #: src/app/qml/ui/ViewPopover.qml:80
 msgid "Name"
-msgstr ""
+msgstr "Ім'я"
 
 #: src/app/qml/ui/ViewPopover.qml:80
 msgid "Date"
-msgstr ""
+msgstr "Дата"
 
 #: src/app/qml/ui/ViewPopover.qml:80
 msgid "Size"
-msgstr ""
+msgstr "Розмір"
 
 #: src/app/qml/ui/ViewPopover.qml:85
 msgid "Sort Order"
-msgstr ""
+msgstr "Порядок сортування"
 
 #: src/app/qml/ui/ViewPopover.qml:92
 msgid "Theme"
@@ -629,25 +622,25 @@ msgstr "Система"
 
 #: src/app/qml/ui/ViewPopover.qml:94
 msgid "Light"
-msgstr ""
+msgstr "Світлий"
 
 #: src/app/qml/ui/ViewPopover.qml:94
 msgid "Dark"
-msgstr ""
+msgstr "Темний"
 
 #: src/app/qml/views/FolderDelegateActions.qml:41
 msgid "Folder not accessible"
-msgstr ""
+msgstr "Тека не доступна"
 
 #. TRANSLATORS: this refers to a folder name
 #: src/app/qml/views/FolderDelegateActions.qml:43
 #, qt-format
 msgid "Can not access %1"
-msgstr ""
+msgstr "Доступ до %1 відсутній"
 
 #: src/app/qml/views/FolderListView.qml:87
 msgid "Directories"
-msgstr ""
+msgstr "Теки"
 
 #: src/app/qml/views/FolderListView.qml:87
 msgid "Files"
@@ -659,133 +652,133 @@ msgstr "Невідомо"
 
 #: src/plugin/folderlistmodel/dirmodel.cpp:511
 msgid "path or url may not exist or cannot be read"
-msgstr ""
+msgstr "шлях або посилання можливо не існують або недоступні"
 
 #: src/plugin/folderlistmodel/dirmodel.cpp:751
 msgid "Rename error"
-msgstr ""
+msgstr "Помилка перейменування"
 
 #: src/plugin/folderlistmodel/dirmodel.cpp:774
 msgid "Error creating new folder"
-msgstr ""
+msgstr "Помилка створення нової теки"
 
 #: src/plugin/folderlistmodel/dirmodel.cpp:801
 msgid "Touch file error"
-msgstr ""
+msgstr "Помилка файлу Touch"
 
 #: src/plugin/folderlistmodel/dirmodel.cpp:1414
 msgid "items"
-msgstr ""
+msgstr "елементи"
 
 #: src/plugin/folderlistmodel/filesystemaction.cpp:320
 msgid "File or Directory does not exist"
-msgstr ""
+msgstr "Файл або тека не існують"
 
 #: src/plugin/folderlistmodel/filesystemaction.cpp:321
 msgid " does not exist"
-msgstr ""
+msgstr " не існує"
 
 #: src/plugin/folderlistmodel/filesystemaction.cpp:326
 msgid "Cannot access File or Directory"
-msgstr ""
+msgstr "Доступу до файлу або теки немає"
 
 #: src/plugin/folderlistmodel/filesystemaction.cpp:327
 msgid " it needs Authentication"
-msgstr ""
+msgstr " потребує Аутентифікації"
 
 #: src/plugin/folderlistmodel/filesystemaction.cpp:361
 msgid "Cannot copy/move items"
-msgstr ""
+msgstr "Не можливо скопіювати/перенести елементи"
 
 #: src/plugin/folderlistmodel/filesystemaction.cpp:362
 #: src/plugin/folderlistmodel/filesystemaction.cpp:1487
 msgid "no write permission on folder "
-msgstr ""
+msgstr "немає дозволу на запис у теку "
 
 #: src/plugin/folderlistmodel/filesystemaction.cpp:642
 msgid "Could not remove the item "
-msgstr ""
+msgstr "Не вийшло вилучити "
 
 #: src/plugin/folderlistmodel/filesystemaction.cpp:680
 msgid "Could not find a suitable name to backup"
-msgstr ""
+msgstr "Не знайшлося належної назви для бекапу"
 
 #: src/plugin/folderlistmodel/filesystemaction.cpp:733
 msgid "Could not create the directory"
-msgstr ""
+msgstr "Не вийшло створити теку"
 
 #: src/plugin/folderlistmodel/filesystemaction.cpp:738
 msgid "Could not create link to"
-msgstr ""
+msgstr "Не вийшло створити посилання до"
 
 #: src/plugin/folderlistmodel/filesystemaction.cpp:746
 msgid "Could not set permissions to dir"
-msgstr ""
+msgstr "Не вийшло задати дозволи для теки"
 
 #: src/plugin/folderlistmodel/filesystemaction.cpp:756
 msgid "Could not open file"
-msgstr ""
+msgstr "Не вийшло відкрити файл"
 
 #: src/plugin/folderlistmodel/filesystemaction.cpp:772
 msgid "There is no space to copy"
-msgstr ""
+msgstr "Немає місця для копіювання"
 
 #: src/plugin/folderlistmodel/filesystemaction.cpp:780
 msgid "Could not create file"
-msgstr ""
+msgstr "Не вийшло створити файл"
 
 #: src/plugin/folderlistmodel/filesystemaction.cpp:837
 msgid "Could not remove the directory/file "
-msgstr ""
+msgstr "Не вийшло вилучити теку/файл "
 
 #: src/plugin/folderlistmodel/filesystemaction.cpp:850
 msgid "Could not move the directory/file "
-msgstr ""
+msgstr "Не вийшло перемісти теку/файл "
 
 #: src/plugin/folderlistmodel/filesystemaction.cpp:1089
 msgid "Write error in "
-msgstr ""
+msgstr "Помилка запису у "
 
 #: src/plugin/folderlistmodel/filesystemaction.cpp:1101
 msgid "Read error in "
-msgstr ""
+msgstr "Помилка читання у "
 
 #: src/plugin/folderlistmodel/filesystemaction.cpp:1318
 msgid " Copy"
-msgstr ""
+msgstr " Копіювати"
 
 #: src/plugin/folderlistmodel/filesystemaction.cpp:1371
 msgid "Set permissions error in "
-msgstr ""
+msgstr "Помилка встановлення дозволів у "
 
 #: src/plugin/folderlistmodel/filesystemaction.cpp:1437
 msgid "Could not create trash info file"
-msgstr ""
+msgstr "Не вийшло створити файл з інформацією для кошика"
 
 #: src/plugin/folderlistmodel/filesystemaction.cpp:1449
 msgid "Could not remove the trash info file"
-msgstr ""
+msgstr "Не вийшло вилучити файл з інформацією для кошика"
 
 #: src/plugin/folderlistmodel/filesystemaction.cpp:1479
 #: src/plugin/folderlistmodel/filesystemaction.cpp:1486
 msgid "Cannot move items"
-msgstr ""
+msgstr "Неможливо перемістити елементи"
 
 #: src/plugin/folderlistmodel/filesystemaction.cpp:1481
 msgid "origin and destination folders are the same"
-msgstr ""
+msgstr "оригінальна та цільова теки однакові"
 
 #: src/plugin/folderlistmodel/filesystemaction.cpp:1524
 msgid "There is no space to download"
-msgstr ""
+msgstr "Немає місця для звантаження"
 
 #: src/plugin/folderlistmodel/smb/qsambaclient/src/smbusershare.cpp:72
 msgid "net tool not found, check samba installation"
-msgstr ""
+msgstr "мережева утиліта не знайдена, перевірте установку samba"
 
 #: src/plugin/folderlistmodel/smb/qsambaclient/src/smbusershare.cpp:80
 msgid "cannot write in "
-msgstr ""
+msgstr "неможливо записати у "
 
 #~ msgid "Select None"
 #~ msgstr "Не обирати нічого"
