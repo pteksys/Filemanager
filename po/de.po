@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 09:00+0000\n"
-"PO-Revision-Date: 2023-02-01 20:49+0000\n"
+"PO-Revision-Date: 2023-02-05 18:35+0000\n"
 "Last-Translator: Mike Gabriel <mike.gabriel@das-netzwerkteam.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-filemanager-app/de/>\n"
@@ -299,7 +299,7 @@ msgstr "Archiv »%1« wird entpackt"
 #: src/app/qml/dialogs/templates/ConfirmDialog.qml:33
 #: src/app/qml/dialogs/templates/ConfirmDialogWithInput.qml:49
 msgid "OK"
-msgstr "OK"
+msgstr "Ok"
 
 #: src/app/qml/dialogs/ExtractingDialog.qml:59
 msgid "Extracting failed"
