@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 09:00+0000\n"
-"PO-Revision-Date: 2023-01-31 12:18+0000\n"
+"PO-Revision-Date: 2023-02-12 17:39+0000\n"
 "Last-Translator: Sergii Horichenko <m@sgg.im>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-filemanager-app/uk/>\n"
@@ -598,7 +598,7 @@ msgstr "Впорядкувати за"
 
 #: src/app/qml/ui/ViewPopover.qml:80
 msgid "Name"
-msgstr "Ім'я"
+msgstr "Назва"
 
 #: src/app/qml/ui/ViewPopover.qml:80
 msgid "Date"
