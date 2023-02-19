@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 09:00+0000\n"
-"PO-Revision-Date: 2023-02-16 22:38+0000\n"
+"PO-Revision-Date: 2023-02-20 18:39+0000\n"
 "Last-Translator: phlostically <phlostically@mailinator.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-filemanager-app/eo/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: lomiri-filemanager-app.desktop.in:7
 msgid "/usr/share/lomiri-filemanager-app/filemanager.svg"
-msgstr ""
+msgstr "/usr/share/lomiri-filemanager-app/filemanager.svg"
 
 #: lomiri-filemanager-app.desktop.in:8
 msgid "File Manager"
@@ -31,6 +31,8 @@ msgstr "Dosiermastrumilo"
 #: lomiri-filemanager-app.desktop.in:9
 msgid "folder;manager;explore;disk;filesystem;"
 msgstr ""
+"dosierujo;dosierujoj;administrilo;mastrumilo;esplorilo;disko;dosiersistemo;do"
+"siero;dosieroj;"
 
 #: src/app/qml/actions/AddBookmark.qml:6
 msgid "Add bookmark"
@@ -78,7 +80,7 @@ msgid "Cut"
 msgstr "Eltondi"
 
 #: src/app/qml/actions/FilePaste.qml:30
-#, fuzzy, qt-format
+#, qt-format
 msgid "Paste %1 file"
 msgid_plural "Paste %1 files"
 msgstr[0] "Alglui %1 dosieron"
@@ -86,11 +88,11 @@ msgstr[1] "Alglui %1 dosierojn"
 
 #: src/app/qml/actions/GoBack.qml:5
 msgid "Go back"
-msgstr ""
+msgstr "Reen"
 
 #: src/app/qml/actions/GoNext.qml:5
 msgid "Go next"
-msgstr ""
+msgstr "Sekven"
 
 #: src/app/qml/actions/GoTo.qml:6
 msgid "Go To"
@@ -98,13 +100,11 @@ msgstr "Iri al"
 
 #: src/app/qml/actions/NewItem.qml:6
 msgid "New Item"
-msgstr ""
+msgstr "Nova ero"
 
 #: src/app/qml/actions/OpenAdvanced.qml:6
-#, fuzzy
-#| msgid "Open with"
 msgid "Open with..."
-msgstr "Malfermi per"
+msgstr "Malfermi per…"
 
 #: src/app/qml/actions/PlacesBookmarks.qml:6 src/app/qml/ui/PlacesPage.qml:16
 msgid "Places"
@@ -118,15 +118,15 @@ msgstr "Ecoj"
 #: src/app/qml/actions/Rename.qml:5
 #: src/app/qml/dialogs/ConfirmRenameDialog.qml:20
 msgid "Rename"
-msgstr "Renomi"
+msgstr "Ŝanĝi nomon"
 
 #: src/app/qml/actions/Search.qml:6
 msgid "Search"
-msgstr ""
+msgstr "Serĉi"
 
 #: src/app/qml/actions/Select.qml:6
 msgid "Select"
-msgstr "Selekti"
+msgstr "Elekti"
 
 #: src/app/qml/actions/Settings.qml:6
 msgid "Settings"
@@ -138,7 +138,7 @@ msgstr "Diskonigi"
 
 #: src/app/qml/actions/TabsAdd.qml:5
 msgid "Add tab"
-msgstr ""
+msgstr "Krei novan langeton"
 
 #: src/app/qml/actions/TabsCloseThis.qml:5
 msgid "Close this tab"
@@ -154,7 +154,7 @@ msgstr ""
 
 #: src/app/qml/actions/UnlockFullAccess.qml:6
 msgid "Unlock"
-msgstr ""
+msgstr "Malŝlosi"
 
 #: src/app/qml/authentication/FingerprintDialog.qml:26
 #: src/app/qml/authentication/PasswordDialog.qml:43
