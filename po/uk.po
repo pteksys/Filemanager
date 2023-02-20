@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 09:00+0000\n"
-"PO-Revision-Date: 2023-02-12 17:39+0000\n"
+"PO-Revision-Date: 2023-02-20 22:38+0000\n"
 "Last-Translator: Sergii Horichenko <m@sgg.im>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-filemanager-app/uk/>\n"
@@ -363,7 +363,7 @@ msgstr "Ви хочете розпакувати архів тут?"
 #: src/app/qml/dialogs/OpenArchiveDialog.qml:28
 #: src/app/qml/dialogs/OpenWithDialog.qml:44
 msgid "Open with another app"
-msgstr "Відкрити за допомогою іншого застосунку"
+msgstr "Відкрити в іншій програмі"
 
 #: src/app/qml/dialogs/OpenWithDialog.qml:8
 msgid "Open file"
