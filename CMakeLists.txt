@@ -20,7 +20,6 @@ set(DESKTOP_FILE "${PROJECT_NAME}.desktop")
 set(ICON_FILE filemanager.svg)
 set(SPLASH_FILE splash.svg)
 set(AUTOPILOT_DIR lomiri_filemanager_app)
-set(EXEC "${APP_NAME}")
 set(CONTENT_HUB_JSON content-hub.json)
 set(MANIFEST_PATH "manifest.json.in" CACHE INTERNAL "Relative path to the manifest file")
 
@@ -43,6 +42,7 @@ if(CLICK_MODE)
     set(SPLASH ${SPLASH_FILE})
     set(QT_IMPORTS_DIR "/lib/${ARCH_TRIPLET}")
     set(BIN_DIR /lib/${ARCH_TRIPLET}/bin)
+    set(EXEC "lomiri-filemanager-app-migrate.py ${APP_NAME}")
     set(DESKTOP_DIR ${DATA_DIR})
 
     if(NOT GIT_REVNO)
@@ -87,6 +87,7 @@ if(CLICK_MODE)
     install(FILES ${CMAKE_CURRENT_BINARY_DIR}/manifest.json filemanager.apparmor ${CONTENT_HUB_JSON} DESTINATION ${CMAKE_INSTALL_PREFIX})
     get_filename_component(BLD_CONFIGURATION_NAME ${CMAKE_BINARY_DIR} NAME)
 
+    install(PROGRAMS lomiri-filemanager-app-migrate.py DESTINATION "${DATA_DIR}")
 else(CLICK_MODE)
     execute_process(
         COMMAND qmake -query QT_INSTALL_QML
@@ -96,7 +97,10 @@ else(CLICK_MODE)
     set(DATA_DIR ${CMAKE_INSTALL_DATADIR}/${APP_NAME})
     set(ICON ${CMAKE_INSTALL_PREFIX}/${DATA_DIR}/${ICON_FILE})
     set(SPLASH ${CMAKE_INSTALL_PREFIX}/${DATA_DIR}/${SPLASH_FILE})
+    set(EXEC ${APP_NAME})
     set(DESKTOP_DIR ${CMAKE_INSTALL_DATADIR}/applications)
+
+    install(PROGRAMS lomiri-filemanager-app-migrate.py DESTINATION "${CMAKE_INSTALL_PREFIX}/${DATA_DIR}")
 endif(CLICK_MODE)
 
 file(GLOB SRC_FILES
