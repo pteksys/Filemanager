@@ -13,5 +13,8 @@
     "maintainer": "UBports <dev@ubports.com>",
     "name": "filemanager.ubports",
     "title": "File Manager",
-    "version": "@PROJECT_VERSION@"
+    "version": "@PROJECT_VERSION@",
+    "migrations": {
+        "old-name": "com.ubuntu.filemanager"
+    }
 }
