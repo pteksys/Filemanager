@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 09:00+0000\n"
-"PO-Revision-Date: 2023-02-26 17:38+0000\n"
+"PO-Revision-Date: 2023-02-27 19:38+0000\n"
 "Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-filemanager-app/sv/>\n"
@@ -101,10 +101,8 @@ msgid "New Item"
 msgstr "Skapa ny"
 
 #: src/app/qml/actions/OpenAdvanced.qml:6
-#, fuzzy
-#| msgid "Open with"
 msgid "Open with..."
-msgstr "Öppna med"
+msgstr "Öppna med..."
 
 #: src/app/qml/actions/PlacesBookmarks.qml:6 src/app/qml/ui/PlacesPage.qml:16
 msgid "Places"
@@ -118,11 +116,11 @@ msgstr "Egenskaper"
 #: src/app/qml/actions/Rename.qml:5
 #: src/app/qml/dialogs/ConfirmRenameDialog.qml:20
 msgid "Rename"
-msgstr "Ändra namn"
+msgstr "Byt namn"
 
 #: src/app/qml/actions/Search.qml:6
 msgid "Search"
-msgstr ""
+msgstr "Sök"
 
 #: src/app/qml/actions/Select.qml:6
 msgid "Select"
@@ -150,7 +148,7 @@ msgstr "Öppna i ny flik"
 
 #: src/app/qml/actions/Terminal.qml:5
 msgid "Open Terminal Here"
-msgstr ""
+msgstr "Öppna Terminal här"
 
 #: src/app/qml/actions/UnlockFullAccess.qml:6
 msgid "Unlock"
@@ -213,12 +211,11 @@ msgstr "Autentisera"
 
 #: src/app/qml/backend/FolderListModel.qml:122 src/app/qml/filemanager.qml:185
 #: src/app/qml/filemanager.qml:188
-#, fuzzy, qt-format
-#| msgid "%1 file"
+#, qt-format
 msgid "%1 file"
 msgid_plural "%1 files"
 msgstr[0] "%1 fil"
-msgstr[1] "%1 fil"
+msgstr[1] "%1 filer"
 
 #: src/app/qml/backend/FolderListModel.qml:133
 msgid "Folder"
@@ -279,20 +276,18 @@ msgid "Create file"
 msgstr "Skapa ny fil"
 
 #: src/app/qml/dialogs/CreateItemDialog.qml:34
-#, fuzzy, qt-format
-#| msgid "Create file"
+#, qt-format
 msgid "Created file '%1'"
-msgstr "Skapa ny fil"
+msgstr "Skapad fil '%1'"
 
 #: src/app/qml/dialogs/CreateItemDialog.qml:46
 msgid "Create Folder"
 msgstr "Skapa en ny mapp"
 
 #: src/app/qml/dialogs/CreateItemDialog.qml:53
-#, fuzzy, qt-format
-#| msgid "Create Folder"
+#, qt-format
 msgid "Created folder '%1'"
-msgstr "Skapa en ny mapp"
+msgstr "Skapad mapp '%1'"
 
 #: src/app/qml/dialogs/ExtractingDialog.qml:23
 #, qt-format
@@ -379,19 +374,16 @@ msgstr "Förhandsgranskning"
 
 #: src/app/qml/filemanager.qml:185
 msgid "successfully saved: "
-msgstr ""
+msgstr "framgångsrikt sparad: "
 
 #: src/app/qml/filemanager.qml:188
-#, fuzzy
-#| msgid "File saved"
 msgid "failed to save: "
-msgstr "Filen är sparad"
+msgstr "misslyckades att spara: "
 
 #: src/app/qml/filemanager.qml:190
-#, fuzzy, qt-format
-#| msgid "Saved to: %1"
+#, qt-format
 msgid "into: %1"
-msgstr "Sparad till: %1"
+msgstr "till: %1"
 
 #: src/app/qml/filemanager.qml:194
 msgid ""
@@ -401,7 +393,7 @@ msgstr ""
 
 #: src/app/qml/filemanager.qml:205
 msgid "Import Results"
-msgstr ""
+msgstr "Importera resultat"
 
 #: src/app/qml/ui/FileDetailsPopover.qml:34
 msgid "Readable"
@@ -475,52 +467,46 @@ msgstr[1] "%1 objekt"
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:41
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:46
 msgid "Search Results"
-msgstr ""
+msgstr "Sökresultat"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:68
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:73
 msgid "Search..."
-msgstr ""
+msgstr "Sök..."
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:118
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:125
-#, fuzzy
-#| msgid "Contents:"
 msgid "File Contents"
-msgstr "Innehåll:"
+msgstr "Filinnehåll"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:134
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:141
 msgid "Recursive"
-msgstr ""
+msgstr "Rekursiv"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:135
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:142
 msgid "Note: Slow in large directories"
-msgstr ""
+msgstr "Obs: Långsam i stora kataloger"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:208
-#, fuzzy
-#| msgid "Clear clipboard"
 msgid "Cleared clipboard"
-msgstr "Rensa urklipp"
+msgstr "Rensade urklipp"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:217
 msgid "Paste files"
 msgstr "Klistra in filer"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:219
-#, fuzzy
-#| msgid "Paste files"
 msgid "Pasted item"
 msgid_plural "Pasted items"
-msgstr[0] "Klistra in filer"
-msgstr[1] "Klistra in filer"
+msgstr[0] "Inklistrat objekt"
+msgstr[1] "Inklistrade objekt"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:230
 #, qt-format
 msgid "Added '%1' to Places"
-msgstr ""
+msgstr "Lade '%1' till Platser"
 
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:33
 msgid "Save here"
@@ -529,7 +515,7 @@ msgstr "Spara här"
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:35
 #, qt-format
 msgid "Select files (%1 selected)"
-msgstr ""
+msgstr "Valda filer (%1 vald)"
 
 #: src/app/qml/ui/FolderListPageSelectionHeader.qml:36
 #, qt-format
@@ -557,10 +543,8 @@ msgid "Show Hidden Files"
 msgstr "Visa Dolda Filer"
 
 #: src/app/qml/ui/ViewPopover.qml:42
-#, fuzzy
-#| msgid "File operation"
 msgid "Default open action"
-msgstr "Filhantering"
+msgstr "Standard öppna åtgärd"
 
 #: src/app/qml/ui/ViewPopover.qml:55
 msgid "View As"
@@ -624,7 +608,7 @@ msgstr "Tema"
 
 #: src/app/qml/ui/ViewPopover.qml:94
 msgid "System"
-msgstr ""
+msgstr "System"
 
 #: src/app/qml/ui/ViewPopover.qml:94
 msgid "Light"
