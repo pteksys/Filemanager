@@ -1,3 +1,10 @@
+lomiri-filemanager-app (1.0.2) unstable; urgency=medium
+
+  * Upstream-provided Debian package for lomiri-filemanager-app. See
+    upstream ChangeLog for recent changes.
+
+ -- UBports developers <developers@ubports.com>  Mon, 27 Feb 2023 11:23:48 +0100
+
 lomiri-filemanager-app (1.0.1) unstable; urgency=medium
 
   * Upstream-provided Debian package for lomiri-filemanager-app. See
