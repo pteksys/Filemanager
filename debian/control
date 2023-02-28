@@ -3,6 +3,7 @@ Priority: extra
 Maintainer: UBports Developers <devs@ubports.com>
 Build-Depends: cmake,
                debhelper-compat (= 12),
+               dh-migrations,
                intltool,
                qtbase5-dev,
                qtdeclarative5-dev,
@@ -22,6 +23,7 @@ Section: misc
 Architecture: any
 Depends: ${misc:Depends},
          ${shlibs:Depends},
+         python3:any,
          qml-module-qtquick2,
          qml-module-u1db,
          qml-module-lomiri-components,
