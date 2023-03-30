@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 09:00+0000\n"
-"PO-Revision-Date: 2023-03-28 17:41+0000\n"
+"PO-Revision-Date: 2023-03-30 13:46+0000\n"
 "Last-Translator: Jozef Mlich <jmlich83@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-filemanager-app/cs/>\n"
@@ -647,7 +647,7 @@ msgstr "Soubory"
 
 #: src/plugin/folderlistmodel/dirmodel.cpp:384
 msgid "Unknown"
-msgstr "Neznámé"
+msgstr "Neznámo"
 
 #: src/plugin/folderlistmodel/dirmodel.cpp:511
 msgid "path or url may not exist or cannot be read"
