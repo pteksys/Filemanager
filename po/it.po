@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 09:00+0000\n"
-"PO-Revision-Date: 2023-03-30 13:46+0000\n"
+"PO-Revision-Date: 2023-04-02 03:46+0000\n"
 "Last-Translator: Sylke Vicious <silkevicious@tuta.io>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-filemanager-app/it/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: lomiri-filemanager-app.desktop.in:7
 msgid "/usr/share/lomiri-filemanager-app/filemanager.svg"
-msgstr ""
+msgstr "/usr/share/lomiri-filemanager-app/filemanager.svg"
 
 #: lomiri-filemanager-app.desktop.in:8
 msgid "File Manager"
@@ -101,10 +101,8 @@ msgid "New Item"
 msgstr "Nuovo elemento"
 
 #: src/app/qml/actions/OpenAdvanced.qml:6
-#, fuzzy
-#| msgid "Open with"
 msgid "Open with..."
-msgstr "Apri con"
+msgstr "Apri con…"
 
 #: src/app/qml/actions/PlacesBookmarks.qml:6 src/app/qml/ui/PlacesPage.qml:16
 msgid "Places"
@@ -122,7 +120,7 @@ msgstr "Rinomina"
 
 #: src/app/qml/actions/Search.qml:6
 msgid "Search"
-msgstr ""
+msgstr "Cerca"
 
 #: src/app/qml/actions/Select.qml:6
 msgid "Select"
@@ -150,7 +148,7 @@ msgstr "Apri in una nuova scheda"
 
 #: src/app/qml/actions/Terminal.qml:5
 msgid "Open Terminal Here"
-msgstr ""
+msgstr "Apri Terminale Qui"
 
 #: src/app/qml/actions/UnlockFullAccess.qml:6
 msgid "Unlock"
@@ -213,8 +211,7 @@ msgstr "Autenticati"
 
 #: src/app/qml/backend/FolderListModel.qml:122 src/app/qml/filemanager.qml:185
 #: src/app/qml/filemanager.qml:188
-#, fuzzy, qt-format
-#| msgid "%1 file"
+#, qt-format
 msgid "%1 file"
 msgid_plural "%1 files"
 msgstr[0] "%1 file"
@@ -279,20 +276,18 @@ msgid "Create file"
 msgstr "Crea file"
 
 #: src/app/qml/dialogs/CreateItemDialog.qml:34
-#, fuzzy, qt-format
-#| msgid "Create file"
+#, qt-format
 msgid "Created file '%1'"
-msgstr "Crea file"
+msgstr "Creato file '%1'"
 
 #: src/app/qml/dialogs/CreateItemDialog.qml:46
 msgid "Create Folder"
 msgstr "Crea cartella"
 
 #: src/app/qml/dialogs/CreateItemDialog.qml:53
-#, fuzzy, qt-format
-#| msgid "Create Folder"
+#, qt-format
 msgid "Created folder '%1'"
-msgstr "Crea cartella"
+msgstr "Creata cartella '%1'"
 
 #: src/app/qml/dialogs/ExtractingDialog.qml:23
 #, qt-format
@@ -379,29 +374,28 @@ msgstr "Anteprima"
 
 #: src/app/qml/filemanager.qml:185
 msgid "successfully saved: "
-msgstr ""
+msgstr "salvataggio riuscito: "
 
 #: src/app/qml/filemanager.qml:188
-#, fuzzy
-#| msgid "File saved"
 msgid "failed to save: "
-msgstr "File salvato"
+msgstr "salvataggio non riuscito: "
 
 #: src/app/qml/filemanager.qml:190
-#, fuzzy, qt-format
-#| msgid "Saved to: %1"
+#, qt-format
 msgid "into: %1"
-msgstr "Salvato in: %1"
+msgstr "in: %1"
 
 #: src/app/qml/filemanager.qml:194
 msgid ""
 "Warning: Content-Hub does not overwrite existing files. The following were "
 "detected:"
 msgstr ""
+"Attenzione: Content-Hub non sovrascrive i file esistenti. Sono stati trovati "
+"i seguenti file:"
 
 #: src/app/qml/filemanager.qml:205
 msgid "Import Results"
-msgstr ""
+msgstr "Risultati dell'Importazione"
 
 #: src/app/qml/ui/FileDetailsPopover.qml:34
 msgid "Readable"
@@ -478,52 +472,46 @@ msgstr[1] "%1 elementi"
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:41
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:46
 msgid "Search Results"
-msgstr ""
+msgstr "Risultati della Ricerca"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:68
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:73
 msgid "Search..."
-msgstr ""
+msgstr "Cerca..."
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:118
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:125
-#, fuzzy
-#| msgid "Contents:"
 msgid "File Contents"
-msgstr "Contenuti:"
+msgstr "Contenuti del File"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:134
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:141
 msgid "Recursive"
-msgstr ""
+msgstr "Ricorsivo"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:135
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:142
 msgid "Note: Slow in large directories"
-msgstr ""
+msgstr "Nota: Lento in cartelle grandi"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:208
-#, fuzzy
-#| msgid "Clear clipboard"
 msgid "Cleared clipboard"
-msgstr "Pulisci appunti"
+msgstr "Appunti ripuliti"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:217
 msgid "Paste files"
 msgstr "Incolla file"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:219
-#, fuzzy
-#| msgid "Paste files"
 msgid "Pasted item"
 msgid_plural "Pasted items"
-msgstr[0] "Incolla file"
-msgstr[1] "Incolla file"
+msgstr[0] "File incollati"
+msgstr[1] "File incollati"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:230
 #, qt-format
 msgid "Added '%1' to Places"
-msgstr ""
+msgstr "Aggiunto '%1' nelle Posizioni"
 
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:33
 msgid "Save here"
@@ -532,7 +520,7 @@ msgstr "Memorizza qui"
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:35
 #, qt-format
 msgid "Select files (%1 selected)"
-msgstr ""
+msgstr "Seleziona file (%1 selezionati)"
 
 #: src/app/qml/ui/FolderListPageSelectionHeader.qml:36
 #, qt-format
@@ -560,10 +548,8 @@ msgid "Show Hidden Files"
 msgstr "Mostra file nascosti"
 
 #: src/app/qml/ui/ViewPopover.qml:42
-#, fuzzy
-#| msgid "File operation"
 msgid "Default open action"
-msgstr "Operazione sul file"
+msgstr "Azione di apertura predefinita"
 
 #: src/app/qml/ui/ViewPopover.qml:55
 msgid "View As"
@@ -627,7 +613,7 @@ msgstr "Tema"
 
 #: src/app/qml/ui/ViewPopover.qml:94
 msgid "System"
-msgstr ""
+msgstr "Sistema"
 
 #: src/app/qml/ui/ViewPopover.qml:94
 msgid "Light"
