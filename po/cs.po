@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 09:00+0000\n"
-"PO-Revision-Date: 2023-03-30 13:46+0000\n"
+"PO-Revision-Date: 2023-04-02 03:46+0000\n"
 "Last-Translator: Jozef Mlich <jmlich83@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-filemanager-app/cs/>\n"
@@ -242,7 +242,7 @@ msgstr "Rozbalit archiv"
 #: src/app/qml/dialogs/ConfirmExtractDialog.qml:16
 #, qt-format
 msgid "Are you sure you want to extract '%1' here?"
-msgstr "Opravdu chcete rozbalit  „%1“ sem?"
+msgstr "Opravdu chcete rozbalit „%1“ sem?"
 
 #: src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:17
 #: src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:18
