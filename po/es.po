@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 09:00+0000\n"
-"PO-Revision-Date: 2023-02-16 05:36+0000\n"
-"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
+"PO-Revision-Date: 2023-04-06 21:55+0000\n"
+"Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-filemanager-app/es/>\n"
 "Language: es\n"
@@ -17,12 +17,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 4.17-dev\n"
 "X-Launchpad-Export-Date: 2017-04-08 06:04+0000\n"
 
 #: lomiri-filemanager-app.desktop.in:7
 msgid "/usr/share/lomiri-filemanager-app/filemanager.svg"
-msgstr ""
+msgstr "/usr/share/lomiri-filemanager-app/filemanager.svg"
 
 #: lomiri-filemanager-app.desktop.in:8
 msgid "File Manager"
@@ -301,7 +301,7 @@ msgstr "Extrayendo archivo «%1»"
 #: src/app/qml/dialogs/templates/ConfirmDialog.qml:33
 #: src/app/qml/dialogs/templates/ConfirmDialogWithInput.qml:49
 msgid "OK"
-msgstr "Aceptar"
+msgstr "De acuerdo"
 
 #: src/app/qml/dialogs/ExtractingDialog.qml:59
 msgid "Extracting failed"
@@ -376,13 +376,11 @@ msgstr "Previsualizar"
 
 #: src/app/qml/filemanager.qml:185
 msgid "successfully saved: "
-msgstr ""
+msgstr "guardado correctamente: "
 
 #: src/app/qml/filemanager.qml:188
-#, fuzzy
-#| msgid "File saved"
 msgid "failed to save: "
-msgstr "Archivo guardado"
+msgstr "no se ha podido guardar: "
 
 #: src/app/qml/filemanager.qml:190
 #, qt-format
@@ -394,6 +392,8 @@ msgid ""
 "Warning: Content-Hub does not overwrite existing files. The following were "
 "detected:"
 msgstr ""
+"Advertencia: Content-Hub no sobrescribe los archivos existentes. Se han "
+"detectado los siguientes:"
 
 #: src/app/qml/filemanager.qml:205
 msgid "Import Results"
