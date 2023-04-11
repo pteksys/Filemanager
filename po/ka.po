@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: lomiri-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 09:00+0000\n"
-"PO-Revision-Date: 2023-04-11 19:47+0000\n"
+"PO-Revision-Date: 2023-04-11 20:27+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-filemanager-app/ka/>\n"
@@ -228,7 +228,7 @@ msgstr ""
 
 #: src/app/qml/content-hub/FileOpener.qml:27
 msgid "Open with"
-msgstr ""
+msgstr "გამხსნელი პროგრამა"
 
 #: src/app/qml/dialogs/ConfirmExtractDialog.qml:15
 msgid "Extract Archive"
@@ -298,7 +298,7 @@ msgstr ""
 #: src/app/qml/dialogs/templates/ConfirmDialog.qml:33
 #: src/app/qml/dialogs/templates/ConfirmDialogWithInput.qml:49
 msgid "OK"
-msgstr ""
+msgstr "დიახ"
 
 #: src/app/qml/dialogs/ExtractingDialog.qml:59
 msgid "Extracting failed"
@@ -320,7 +320,7 @@ msgstr ""
 
 #: src/app/qml/dialogs/FileActionDialog.qml:36
 msgid "Open"
-msgstr ""
+msgstr "გახსნა"
 
 #: src/app/qml/dialogs/FileOperationProgressDialog.qml:27
 msgid "Operation in progress"
@@ -471,7 +471,7 @@ msgstr ""
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:68
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:73
 msgid "Search..."
-msgstr ""
+msgstr "ძებნა..."
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:118
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:125
@@ -561,7 +561,7 @@ msgstr ""
 
 #: src/app/qml/ui/ViewPopover.qml:65 src/app/qml/ui/ViewPopover.qml:73
 msgid "S"
-msgstr ""
+msgstr "სამხ"
 
 #: src/app/qml/ui/ViewPopover.qml:65 src/app/qml/ui/ViewPopover.qml:73
 msgid "M"
@@ -601,7 +601,7 @@ msgstr ""
 
 #: src/app/qml/ui/ViewPopover.qml:92
 msgid "Theme"
-msgstr ""
+msgstr "თემა"
 
 #: src/app/qml/ui/ViewPopover.qml:94
 msgid "System"
