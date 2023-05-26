@@ -265,17 +265,18 @@ SidebarPageLayout {
         Loader {
             id: emptyStateLoader
             anchors.fill: parent
+            active: !folderModel.busy
             sourceComponent: {
                 if (folderModel.count == 0 && !folderModel.model.isCurAllowedPath && folderModel.model.onlyAllowedPaths)
                     return authEmptyState
 
-                if (folderModel.count == 0 && !folderModel.awaitingResults)
+                if (folderModel.count == 0)
                     return noFilesEmptyState
             }
 
             ActivityIndicator {
                 anchors.centerIn: parent
-                running: folderModel.model.awaitingResults
+                running: folderModel.busy
             }
         }
 
