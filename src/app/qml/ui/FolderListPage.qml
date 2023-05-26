@@ -32,6 +32,7 @@ import "../tooltips" as Tooltips
 
 SidebarPageLayout {
     id: folderListPage
+    objectName: "folderListPage"
 
     property alias folderModel: pageModel
     property bool fileSelectorMode: false
