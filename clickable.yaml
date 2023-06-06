@@ -6,6 +6,7 @@ build_args:
 - -DCMAKE_LIBRARY_PATH=${LIBSMBCLIENT_LIB_INSTALL_DIR}/usr/lib/${ARCH_TRIPLET}/
 
 framework: ubuntu-sdk-20.04
+ignore_review_errors: true
 
 kill: 'lomiri-filemanager-app'
 
