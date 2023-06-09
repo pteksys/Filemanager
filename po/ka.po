@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: lomiri-filemanager-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 09:00+0000\n"
-"PO-Revision-Date: 2023-04-12 05:30+0000\n"
+"PO-Revision-Date: 2023-04-13 05:14+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-filemanager-app/ka/>\n"
@@ -21,25 +21,25 @@ msgstr ""
 
 #: lomiri-filemanager-app.desktop.in:7
 msgid "/usr/share/lomiri-filemanager-app/filemanager.svg"
-msgstr ""
+msgstr "/usr/share/lomiri-filemanager-app/filemanager.svg"
 
 #: lomiri-filemanager-app.desktop.in:8
 msgid "File Manager"
-msgstr ""
+msgstr "ფაილების მმართველი"
 
 #: lomiri-filemanager-app.desktop.in:9
 msgid "folder;manager;explore;disk;filesystem;"
-msgstr ""
+msgstr "folder;manager;explore;disk;filesystem;ფაილი;საქაღალდე;მართვა;"
 
 #: src/app/qml/actions/AddBookmark.qml:6
 msgid "Add bookmark"
-msgstr ""
+msgstr "სანიშნის დამატება"
 
 #: src/app/qml/actions/ArchiveExtract.qml:6
 #: src/app/qml/dialogs/OpenArchiveDialog.qml:18
 #: src/app/qml/dialogs/OpenWithDialog.qml:33
 msgid "Extract archive"
-msgstr ""
+msgstr "არქივის გაშლა"
 
 #: src/app/qml/actions/Cancel.qml:6
 #: src/app/qml/authentication/FingerprintDialog.qml:68
@@ -66,56 +66,56 @@ msgstr "წაშლა"
 
 #: src/app/qml/actions/FileClearSelection.qml:8
 msgid "Clear clipboard"
-msgstr ""
+msgstr "ბუფერის გასუფთავება"
 
 #: src/app/qml/actions/FileCopy.qml:5
 msgid "Copy"
-msgstr ""
+msgstr "კოპირება"
 
 #: src/app/qml/actions/FileCut.qml:5
 msgid "Cut"
-msgstr ""
+msgstr "ამოჭრა"
 
 #: src/app/qml/actions/FilePaste.qml:30
 #, qt-format
 msgid "Paste %1 file"
 msgid_plural "Paste %1 files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ფაილის ჩასმა"
+msgstr[1] "%1 ფაილის ჩასმა"
 
 #: src/app/qml/actions/GoBack.qml:5
 msgid "Go back"
-msgstr ""
+msgstr "უკან დაბრუნება"
 
 #: src/app/qml/actions/GoNext.qml:5
 msgid "Go next"
-msgstr ""
+msgstr "შემდეგზე გადასვლა"
 
 #: src/app/qml/actions/GoTo.qml:6
 msgid "Go To"
-msgstr ""
+msgstr "გადასვლა"
 
 #: src/app/qml/actions/NewItem.qml:6
 msgid "New Item"
-msgstr ""
+msgstr "ახალი ელემენტი"
 
 #: src/app/qml/actions/OpenAdvanced.qml:6
 msgid "Open with..."
-msgstr ""
+msgstr "გამხსნელი პროგრამა..."
 
 #: src/app/qml/actions/PlacesBookmarks.qml:6 src/app/qml/ui/PlacesPage.qml:16
 msgid "Places"
-msgstr ""
+msgstr "ადგილები"
 
 #: src/app/qml/actions/Properties.qml:6
 #: src/app/qml/dialogs/OpenWithDialog.qml:58
 msgid "Properties"
-msgstr ""
+msgstr "პარამეტრები"
 
 #: src/app/qml/actions/Rename.qml:5
 #: src/app/qml/dialogs/ConfirmRenameDialog.qml:20
 msgid "Rename"
-msgstr ""
+msgstr "გადარქმევა"
 
 #: src/app/qml/actions/Search.qml:6
 msgid "Search"
@@ -135,19 +135,19 @@ msgstr "გაზიარება"
 
 #: src/app/qml/actions/TabsAdd.qml:5
 msgid "Add tab"
-msgstr ""
+msgstr "ჩანართის დამატება"
 
 #: src/app/qml/actions/TabsCloseThis.qml:5
 msgid "Close this tab"
-msgstr ""
+msgstr "ამ ჩანართის დახურვა"
 
 #: src/app/qml/actions/TabsOpenInNewTab.qml:5
 msgid "Open in a new tab"
-msgstr ""
+msgstr "ახალ ჩანართშ გახსნა"
 
 #: src/app/qml/actions/Terminal.qml:5
 msgid "Open Terminal Here"
-msgstr ""
+msgstr "ტერმინალში გახსნა აქ"
 
 #: src/app/qml/actions/UnlockFullAccess.qml:6
 msgid "Unlock"
@@ -157,7 +157,7 @@ msgstr "განბლოკვა"
 #: src/app/qml/authentication/PasswordDialog.qml:43
 #: src/app/qml/dialogs/NetAuthenticationDialog.qml:28
 msgid "Authentication required"
-msgstr ""
+msgstr "საჭიროა ავთენტ"
 
 #: src/app/qml/authentication/FingerprintDialog.qml:27
 msgid "Use your fingerprint to access restricted content"
@@ -166,23 +166,23 @@ msgstr ""
 #. TRANSLATORS: "Touch" here is a verb
 #: src/app/qml/authentication/FingerprintDialog.qml:55
 msgid "Touch sensor"
-msgstr ""
+msgstr "შეხების სენსორი"
 
 #: src/app/qml/authentication/FingerprintDialog.qml:60
 msgid "Use password"
-msgstr ""
+msgstr "პაროლის გამოყენება"
 
 #: src/app/qml/authentication/FingerprintDialog.qml:124
 msgid "Authentication failed!"
-msgstr ""
+msgstr "ავთენტიკაციის შეცდომა!"
 
 #: src/app/qml/authentication/FingerprintDialog.qml:135
 msgid "Please retry"
-msgstr ""
+msgstr "თავიდან სცადეთ"
 
 #: src/app/qml/authentication/PasswordDialog.qml:35
 msgid "Authentication failed"
-msgstr ""
+msgstr "ავტორიზაცია ვერ განხორციელდა"
 
 #: src/app/qml/authentication/PasswordDialog.qml:45
 msgid "Your passphrase is required to access restricted content"
@@ -206,19 +206,19 @@ msgstr ""
 
 #: src/app/qml/authentication/PasswordDialog.qml:74
 msgid "Authenticate"
-msgstr ""
+msgstr "ავთენტიკაცია"
 
 #: src/app/qml/backend/FolderListModel.qml:122 src/app/qml/filemanager.qml:185
 #: src/app/qml/filemanager.qml:188
 #, qt-format
 msgid "%1 file"
 msgid_plural "%1 files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ფაილი"
+msgstr[1] "%1 ფაილი"
 
 #: src/app/qml/backend/FolderListModel.qml:133
 msgid "Folder"
-msgstr ""
+msgstr "საქაღალდე"
 
 #: src/app/qml/components/TextualButtonStyle.qml:48
 #: src/app/qml/components/TextualButtonStyle.qml:56
@@ -232,7 +232,7 @@ msgstr "გამხსნელი პროგრამა"
 
 #: src/app/qml/dialogs/ConfirmExtractDialog.qml:15
 msgid "Extract Archive"
-msgstr ""
+msgstr "არქივის გაშლა"
 
 #: src/app/qml/dialogs/ConfirmExtractDialog.qml:16
 #, qt-format
@@ -247,20 +247,20 @@ msgstr ""
 
 #: src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:17
 msgid "these files"
-msgstr ""
+msgstr "ეს ფაილები"
 
 #: src/app/qml/dialogs/ConfirmMultipleDeleteDialog.qml:20
 #: src/app/qml/dialogs/ConfirmSingleDeleteDialog.qml:23
 msgid "Deleting files"
-msgstr ""
+msgstr "ფაილების წაშლა"
 
 #: src/app/qml/dialogs/ConfirmRenameDialog.qml:21
 msgid "Enter a new name"
-msgstr ""
+msgstr "შეიყვანეთ ახალი სახელი"
 
 #: src/app/qml/dialogs/CreateItemDialog.qml:14
 msgid "Create Item"
-msgstr ""
+msgstr "ელემენტის შექმნა"
 
 #: src/app/qml/dialogs/CreateItemDialog.qml:15
 msgid "Enter name for new item"
@@ -268,11 +268,11 @@ msgstr ""
 
 #: src/app/qml/dialogs/CreateItemDialog.qml:19
 msgid "Item name"
-msgstr ""
+msgstr "ჩანაწერის სახელი"
 
 #: src/app/qml/dialogs/CreateItemDialog.qml:25
 msgid "Create file"
-msgstr ""
+msgstr "ფაილის შექმნა"
 
 #: src/app/qml/dialogs/CreateItemDialog.qml:34
 #, qt-format
@@ -281,7 +281,7 @@ msgstr ""
 
 #: src/app/qml/dialogs/CreateItemDialog.qml:46
 msgid "Create Folder"
-msgstr ""
+msgstr "საქაღალდის შექმნა"
 
 #: src/app/qml/dialogs/CreateItemDialog.qml:53
 #, qt-format
@@ -302,7 +302,7 @@ msgstr "დიახ"
 
 #: src/app/qml/dialogs/ExtractingDialog.qml:59
 msgid "Extracting failed"
-msgstr ""
+msgstr "გაშლის შეცდომა"
 
 #: src/app/qml/dialogs/ExtractingDialog.qml:60
 #, qt-format
@@ -311,12 +311,12 @@ msgstr ""
 
 #: src/app/qml/dialogs/FileActionDialog.qml:30
 msgid "Choose action"
-msgstr ""
+msgstr "აირჩიეთ ქმედება"
 
 #: src/app/qml/dialogs/FileActionDialog.qml:31
 #, qt-format
 msgid "For file: %1"
-msgstr ""
+msgstr "ფაილისთვის: %1"
 
 #: src/app/qml/dialogs/FileActionDialog.qml:36
 msgid "Open"
@@ -324,23 +324,23 @@ msgstr "გახსნა"
 
 #: src/app/qml/dialogs/FileOperationProgressDialog.qml:27
 msgid "Operation in progress"
-msgstr ""
+msgstr "ოპერაცია მიმდინარეობს"
 
 #: src/app/qml/dialogs/FileOperationProgressDialog.qml:29
 msgid "File operation"
-msgstr ""
+msgstr "ფაილის ოპერაციები"
 
 #: src/app/qml/dialogs/NetAuthenticationDialog.qml:45
 msgid "User"
-msgstr ""
+msgstr "მომხმარებელი"
 
 #: src/app/qml/dialogs/NetAuthenticationDialog.qml:58
 msgid "Password"
-msgstr ""
+msgstr "პაროლი"
 
 #: src/app/qml/dialogs/NetAuthenticationDialog.qml:72
 msgid "Save password"
-msgstr ""
+msgstr "პაროლის შენახვა"
 
 #: src/app/qml/dialogs/NetAuthenticationDialog.qml:108
 msgid "Ok"
@@ -348,7 +348,7 @@ msgstr "დიახ"
 
 #: src/app/qml/dialogs/OpenArchiveDialog.qml:8
 msgid "Archive file"
-msgstr ""
+msgstr "არქივის ფაილი"
 
 #: src/app/qml/dialogs/OpenArchiveDialog.qml:9
 msgid "Do you want to extract the archive here?"
@@ -357,11 +357,11 @@ msgstr ""
 #: src/app/qml/dialogs/OpenArchiveDialog.qml:28
 #: src/app/qml/dialogs/OpenWithDialog.qml:44
 msgid "Open with another app"
-msgstr ""
+msgstr "სხვა აპში გახსნა"
 
 #: src/app/qml/dialogs/OpenWithDialog.qml:8
 msgid "Open file"
-msgstr ""
+msgstr "ფაილის გახსნა"
 
 #: src/app/qml/dialogs/OpenWithDialog.qml:9
 msgid "What do you want to do with the clicked file?"
@@ -369,20 +369,20 @@ msgstr ""
 
 #: src/app/qml/dialogs/OpenWithDialog.qml:22
 msgid "Preview"
-msgstr ""
+msgstr "მინიატურა"
 
 #: src/app/qml/filemanager.qml:185
 msgid "successfully saved: "
-msgstr ""
+msgstr "ფაილის შენახვა წარმატებულია: "
 
 #: src/app/qml/filemanager.qml:188
 msgid "failed to save: "
-msgstr ""
+msgstr "შენახვის შეცდომა: "
 
 #: src/app/qml/filemanager.qml:190
 #, qt-format
 msgid "into: %1"
-msgstr ""
+msgstr "სად: %1"
 
 #: src/app/qml/filemanager.qml:194
 msgid ""
@@ -392,39 +392,39 @@ msgstr ""
 
 #: src/app/qml/filemanager.qml:205
 msgid "Import Results"
-msgstr ""
+msgstr "შემოტანის შედეგები"
 
 #: src/app/qml/ui/FileDetailsPopover.qml:34
 msgid "Readable"
-msgstr ""
+msgstr "კითხვადი"
 
 #: src/app/qml/ui/FileDetailsPopover.qml:37
 msgid "Writable"
-msgstr ""
+msgstr "ჩაწერადი"
 
 #: src/app/qml/ui/FileDetailsPopover.qml:40
 msgid "Executable"
-msgstr ""
+msgstr "გამშვები ფაილები"
 
 #: src/app/qml/ui/FileDetailsPopover.qml:100
 msgid "Where:"
-msgstr ""
+msgstr "სად:"
 
 #: src/app/qml/ui/FileDetailsPopover.qml:127
 msgid "Created:"
-msgstr ""
+msgstr "შექმნილია:"
 
 #: src/app/qml/ui/FileDetailsPopover.qml:141
 msgid "Modified:"
-msgstr ""
+msgstr "შეცვლილი:"
 
 #: src/app/qml/ui/FileDetailsPopover.qml:155
 msgid "Accessed:"
-msgstr ""
+msgstr "ბოლო წვდომა:"
 
 #: src/app/qml/ui/FileDetailsPopover.qml:176
 msgid "Permissions:"
-msgstr ""
+msgstr "ნებართვები:"
 
 #: src/app/qml/ui/FileDetailsPopover.qml:184
 msgid "Close"
@@ -432,7 +432,7 @@ msgstr "დახურვა"
 
 #: src/app/qml/ui/FolderListPage.qml:249 src/app/qml/ui/FolderListPage.qml:304
 msgid "Restricted access"
-msgstr ""
+msgstr "შეზღუდული წვდომა"
 
 #: src/app/qml/ui/FolderListPage.qml:253
 msgid ""
@@ -441,11 +441,11 @@ msgstr ""
 
 #: src/app/qml/ui/FolderListPage.qml:290
 msgid "No files"
-msgstr ""
+msgstr "ფაილები არაა"
 
 #: src/app/qml/ui/FolderListPage.qml:291
 msgid "This folder is empty."
-msgstr ""
+msgstr "ეს საქაღალდე ცარიელია."
 
 #: src/app/qml/ui/FolderListPage.qml:305
 msgid "Authentication is required in order to see the content of this folder."
@@ -453,20 +453,20 @@ msgstr ""
 
 #: src/app/qml/ui/FolderListPage.qml:320
 msgid "File operation error"
-msgstr ""
+msgstr "ფაილის ოპერაციების შეცდომა"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:32
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:31
 #, qt-format
 msgid "%1 item"
 msgid_plural "%1 items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ჩანაწერი"
+msgstr[1] "%1 ელემენტი"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:41
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:46
 msgid "Search Results"
-msgstr ""
+msgstr "ძებნს შედეგები"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:68
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:73
@@ -476,12 +476,12 @@ msgstr "ძებნა..."
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:118
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:125
 msgid "File Contents"
-msgstr ""
+msgstr "ფაილის შემცველობა"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:134
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:141
 msgid "Recursive"
-msgstr ""
+msgstr "რეკურსიული"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:135
 #: src/app/qml/ui/FolderListPagePickModeHeader.qml:142
@@ -494,7 +494,7 @@ msgstr ""
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:217
 msgid "Paste files"
-msgstr ""
+msgstr "ფაილების ჩასმა"
 
 #: src/app/qml/ui/FolderListPageDefaultHeader.qml:219
 msgid "Pasted item"
@@ -520,13 +520,13 @@ msgstr ""
 #, qt-format
 msgid "%1 item selected"
 msgid_plural "%1 items selected"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "მონიშნულია %1 ჩანაწერი"
+msgstr[1] "მონიშნულია %1 ჩანაწერი"
 
 #: src/app/qml/ui/FolderListPageSelectionHeader.qml:119
 #: src/app/qml/views/FolderDelegateActions.qml:183
 msgid "Could not rename"
-msgstr ""
+msgstr "სახელის გადარქმევის შეცდომა"
 
 #: src/app/qml/ui/FolderListPageSelectionHeader.qml:120
 #: src/app/qml/views/FolderDelegateActions.qml:184
@@ -537,7 +537,7 @@ msgstr ""
 
 #: src/app/qml/ui/ViewPopover.qml:24
 msgid "Show Hidden Files"
-msgstr ""
+msgstr "დამალული ფაილების ჩვენება"
 
 #: src/app/qml/ui/ViewPopover.qml:42
 msgid "Default open action"
@@ -549,15 +549,15 @@ msgstr ""
 
 #: src/app/qml/ui/ViewPopover.qml:57
 msgid "List"
-msgstr ""
+msgstr "სია"
 
 #: src/app/qml/ui/ViewPopover.qml:57
 msgid "Icons"
-msgstr ""
+msgstr "ხატულები"
 
 #: src/app/qml/ui/ViewPopover.qml:62
 msgid "Grid size"
-msgstr ""
+msgstr "ბადის ზომა"
 
 #: src/app/qml/ui/ViewPopover.qml:65 src/app/qml/ui/ViewPopover.qml:73
 msgid "S"
@@ -565,15 +565,15 @@ msgstr "სამხ"
 
 #: src/app/qml/ui/ViewPopover.qml:65 src/app/qml/ui/ViewPopover.qml:73
 msgid "M"
-msgstr ""
+msgstr "მეგა"
 
 #: src/app/qml/ui/ViewPopover.qml:65 src/app/qml/ui/ViewPopover.qml:73
 msgid "L"
-msgstr ""
+msgstr "L"
 
 #: src/app/qml/ui/ViewPopover.qml:65 src/app/qml/ui/ViewPopover.qml:73
 msgid "XL"
-msgstr ""
+msgstr "XL"
 
 #: src/app/qml/ui/ViewPopover.qml:70
 msgid "List size"
@@ -581,15 +581,15 @@ msgstr ""
 
 #: src/app/qml/ui/ViewPopover.qml:78
 msgid "Sort By"
-msgstr ""
+msgstr "დახარისხება"
 
 #: src/app/qml/ui/ViewPopover.qml:80
 msgid "Name"
-msgstr ""
+msgstr "სახელი"
 
 #: src/app/qml/ui/ViewPopover.qml:80
 msgid "Date"
-msgstr ""
+msgstr "თარიღი"
 
 #: src/app/qml/ui/ViewPopover.qml:80
 msgid "Size"
@@ -597,7 +597,7 @@ msgstr "ზომა"
 
 #: src/app/qml/ui/ViewPopover.qml:85
 msgid "Sort Order"
-msgstr ""
+msgstr "დალაგების წესი"
 
 #: src/app/qml/ui/ViewPopover.qml:92
 msgid "Theme"
@@ -605,15 +605,15 @@ msgstr "თემა"
 
 #: src/app/qml/ui/ViewPopover.qml:94
 msgid "System"
-msgstr ""
+msgstr "სისტემა"
 
 #: src/app/qml/ui/ViewPopover.qml:94
 msgid "Light"
-msgstr ""
+msgstr "ღია"
 
 #: src/app/qml/ui/ViewPopover.qml:94
 msgid "Dark"
-msgstr ""
+msgstr "ბნელი"
 
 #: src/app/qml/views/FolderDelegateActions.qml:41
 msgid "Folder not accessible"
@@ -627,15 +627,15 @@ msgstr ""
 
 #: src/app/qml/views/FolderListView.qml:87
 msgid "Directories"
-msgstr ""
+msgstr "საქაღალდეები"
 
 #: src/app/qml/views/FolderListView.qml:87
 msgid "Files"
-msgstr ""
+msgstr "ფაილები"
 
 #: src/plugin/folderlistmodel/dirmodel.cpp:384
 msgid "Unknown"
-msgstr ""
+msgstr "უცნობი"
 
 #: src/plugin/folderlistmodel/dirmodel.cpp:511
 msgid "path or url may not exist or cannot be read"
@@ -643,7 +643,7 @@ msgstr ""
 
 #: src/plugin/folderlistmodel/dirmodel.cpp:751
 msgid "Rename error"
-msgstr ""
+msgstr "ფაილის გადარქმევის შეცდომა"
 
 #: src/plugin/folderlistmodel/dirmodel.cpp:774
 msgid "Error creating new folder"
@@ -655,7 +655,7 @@ msgstr ""
 
 #: src/plugin/folderlistmodel/dirmodel.cpp:1414
 msgid "items"
-msgstr ""
+msgstr "ელემენტი"
 
 #: src/plugin/folderlistmodel/filesystemaction.cpp:320
 msgid "File or Directory does not exist"
@@ -663,7 +663,7 @@ msgstr ""
 
 #: src/plugin/folderlistmodel/filesystemaction.cpp:321
 msgid " does not exist"
-msgstr ""
+msgstr " არ არსებობს"
 
 #: src/plugin/folderlistmodel/filesystemaction.cpp:326
 msgid "Cannot access File or Directory"
@@ -732,7 +732,7 @@ msgstr ""
 
 #: src/plugin/folderlistmodel/filesystemaction.cpp:1318
 msgid " Copy"
-msgstr ""
+msgstr " კოპირება"
 
 #: src/plugin/folderlistmodel/filesystemaction.cpp:1371
 msgid "Set permissions error in "
