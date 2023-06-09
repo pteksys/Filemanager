@@ -78,11 +78,21 @@ MainView {
     property var pageStack: pageStack
 
     function openFileSelector(selectFolderMode) {
-        var props = {
-            fileSelectorMode: !selectFolderMode,
-            folderSelectorMode: selectFolderMode
+
+        var currentItem = pageStack.currentPage
+        if (currentItem && currentItem.objectName === "folderListPage") {
+
+            currentItem.fileSelectorMode = !selectFolderMode
+            currentItem.folderSelectorMode = selectFolderMode
+
+            fileSelector.fileSelectorComponent = currentItem
+        } else {
+            var props = {
+                fileSelectorMode: !selectFolderMode,
+                folderSelectorMode: selectFolderMode
+            }
+            fileSelector.fileSelectorComponent = pageStack.push(Qt.resolvedUrl("./ui/FolderListPage.qml"), props)
         }
-        fileSelector.fileSelectorComponent = pageStack.push(Qt.resolvedUrl("./ui/FolderListPage.qml"), props)
     }
 
     function cancelFileSelector() {
@@ -196,7 +206,6 @@ MainView {
                 msg += "<br>\n" + existingUrls[i]
         }
 
-        pageStack.pop()
         fileSelector.fileSelectorComponent = null
         pageStack.currentPage.folderModel.path = folder
         pageStack.currentPage.folderModel.refresh()
