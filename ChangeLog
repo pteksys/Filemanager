@@ -1,6 +1,130 @@
+2023-10-15 Mike Gabriel
+
+        * Release 1.0.3 (HEAD -> main, tag: v1.0.3)
+
+2023-08-21 NPL
+
+        * Translated using Weblate (Japanese) (e77f578e)
+
+2023-08-12 NPL
+
+        * Translated using Weblate (Japanese) (311badf3)
+
+2023-08-13 Abdullah AL Shohag
+
+        * Translated using Weblate (Bengali (Bangladesh)) (19268a14)
+
+2023-08-04 Salif Mehmed
+
+        * Translated using Weblate (Bulgarian) (eddeb3b9)
+
+2023-07-10 abidin toumi
+
+        * Translated using Weblate (Arabic) (454964fa)
+
+2023-06-30 Rudra Harsh V.Singh
+
+        * Translated using Weblate (Sanskrit) (b46dc539)
+
+2023-06-27 Rudra Harsh V.Singh
+
+        * Translated using Weblate (English (Canada)) (566e5301)
+
+2023-06-26 Rudra Harsh V.Singh
+
+        * Translated using Weblate (Hindi) (5a718eb7)
+
+2023-06-28 J. Lavoie
+
+        * Translated using Weblate (German) (d4ca1dc7)
+
+2023-06-09 Mike Gabriel
+
+        * Merge branch 'main' into 'main' (21acbc5d)
+
+2023-06-09 Lionel Duboeuf
+
+        * Merge branch lomiri-filemanager-app:main into main (ec8e2fe9)
+
+2023-04-12 Temuri Doghonadze
+
+        * Translated using Weblate (Georgian) (3632d270)
+
+2023-06-06 Guido Berhoerster
+
+        * Merge branch 'ass_ignore_review' into 'main' (9e380d9a)
+
+2023-03-30 Danfro
+
+        * add ignore review errors to clickable.yaml to allow local building
+          (e330f9b8)
+
+2023-05-26 Lionel Duboeuf
+
+        * Avoid loading twice the Folder Page when requested from Content-Hub
+          (c315abd9)
+        * Avoid displaying content info while folder model is still busy.
+          This fixes:
+          https://gitlab.com/ubports/development/apps/lomiri-filemanager-app/-/issues/106
+          (463adfb9)
+
+2023-04-12 Temuri Doghonadze
+
+        * Translated using Weblate (Georgian) (67c4c98c)
+
+2023-04-11 Temuri Doghonadze
+
+        * Translated using Weblate (Georgian) (76f780df)
+        * Translated using Weblate (Georgian) (db80e2ff)
+
+2023-04-04 gallegonovato
+
+        * Translated using Weblate (Spanish) (0b197532)
+
+2023-03-30 Sylke Vicious
+
+        * Translated using Weblate (Italian) (04507d64)
+
+2023-03-30 Jozef Mlich
+
+        * Translated using Weblate (Czech) (84a0c55b)
+
+2023-03-30 Sylke Vicious
+
+        * Translated using Weblate (Italian) (c8472191)
+
+2023-03-30 Jozef Mlich
+
+        * Translated using Weblate (Czech) (63264f78)
+
+2023-03-27 Jozef Mlich
+
+        * Translated using Weblate (Czech) (2e09c16d)
+
+2023-03-15 Mike Gabriel
+
+        * Merge branch 'personal/gberh/click-migrate' into 'main' (65ccd8e2)
+
+2023-02-28 Guido Berhoerster
+
+        * Use session-migration for migration in Debian (d8edd68e)
+
+2023-02-23 Guido Berhoerster
+
+        * Add migrations to manifest (b8247913)
+        * Add migration wrapper script (b4059423)
+
+2023-03-05 Asahi 95
+
+        * Translated using Weblate (Japanese) (b595aec6)
+
+2023-02-26 Luna Jernberg
+
+        * Translated using Weblate (Swedish) (a32ee861)
+
 2023-02-27 Guido Berhoerster
 
-        * Release 1.0.2 (HEAD -> main, tag: v1.0.2)
+        * Release 1.0.2 (daa2ec69) (tag: v1.0.2)
 
 2023-02-26 Luna Jernberg
 
