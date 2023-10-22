@@ -87,11 +87,4 @@ Dialog {
         model: [ "A ➡ Z", "Z ➡ A" ]
         onSelectedIndexChanged: globalSettings.sortOrder = selectedIndex
     }
-
-    Components.HorizontalOptionSelector {
-        subtitle: i18n.tr("Theme")
-        selectedIndex: globalSettings.theme
-        model: [ i18n.tr("System"), i18n.tr("Light"), i18n.tr("Dark") ]
-        onSelectedIndexChanged: globalSettings.theme = selectedIndex
-    }
 }

@@ -36,7 +36,10 @@ ScrollView {
     ListView {
         id: root
         anchors.fill: parent
+        anchors.leftMargin: 20
+        anchors.rightMargin: 20
         model: folderModel.model
+        spacing: 4
 
         PullToRefresh {
             onRefresh: {
@@ -68,11 +71,35 @@ ScrollView {
             leadingActions: ListItemActions {
                 // Children is an alias for 'actions' property, this way we don't get any warning about non-NOTIFYable props
                 actions: __delegateActions.leadingActions.children
+                delegate: Rectangle {
+                    width: height + units.gu(2)
+                    color: mainView.itemSubColor
+
+                    Icon {
+                        name: action.iconName
+                        width: units.gu(3)
+                        height: width
+                        color: "red"
+                        anchors.centerIn: parent
+                    }
+                }
             }
 
             trailingActions: ListItemActions {
                 // Children is an alias for 'actions' property, this way we don't get any warning about non-NOTIFYable props
                 actions: __delegateActions.trailingActions.children
+                delegate: Rectangle {
+                    width: height + units.gu(2)
+                    color: mainView.itemSubColor
+
+                    Icon {
+                        name: action.iconName
+                        width: units.gu(3)
+                        height: width
+                        color: "white"
+                        anchors.centerIn: parent
+                    }
+                }
             }
 
             onClicked: __delegateActions.itemClicked(model)

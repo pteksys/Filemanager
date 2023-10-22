@@ -22,6 +22,8 @@ import Lomiri.FileManager.folderlistmodel 1.0
 ListItem {
     id: del
     height: layout.height
+    divider.visible: false
+    highlightColor: "transparent"
 
     function getTextSize (subtitle) {
         switch (globalSettings.listSize) {
@@ -45,8 +47,9 @@ ListItem {
     // instead fudge it here with a rectangle.
     Rectangle {
         anchors.fill: parent
-        color: theme.palette.selected.base
-        visible: del.isSelected
+        color: "black"
+        opacity: del.isSelected ? 0.5 : 0.2
+        radius: 20
     }
 
     ListItemLayout {
@@ -58,6 +61,8 @@ ListItem {
         title.textSize: getTextSize()
         subtitle.textSize: getTextSize(true)
         summary.textSize: getTextSize(true)
+
+        subtitle.color: mainView.itemSubColor
 
         Item {
             SlotsLayout.position: SlotsLayout.Leading
@@ -82,8 +87,9 @@ ListItem {
             }
         }
 
-        ProgressionSlot{
+        ProgressionSlot {
             visible: del.showProgressionSlot
+            color: mainView.itemSubColor
         }
     }
 

@@ -156,10 +156,6 @@ PageHeader {
         }
     }
 
-    extension: Components.PathHistoryRow {
-        folderModel: rootItem.folderModel
-    }
-
     FMActions.GoBack {
         id: goBackAction
         onTriggered: lastPos = folderModel.goBack()
@@ -175,10 +171,45 @@ PageHeader {
         }
     }
 
+    leadingActionBar.delegate: Item {
+        width: height
+        height: leadingActionBar.height
+
+        Icon {
+            name: modelData.iconName
+            width: units.gu(3)
+            height: width
+            color: "white"
+            anchors.centerIn: parent
+        }
+
+        MouseArea {
+            anchors.fill: parent
+            onClicked: modelData.trigger()
+        }
+    }
     leadingActionBar.actions: showPanelAction.visible ? showPanelAction : placesBookmarkAction
 
     trailingActionBar {
         anchors.rightMargin: 0
+
+        delegate: Item {
+            width: height
+            height: trailingActionBar.height
+
+            Icon {
+                name: modelData.iconName
+                width: units.gu(3)
+                height: width
+                color: "white"
+                anchors.centerIn: parent
+            }
+
+            MouseArea {
+                anchors.fill: parent
+                onClicked: modelData.trigger()
+            }
+        }
 
         actions: [
             FMActions.Cancel {
@@ -222,5 +253,9 @@ PageHeader {
 
     // *** STYLE HINTS ***
 
-    StyleHints { dividerColor: "transparent" }
+    StyleHints {
+        foregroundColor: "white"
+        backgroundColor: "transparent"
+        dividerColor: "transparent"
+    }
 }

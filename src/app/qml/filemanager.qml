@@ -22,6 +22,7 @@ import Lomiri.Components.Popups 1.3
 import Lomiri.Components.Extras.PamAuthentication 0.1
 import Qt.labs.settings 1.0
 import Lomiri.Content 1.3
+import Lomiri.Components.Themes 1.3
 
 // This makes the Lomiri Thumbnailer available in all the other QML documents.
 import Lomiri.Thumbnailer 0.1
@@ -39,14 +40,37 @@ MainView {
     width: phone ? units.gu(40) : units.gu(100)
     height: units.gu(75)
 
-    theme.name: {
-        if (globalSettings.theme == 1) {
-            return "Lomiri.Components.Themes.Ambiance";
-        } else if (globalSettings.theme == 2) {
-            return "Lomiri.Components.Themes.SuruDark";
-        } else {
-            return "";
-        }
+    property color itemSubColor: "#0068bb"
+
+    theme.name: "Lomiri.Components.Themes.Ambiance"
+    theme.palette: Palette {
+        selected.focus: "transparent"
+        selected.overlay: "transparent"
+        selected.base: "transparent"
+        selected.activity: "transparent"
+        selected.foreground: "transparent"
+        selected.background: "transparent"
+
+        normal.backgroundText: "white"
+        normal.background: itemSubColor
+        normal.overlay: itemSubColor
+        normal.base: "white"
+        normal.foreground: "transparent"
+        normal.focus: "transparent"
+
+        highlighted.focus: "transparent"
+        highlighted.overlay: "transparent"
+        highlighted.base: "transparent"
+        highlighted.activity: "transparent"
+        highlighted.foreground: "transparent"
+        highlighted.background: "transparent"
+
+        focused.focus: "transparent"
+        focused.overlay: "transparent"
+        focused.base: "transparent"
+        focused.activity: "transparent"
+        focused.foreground: "transparent"
+        focused.background: "transparent"
     }
 
     property bool wideAspect: width > units.gu(80)
@@ -166,6 +190,11 @@ MainView {
         onExportRequested: startTransfer(transfer, false)
         onImportRequested: startTransfer(transfer, true)
         onShareRequested: startTransfer(transfer, true)
+    }
+
+    Rectangle {
+        anchors.fill: parent
+        color: itemSubColor
     }
 
     PageStack {

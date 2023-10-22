@@ -2,6 +2,7 @@ import QtQuick 2.4
 import QtQuick.Layouts 1.12
 import Lomiri.Components 1.3
 import Lomiri.Components.Popups 1.3
+import Lomiri.Components.Styles 1.3
 
 import "../components" as Components
 import "../actions" as FMActions
@@ -29,7 +30,7 @@ PageHeader {
             id: titleItem
             anchors.verticalCenter: parent.verticalCenter
             title.text: showSearchBar && searchField.text.trim().length ? t_metrics.text : rootItem.title
-            subtitle.text: i18n.tr("%1 item", "%1 items", folderModel.count).arg(folderModel.count)
+            subtitle.text: ""
             title.elide: Text.ElideRight
             title.wrapMode: Text.WrapAtWordBoundaryOrAnywhere
             title.maximumLineCount: 3
@@ -149,10 +150,6 @@ PageHeader {
         }
     }
 
-    extension: Components.PathHistoryRow {
-        folderModel: rootItem.folderModel
-    }
-
     FMActions.GoBack {
         id: goBackAction
         onTriggered: folderModel.goBack()
@@ -168,9 +165,43 @@ PageHeader {
         }
     }
 
-    leadingActionBar.actions: showPanelAction.visible ? showPanelAction : placesBookmarkAction
+    leadingActionBar.delegate: Item {
+        width: height
+        height: leadingActionBar.height
+
+        Icon {
+            name: modelData.iconName
+            width: units.gu(3)
+            height: width
+            color: "white"
+            anchors.centerIn: parent
+        }
+
+        MouseArea {
+            anchors.fill: parent
+            onClicked: modelData.trigger()
+        }
+    }
+    leadingActionBar.actions: folderModel.canGoBack ? [ goBackAction ] : []
 
     trailingActionBar.numberOfSlots: 5
+    trailingActionBar.delegate: Item {
+        width: height
+        height: trailingActionBar.height
+
+        Icon {
+            name: modelData.iconName
+            width: units.gu(3)
+            height: width
+            color: "white"
+            anchors.centerIn: parent
+        }
+
+        MouseArea {
+            anchors.fill: parent
+            onClicked: modelData.trigger()
+        }
+    }
     trailingActionBar.actions: [
         FMActions.Settings {
             onTriggered: PopupUtils.open(Qt.resolvedUrl("ViewPopover.qml"), mainView, { folderListModel: folderModel.model })
@@ -222,15 +253,6 @@ PageHeader {
                 folderModel.model.clearClipboard()
             }
         },
-        FMActions.AddBookmark {
-            visible: !folderModel.model.clipboardUrlsCounter > 0 && !showSearchBar
-            onTriggered: {
-                print(text)
-                folderModel.places.addLocation(folderModel.model.path)
-                folderPage.tooltipMsg = i18n.tr("Added '%1' to Places").arg(folderModel.model.fileName)
-
-            }
-        },
         FMActions.Terminal {
             visible: !showSearchBar
             onTriggered: {
@@ -242,5 +264,10 @@ PageHeader {
 
     // *** STYLE HINTS ***
 
-    StyleHints { dividerColor: "transparent" }
+    StyleHints {
+        foregroundColor: "white"
+        backgroundColor: "transparent"
+        dividerColor: "transparent"
+        pressedBackgroundColor: "transparent"
+    }
 }

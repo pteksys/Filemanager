@@ -29,30 +29,16 @@ Item {
         anchors {
             left: parent.left;
             right: parent.right
-            verticalCenter: parent.bottom
+            verticalCenter: parent.verticalCenter
         }
 
         spacing: units.gu(2)
-
-        Rectangle {
-            height: units.dp(1)
-            color: theme.palette.normal.base
-            Layout.preferredWidth: units.gu(7)
-            Layout.alignment: Qt.AlignVCenter
-        }
 
         Label {
             id: label
             Layout.alignment: Qt.AlignVCenter
             textSize: Label.Small
-            color: theme.palette.normal.backgroundSecondaryText
-        }
-
-        Rectangle {
-            height: units.dp(1)
-            color: theme.palette.normal.base
-            Layout.fillWidth: true
-            Layout.alignment: Qt.AlignVCenter
+            color: "white"
         }
     }
 }

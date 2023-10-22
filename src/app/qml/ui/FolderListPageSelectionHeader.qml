@@ -36,10 +36,23 @@ PageHeader {
         title.text: i18n.tr("%1 item selected", "%1 items selected",selectionManager.counter).arg(folderModel.model.selectionObject.counter)
     }
 
-    extension: Components.PathHistoryRow {
-        folderModel: rootItem.folderModel
-    }
+    leadingActionBar.delegate: Item {
+        width: height
+        height: leadingActionBar.height
 
+        Icon {
+            name: modelData.iconName
+            width: units.gu(3)
+            height: width
+            color: "white"
+            anchors.centerIn: parent
+        }
+
+        MouseArea {
+            anchors.fill: parent
+            onClicked: modelData.trigger()
+        }
+    }
     leadingActionBar.actions: Action {
         text: i18n.tr("Cancel")
         iconName: "close"
@@ -52,6 +65,23 @@ PageHeader {
     }
 
     trailingActionBar.numberOfSlots: 5
+    trailingActionBar.delegate: Item {
+        width: height
+        height: trailingActionBar.height
+
+        Icon {
+            name: modelData.iconName
+            width: units.gu(3)
+            height: width
+            color: "white"
+            anchors.centerIn: parent
+        }
+
+        MouseArea {
+            anchors.fill: parent
+            onClicked: modelData.trigger()
+        }
+    }
     trailingActionBar.anchors.rightMargin: 0
     trailingActionBar.actions: [
         FMActions.SelectUnselectAll {
@@ -161,5 +191,9 @@ PageHeader {
 
     // *** STYLE HINTS ***
 
-    StyleHints { dividerColor: "transparent" }
+    StyleHints {
+        foregroundColor: "white"
+        backgroundColor: "transparent"
+        dividerColor: "transparent"
+    }
 }
