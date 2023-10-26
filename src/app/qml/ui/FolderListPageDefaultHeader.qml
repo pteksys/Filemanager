@@ -3,6 +3,7 @@ import QtQuick.Layouts 1.12
 import Lomiri.Components 1.3
 import Lomiri.Components.Popups 1.3
 import Lomiri.Components.Styles 1.3
+import Lomiri.Components.Themes.Ambiance 1.3
 
 import "../components" as Components
 import "../actions" as FMActions
@@ -40,59 +41,6 @@ PageHeader {
                 id: t_metrics
                 font: parent.title.font
                 text: i18n.tr("Search Results")
-            }
-        }
-
-        TextField {
-            id: searchField
-            visible: showSearchBar
-            anchors {
-                right: parent.right
-                left: titleItem.right
-                verticalCenter: parent.verticalCenter
-            }
-
-            function __openPopover() {
-                if (!popover) {
-                    popover = PopupUtils.open(popoverComponent, this)
-                    this.forceActiveFocus()
-                }
-            }
-
-            function __closePopover() {
-                if (popover) {
-                    PopupUtils.close(popover)
-                    popover = null
-                }
-            }
-
-            placeholderText: i18n.tr("Search...")
-
-            // Disable predictive text
-            inputMethodHints: Qt.ImhNoPredictiveText
-
-            // Force active focus when this becomes the current PageHead state and
-            // show OSK if appropriate.
-            onVisibleChanged: {
-                if (visible)
-                    forceActiveFocus()
-                else
-                    folderModel.model.setSearchString("");
-            }
-            onActiveFocusChanged: {
-                if (!popover && activeFocus)
-                    this.__openPopover()
-                else if (popover && !activeFocus)
-                    this.__closePopover()
-            }
-
-            // https://stackoverflow.com/questions/41232999/two-way-binding-c-model-in-qml
-            text: folderModel.model.searchString
-
-            Binding {
-                target: folderModel.model
-                property: "searchString"
-                value: searchField.text
             }
         }
 
@@ -135,6 +83,8 @@ PageHeader {
                             title.text: i18n.tr("Recursive")
                             summary.text: i18n.tr("Note: Slow in large directories")
                             summary.wrapMode: Text.WrapAtWordBoundaryOrAnywhere
+                            summary.color: "white"
+                            subtitle.color: "white"
 
                             CheckBox {
                                 checked: searchRecursiveOptionChecked
@@ -162,6 +112,81 @@ PageHeader {
             pp.pathClicked.connect(function() {
                 pp.pageStack.pop()
             })
+        }
+    }
+
+    extension: Item {
+        anchors { left: parent.left; right: parent.right }
+        implicitHeight: units.gu(6) + 10 * 2
+
+        Rectangle {
+            anchors.fill: searchField
+            color: "transparent"
+            border.width: 1
+            radius: 10
+            border.color: "white"
+            visible: searchField.visible
+
+            Text {
+                anchors.left: parent.left
+                anchors.leftMargin: 8
+                anchors.verticalCenter: parent.verticalCenter
+                text: i18n.tr("Search...")
+                color: "white"
+                visible: searchField.text == ""
+            }
+        }
+
+        TextField {
+            id: searchField
+            visible: rootItem.title.endsWith("Documents") || rootItem.title.endsWith("Music")
+            anchors.fill: parent
+            anchors.margins: 10
+            color: "white"
+
+            function __openPopover() {
+                if (!popover) {
+                    popover = PopupUtils.open(popoverComponent, this)
+                    this.forceActiveFocus()
+                }
+            }
+
+            function __closePopover() {
+                if (popover) {
+                    PopupUtils.close(popover)
+                    popover = null
+                }
+            }
+
+            // Disable predictive text
+            inputMethodHints: Qt.ImhNoPredictiveText
+
+            // Force active focus when this becomes the current PageHead state and
+            // show OSK if appropriate.
+            onVisibleChanged: {
+                if (!visible)
+                    folderModel.model.setSearchString("");
+            }
+            onActiveFocusChanged: {
+                if (!popover && activeFocus)
+                    this.__openPopover()
+                else if (popover && !activeFocus)
+                    this.__closePopover()
+            }
+
+            // https://stackoverflow.com/questions/41232999/two-way-binding-c-model-in-qml
+            text: folderModel.model.searchString
+
+            Binding {
+                target: folderModel.model
+                property: "searchString"
+                value: searchField.text
+            }
+
+            style: TextFieldStyle {
+                background: Item {
+                }
+            }
         }
     }
 
@@ -211,14 +236,6 @@ PageHeader {
             onTriggered: {
                 print(text)
                 PopupUtils.open(Qt.resolvedUrl("../ui/FileDetailsPopover.qml"), mainView,{ "model": folderModel.model })
-            }
-        },
-        FMActions.Search {
-            id: searchButton
-            onTriggered: {
-                showSearchBar = !showSearchBar;
-                if (popover && !showSearchBar)
-                    searchField.__closePopover()
             }
         },
         FMActions.NewItem {
