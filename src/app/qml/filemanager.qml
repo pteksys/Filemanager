@@ -253,4 +253,14 @@ MainView {
     Component.onCompleted:  {
         pageStack.push(Qt.resolvedUrl("ui/FolderListPage.qml"))
     }
+
+    Rectangle {
+        height: 4
+        width: 100
+        color: "#5C98C8"
+        radius: height / 2
+        anchors.bottom: parent.bottom
+        anchors.bottomMargin: 12
+        anchors.horizontalCenter: parent.horizontalCenter
+    }
 }
