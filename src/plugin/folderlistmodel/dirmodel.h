@@ -84,6 +84,7 @@ public:
         AccessedDateRole,
         CreationDateRole,
         ModifiedDateRole,
+        DateOrderingRole,
         FileSizeRole,
         IconSourceRole,
         IconNameRole,

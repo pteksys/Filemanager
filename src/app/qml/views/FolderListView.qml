@@ -109,9 +109,17 @@ ScrollView {
             }
         }
 
-        section.property: "isDir"
+        property string folderName: FmUtils.basename(folderModel.path)
+        property bool isDateOrderingFolder: folderName.endsWith("Videos") || folderName.endsWith("Pictures")
+        section.property: isDateOrderingFolder ? "dateOrdering" : "isDir"
         section.delegate: SectionDivider {
-            text: section == "true" ? i18n.tr("Directories") : i18n.tr("Files")
+            text: {
+                if (root.isDateOrderingFolder) {
+                    return section
+                } else {
+                    return section == "true" ? i18n.tr("Directories") : i18n.tr("Files")
+                }
+            }
         }
     }
 }

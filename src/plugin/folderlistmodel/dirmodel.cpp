@@ -226,6 +226,7 @@ QHash<int, QByteArray> DirModel::buildRoleNames() const
     roles.insert(AccessedDateRole, QByteArray("accessedDate"));
     roles.insert(CreationDateRole, QByteArray("creationDate"));
     roles.insert(ModifiedDateRole, QByteArray("modifiedDate"));
+    roles.insert(DateOrderingRole, QByteArray("dateOrdering"));
     roles.insert(FileSizeRole, QByteArray("fileSize"));
     roles.insert(IconSourceRole, QByteArray("iconSource"));
     roles.insert(IconNameRole, QByteArray("iconName"));
@@ -374,6 +375,15 @@ QVariant DirModel::data(const QModelIndex &index, int role) const
         return fi.created();
     case ModifiedDateRole:
         return fi.lastModified();
+    case DateOrderingRole:
+    {
+        if (QDateTime::currentDateTime().date() == fi.created().date())
+            return "Today";
+        else if (QDateTime::currentDateTime().date() == fi.created().addDays(-1).date())
+            return "Yesterday";
+        else
+            return fi.created().toString();
+    }
     case FileSizeRole: {
         if (fi.isBrowsable()) {
             if (fi.isLocal()) {
