@@ -35,6 +35,7 @@ PageHeader {
             title.elide: Text.ElideRight
             title.wrapMode: Text.WrapAtWordBoundaryOrAnywhere
             title.maximumLineCount: 3
+            title.font.pixelSize: 32
             width: showSearchBar ? Math.max(units.gu(15), t_metrics.width*0.75) : parent.width
 
             TextMetrics {
