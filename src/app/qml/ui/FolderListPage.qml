@@ -78,8 +78,8 @@ SidebarPageLayout {
         // Following properties are set from global settings, available in filemanager.qml
         model.showHiddenFiles: globalSettings.showHidden
         model.sortOrder: {
-            var folderName = FmUtils.basename(pageModel.path)
-            var isDateOrderingFolder = folderName.endsWith("Videos") || folderName.endsWith("Pictures")
+            var folderName = pageModel.path
+            var isDateOrderingFolder = folderName.includes("Videos") || folderName.includes("Pictures")
             if (isDateOrderingFolder)
                 return FolderListModel.SortDescending
 
@@ -90,8 +90,8 @@ SidebarPageLayout {
         }
 
         model.sortBy: {
-            var folderName = FmUtils.basename(pageModel.path)
-            var isDateOrderingFolder = folderName.endsWith("Videos") || folderName.endsWith("Pictures")
+            var folderName = pageModel.path
+            var isDateOrderingFolder = folderName.includes("Videos") || folderName.includes("Pictures")
             if (isDateOrderingFolder)
                 return FolderListModel.SortByDate
 

@@ -109,8 +109,8 @@ ScrollView {
             }
         }
 
-        property string folderName: FmUtils.basename(folderModel.path)
-        property bool isDateOrderingFolder: folderName.endsWith("Videos") || folderName.endsWith("Pictures")
+        property string folderName: folderModel.path
+        property bool isDateOrderingFolder: folderName.includes("Videos") || folderName.includes("Pictures")
         section.property: isDateOrderingFolder ? "dateOrdering" : "isDir"
         section.delegate: SectionDivider {
             text: {
