@@ -6,12 +6,13 @@ Flickable {
     property alias columns: layout.columns
     property alias columnSpacing: layout.columnSpacing
     property QtObject model
+    property Component header: Item {}
     property Component itemDelegate: Item {}
     property Component sectionDelegate: Item {}
     property string sectionProperty: ""
     property int cellWidth: 40
     property int cellHeight: 40
-    contentHeight: layout.childrenRect.height
+    contentHeight: column.childrenRect.height
     contentWidth: width
 
     function fillLayout() {
@@ -66,9 +67,20 @@ Flickable {
         }
     }
 
-    GridLayout {
-        id: layout
-        columnSpacing: 4
-        rowSpacing: columnSpacing
+    Column {
+        id: column
+
+        Loader {
+            anchors.left: parent.left
+            anchors.right: parent.right
+            active: true
+            sourceComponent: header
+        }
+
+        GridLayout {
+            id: layout
+            columnSpacing: 4
+            rowSpacing: columnSpacing
+        }
     }
 }

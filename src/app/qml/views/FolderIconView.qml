@@ -45,6 +45,8 @@ ScrollView {
         return units.gu(s)
     }
 
+    property Component header: Item {}
+
     GridSectionView {
         id: view
         anchors.fill: parent
@@ -57,6 +59,8 @@ ScrollView {
         cellHeight: cellWidth + units.gu(2)
 
         model: folderModel.model
+
+        header: folderIconView.header
 
         PullToRefresh {
             parent: view
