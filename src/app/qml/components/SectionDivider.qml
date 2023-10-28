@@ -22,7 +22,6 @@ import QtQuick.Layouts 1.1
 Item {
     property alias text: label.text
 
-    anchors { left: parent.left; right: parent.right }
     height: units.gu(4)
 
     RowLayout {

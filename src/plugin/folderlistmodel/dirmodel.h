@@ -467,6 +467,8 @@ public slots:   // Also invokable from QML
      */
     void terminateIORequest();
 
+    Q_INVOKABLE QVariant get(int row);
+
 public slots:
     void onItemsAdded(const DirItemInfoList &newFiles);
     void onItemsFetched();

@@ -28,6 +28,8 @@ MouseArea {
     property string title
     property string path
 
+    property var model
+
     // Ensure that file name can overlap the items below.
     z: delegate.containsMouse ? 10 : 0
 
@@ -97,7 +99,7 @@ MouseArea {
         }
 
         horizontalAlignment: Text.AlignHCenter
-        color: theme.palette.normal.backgroundSecondaryText
+        color: "white"
 
         text: delegate.title
 
@@ -118,9 +120,9 @@ MouseArea {
 
     // WORKAROUND: This postpone removal of delegates until all UITK Popups are closed.
     // TODO: Provide a less "hackish" fix
-    GridView.onRemove: SequentialAnimation {
-        PropertyAction { target: delegate; property: "GridView.delayRemove"; value: true }
-        NumberAnimation { target: delegate; property: "scale"; to: 0; duration: 250; easing.type: Easing.InOutQuad }
-        PropertyAction { target: delegate; property: "GridView.delayRemove"; value: false }
-    }
+//    GridView.onRemove: SequentialAnimation {
+//        PropertyAction { target: delegate; property: "GridView.delayRemove"; value: true }
+//        NumberAnimation { target: delegate; property: "scale"; to: 0; duration: 250; easing.type: Easing.InOutQuad }
+//        PropertyAction { target: delegate; property: "GridView.delayRemove"; value: false }
+//    }
 }

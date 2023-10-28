@@ -113,6 +113,7 @@ ScrollView {
         property bool isDateOrderingFolder: folderName.includes("Videos") || folderName.includes("Pictures")
         section.property: isDateOrderingFolder ? "dateOrdering" : "isDir"
         section.delegate: SectionDivider {
+            anchors { left: parent.left; right: parent.right }
             text: {
                 if (root.isDateOrderingFolder) {
                     return section

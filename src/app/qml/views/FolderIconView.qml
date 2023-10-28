@@ -19,6 +19,8 @@ import QtQuick 2.4
 import Lomiri.Components 1.3
 import Lomiri.Components.Popups 1.3
 
+import "../components"
+
 ScrollView {
     id: folderIconView
 
@@ -27,9 +29,6 @@ ScrollView {
     property var folderModel
     property var selectedItem
     property var openDefault
-
-    property alias footer: view.footer
-    property alias header: view.header
 
     function calcCellwidth () {
         var s = 12 // default
@@ -43,12 +42,16 @@ ScrollView {
             case 3: s = 22
                 break
             }
-        return folderListPage.width / ((folderListPage.width / units.gu(s)).toFixed(0))
+        return units.gu(s)
     }
 
-    GridView {
+    GridSectionView {
         id: view
         anchors.fill: parent
+        anchors.leftMargin: 20
+        anchors.rightMargin: 20
+
+        columns: width / (cellWidth + columnSpacing)
 
         cellWidth: calcCellwidth()
         cellHeight: cellWidth + units.gu(2)
@@ -56,6 +59,7 @@ ScrollView {
         model: folderModel.model
 
         PullToRefresh {
+            parent: view
             onRefresh: {
                 refreshing = true
                 folderModel.goTo(folderModel.model.filePath)
@@ -63,7 +67,7 @@ ScrollView {
             }
         }
 
-        delegate: FolderIconDelegate {
+        itemDelegate: FolderIconDelegate {
             id: delegate
             width: view.cellWidth
             height: view.cellHeight
@@ -91,6 +95,20 @@ ScrollView {
             onPressAndHold: {
                 folderModel.primSelItem = model
                 __delegateActions.listLongPress(model)
+            }
+        }
+
+        property string folderName: folderModel.path
+        property bool isDateOrderingFolder: folderName.includes("Videos") || folderName.includes("Pictures")
+        sectionProperty: isDateOrderingFolder ? "dateOrdering" : "isDir"
+        sectionDelegate: SectionDivider {
+            property var section
+            text: {
+                if (view.isDateOrderingFolder) {
+                    return section
+                } else {
+                    return section == true ? i18n.tr("Directories") : i18n.tr("Files")
+                }
             }
         }
     }

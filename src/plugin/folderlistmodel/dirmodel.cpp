@@ -2063,6 +2063,18 @@ void DirModel::terminateIORequest()
     mCurLocation->stopIORequests();
 }
 
+QVariant DirModel::get(int row)
+{
+    static QHash<int, QByteArray> roles = roleNames();
+    QVariantMap map;
+    for (auto const& key : roles.keys()) {
+        if (key < TrackTitleRole) {
+            map.insert(roles[key], data(index(row, 0), key));
+        }
+    }
+    return QVariant::fromValue(map);
+}
+
 QString DirModel::getSearchString()
 {
     qDebug() << mSearchString;

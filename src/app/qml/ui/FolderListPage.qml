@@ -216,9 +216,9 @@ SidebarPageLayout {
                 folderListPage: folderPage
                 fileOperationDialog: fileOperationDialogObj
                 openDefault: globalSettings.openDefault
-                header: pageModel.count > 0 && !folderModel.model.isCurAllowedPath && folderModel.model.onlyAllowedPaths
-                        ? authReqHeader
-                        : null
+//                header: pageModel.count > 0 && !folderModel.model.isCurAllowedPath && folderModel.model.onlyAllowedPaths
+//                        ? authReqHeader
+//                        : null
             }
         }
 
