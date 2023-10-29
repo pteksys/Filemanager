@@ -42,6 +42,8 @@ MouseArea {
         }
     }
 
+    property bool isDateOrderingFolder: false
+
     Rectangle {
         anchors { fill: parent; margins: units.dp(2) }
         radius: units.dp(4)
@@ -92,6 +94,7 @@ MouseArea {
     }
 
     Label {
+        visible: !isDateOrderingFolder
         anchors {
             left: parent.left; leftMargin: units.gu(0.5)
             right: parent.right; rightMargin: units.gu(0.5)

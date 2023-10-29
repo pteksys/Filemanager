@@ -56,7 +56,7 @@ ScrollView {
         columns: width / (cellWidth + columnSpacing)
 
         cellWidth: calcCellwidth()
-        cellHeight: cellWidth + units.gu(2)
+        cellHeight: cellWidth + (isDateOrderingFolder ? 0 : units.gu(2))
 
         model: folderModel.model
 
@@ -80,6 +80,7 @@ ScrollView {
             title: model.stylizedFileName
             isSelected: model.isSelected
             path: model.filePath
+            isDateOrderingFolder: view.isDateOrderingFolder
 
             property var __delegateActions: FolderDelegateActions {
                 folderListPage: folderIconView.folderListPage
