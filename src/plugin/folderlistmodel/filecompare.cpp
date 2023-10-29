@@ -84,24 +84,12 @@ bool fileCompareDescending(const DirItemInfo &a, const DirItemInfo &b)
 
 bool dateCompareDescending(const DirItemInfo &a, const DirItemInfo &b)
 {
-    if (a.isDir() && !b.isDir())
-        return true;
-
-    if (b.isDir() && !a.isDir())
-        return false;
-
     return a.lastModified() > b.lastModified();
 }
 
 
 bool dateCompareAscending(const DirItemInfo &a, const DirItemInfo &b)
 {
-    if (a.isDir() && !b.isDir())
-        return true;
-
-    if (b.isDir() && !a.isDir())
-        return false;
-
     return a.lastModified() < b.lastModified();
 }
 

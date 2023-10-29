@@ -379,10 +379,10 @@ QVariant DirModel::data(const QModelIndex &index, int role) const
     {
         if (QDateTime::currentDateTime().date() == fi.created().date())
             return "Today";
-        else if (QDateTime::currentDateTime().date() == fi.created().addDays(-1).date())
+        else if (QDateTime::currentDateTime().addDays(-1).date() == fi.created().date())
             return "Yesterday";
         else
-            return fi.created().toString();
+            return fi.created().date().toString();
     }
     case FileSizeRole: {
         if (fi.isBrowsable()) {
