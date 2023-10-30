@@ -84,13 +84,13 @@ bool fileCompareDescending(const DirItemInfo &a, const DirItemInfo &b)
 
 bool dateCompareDescending(const DirItemInfo &a, const DirItemInfo &b)
 {
-    return a.lastModified() > b.lastModified();
+    return a.created() > b.created();
 }
 
 
 bool dateCompareAscending(const DirItemInfo &a, const DirItemInfo &b)
 {
-    return a.lastModified() < b.lastModified();
+    return a.created() < b.created();
 }
 
 bool sizeCompareDescending(const DirItemInfo &a, const DirItemInfo &b)
