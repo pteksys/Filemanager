@@ -44,22 +44,11 @@ MouseArea {
 
     property bool isDateOrderingFolder: false
 
-    Rectangle {
-        anchors { fill: parent; margins: units.dp(2) }
-        radius: units.dp(4)
-        opacity: delegate.isSelected ? 0.5 : 0
-        color: theme.palette.selected.focus
-
-        Behavior on opacity {
-            LomiriNumberAnimation {}
-        }
-    }
-
     Item {
         id: imgContainer
-        anchors { top: parent.top; topMargin: units.gu(1) }
+        anchors { top: parent.top; topMargin: isDateOrderingFolder ? 0 : units.gu(1) }
         anchors.horizontalCenter: parent.horizontalCenter
-        height: delegate.width / 1.7
+        height: isDateOrderingFolder ? delegate.width : delegate.width / 1.7
         width: height
         opacity: delegate.isSelectedForCut ? 0.5 : 1
 
@@ -76,7 +65,7 @@ MouseArea {
             visible: status == Image.Ready
 
             source: model.mimeType.indexOf("image/") > -1 ? "image://thumbnailer/file://" + delegate.path : ""
-            fillMode: Image.PreserveAspectFit
+            fillMode: Image.PreserveAspectCrop
             asynchronous: true
         }
 

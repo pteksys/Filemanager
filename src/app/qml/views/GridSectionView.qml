@@ -47,15 +47,14 @@ Flickable {
     }
 
     Connections {
-        property int previousCount: 0
         target: model
         onCountChanged: {
-            if(previousCount == root.model.count)
-                return
-
             console.log("onCountChanged: " + root.model.count)
             fillLayout()
-            previousCount = root.model.count
+        }
+        onPathChanged: {
+            console.log("onPathChanged: " + root.model.count)
+            fillLayout()
         }
     }
 

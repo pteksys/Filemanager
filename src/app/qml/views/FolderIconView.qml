@@ -53,6 +53,7 @@ ScrollView {
         anchors.leftMargin: 20
         anchors.rightMargin: 20
 
+        columnSpacing: isDateOrderingFolder ? 0: 4
         columns: width / (cellWidth + columnSpacing)
 
         cellWidth: calcCellwidth()
